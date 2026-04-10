@@ -1,0 +1,71 @@
+# Python / 环境
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+venv/
+env/
+.venv/
+
+# 模型权重与检查点
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
+
+# 评测与实验输出（体积大）
+evaluation/api_res/
+evaluation/results/
+evaluation/cleaned_result/
+evaluation/ablation/
+*.out
+*.log
+
+# ---------------------------------------------------------------------------
+# 大数据集：默认整目录忽略（时间线、全量对话等，文件多且体积大）
+# 需要公开的小样本可改用 data/samples/ 并下面用 ! 规则放行，或单独文档说明下载方式
+# ---------------------------------------------------------------------------
+data/stmhd_life_event_timeline/
+data/stmhd_symptom_timeline/
+data/d4_dialogues/
+data/cr_dialogues/
+data/cr_profiles/
+data/dialogues/
+data/timelines/
+data/profiles/
+data/timeline_memory/
+
+# 压缩包与导出的原始语料
+data/*.zip
+data/*.tar
+data/*.tar.gz
+data/*.tgz
+data/*.7z
+
+# 常见「大表 / 科学数据」格式（若在 data/ 外也有，仍会忽略全仓库）
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.npz.gz
+
+# 体量很大的单文件索引/全量导出（若要提交其中某个文件，可删除对应行或改用 LFS）
+data/deprofiles_main.json
+data/deprofiles_main_index.json
+data/deprofiles_complete_index.json
+data/d4_dialogues.json
+data/cr_d4.json
+data/3_basic_info.json
+
+# 本地数据目录别名（若你把大数据软链或拷到这里）
+data/raw/
+data/large/
+datasets/

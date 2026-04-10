@@ -1,0 +1,135 @@
+# Cursor Rules: Research Repo Refactoring
+
+## 🎯 Goal
+Transform this repository from experimental scripts into a clean, minimal, and reproducible research codebase.
+
+The priority is:
+- Reproducibility > Code elegance
+- Clarity > Cleverness
+- Minimal working pipeline > Feature completeness
+
+---
+
+## 🧠 General Principles
+
+- DO NOT over-engineer or redesign the system
+- DO NOT change core logic unless explicitly asked
+- PRESERVE experimental behavior and results
+- PREFER minimal changes that improve structure and readability
+
+---
+
+## 📂 Repository Structure
+
+Refactor code into the following structure:
+
+project/
+├── README.md
+├── requirements.txt
+├── src/
+│   ├── train.py
+│   ├── eval.py
+│   ├── model/
+│   └── utils/
+├── scripts/
+│   ├── train.sh
+│   └── eval.sh
+├── configs/
+├── data/              # no real data
+├── checkpoints/       # ignored
+└── results/
+
+---
+
+## 🔍 File Selection Rules
+
+When analyzing files:
+
+- IDENTIFY:
+  - main training entry point
+  - evaluation scripts
+  - core model code
+  - reusable utilities
+
+- REMOVE or IGNORE:
+  - duplicate scripts
+  - temporary/debug files
+  - intermediate experiment variants
+  - logs and outputs
+
+- KEEP:
+  - minimal set required to reproduce main results
+
+---
+
+## ⚙️ Refactoring Guidelines
+
+- Merge similar scripts into a single configurable entry point
+- Extract reusable logic into `utils/`
+- Move model definitions into `model/`
+- Keep `train.py` and `eval.py` as clean entry scripts
+
+- DO NOT:
+  - introduce complex abstractions
+  - split into too many modules
+  - optimize prematurely
+
+---
+
+## 🧪 Reproducibility
+
+Ensure the repo can:
+
+1. Install dependencies via:
+   pip install -r requirements.txt
+
+2. Run training via:
+   bash scripts/train.sh
+
+3. Run evaluation via:
+   bash scripts/eval.sh
+
+- Use fixed seeds if present
+- Preserve original hyperparameters
+
+---
+
+## 📝 README Requirements
+
+Always maintain a clear README with:
+
+- Project overview
+- Setup instructions
+- Training command
+- Evaluation command
+- Notes on data (how to obtain, not included)
+
+---
+
+## 🚫 What to Avoid
+
+- Do not delete code unless clearly redundant
+- Do not change file names without reason
+- Do not assume undocumented behavior
+- Do not simplify at the cost of correctness
+
+---
+
+## 🤖 Interaction Style
+
+When making changes:
+
+- Explain what files are doing before modifying
+- Ask before removing ambiguous files
+- Provide diff-style or step-by-step changes
+- Prefer small, incremental edits
+
+---
+
+## 🧩 When Unsure
+
+Always ask:
+- "Is this file part of the main pipeline?"
+- "Is this required for reproducing results?"
+
+If uncertain, KEEP the file and ask the user.
