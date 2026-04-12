@@ -1,0 +1,329 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 878,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_794_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 794,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 自杀念头",
+                "evidence": [
+                    "I'm dying, so much for that Jesse😂"
+                ],
+                "time_norm": {
+                    "event_day": 794,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_809_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 809,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 看到Gus时的寒意",
+                "evidence": [
+                    "Every time Gus walks in I get the chills. #BetterCallSaul"
+                ],
+                "time_norm": {
+                    "event_day": 809,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_823_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 823,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 演讲",
+                "evidence": [
+                    "That's one of the reasons I got into orchestra and theater as a kid. Performing on stage really helped me to conquer the anxieties I had speaking in front of an audience."
+                ],
+                "time_norm": {
+                    "event_day": 823,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_837_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 837,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "Well I'm depressed. #MSSNews"
+                ],
+                "time_norm": {
+                    "event_day": 837,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_844_drastical_shift_in_mood_and_energy",
+                "node_type": "Symptom",
+                "timestamp_day": 844,
+                "symptom": "drastical_shift_in_mood_and_energy",
+                "triple": "我 出现 更剧烈的情绪和能量波动",
+                "evidence": [
+                    "BIG MOOD"
+                ],
+                "time_norm": {
+                    "event_day": 844,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_878_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 878,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 烦躁",
+                "evidence": [
+                    "That's what really irritates me. Why have him go through all that for his fate 2 b open ended? To add insult to injury, the time jump was nothing more than a lazy excuse to not provide the others closure😑 Oh well, at least it looks like Eugene will be getting some serious focus."
+                ],
+                "time_norm": {
+                    "event_day": 878,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_794_Suicidal_ideas",
+                "target": "SYM_809_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_809_somatic_symptoms_sensory",
+                "target": "SYM_823_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_823_Anxious_Mood",
+                "target": "SYM_837_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_837_Depressed_Mood",
+                "target": "SYM_844_drastical_shift_in_mood_and_energy",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_844_drastical_shift_in_mood_and_energy",
+                "target": "SYM_878_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "794": [
+                    "SYM_794_Suicidal_ideas"
+                ],
+                "809": [
+                    "SYM_809_somatic_symptoms_sensory"
+                ],
+                "823": [
+                    "SYM_823_Anxious_Mood"
+                ],
+                "837": [
+                    "SYM_837_Depressed_Mood"
+                ],
+                "844": [
+                    "SYM_844_drastical_shift_in_mood_and_energy"
+                ],
+                "878": [
+                    "SYM_878_Anger_Irritability"
+                ]
+            },
+            "by_symptom": {
+                "Suicidal_ideas": [
+                    "SYM_794_Suicidal_ideas"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_809_somatic_symptoms_sensory"
+                ],
+                "Anxious_Mood": [
+                    "SYM_823_Anxious_Mood"
+                ],
+                "Depressed_Mood": [
+                    "SYM_837_Depressed_Mood"
+                ],
+                "drastical_shift_in_mood_and_energy": [
+                    "SYM_844_drastical_shift_in_mood_and_energy"
+                ],
+                "Anger_Irritability": [
+                    "SYM_878_Anger_Irritability"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_878_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_844_drastical_shift_in_mood_and_energy"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_837_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_823_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_809_somatic_symptoms_sensory"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_794_Suicidal_ideas"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 烦躁。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 更剧烈的情绪和能量波动。代表时间点：1个月前（34天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 抑郁情绪。代表时间点：1个月前（41天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 演讲。代表时间点：1个月前（55天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 看到Gus时的寒意。代表时间点：2个月前（69天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现 自杀念头。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

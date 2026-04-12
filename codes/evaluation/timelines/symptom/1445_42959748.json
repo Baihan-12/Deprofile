@@ -1,0 +1,1193 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 848,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_759_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 759,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 沮丧情绪",
+                "evidence": [
+                    "i am depressed"
+                ],
+                "time_norm": {
+                    "event_day": 759,
+                    "days_ago": 89,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_762_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 762,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 令人恐惧的感觉",
+                "evidence": [
+                    "terrifying"
+                ],
+                "time_norm": {
+                    "event_day": 762,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_764_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 764,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 非常恐怖的感觉",
+                "evidence": [
+                    "literally terrifying"
+                ],
+                "time_norm": {
+                    "event_day": 764,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_771_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 771,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 体内发热",
+                "evidence": [
+                    "fuck it again, heat in 7"
+                ],
+                "time_norm": {
+                    "event_day": 771,
+                    "days_ago": 77,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_774_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 774,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 HEAT IN 7",
+                "evidence": [
+                    "HEAT IN 7"
+                ],
+                "time_norm": {
+                    "event_day": 774,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_774_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 774,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 感到 准备呕吐",
+                "evidence": [
+                    "i feel like i’m going to vomit"
+                ],
+                "time_norm": {
+                    "event_day": 774,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_774_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 774,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣冲动",
+                "evidence": [
+                    "i am going to cry"
+                ],
+                "time_norm": {
+                    "event_day": 774,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_778_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 778,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "i’m crying"
+                ],
+                "time_norm": {
+                    "event_day": 778,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_778_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 778,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "i’m crying"
+                ],
+                "time_norm": {
+                    "event_day": 778,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_791_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 791,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 那种气味引发的恐惧",
+                "evidence": [
+                    "the way i can imagine that exact scent is terrifying to me"
+                ],
+                "time_norm": {
+                    "event_day": 791,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_792_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 792,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 呼吸困难",
+                "evidence": [
+                    "i’m screaming"
+                ],
+                "time_norm": {
+                    "event_day": 792,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_793_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 793,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 上诉",
+                "evidence": [
+                    "i’m upset"
+                ],
+                "time_norm": {
+                    "event_day": 793,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_797_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 797,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 呼吸困难",
+                "evidence": [
+                    "i’m screaming"
+                ],
+                "time_norm": {
+                    "event_day": 797,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_799_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 799,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 呼吸困难",
+                "evidence": [
+                    "i’m screaming"
+                ],
+                "time_norm": {
+                    "event_day": 799,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_803_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 803,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 美哭",
+                "evidence": [
+                    "i am ugly crying"
+                ],
+                "time_norm": {
+                    "event_day": 803,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_803_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 803,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 美哭",
+                "evidence": [
+                    "i am ugly crying"
+                ],
+                "time_norm": {
+                    "event_day": 803,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_804_fear_about_social_situations",
+                "node_type": "Symptom",
+                "timestamp_day": 804,
+                "symptom": "fear_about_social_situations",
+                "triple": "我 难以进行 社交互动",
+                "evidence": [
+                    "i hate how online i am and yet i can’t stop bc as an extrovert i crave meeting and interacting with people which...i cannot do...living alone in this quarantine purgatory."
+                ],
+                "time_norm": {
+                    "event_day": 804,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_811_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 811,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 呼吸困难",
+                "evidence": [
+                    "i’m screaming"
+                ],
+                "time_norm": {
+                    "event_day": 811,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_814_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 814,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 悲伤情绪",
+                "evidence": [
+                    "i am actually so sad for klay goddamn it"
+                ],
+                "time_norm": {
+                    "event_day": 814,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_815_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 815,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 声嘶力竭",
+                "evidence": [
+                    "im fucking screaming"
+                ],
+                "time_norm": {
+                    "event_day": 815,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_821_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 821,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 被情感压倒的强烈情绪",
+                "evidence": [
+                    "like i’m having a super bad day and all my friends and family are so loving and sweet and kind and i’m just sobbing bc i want to be with them and hug them and dance and this feeling just gets so overwhelming sometimes"
+                ],
+                "time_norm": {
+                    "event_day": 821,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_823_drastical_shift_in_mood_and_energy",
+                "node_type": "Symptom",
+                "timestamp_day": 823,
+                "symptom": "drastical_shift_in_mood_and_energy",
+                "triple": "我 出现 两种假期情绪",
+                "evidence": [
+                    "my two holiday moods:"
+                ],
+                "time_norm": {
+                    "event_day": 823,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_825_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 825,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "kuzma herro depression"
+                ],
+                "time_norm": {
+                    "event_day": 825,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_826_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 826,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 持续抑郁情绪",
+                "evidence": [
+                    "10 years later still depressed and listening to sister winter"
+                ],
+                "time_norm": {
+                    "event_day": 826,
+                    "days_ago": 22,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_830_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 830,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "anxious and have a lot to do today so obviously i am learning a tik tok dance bc that’s practical"
+                ],
+                "time_norm": {
+                    "event_day": 830,
+                    "days_ago": 18,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_837_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 837,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 空荡的看台让我悲伤",
+                "evidence": [
+                    "the empty stands make me sad"
+                ],
+                "time_norm": {
+                    "event_day": 837,
+                    "days_ago": 11,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_838_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 838,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "ricky i am crying"
+                ],
+                "time_norm": {
+                    "event_day": 838,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_759_Depressed_Mood",
+                "target": "SYM_762_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_762_Anxious_Mood",
+                "target": "SYM_764_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_764_Anxious_Mood",
+                "target": "SYM_771_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_771_somatic_symptoms_sensory",
+                "target": "SYM_774_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_774_somatic_symptoms_sensory",
+                "target": "SYM_774_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_774_Gastrointestinal_symptoms",
+                "target": "SYM_774_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_774_Depressed_Mood",
+                "target": "SYM_778_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_778_Depressed_Mood",
+                "target": "SYM_778_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_778_somatic_symptoms_others",
+                "target": "SYM_791_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_791_Anxious_Mood",
+                "target": "SYM_792_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_792_somatic_symptoms_others",
+                "target": "SYM_793_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_793_Depressed_Mood",
+                "target": "SYM_797_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_797_somatic_symptoms_others",
+                "target": "SYM_799_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_799_somatic_symptoms_others",
+                "target": "SYM_803_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_803_Depressed_Mood",
+                "target": "SYM_803_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_803_somatic_symptoms_others",
+                "target": "SYM_804_fear_about_social_situations",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_804_fear_about_social_situations",
+                "target": "SYM_811_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_811_somatic_symptoms_others",
+                "target": "SYM_814_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_814_Depressed_Mood",
+                "target": "SYM_815_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_815_somatic_symptoms_others",
+                "target": "SYM_821_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_821_Depressed_Mood",
+                "target": "SYM_823_drastical_shift_in_mood_and_energy",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_823_drastical_shift_in_mood_and_energy",
+                "target": "SYM_825_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_825_Depressed_Mood",
+                "target": "SYM_826_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_826_Depressed_Mood",
+                "target": "SYM_830_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_830_Anxious_Mood",
+                "target": "SYM_837_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_837_Depressed_Mood",
+                "target": "SYM_838_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_759_Depressed_Mood",
+                "target": "SYM_774_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_774_Depressed_Mood",
+                "target": "SYM_778_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_778_Depressed_Mood",
+                "target": "SYM_793_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_793_Depressed_Mood",
+                "target": "SYM_803_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_803_Depressed_Mood",
+                "target": "SYM_814_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_814_Depressed_Mood",
+                "target": "SYM_821_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_821_Depressed_Mood",
+                "target": "SYM_825_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_825_Depressed_Mood",
+                "target": "SYM_826_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_826_Depressed_Mood",
+                "target": "SYM_837_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_837_Depressed_Mood",
+                "target": "SYM_838_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_762_Anxious_Mood",
+                "target": "SYM_764_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_764_Anxious_Mood",
+                "target": "SYM_791_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_791_Anxious_Mood",
+                "target": "SYM_830_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_771_somatic_symptoms_sensory",
+                "target": "SYM_774_somatic_symptoms_sensory",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_778_somatic_symptoms_others",
+                "target": "SYM_792_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_792_somatic_symptoms_others",
+                "target": "SYM_797_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_797_somatic_symptoms_others",
+                "target": "SYM_799_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_799_somatic_symptoms_others",
+                "target": "SYM_803_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_803_somatic_symptoms_others",
+                "target": "SYM_811_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_811_somatic_symptoms_others",
+                "target": "SYM_815_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "759": [
+                    "SYM_759_Depressed_Mood"
+                ],
+                "762": [
+                    "SYM_762_Anxious_Mood"
+                ],
+                "764": [
+                    "SYM_764_Anxious_Mood"
+                ],
+                "771": [
+                    "SYM_771_somatic_symptoms_sensory"
+                ],
+                "774": [
+                    "SYM_774_somatic_symptoms_sensory",
+                    "SYM_774_Gastrointestinal_symptoms",
+                    "SYM_774_Depressed_Mood"
+                ],
+                "778": [
+                    "SYM_778_Depressed_Mood",
+                    "SYM_778_somatic_symptoms_others"
+                ],
+                "791": [
+                    "SYM_791_Anxious_Mood"
+                ],
+                "792": [
+                    "SYM_792_somatic_symptoms_others"
+                ],
+                "793": [
+                    "SYM_793_Depressed_Mood"
+                ],
+                "797": [
+                    "SYM_797_somatic_symptoms_others"
+                ],
+                "799": [
+                    "SYM_799_somatic_symptoms_others"
+                ],
+                "803": [
+                    "SYM_803_Depressed_Mood",
+                    "SYM_803_somatic_symptoms_others"
+                ],
+                "804": [
+                    "SYM_804_fear_about_social_situations"
+                ],
+                "811": [
+                    "SYM_811_somatic_symptoms_others"
+                ],
+                "814": [
+                    "SYM_814_Depressed_Mood"
+                ],
+                "815": [
+                    "SYM_815_somatic_symptoms_others"
+                ],
+                "821": [
+                    "SYM_821_Depressed_Mood"
+                ],
+                "823": [
+                    "SYM_823_drastical_shift_in_mood_and_energy"
+                ],
+                "825": [
+                    "SYM_825_Depressed_Mood"
+                ],
+                "826": [
+                    "SYM_826_Depressed_Mood"
+                ],
+                "830": [
+                    "SYM_830_Anxious_Mood"
+                ],
+                "837": [
+                    "SYM_837_Depressed_Mood"
+                ],
+                "838": [
+                    "SYM_838_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_759_Depressed_Mood",
+                    "SYM_774_Depressed_Mood",
+                    "SYM_778_Depressed_Mood",
+                    "SYM_793_Depressed_Mood",
+                    "SYM_803_Depressed_Mood",
+                    "SYM_814_Depressed_Mood",
+                    "SYM_821_Depressed_Mood",
+                    "SYM_825_Depressed_Mood",
+                    "SYM_826_Depressed_Mood",
+                    "SYM_837_Depressed_Mood",
+                    "SYM_838_Depressed_Mood"
+                ],
+                "Anxious_Mood": [
+                    "SYM_762_Anxious_Mood",
+                    "SYM_764_Anxious_Mood",
+                    "SYM_791_Anxious_Mood",
+                    "SYM_830_Anxious_Mood"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_771_somatic_symptoms_sensory",
+                    "SYM_774_somatic_symptoms_sensory"
+                ],
+                "Gastrointestinal_symptoms": [
+                    "SYM_774_Gastrointestinal_symptoms"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_778_somatic_symptoms_others",
+                    "SYM_792_somatic_symptoms_others",
+                    "SYM_797_somatic_symptoms_others",
+                    "SYM_799_somatic_symptoms_others",
+                    "SYM_803_somatic_symptoms_others",
+                    "SYM_811_somatic_symptoms_others",
+                    "SYM_815_somatic_symptoms_others"
+                ],
+                "fear_about_social_situations": [
+                    "SYM_804_fear_about_social_situations"
+                ],
+                "drastical_shift_in_mood_and_energy": [
+                    "SYM_823_drastical_shift_in_mood_and_energy"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_837_Depressed_Mood",
+                "SYM_838_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_830_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_821_Depressed_Mood",
+                "SYM_823_drastical_shift_in_mood_and_energy",
+                "SYM_825_Depressed_Mood",
+                "SYM_826_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_814_Depressed_Mood",
+                "SYM_815_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_811_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_803_Depressed_Mood",
+                "SYM_803_somatic_symptoms_others",
+                "SYM_804_fear_about_social_situations"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_793_Depressed_Mood",
+                "SYM_797_somatic_symptoms_others",
+                "SYM_799_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_791_Anxious_Mood",
+                "SYM_792_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_774_somatic_symptoms_sensory",
+                "SYM_774_Gastrointestinal_symptoms",
+                "SYM_774_Depressed_Mood",
+                "SYM_778_Depressed_Mood",
+                "SYM_778_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_771_somatic_symptoms_sensory"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_759_Depressed_Mood",
+                "SYM_762_Anxious_Mood",
+                "SYM_764_Anxious_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 哭泣；我 感到 空荡的看台让我悲伤。代表时间点：1周前（10天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 感到 焦虑。代表时间点：2周前（18天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 持续抑郁情绪；我 出现 抑郁情绪；我 出现 两种假期情绪。代表时间点：3周前（22天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 声嘶力竭；我 出现 悲伤情绪。代表时间点：1个月前（33天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 呼吸困难。代表时间点：1个月前（37天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 社交互动；我 出现 美哭。代表时间点：1个月前（44天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 呼吸困难；我 出现 上诉。代表时间点：1个月前（49天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 呼吸困难；我 感到 那种气味引发的恐惧。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 哭泣；我 出现 HEAT IN 7。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 体内发热。代表时间点：2个月前（77天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现 非常恐怖的感觉；我 出现 令人恐惧的感觉；我 出现 沮丧情绪。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

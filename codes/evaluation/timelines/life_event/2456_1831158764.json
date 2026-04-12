@@ -1,0 +1,258 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 2073,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1987_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1987,
+                "time_norm": {
+                    "event_day": 1987,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被裁员 疫情",
+                "event_summary_cn": "用户因疫情被裁员"
+            },
+            {
+                "id": "EV_2028_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2028,
+                "time_norm": {
+                    "event_day": 2028,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被裁员 无工作",
+                "event_summary_cn": "用户被裁员且失业"
+            },
+            {
+                "id": "EV_2032_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2032,
+                "time_norm": {
+                    "event_day": 2032,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 等待 知道选举结果",
+                "event_summary_cn": "用户等待选举结果公布"
+            },
+            {
+                "id": "EV_2033_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2033,
+                "time_norm": {
+                    "event_day": 2033,
+                    "days_ago": 40,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被裁员 无",
+                "event_summary_cn": "用户本人被裁员"
+            },
+            {
+                "id": "EV_2069_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2069,
+                "time_norm": {
+                    "event_day": 2069,
+                    "days_ago": 4,
+                    "relative_cn": "4天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去祖父 恶性疾病",
+                "event_summary_cn": "用户失去因恶性疾病去世的祖父"
+            },
+            {
+                "id": "EV_2073_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2073,
+                "time_norm": {
+                    "event_day": 2073,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 发布 #KevinParle 的信息和案卷",
+                "event_summary_cn": "用户发布他人犯罪信息和案卷"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1987_0",
+                "target": "EV_2028_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_2028_1",
+                "target": "EV_2032_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_2032_2",
+                "target": "EV_2033_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_2033_3",
+                "target": "EV_2069_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_2069_4",
+                "target": "EV_2073_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1987": [
+                    "EV_1987_0"
+                ],
+                "2028": [
+                    "EV_2028_1"
+                ],
+                "2032": [
+                    "EV_2032_2"
+                ],
+                "2033": [
+                    "EV_2033_3"
+                ],
+                "2069": [
+                    "EV_2069_4"
+                ],
+                "2073": [
+                    "EV_2073_5"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_2069_4",
+                "EV_2073_5"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_2032_2",
+                "EV_2033_3"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_2028_1"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1987_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 发布 #KevinParle 的信息和案卷；我 失去祖父 恶性疾病。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 被裁员 无；我 等待 知道选举结果。代表时间点：1个月前（40天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 被裁员 无工作。代表时间点：1个月前（45天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 被裁员 疫情。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

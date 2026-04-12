@@ -1,0 +1,558 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1410,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1344_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 1344,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 对存在的渴望停止",
+                "evidence": [
+                    "I’ve wanted to stop existing because I was in so much pain. But I didn’t want to experience death or be dead."
+                ],
+                "time_norm": {
+                    "event_day": 1344,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1354_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 1354,
+                "symptom": "somatic_muscle",
+                "triple": "我 难以进行 社交互动",
+                "evidence": [
+                    "I get disoriented easily. I have poor motor coordination. I have poor muscle tone. I can not multitask. I don’t pick up on facial expressions or non verbal language easily. I struggle with social interaction in situations where I don’t have a script to follow."
+                ],
+                "time_norm": {
+                    "event_day": 1354,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1365_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1365,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 空间令人恐惧",
+                "evidence": [
+                    "Space is terrifying!"
+                ],
+                "time_norm": {
+                    "event_day": 1365,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1369_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1369,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 对朋友的愤怒",
+                "evidence": [
+                    "I can’t help because I’m in Canada but I’m so angry on your friend’s behalf. Women in general are often dismissed in situations like this and I’m absolutely certain it is compounded by race."
+                ],
+                "time_norm": {
+                    "event_day": 1369,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1370_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1370,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑",
+                "evidence": [
+                    "Reading this gave me anxiety"
+                ],
+                "time_norm": {
+                    "event_day": 1370,
+                    "days_ago": 40,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1370_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1370,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "No Ross just has anxiety. But phoebe definitely."
+                ],
+                "time_norm": {
+                    "event_day": 1370,
+                    "days_ago": 40,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1376_fear_about_social_situations",
+                "node_type": "Symptom",
+                "timestamp_day": 1376,
+                "symptom": "fear_about_social_situations",
+                "triple": "我 难以进行 社交化",
+                "evidence": [
+                    "Yeah often it’s stuff people can’t really get. Hours of processing noises and speech. Hours of trying to stay focused. Socializing."
+                ],
+                "time_norm": {
+                    "event_day": 1376,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1376_Impulsivity",
+                "node_type": "Symptom",
+                "timestamp_day": 1376,
+                "symptom": "Impulsivity",
+                "triple": "我 难以进行 其他任务/学科",
+                "evidence": [
+                    "6. All my report cards from grade 2 onward say the exact same things - I’m a very advanced writer, it can be hard to get me to work on other tasks/subjects, and when I do I’m... fine. Prone to interrupting in class."
+                ],
+                "time_norm": {
+                    "event_day": 1376,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1376_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1376,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "Nope. I dread sleep because it makes tomorrow come. And tomorrow I have to get UP and DO THINGS."
+                ],
+                "time_norm": {
+                    "event_day": 1376,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1386_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1386,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 无法应对未知情况的恐慌",
+                "evidence": [
+                    "Yup me. I’m super calm in real emergencies usually because I know just what to do. It’s when I don’t know what to do that I panic."
+                ],
+                "time_norm": {
+                    "event_day": 1386,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1386_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 1386,
+                "symptom": "panic_fear",
+                "triple": "我 出现 无法应对未知情况的恐慌",
+                "evidence": [
+                    "Yup me. I’m super calm in real emergencies usually because I know just what to do. It’s when I don’t know what to do that I panic."
+                ],
+                "time_norm": {
+                    "event_day": 1386,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1410_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1410,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 熔断后面对后果的恐惧",
+                "evidence": [
+                    "Not so much a factor for me as a child but now - that moment in the meltdown where you’re coming out of the meltdown but also afraid to come out of the meltdown because then you’ll have to deal with the consequences of your meltdown and thinking about that makes you meltdown."
+                ],
+                "time_norm": {
+                    "event_day": 1410,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1344_Suicidal_ideas",
+                "target": "SYM_1354_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1354_somatic_muscle",
+                "target": "SYM_1365_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1365_Anxious_Mood",
+                "target": "SYM_1369_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1369_Anger_Irritability",
+                "target": "SYM_1370_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1370_Anxious_Mood",
+                "target": "SYM_1370_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1370_Anxious_Mood",
+                "target": "SYM_1376_fear_about_social_situations",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1376_fear_about_social_situations",
+                "target": "SYM_1376_Impulsivity",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1376_Impulsivity",
+                "target": "SYM_1376_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1376_Anxious_Mood",
+                "target": "SYM_1386_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1386_Anxious_Mood",
+                "target": "SYM_1386_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1386_panic_fear",
+                "target": "SYM_1410_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1365_Anxious_Mood",
+                "target": "SYM_1370_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1370_Anxious_Mood",
+                "target": "SYM_1370_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1370_Anxious_Mood",
+                "target": "SYM_1376_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1376_Anxious_Mood",
+                "target": "SYM_1386_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1386_Anxious_Mood",
+                "target": "SYM_1410_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1344": [
+                    "SYM_1344_Suicidal_ideas"
+                ],
+                "1354": [
+                    "SYM_1354_somatic_muscle"
+                ],
+                "1365": [
+                    "SYM_1365_Anxious_Mood"
+                ],
+                "1369": [
+                    "SYM_1369_Anger_Irritability"
+                ],
+                "1370": [
+                    "SYM_1370_Anxious_Mood",
+                    "SYM_1370_Anxious_Mood"
+                ],
+                "1376": [
+                    "SYM_1376_fear_about_social_situations",
+                    "SYM_1376_Impulsivity",
+                    "SYM_1376_Anxious_Mood"
+                ],
+                "1386": [
+                    "SYM_1386_Anxious_Mood",
+                    "SYM_1386_panic_fear"
+                ],
+                "1410": [
+                    "SYM_1410_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Suicidal_ideas": [
+                    "SYM_1344_Suicidal_ideas"
+                ],
+                "somatic_muscle": [
+                    "SYM_1354_somatic_muscle"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1365_Anxious_Mood",
+                    "SYM_1370_Anxious_Mood",
+                    "SYM_1370_Anxious_Mood",
+                    "SYM_1376_Anxious_Mood",
+                    "SYM_1386_Anxious_Mood",
+                    "SYM_1410_Anxious_Mood"
+                ],
+                "Anger_Irritability": [
+                    "SYM_1369_Anger_Irritability"
+                ],
+                "fear_about_social_situations": [
+                    "SYM_1376_fear_about_social_situations"
+                ],
+                "Impulsivity": [
+                    "SYM_1376_Impulsivity"
+                ],
+                "panic_fear": [
+                    "SYM_1386_panic_fear"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1410_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_1386_Anxious_Mood",
+                "SYM_1386_panic_fear"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_1376_fear_about_social_situations",
+                "SYM_1376_Impulsivity",
+                "SYM_1376_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1369_Anger_Irritability",
+                "SYM_1370_Anxious_Mood",
+                "SYM_1370_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1365_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1354_somatic_muscle"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1344_Suicidal_ideas"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 熔断后面对后果的恐惧。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 无法应对未知情况的恐慌。代表时间点：3周前（24天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 难以进行 社交化；我 难以进行 其他任务/学科；我 难以进行 睡眠。代表时间点：1个月前（34天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 焦虑情绪；我 感到 对朋友的愤怒。代表时间点：1个月前（40天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 空间令人恐惧。代表时间点：1个月前（45天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 难以进行 社交互动。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 对存在的渴望停止。代表时间点：2个月前（66天前）。"
+        }
+    ]
+}

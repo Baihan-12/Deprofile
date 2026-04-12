@@ -1,0 +1,137 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1042,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_982_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 982,
+                "time_norm": {
+                    "event_day": 982,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 向父母祈求祷告 学校开学",
+                "event_summary_cn": "用户祈求父母平安开学"
+            },
+            {
+                "id": "EV_1038_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1038,
+                "time_norm": {
+                    "event_day": 1038,
+                    "days_ago": 4,
+                    "relative_cn": "4天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 观看 2016年选举纪录片",
+                "event_summary_cn": "用户观看2016选举纪录片并情绪激动"
+            },
+            {
+                "id": "EV_1042_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1042,
+                "time_norm": {
+                    "event_day": 1042,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结束 关系",
+                "event_summary_cn": "用户结束一段关系"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_982_0",
+                "target": "EV_1038_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1038_1",
+                "target": "EV_1042_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "982": [
+                    "EV_982_0"
+                ],
+                "1038": [
+                    "EV_1038_1"
+                ],
+                "1042": [
+                    "EV_1042_2"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1038_1",
+                "EV_1042_2"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_982_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 结束 关系；我 观看 2016年选举纪录片。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 向父母祈求祷告 学校开学。代表时间点：2个月前（60天前）。"
+        }
+    ]
+}

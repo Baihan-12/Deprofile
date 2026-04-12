@@ -1,0 +1,265 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1255,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1208_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1208,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 睡眠中被攻击的体验",
+                "evidence": [
+                    "...have the fear that a shooting is going to happen -dream about work. These are a good 97% of my dreams and that's all I do so I would love to escape work in my sleep -occasionally get sleep paralysis and see either people or demons...idk in my room -sometimes I get assaulted"
+                ],
+                "time_norm": {
+                    "event_day": 1208,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1208_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 1208,
+                "symptom": "sleep_disturbance",
+                "triple": "我 出现 睡眠障碍",
+                "evidence": [
+                    "...have the fear that a shooting is going to happen -dream about work. These are a good 97% of my dreams and that's all I do so I would love to escape work in my sleep -occasionally get sleep paralysis and see either people or demons...idk in my room -sometimes I get assaulted"
+                ],
+                "time_norm": {
+                    "event_day": 1208,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1226_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1226,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 超级抑郁",
+                "evidence": [
+                    "Isn't tequila supposed to be an anti depressant? I'm just super depressed and would like some positive vibes. 🥺👉🏼👈🏼"
+                ],
+                "time_norm": {
+                    "event_day": 1226,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1241_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1241,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 被骚扰导致极度焦虑",
+                "evidence": [
+                    "Literally this happening to me today. He's close to my dad's age...like sir...don't you have anything better to do than to hit on me and make me super anxious at work? 💀💀"
+                ],
+                "time_norm": {
+                    "event_day": 1241,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1255_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 1255,
+                "symptom": "sleep_disturbance",
+                "triple": "我 出现 听到微波炉响的声音",
+                "evidence": [
+                    "Man...how to I explain this without it sounding concerning? Everytime I stretch I get a beeping in my ear, like I can hear a microwave a few rooms down. It was happening in my dream, which kept switching from being about work and being a sleep paralysis dream? Scary. 💀💀💀"
+                ],
+                "time_norm": {
+                    "event_day": 1255,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1208_Anxious_Mood",
+                "target": "SYM_1208_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1208_sleep_disturbance",
+                "target": "SYM_1226_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1226_Depressed_Mood",
+                "target": "SYM_1241_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1241_Anxious_Mood",
+                "target": "SYM_1255_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1208_Anxious_Mood",
+                "target": "SYM_1241_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1208_sleep_disturbance",
+                "target": "SYM_1255_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1208": [
+                    "SYM_1208_Anxious_Mood",
+                    "SYM_1208_sleep_disturbance"
+                ],
+                "1226": [
+                    "SYM_1226_Depressed_Mood"
+                ],
+                "1241": [
+                    "SYM_1241_Anxious_Mood"
+                ],
+                "1255": [
+                    "SYM_1255_sleep_disturbance"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_1208_Anxious_Mood",
+                    "SYM_1241_Anxious_Mood"
+                ],
+                "sleep_disturbance": [
+                    "SYM_1208_sleep_disturbance",
+                    "SYM_1255_sleep_disturbance"
+                ],
+                "Depressed_Mood": [
+                    "SYM_1226_Depressed_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1255_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1241_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_1226_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1208_Anxious_Mood",
+                "SYM_1208_sleep_disturbance"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 听到微波炉响的声音。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 感到 被骚扰导致极度焦虑。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 超级抑郁。代表时间点：4周前（29天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 睡眠中被攻击的体验；我 出现 睡眠障碍。代表时间点：1个月前（47天前）。"
+        }
+    ]
+}

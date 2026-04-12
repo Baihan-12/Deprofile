@@ -1,0 +1,563 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 642,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_553_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 553,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 绘画或书写",
+                "evidence": [
+                    "help me; brain is being annoying and does not let me draw; doodle or write; yet constantly teases me with stuff i could do! ;A;"
+                ],
+                "time_norm": {
+                    "event_day": 553,
+                    "days_ago": 89,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_582_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 582,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 出现 精力下降和情绪改善",
+                "evidence": [
+                    "_art; hopefully bringing back a bit of energy and improving a bit on my mood. Sorry again if it bothers you to see this in your TL"
+                ],
+                "time_norm": {
+                    "event_day": 582,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_582_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 582,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 社交互动",
+                "evidence": [
+                    "I haven't been sincere with all of you; I have a diagnosed Depression and an Unspecified personality disorder; which is why i dont spend as_"
+                ],
+                "time_norm": {
+                    "event_day": 582,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_587_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 587,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "(That was literally My Doc's diagnose to me; When it coupled with a hurtful past; it caused me to accumulate a giant bubble of anxiety.)"
+                ],
+                "time_norm": {
+                    "event_day": 587,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_593_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 593,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 表达信念",
+                "evidence": [
+                    "I'm always afraid that speaking about what i believe in; will cause irrational hatred/exile from friends by premature generalization."
+                ],
+                "time_norm": {
+                    "event_day": 593,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_593_fear_about_social_situations",
+                "node_type": "Symptom",
+                "timestamp_day": 593,
+                "symptom": "fear_about_social_situations",
+                "triple": "我 感到 面对社交场合时害怕表达观点",
+                "evidence": [
+                    "I'm always afraid that speaking about what i believe in; will cause irrational hatred/exile from friends by premature generalization."
+                ],
+                "time_norm": {
+                    "event_day": 593,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_593_fears_of_being_negatively_evaluated",
+                "node_type": "Symptom",
+                "timestamp_day": 593,
+                "symptom": "fears_of_being_negatively_evaluated",
+                "triple": "我 感到 面临被负面评价的恐惧",
+                "evidence": [
+                    "I'm always afraid that speaking about what i believe in; will cause irrational hatred/exile from friends by premature generalization."
+                ],
+                "time_norm": {
+                    "event_day": 593,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_593_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 593,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 难以进行 自我照顾",
+                "evidence": [
+                    "Same here; tho i live with relatives so i have to eat \"something\"; The Self care stuff; it eats most of the little energy i have these days"
+                ],
+                "time_norm": {
+                    "event_day": 593,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_622_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 622,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 入睡",
+                "evidence": [
+                    "ItS SiX aM anD i HavEnT SleEPeD ShIT"
+                ],
+                "time_norm": {
+                    "event_day": 622,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_628_Indecisiveness",
+                "node_type": "Symptom",
+                "timestamp_day": 628,
+                "symptom": "Indecisiveness",
+                "triple": "我 遭受 极度犹豫",
+                "evidence": [
+                    "As someone who deals daily with extreme undecisiveness and suffers because of it; this is an EXTREMELY important advice. Everyone should take note of it and follow it. It's painfully true; and necessary to take control and trust your decision making capacity!"
+                ],
+                "time_norm": {
+                    "event_day": 628,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_633_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 633,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 难以进行下学期的学习",
+                "evidence": [
+                    "Eto; Please; watch out for burnout. If you dont feel like next semester will be any better than this one; take a rest; see how can you reduce your work load or even stop the semester for a time. I was diagnosed with depression and anxiety caused exclusively by a shit semester."
+                ],
+                "time_norm": {
+                    "event_day": 633,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_633_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 633,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 下一学期的学习",
+                "evidence": [
+                    "Eto; Please; watch out for burnout. If you dont feel like next semester will be any better than this one; take a rest; see how can you reduce your work load or even stop the semester for a time. I was diagnosed with depression and anxiety caused exclusively by a shit semester."
+                ],
+                "time_norm": {
+                    "event_day": 633,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_642_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 642,
+                "symptom": "poor_memory",
+                "triple": "我 出现 面部识别与记忆关联失败",
+                "evidence": [
+                    "this weird broken facial recognition/person memory to face memory failure really needs a neurological name :/ i have a small few tips i sometimes use to avoid too much embarrassment bc of this; i can share them if you want!"
+                ],
+                "time_norm": {
+                    "event_day": 642,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_553_Inattention",
+                "target": "SYM_582_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_582_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_582_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_582_Depressed_Mood",
+                "target": "SYM_587_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_587_Anxious_Mood",
+                "target": "SYM_593_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_593_Anxious_Mood",
+                "target": "SYM_593_fear_about_social_situations",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_593_fear_about_social_situations",
+                "target": "SYM_593_fears_of_being_negatively_evaluated",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_593_fears_of_being_negatively_evaluated",
+                "target": "SYM_593_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_593_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_622_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_622_sleep_disturbance",
+                "target": "SYM_628_Indecisiveness",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_628_Indecisiveness",
+                "target": "SYM_633_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_633_Anxious_Mood",
+                "target": "SYM_633_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_633_Depressed_Mood",
+                "target": "SYM_642_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_582_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_593_Decreased_energy_tiredness_fatigue",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_582_Depressed_Mood",
+                "target": "SYM_633_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_587_Anxious_Mood",
+                "target": "SYM_593_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_593_Anxious_Mood",
+                "target": "SYM_633_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "553": [
+                    "SYM_553_Inattention"
+                ],
+                "582": [
+                    "SYM_582_Decreased_energy_tiredness_fatigue",
+                    "SYM_582_Depressed_Mood"
+                ],
+                "587": [
+                    "SYM_587_Anxious_Mood"
+                ],
+                "593": [
+                    "SYM_593_Anxious_Mood",
+                    "SYM_593_fear_about_social_situations",
+                    "SYM_593_fears_of_being_negatively_evaluated",
+                    "SYM_593_Decreased_energy_tiredness_fatigue"
+                ],
+                "622": [
+                    "SYM_622_sleep_disturbance"
+                ],
+                "628": [
+                    "SYM_628_Indecisiveness"
+                ],
+                "633": [
+                    "SYM_633_Anxious_Mood",
+                    "SYM_633_Depressed_Mood"
+                ],
+                "642": [
+                    "SYM_642_poor_memory"
+                ]
+            },
+            "by_symptom": {
+                "Inattention": [
+                    "SYM_553_Inattention"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_582_Decreased_energy_tiredness_fatigue",
+                    "SYM_593_Decreased_energy_tiredness_fatigue"
+                ],
+                "Depressed_Mood": [
+                    "SYM_582_Depressed_Mood",
+                    "SYM_633_Depressed_Mood"
+                ],
+                "Anxious_Mood": [
+                    "SYM_587_Anxious_Mood",
+                    "SYM_593_Anxious_Mood",
+                    "SYM_633_Anxious_Mood"
+                ],
+                "fear_about_social_situations": [
+                    "SYM_593_fear_about_social_situations"
+                ],
+                "fears_of_being_negatively_evaluated": [
+                    "SYM_593_fears_of_being_negatively_evaluated"
+                ],
+                "sleep_disturbance": [
+                    "SYM_622_sleep_disturbance"
+                ],
+                "Indecisiveness": [
+                    "SYM_628_Indecisiveness"
+                ],
+                "poor_memory": [
+                    "SYM_642_poor_memory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_642_poor_memory"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_633_Anxious_Mood",
+                "SYM_633_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_622_sleep_disturbance",
+                "SYM_628_Indecisiveness"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_587_Anxious_Mood",
+                "SYM_593_Anxious_Mood",
+                "SYM_593_fear_about_social_situations",
+                "SYM_593_fears_of_being_negatively_evaluated",
+                "SYM_593_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_582_Decreased_energy_tiredness_fatigue",
+                "SYM_582_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_553_Inattention"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 面部识别与记忆关联失败。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 感到 难以进行下学期的学习；我 难以进行 下一学期的学习。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 遭受 极度犹豫；我 难以进行 入睡。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 表达信念；我 感到 面对社交场合时害怕表达观点；我 感到 面临被负面评价的恐惧。代表时间点：1个月前（49天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 精力下降和情绪改善；我 难以进行 社交互动。代表时间点：2个月前（60天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 难以进行 绘画或书写。代表时间点：2个月前（89天前）。"
+        }
+    ]
+}

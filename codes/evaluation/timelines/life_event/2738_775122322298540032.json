@@ -1,0 +1,110 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1541,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1524_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1524,
+                "time_norm": {
+                    "event_day": 1524,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感谢 #momentomori",
+                "event_summary_cn": "用户感谢频道帮助其度过高中时期"
+            },
+            {
+                "id": "EV_1541_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1541,
+                "time_norm": {
+                    "event_day": 1541,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到 无法为她之死感到难过",
+                "event_summary_cn": "用户对某人之死无情绪反应"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1524_0",
+                "target": "EV_1541_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1524": [
+                    "EV_1524_0"
+                ],
+                "1541": [
+                    "EV_1541_1"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1541_1"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_1524_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 无法为她之死感到难过。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 感谢 #momentomori。代表时间点：2周前（17天前）。"
+        }
+    ]
+}

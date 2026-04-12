@@ -1,0 +1,552 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 718,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_630_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 630,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 出现 精力明显下降",
+                "evidence": [
+                    "This causing them to be exhausted because their thoughts are constantly running. You could be feeling their exhaustion."
+                ],
+                "time_norm": {
+                    "event_day": 630,
+                    "days_ago": 88,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_631_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 631,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 受伤",
+                "evidence": [
+                    "This was what I was shedding tears for this morning I give so much but never receive back and it hurts me"
+                ],
+                "time_norm": {
+                    "event_day": 631,
+                    "days_ago": 87,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_638_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 638,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 难以进行 工作",
+                "evidence": [
+                    "I hate having to shit at work like my bowels had all morning to empty 😔"
+                ],
+                "time_norm": {
+                    "event_day": 638,
+                    "days_ago": 80,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_639_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 639,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 怖惧",
+                "evidence": [
+                    "I did it and I’m terrified"
+                ],
+                "time_norm": {
+                    "event_day": 639,
+                    "days_ago": 79,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_660_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 660,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "Sounds like you’re depressed are you okay :( 💕"
+                ],
+                "time_norm": {
+                    "event_day": 660,
+                    "days_ago": 58,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_665_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 665,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "Guys I have voter’s anxiety I’m so scared :("
+                ],
+                "time_norm": {
+                    "event_day": 665,
+                    "days_ago": 53,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_673_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 673,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 无法控制的愤怒情绪",
+                "evidence": [
+                    "SJSKSJSBN why the anger 😭😭😭"
+                ],
+                "time_norm": {
+                    "event_day": 673,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_703_obsession",
+                "node_type": "Symptom",
+                "timestamp_day": 703,
+                "symptom": "obsession",
+                "triple": "我 出现 新的痴迷",
+                "evidence": [
+                    "I have found my new obsession"
+                ],
+                "time_norm": {
+                    "event_day": 703,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_710_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 710,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 自我肯定",
+                "evidence": [
+                    "Meditation has helped me realize how much I beat myself up and tear my own self down. I say something positive but seconds after I find a reason why that statement isn’t true. It really hard to change but I’m making progress 🧘🏽‍♀️"
+                ],
+                "time_norm": {
+                    "event_day": 710,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_718_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 718,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 愤怒",
+                "evidence": [
+                    "I’m just speechless like I just learned what it means on this show called For Life and it made me angry 😤"
+                ],
+                "time_norm": {
+                    "event_day": 718,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_718_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 718,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 怒气",
+                "evidence": [
+                    "I’m so angry 😡"
+                ],
+                "time_norm": {
+                    "event_day": 718,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_630_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_631_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_631_Depressed_Mood",
+                "target": "SYM_638_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_638_Gastrointestinal_symptoms",
+                "target": "SYM_639_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_639_Anxious_Mood",
+                "target": "SYM_660_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_660_Depressed_Mood",
+                "target": "SYM_665_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_665_Anxious_Mood",
+                "target": "SYM_673_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_673_Anger_Irritability",
+                "target": "SYM_703_obsession",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_703_obsession",
+                "target": "SYM_710_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_710_Depressed_Mood",
+                "target": "SYM_718_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_718_Anger_Irritability",
+                "target": "SYM_718_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_631_Depressed_Mood",
+                "target": "SYM_660_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_660_Depressed_Mood",
+                "target": "SYM_710_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_639_Anxious_Mood",
+                "target": "SYM_665_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_673_Anger_Irritability",
+                "target": "SYM_718_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_718_Anger_Irritability",
+                "target": "SYM_718_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "630": [
+                    "SYM_630_Decreased_energy_tiredness_fatigue"
+                ],
+                "631": [
+                    "SYM_631_Depressed_Mood"
+                ],
+                "638": [
+                    "SYM_638_Gastrointestinal_symptoms"
+                ],
+                "639": [
+                    "SYM_639_Anxious_Mood"
+                ],
+                "660": [
+                    "SYM_660_Depressed_Mood"
+                ],
+                "665": [
+                    "SYM_665_Anxious_Mood"
+                ],
+                "673": [
+                    "SYM_673_Anger_Irritability"
+                ],
+                "703": [
+                    "SYM_703_obsession"
+                ],
+                "710": [
+                    "SYM_710_Depressed_Mood"
+                ],
+                "718": [
+                    "SYM_718_Anger_Irritability",
+                    "SYM_718_Anger_Irritability"
+                ]
+            },
+            "by_symptom": {
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_630_Decreased_energy_tiredness_fatigue"
+                ],
+                "Depressed_Mood": [
+                    "SYM_631_Depressed_Mood",
+                    "SYM_660_Depressed_Mood",
+                    "SYM_710_Depressed_Mood"
+                ],
+                "Gastrointestinal_symptoms": [
+                    "SYM_638_Gastrointestinal_symptoms"
+                ],
+                "Anxious_Mood": [
+                    "SYM_639_Anxious_Mood",
+                    "SYM_665_Anxious_Mood"
+                ],
+                "Anger_Irritability": [
+                    "SYM_673_Anger_Irritability",
+                    "SYM_718_Anger_Irritability",
+                    "SYM_718_Anger_Irritability"
+                ],
+                "obsession": [
+                    "SYM_703_obsession"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_718_Anger_Irritability",
+                "SYM_718_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_710_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_703_obsession"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_673_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_665_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_660_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_638_Gastrointestinal_symptoms",
+                "SYM_639_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_630_Decreased_energy_tiredness_fatigue",
+                "SYM_631_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 怒气。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 难以进行 自我肯定。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 新的痴迷。代表时间点：2周前（15天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 无法控制的愤怒情绪。代表时间点：1个月前（45天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 焦虑情绪。代表时间点：1个月前（53天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 抑郁情绪。代表时间点：1个月前（58天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 怖惧；我 难以进行 工作。代表时间点：2个月前（79天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 感到 受伤；我 出现 精力明显下降。代表时间点：2个月前（87天前）。"
+        }
+    ]
+}

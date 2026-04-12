@@ -1,0 +1,381 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 138,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_52_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 52,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 日常生活",
+                "evidence": [
+                    "#Depression is both a mental and a physical condition. It can affect every aspect of a person’e life beyond their control. It can be unbearable under normal circumstances. Right now it may be the final straw. Check on ur ppl. #MentalHealthAwarenessMonth"
+                ],
+                "time_norm": {
+                    "event_day": 52,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_58_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 58,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 视觉模糊",
+                "evidence": [
+                    "BLURSDAY"
+                ],
+                "time_norm": {
+                    "event_day": 58,
+                    "days_ago": 80,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_60_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 60,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 转向严重抑郁",
+                "evidence": [
+                    "Transition to great depression..."
+                ],
+                "time_norm": {
+                    "event_day": 60,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_78_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 78,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 对他们密谋的恐惧",
+                "evidence": [
+                    "lol true...but the idea of them conspiring somewhere completely unchecked is terrifying."
+                ],
+                "time_norm": {
+                    "event_day": 78,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_90_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 90,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 情绪低落",
+                "evidence": [
+                    "Sad."
+                ],
+                "time_norm": {
+                    "event_day": 90,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_104_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 104,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 日常生活",
+                "evidence": [
+                    "I was diagnosed with depression yrs ago and went theough several SSRIs and mood stabilizers that didn’t work. Recently the dr tried an ADHD med instead and it is working. Now I wonder if I have ADHD, Depression, or both. I really don’t know."
+                ],
+                "time_norm": {
+                    "event_day": 104,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_138_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 138,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 难以呼吸的感觉",
+                "evidence": [
+                    "\"Isn't it just too cruel? I was beginning to feel like I could finally breathe a little. I was finally starting to get the urge to live just like everyone else.\" #ItsOkayNotTobeOkay #Pandemic2020 #Depression #chaostheory #whenkdramasarerelatable"
+                ],
+                "time_norm": {
+                    "event_day": 138,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_52_Depressed_Mood",
+                "target": "SYM_58_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_58_somatic_symptoms_sensory",
+                "target": "SYM_60_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_60_Depressed_Mood",
+                "target": "SYM_78_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_78_Anxious_Mood",
+                "target": "SYM_90_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_90_Depressed_Mood",
+                "target": "SYM_104_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_104_Depressed_Mood",
+                "target": "SYM_138_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_52_Depressed_Mood",
+                "target": "SYM_60_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_60_Depressed_Mood",
+                "target": "SYM_90_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_90_Depressed_Mood",
+                "target": "SYM_104_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_104_Depressed_Mood",
+                "target": "SYM_138_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "52": [
+                    "SYM_52_Depressed_Mood"
+                ],
+                "58": [
+                    "SYM_58_somatic_symptoms_sensory"
+                ],
+                "60": [
+                    "SYM_60_Depressed_Mood"
+                ],
+                "78": [
+                    "SYM_78_Anxious_Mood"
+                ],
+                "90": [
+                    "SYM_90_Depressed_Mood"
+                ],
+                "104": [
+                    "SYM_104_Depressed_Mood"
+                ],
+                "138": [
+                    "SYM_138_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_52_Depressed_Mood",
+                    "SYM_60_Depressed_Mood",
+                    "SYM_90_Depressed_Mood",
+                    "SYM_104_Depressed_Mood",
+                    "SYM_138_Depressed_Mood"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_58_somatic_symptoms_sensory"
+                ],
+                "Anxious_Mood": [
+                    "SYM_78_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_138_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_104_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_90_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_78_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_58_somatic_symptoms_sensory",
+                "SYM_60_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_52_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 难以呼吸的感觉。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 难以进行 日常生活。代表时间点：1个月前（34天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 情绪低落。代表时间点：1个月前（48天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 感到 对他们密谋的恐惧。代表时间点：2个月前（60天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 转向严重抑郁；我 出现 视觉模糊。代表时间点：2个月前（78天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 难以进行 日常生活。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

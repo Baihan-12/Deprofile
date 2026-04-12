@@ -1,0 +1,285 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 712,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_629_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 629,
+                "time_norm": {
+                    "event_day": 629,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 收到 $50 bucks",
+                "event_summary_cn": "用户收到50美元"
+            },
+            {
+                "id": "EV_631_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 631,
+                "time_norm": {
+                    "event_day": 631,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被使用 被伤害",
+                "event_summary_cn": "用户感到被他人利用和伤害"
+            },
+            {
+                "id": "EV_638_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 638,
+                "time_norm": {
+                    "event_day": 638,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 去投票站 投票",
+                "event_summary_cn": "用户计划在选举日当天去投票"
+            },
+            {
+                "id": "EV_700_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 700,
+                "time_norm": {
+                    "event_day": 700,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得 $1200 被告知自立",
+                "event_summary_cn": "用户获得1200美元但被要求自立"
+            },
+            {
+                "id": "EV_702_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 702,
+                "time_norm": {
+                    "event_day": 702,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受到 情感不可用和言语虐待",
+                "event_summary_cn": "用户经历情感不可用和言语虐待"
+            },
+            {
+                "id": "EV_703_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 703,
+                "time_norm": {
+                    "event_day": 703,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 遭遇  verbal abuse",
+                "event_summary_cn": "用户遭遇言语暴力"
+            },
+            {
+                "id": "EV_706_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 706,
+                "time_norm": {
+                    "event_day": 706,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被偷 $20",
+                "event_summary_cn": "用户的钱被偷了"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_629_0",
+                "target": "EV_631_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_631_1",
+                "target": "EV_638_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_638_2",
+                "target": "EV_700_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_700_3",
+                "target": "EV_702_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_702_4",
+                "target": "EV_703_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_703_5",
+                "target": "EV_706_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "629": [
+                    "EV_629_0"
+                ],
+                "631": [
+                    "EV_631_1"
+                ],
+                "638": [
+                    "EV_638_2"
+                ],
+                "700": [
+                    "EV_700_3"
+                ],
+                "702": [
+                    "EV_702_4"
+                ],
+                "703": [
+                    "EV_703_5"
+                ],
+                "706": [
+                    "EV_706_6"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_706_6"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_700_3",
+                "EV_702_4",
+                "EV_703_5"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_638_2"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_629_0",
+                "EV_631_1"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 被偷 $20。代表时间点：6天前（6天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 遭遇  verbal abuse；我 感受到 情感不可用和言语虐待。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 去投票站 投票。代表时间点：2个月前（74天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 被使用 被伤害；我 收到 $50 bucks。代表时间点：2个月前（81天前）。"
+        }
+    ]
+}

@@ -1,0 +1,797 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 218,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_153_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 153,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "the second slide on those fucking big instragram accounts be like: *tik tok dancing* SUFFERING FROM: no sleep? 🛏 😖anxiety? 🔪trauma? mental illness??🤩 PLANT VIRTUAL TREES🌲🌳 ALL BETTER NOW!!"
+                ],
+                "time_norm": {
+                    "event_day": 153,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_156_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 156,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 高温感",
+                "evidence": [
+                    "ugh so fucking hot"
+                ],
+                "time_norm": {
+                    "event_day": 156,
+                    "days_ago": 62,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_156_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 156,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 对死亡的空虚感与解脱感",
+                "evidence": [
+                    "i can now admit that death was as empty as it was relieving"
+                ],
+                "time_norm": {
+                    "event_day": 156,
+                    "days_ago": 62,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_160_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 160,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 震颤和出汗",
+                "evidence": [
+                    "sometimes i remember _____ _____ and my body starts shaking and i start sweating and i feel like it’s happening all over again and i can’t call out for help and i wanna know if there’s treatment for it bc if that happens in my fucking exams i’m so screwed."
+                ],
+                "time_norm": {
+                    "event_day": 160,
+                    "days_ago": 58,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_160_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 160,
+                "symptom": "somatic_muscle",
+                "triple": "我 出现 身体颤抖和出汗",
+                "evidence": [
+                    "sometimes i remember _____ _____ and my body starts shaking and i start sweating and i feel like it’s happening all over again and i can’t call out for help and i wanna know if there’s treatment for it bc if that happens in my fucking exams i’m so screwed."
+                ],
+                "time_norm": {
+                    "event_day": 160,
+                    "days_ago": 58,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_160_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 160,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 害怕",
+                "evidence": [
+                    "i’m scared 💎"
+                ],
+                "time_norm": {
+                    "event_day": 160,
+                    "days_ago": 58,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_163_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 163,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 自毁倾向",
+                "evidence": [
+                    "i may be 🧨💔🔪🤍💣🖤 SELF-DESTRUCTIVE 🖤 bombs 💣🤍🔪💔🧨 but at least i’m 🤡🥴👹😌💀🙄 SELF-AWARE 🙄💀😌👹🥴🤡"
+                ],
+                "time_norm": {
+                    "event_day": 163,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_163_do_things_easily_get_painful_consequences",
+                "node_type": "Symptom",
+                "timestamp_day": 163,
+                "symptom": "do_things_easily_get_painful_consequences",
+                "triple": "我 难以进行 自我破坏行为",
+                "evidence": [
+                    "i may be 🧨💔🔪🤍💣🖤 SELF-DESTRUCTIVE 🖤 bombs 💣🤍🔪💔🧨 but at least i’m 🤡🥴👹😌💀🙄 SELF-AWARE 🙄💀😌👹🥴🤡"
+                ],
+                "time_norm": {
+                    "event_day": 163,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_181_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 181,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑时的味觉体验",
+                "evidence": [
+                    "you know the taste that u get when u get anxious or freaked out? it’s so good"
+                ],
+                "time_norm": {
+                    "event_day": 181,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_181_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 181,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 胃部不适",
+                "evidence": [
+                    "why does the adrenaline hormone taste so good like i be freaking myself out just to taste that shit sometimes"
+                ],
+                "time_norm": {
+                    "event_day": 181,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_181_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 181,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 肾上腺素带来的愉悦感",
+                "evidence": [
+                    "why does the adrenaline hormone taste so good like i be freaking myself out just to taste that shit sometimes"
+                ],
+                "time_norm": {
+                    "event_day": 181,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_202_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 202,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "when my depression gets bored of bothering me it’s OVER for you BITCHES"
+                ],
+                "time_norm": {
+                    "event_day": 202,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_204_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 204,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 假装心理稳定",
+                "evidence": [
+                    "i’m afraid i can’t fake mental stability 😔"
+                ],
+                "time_norm": {
+                    "event_day": 204,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_205_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 205,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 面对镜子和倾听自己思绪会升高血压",
+                "evidence": [
+                    "i think i’m gonna take a mental health break from myself guys! i’ve thought about it a lot and i really think seeing my face in the mirror and listening to my thoughts increases my blood pressure unnecessarily so i’m just gonna remove myself from the plane of existence. thx 💕"
+                ],
+                "time_norm": {
+                    "event_day": 205,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_215_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 215,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 麻木",
+                "evidence": [
+                    "my arm is numb but my cat, who is sleeping on my arm, has an array of health issues and a history of abandonment so my arm can shut up"
+                ],
+                "time_norm": {
+                    "event_day": 215,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_215_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 215,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 麻木",
+                "evidence": [
+                    "my arm is numb but my cat, who is sleeping on my arm, has an array of health issues and a history of abandonment so my arm can shut up"
+                ],
+                "time_norm": {
+                    "event_day": 215,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_215_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 215,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 触发创伤记忆的不适",
+                "evidence": [
+                    "no, as i said, when someone triggers my memories of past traumas i don’t say that they’re sexualising me, i’ve just been triggered. that’s it. you’ve been triggered, and it sucks, but don’t use it like this"
+                ],
+                "time_norm": {
+                    "event_day": 215,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_215_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 215,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 回忆闪回或感到恶心",
+                "evidence": [
+                    "no i’m really not. if someone triggers my trauma related memories i don’t say they’re sexualising me. usually i get a flashback or feel sick. i don’t get angry with them, i get angry with the people who caused those memories. the words itself holds no sexual connotations so i’m-"
+                ],
+                "time_norm": {
+                    "event_day": 215,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_218_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 218,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 严重抑郁情绪",
+                "evidence": [
+                    "my depression gets so bad like every time i’ve had a severe mental break it’s been just prior to my period"
+                ],
+                "time_norm": {
+                    "event_day": 218,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_153_Anxious_Mood",
+                "target": "SYM_156_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_156_somatic_symptoms_sensory",
+                "target": "SYM_156_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_156_Suicidal_ideas",
+                "target": "SYM_160_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_160_Autonomic_symptoms",
+                "target": "SYM_160_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_160_somatic_muscle",
+                "target": "SYM_160_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_160_Anxious_Mood",
+                "target": "SYM_163_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_163_Suicidal_ideas",
+                "target": "SYM_163_do_things_easily_get_painful_consequences",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_163_do_things_easily_get_painful_consequences",
+                "target": "SYM_181_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_181_Anxious_Mood",
+                "target": "SYM_181_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_181_Anxious_Mood",
+                "target": "SYM_181_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_181_Autonomic_symptoms",
+                "target": "SYM_202_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_202_Depressed_Mood",
+                "target": "SYM_204_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_204_Anxious_Mood",
+                "target": "SYM_205_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_205_Anxious_Mood",
+                "target": "SYM_215_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_215_somatic_symptoms_others",
+                "target": "SYM_215_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_215_somatic_symptoms_sensory",
+                "target": "SYM_215_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_215_intrusion_symptoms",
+                "target": "SYM_215_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_215_intrusion_symptoms",
+                "target": "SYM_218_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_153_Anxious_Mood",
+                "target": "SYM_160_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_160_Anxious_Mood",
+                "target": "SYM_181_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_181_Anxious_Mood",
+                "target": "SYM_181_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_181_Anxious_Mood",
+                "target": "SYM_204_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_204_Anxious_Mood",
+                "target": "SYM_205_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_156_somatic_symptoms_sensory",
+                "target": "SYM_215_somatic_symptoms_sensory",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_156_Suicidal_ideas",
+                "target": "SYM_163_Suicidal_ideas",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_160_Autonomic_symptoms",
+                "target": "SYM_181_Autonomic_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_202_Depressed_Mood",
+                "target": "SYM_218_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_215_intrusion_symptoms",
+                "target": "SYM_215_intrusion_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "153": [
+                    "SYM_153_Anxious_Mood"
+                ],
+                "156": [
+                    "SYM_156_somatic_symptoms_sensory",
+                    "SYM_156_Suicidal_ideas"
+                ],
+                "160": [
+                    "SYM_160_Autonomic_symptoms",
+                    "SYM_160_somatic_muscle",
+                    "SYM_160_Anxious_Mood"
+                ],
+                "163": [
+                    "SYM_163_Suicidal_ideas",
+                    "SYM_163_do_things_easily_get_painful_consequences"
+                ],
+                "181": [
+                    "SYM_181_Anxious_Mood",
+                    "SYM_181_Anxious_Mood",
+                    "SYM_181_Autonomic_symptoms"
+                ],
+                "202": [
+                    "SYM_202_Depressed_Mood"
+                ],
+                "204": [
+                    "SYM_204_Anxious_Mood"
+                ],
+                "205": [
+                    "SYM_205_Anxious_Mood"
+                ],
+                "215": [
+                    "SYM_215_somatic_symptoms_others",
+                    "SYM_215_somatic_symptoms_sensory",
+                    "SYM_215_intrusion_symptoms",
+                    "SYM_215_intrusion_symptoms"
+                ],
+                "218": [
+                    "SYM_218_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_153_Anxious_Mood",
+                    "SYM_160_Anxious_Mood",
+                    "SYM_181_Anxious_Mood",
+                    "SYM_181_Anxious_Mood",
+                    "SYM_204_Anxious_Mood",
+                    "SYM_205_Anxious_Mood"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_156_somatic_symptoms_sensory",
+                    "SYM_215_somatic_symptoms_sensory"
+                ],
+                "Suicidal_ideas": [
+                    "SYM_156_Suicidal_ideas",
+                    "SYM_163_Suicidal_ideas"
+                ],
+                "Autonomic_symptoms": [
+                    "SYM_160_Autonomic_symptoms",
+                    "SYM_181_Autonomic_symptoms"
+                ],
+                "somatic_muscle": [
+                    "SYM_160_somatic_muscle"
+                ],
+                "do_things_easily_get_painful_consequences": [
+                    "SYM_163_do_things_easily_get_painful_consequences"
+                ],
+                "Depressed_Mood": [
+                    "SYM_202_Depressed_Mood",
+                    "SYM_218_Depressed_Mood"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_215_somatic_symptoms_others"
+                ],
+                "intrusion_symptoms": [
+                    "SYM_215_intrusion_symptoms",
+                    "SYM_215_intrusion_symptoms"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_215_somatic_symptoms_others",
+                "SYM_215_somatic_symptoms_sensory",
+                "SYM_215_intrusion_symptoms",
+                "SYM_215_intrusion_symptoms",
+                "SYM_218_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_205_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_202_Depressed_Mood",
+                "SYM_204_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_181_Anxious_Mood",
+                "SYM_181_Anxious_Mood",
+                "SYM_181_Autonomic_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_163_Suicidal_ideas",
+                "SYM_163_do_things_easily_get_painful_consequences"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_156_somatic_symptoms_sensory",
+                "SYM_156_Suicidal_ideas",
+                "SYM_160_Autonomic_symptoms",
+                "SYM_160_somatic_muscle",
+                "SYM_160_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_153_Anxious_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 严重抑郁情绪；我 出现 麻木。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 感到 面对镜子和倾听自己思绪会升高血压。代表时间点：1周前（13天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 难以进行 假装心理稳定；我 出现 抑郁情绪。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 胃部不适；我 出现 肾上腺素带来的愉悦感。代表时间点：1个月前（37天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 自毁倾向；我 难以进行 自我破坏行为。代表时间点：1个月前（55天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 震颤和出汗；我 出现 身体颤抖和出汗；我 感到 害怕。代表时间点：1个月前（58天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 焦虑。代表时间点：2个月前（65天前）。"
+        }
+    ]
+}

@@ -1,0 +1,278 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 2167,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_2113_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2113,
+                "time_norm": {
+                    "event_day": 2113,
+                    "days_ago": 54,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参加 同性生日聚会",
+                "event_summary_cn": "用户参加同性生日聚会"
+            },
+            {
+                "id": "EV_2142_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2142,
+                "time_norm": {
+                    "event_day": 2142,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始 12 小时轮班",
+                "event_summary_cn": "用户经历长时间工作影响生活"
+            },
+            {
+                "id": "EV_2153_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2153,
+                "time_norm": {
+                    "event_day": 2153,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 停止 5 小时午睡",
+                "event_summary_cn": "用户决定停止长时间午睡"
+            },
+            {
+                "id": "EV_2158_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2158,
+                "time_norm": {
+                    "event_day": 2158,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成 12小时工作",
+                "event_summary_cn": "用户完成12小时工作"
+            },
+            {
+                "id": "EV_2162_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2162,
+                "time_norm": {
+                    "event_day": 2162,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 工作 12小时",
+                "event_summary_cn": "用户完成12小时工作"
+            },
+            {
+                "id": "EV_2167_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2167,
+                "time_norm": {
+                    "event_day": 2167,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去婴儿 我的宝宝",
+                "event_summary_cn": "用户失去六个月大的婴儿"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_2113_0",
+                "target": "EV_2142_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_2142_1",
+                "target": "EV_2153_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_2153_2",
+                "target": "EV_2158_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_2158_3",
+                "target": "EV_2162_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_2162_4",
+                "target": "EV_2167_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "2113": [
+                    "EV_2113_0"
+                ],
+                "2142": [
+                    "EV_2142_1"
+                ],
+                "2153": [
+                    "EV_2153_2"
+                ],
+                "2158": [
+                    "EV_2158_3"
+                ],
+                "2162": [
+                    "EV_2162_4"
+                ],
+                "2167": [
+                    "EV_2167_5"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_2162_4",
+                "EV_2167_5"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_2158_3"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_2153_2"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_2142_1"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_2113_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 失去婴儿 我的宝宝；我 工作 12小时。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 完成 12小时工作。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 停止 5 小时午睡。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 开始 12 小时轮班。代表时间点：3周前（25天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 参加 同性生日聚会。代表时间点：1个月前（54天前）。"
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 880,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_833_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 833,
+                "time_norm": {
+                    "event_day": 833,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 选择 房子",
+                "event_summary_cn": "用户更重视买房而非婚礼"
+            },
+            {
+                "id": "EV_845_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 845,
+                "time_norm": {
+                    "event_day": 845,
+                    "days_ago": 35,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 移居 我的房屋",
+                "event_summary_cn": "用户搬入新居"
+            },
+            {
+                "id": "EV_880_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 880,
+                "time_norm": {
+                    "event_day": 880,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参与 5km徒步",
+                "event_summary_cn": "用户参与徒步提升心理健康"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_833_0",
+                "target": "EV_845_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_845_1",
+                "target": "EV_880_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "833": [
+                    "EV_833_0"
+                ],
+                "845": [
+                    "EV_845_1"
+                ],
+                "880": [
+                    "EV_880_2"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_880_2"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_845_1"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_833_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 参与 5km徒步。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 移居 我的房屋。代表时间点：1个月前（35天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 选择 房子。代表时间点：1个月前（47天前）。"
+        }
+    ]
+}

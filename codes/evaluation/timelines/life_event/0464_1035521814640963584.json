@@ -1,0 +1,305 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 809,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_740_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 740,
+                "time_norm": {
+                    "event_day": 740,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 写了 About Me 讨论帖",
+                "event_summary_cn": "用户完成学校讨论帖任务"
+            },
+            {
+                "id": "EV_744_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 744,
+                "time_norm": {
+                    "event_day": 744,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 去约会 日期",
+                "event_summary_cn": "用户刚结束一次愉快的约会"
+            },
+            {
+                "id": "EV_754_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 754,
+                "time_norm": {
+                    "event_day": 754,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 忙碌于学校 我",
+                "event_summary_cn": "用户因学业繁忙而疏于联系朋友"
+            },
+            {
+                "id": "EV_766_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 766,
+                "time_norm": {
+                    "event_day": 766,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 表达 自我认同",
+                "event_summary_cn": "用户表达自我认同"
+            },
+            {
+                "id": "EV_788_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 788,
+                "time_norm": {
+                    "event_day": 788,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得 中期考试成绩",
+                "event_summary_cn": "用户获得中期考试高分"
+            },
+            {
+                "id": "EV_804_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 804,
+                "time_norm": {
+                    "event_day": 804,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 观看 同性电影",
+                "event_summary_cn": "用户寻求快乐同性电影推荐"
+            },
+            {
+                "id": "EV_809_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 809,
+                "time_norm": {
+                    "event_day": 809,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 隐藏骄傲旗帜 参加舞蹈通话",
+                "event_summary_cn": "用户隐藏骄傲旗帜参加舞蹈通话"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_740_0",
+                "target": "EV_744_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_744_1",
+                "target": "EV_754_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_754_2",
+                "target": "EV_766_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_766_3",
+                "target": "EV_788_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_788_4",
+                "target": "EV_804_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_804_5",
+                "target": "EV_809_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "740": [
+                    "EV_740_0"
+                ],
+                "744": [
+                    "EV_744_1"
+                ],
+                "754": [
+                    "EV_754_2"
+                ],
+                "766": [
+                    "EV_766_3"
+                ],
+                "788": [
+                    "EV_788_4"
+                ],
+                "804": [
+                    "EV_804_5"
+                ],
+                "809": [
+                    "EV_809_6"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_804_5",
+                "EV_809_6"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_788_4"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_766_3"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_754_2"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_740_0",
+                "EV_744_1"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 隐藏骄傲旗帜 参加舞蹈通话；我 观看 同性电影。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 获得 中期考试成绩。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 表达 自我认同。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 忙碌于学校 我。代表时间点：1个月前（55天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 去约会 日期；我 写了 About Me 讨论帖。代表时间点：2个月前（65天前）。"
+        }
+    ]
+}

@@ -1,0 +1,426 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 284,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_207_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 207,
+                "time_norm": {
+                    "event_day": 207,
+                    "days_ago": 77,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 呼吁 明天投票",
+                "event_summary_cn": "用户呼吁明天参与投票"
+            },
+            {
+                "id": "EV_228_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 228,
+                "time_norm": {
+                    "event_day": 228,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 悲伤 Daniel 去世",
+                "event_summary_cn": "用户悲伤朋友Daniel去世"
+            },
+            {
+                "id": "EV_232_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 232,
+                "time_norm": {
+                    "event_day": 232,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 控制饮食 为了减肥",
+                "event_summary_cn": "用户节食控制体重"
+            },
+            {
+                "id": "EV_233_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 233,
+                "time_norm": {
+                    "event_day": 233,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 悲伤 死亡的朋友",
+                "event_summary_cn": "用户悼念去世朋友"
+            },
+            {
+                "id": "EV_238_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 238,
+                "time_norm": {
+                    "event_day": 238,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 Career Is Done",
+                "event_summary_cn": "用户宣布职业生涯结束"
+            },
+            {
+                "id": "EV_257_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 257,
+                "time_norm": {
+                    "event_day": 257,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 见过 Manila Luzon",
+                "event_summary_cn": "用户提及遇见Manila Luzon"
+            },
+            {
+                "id": "EV_261_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 261,
+                "time_norm": {
+                    "event_day": 261,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去 男朋友",
+                "event_summary_cn": "用户失去男朋友感到心碎"
+            },
+            {
+                "id": "EV_272_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 272,
+                "time_norm": {
+                    "event_day": 272,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去 宠物Ziggy",
+                "event_summary_cn": "用户失去宠物Ziggy"
+            },
+            {
+                "id": "EV_276_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 276,
+                "time_norm": {
+                    "event_day": 276,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 举办 拖延表演",
+                "event_summary_cn": "用户将举办拖延表演"
+            },
+            {
+                "id": "EV_284_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 284,
+                "time_norm": {
+                    "event_day": 284,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 计划参加 Arizona Gay Rodeo",
+                "event_summary_cn": "用户计划参加同性恋牛仔节"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_207_0",
+                "target": "EV_228_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_228_1",
+                "target": "EV_232_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_232_2",
+                "target": "EV_233_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_233_3",
+                "target": "EV_238_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_238_4",
+                "target": "EV_257_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_257_5",
+                "target": "EV_261_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_261_6",
+                "target": "EV_272_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_272_7",
+                "target": "EV_276_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_276_8",
+                "target": "EV_284_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "207": [
+                    "EV_207_0"
+                ],
+                "228": [
+                    "EV_228_1"
+                ],
+                "232": [
+                    "EV_232_2"
+                ],
+                "233": [
+                    "EV_233_3"
+                ],
+                "238": [
+                    "EV_238_4"
+                ],
+                "257": [
+                    "EV_257_5"
+                ],
+                "261": [
+                    "EV_261_6"
+                ],
+                "272": [
+                    "EV_272_7"
+                ],
+                "276": [
+                    "EV_276_8"
+                ],
+                "284": [
+                    "EV_284_9"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_284_9"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_272_7",
+                "EV_276_8"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_257_5",
+                "EV_261_6"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_238_4"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_232_2",
+                "EV_233_3"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_228_1"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_207_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 计划参加 Arizona Gay Rodeo。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 举办 拖延表演；我 失去 宠物Ziggy。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 失去 男朋友；我 见过 Manila Luzon。代表时间点：3周前（23天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 Career Is Done。代表时间点：1个月前（46天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 悲伤 死亡的朋友；我 控制饮食 为了减肥。代表时间点：1个月前（51天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 悲伤 Daniel 去世。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 呼吁 明天投票。代表时间点：2个月前（77天前）。"
+        }
+    ]
+}

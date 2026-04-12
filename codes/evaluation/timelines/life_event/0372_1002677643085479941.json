@@ -1,0 +1,157 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 844,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_816_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 816,
+                "time_norm": {
+                    "event_day": 816,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 退出大学  mental health reasons",
+                "event_summary_cn": "用户因心理健康原因退学"
+            },
+            {
+                "id": "EV_817_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 817,
+                "time_norm": {
+                    "event_day": 817,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 爱 某人",
+                "event_summary_cn": "用户表达对某人的爱"
+            },
+            {
+                "id": "EV_844_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 844,
+                "time_norm": {
+                    "event_day": 844,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到压力 我在高中时期",
+                "event_summary_cn": "用户回忆高中时期的压力经历"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_816_0",
+                "target": "EV_817_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_817_1",
+                "target": "EV_844_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "816": [
+                    "EV_816_0"
+                ],
+                "817": [
+                    "EV_817_1"
+                ],
+                "844": [
+                    "EV_844_2"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_844_2"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_817_1"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_816_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到压力 我在高中时期。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 爱 某人。代表时间点：3周前（27天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 退出大学  mental health reasons。代表时间点：4周前（28天前）。"
+        }
+    ]
+}

@@ -1,0 +1,503 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1217,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1149_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1149,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 尴尬与羞耻",
+                "evidence": [
+                    "This is so fucking repulsive. I’m so ashamed of my state."
+                ],
+                "time_norm": {
+                    "event_day": 1149,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1154_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 1154,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 感到 冷到疼痛",
+                "evidence": [
+                    "I am so cold it hurts, but I LOVE IT"
+                ],
+                "time_norm": {
+                    "event_day": 1154,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1167_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 1167,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 自杀念头",
+                "evidence": [
+                    "I’m DYING #constructionlife"
+                ],
+                "time_norm": {
+                    "event_day": 1167,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1183_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1183,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 害怕",
+                "evidence": [
+                    "At the same time I don’t like having my hopes up again😅😅 I’m really scared"
+                ],
+                "time_norm": {
+                    "event_day": 1183,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1183_pessimism",
+                "node_type": "Symptom",
+                "timestamp_day": 1183,
+                "symptom": "pessimism",
+                "triple": "我 感到 难以进行",
+                "evidence": [
+                    "At the same time I don’t like having my hopes up again😅😅 I’m really scared"
+                ],
+                "time_norm": {
+                    "event_day": 1183,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1189_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1189,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 非常悲伤",
+                "evidence": [
+                    "It’s been 7 years since the last time I danced or performed on stage. It makes me so incredibly sad."
+                ],
+                "time_norm": {
+                    "event_day": 1189,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1197_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1197,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 热潮红、情绪波动、头痛、疲劳、肌肉和关节疼痛",
+                "evidence": [
+                    "Is this what my life is going to be like for the next 30 years??? Having mini menopause’s before and during each period???? Hot flashes, BAD mood swings, headache. Fatigue, muscle and joint pain, the fuck!? I fucking hate men. I HATE THEM."
+                ],
+                "time_norm": {
+                    "event_day": 1197,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1197_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 1197,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 出现 疲劳",
+                "evidence": [
+                    "Is this what my life is going to be like for the next 30 years??? Having mini menopause’s before and during each period???? Hot flashes, BAD mood swings, headache. Fatigue, muscle and joint pain, the fuck!? I fucking hate men. I HATE THEM."
+                ],
+                "time_norm": {
+                    "event_day": 1197,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1197_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 1197,
+                "symptom": "somatic_muscle",
+                "triple": "我 出现 肌肉和关节疼痛",
+                "evidence": [
+                    "Is this what my life is going to be like for the next 30 years??? Having mini menopause’s before and during each period???? Hot flashes, BAD mood swings, headache. Fatigue, muscle and joint pain, the fuck!? I fucking hate men. I HATE THEM."
+                ],
+                "time_norm": {
+                    "event_day": 1197,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1203_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1203,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 非常痛苦",
+                "evidence": [
+                    "I have been so miserable all day. I want to cry. I am in so much pain, my head has been in nonstop pain for HOURS straight. No relief, not even for a couple of minutes. I’m thinking maybe I should drop everything I’m doing and go to urgent care"
+                ],
+                "time_norm": {
+                    "event_day": 1203,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1203_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 1203,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 头痛",
+                "evidence": [
+                    "I have been so miserable all day. I want to cry. I am in so much pain, my head has been in nonstop pain for HOURS straight. No relief, not even for a couple of minutes. I’m thinking maybe I should drop everything I’m doing and go to urgent care"
+                ],
+                "time_norm": {
+                    "event_day": 1203,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1217_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1217,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 怒气",
+                "evidence": [
+                    "Anger"
+                ],
+                "time_norm": {
+                    "event_day": 1217,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1149_Depressed_Mood",
+                "target": "SYM_1154_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1154_somatic_symptoms_sensory",
+                "target": "SYM_1167_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1167_Suicidal_ideas",
+                "target": "SYM_1183_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1183_Anxious_Mood",
+                "target": "SYM_1183_pessimism",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1183_pessimism",
+                "target": "SYM_1189_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1189_Depressed_Mood",
+                "target": "SYM_1197_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1197_Autonomic_symptoms",
+                "target": "SYM_1197_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1197_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_1197_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1197_somatic_muscle",
+                "target": "SYM_1203_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1203_Depressed_Mood",
+                "target": "SYM_1203_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1203_somatic_symptoms_others",
+                "target": "SYM_1217_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1149_Depressed_Mood",
+                "target": "SYM_1189_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1189_Depressed_Mood",
+                "target": "SYM_1203_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1149": [
+                    "SYM_1149_Depressed_Mood"
+                ],
+                "1154": [
+                    "SYM_1154_somatic_symptoms_sensory"
+                ],
+                "1167": [
+                    "SYM_1167_Suicidal_ideas"
+                ],
+                "1183": [
+                    "SYM_1183_Anxious_Mood",
+                    "SYM_1183_pessimism"
+                ],
+                "1189": [
+                    "SYM_1189_Depressed_Mood"
+                ],
+                "1197": [
+                    "SYM_1197_Autonomic_symptoms",
+                    "SYM_1197_Decreased_energy_tiredness_fatigue",
+                    "SYM_1197_somatic_muscle"
+                ],
+                "1203": [
+                    "SYM_1203_Depressed_Mood",
+                    "SYM_1203_somatic_symptoms_others"
+                ],
+                "1217": [
+                    "SYM_1217_Anger_Irritability"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_1149_Depressed_Mood",
+                    "SYM_1189_Depressed_Mood",
+                    "SYM_1203_Depressed_Mood"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_1154_somatic_symptoms_sensory"
+                ],
+                "Suicidal_ideas": [
+                    "SYM_1167_Suicidal_ideas"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1183_Anxious_Mood"
+                ],
+                "pessimism": [
+                    "SYM_1183_pessimism"
+                ],
+                "Autonomic_symptoms": [
+                    "SYM_1197_Autonomic_symptoms"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_1197_Decreased_energy_tiredness_fatigue"
+                ],
+                "somatic_muscle": [
+                    "SYM_1197_somatic_muscle"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_1203_somatic_symptoms_others"
+                ],
+                "Anger_Irritability": [
+                    "SYM_1217_Anger_Irritability"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1217_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1197_Autonomic_symptoms",
+                "SYM_1197_Decreased_energy_tiredness_fatigue",
+                "SYM_1197_somatic_muscle",
+                "SYM_1203_Depressed_Mood",
+                "SYM_1203_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_1183_Anxious_Mood",
+                "SYM_1183_pessimism",
+                "SYM_1189_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1167_Suicidal_ideas"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1149_Depressed_Mood",
+                "SYM_1154_somatic_symptoms_sensory"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 怒气。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 非常痛苦；我 出现 头痛；我 出现 热潮红、情绪波动、头痛、疲劳、肌肉和关节疼痛。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 感到 非常悲伤；我 感到 害怕；我 感到 难以进行。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 自杀念头。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 冷到疼痛；我 感到 尴尬与羞耻。代表时间点：2个月前（63天前）。"
+        }
+    ]
+}

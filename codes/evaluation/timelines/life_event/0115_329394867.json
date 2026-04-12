@@ -1,0 +1,496 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 860,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_776_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 776,
+                "time_norm": {
+                    "event_day": 776,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 缺失 男朋友",
+                "event_summary_cn": "用户因男友不在而感到抑郁"
+            },
+            {
+                "id": "EV_785_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 785,
+                "time_norm": {
+                    "event_day": 785,
+                    "days_ago": 75,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 决定 今天外出 roller skate",
+                "event_summary_cn": "用户决定今天外出滑旱冰"
+            },
+            {
+                "id": "EV_790_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 790,
+                "time_norm": {
+                    "event_day": 790,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 难以认同 自己的性取向",
+                "event_summary_cn": "用户难以认同自己的性取向"
+            },
+            {
+                "id": "EV_790_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 790,
+                "time_norm": {
+                    "event_day": 790,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 确认 自身的性取向",
+                "event_summary_cn": "用户确认自身为无性恋"
+            },
+            {
+                "id": "EV_790_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 790,
+                "time_norm": {
+                    "event_day": 790,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 表达 对身份认同的接纳",
+                "event_summary_cn": "用户表达对身份认同的接纳"
+            },
+            {
+                "id": "EV_797_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 797,
+                "time_norm": {
+                    "event_day": 797,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 缺少 男朋友",
+                "event_summary_cn": "用户思念男友，情绪低落"
+            },
+            {
+                "id": "EV_806_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 806,
+                "time_norm": {
+                    "event_day": 806,
+                    "days_ago": 54,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 用emoji表达 男友吃taco bell",
+                "event_summary_cn": "用户分享男友用emoji表达吃taco bell"
+            },
+            {
+                "id": "EV_813_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 813,
+                "time_norm": {
+                    "event_day": 813,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 提醒 他人 我仍属于LGBT社区",
+                "event_summary_cn": "用户提醒他人自己仍属于LGBT群体"
+            },
+            {
+                "id": "EV_822_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 822,
+                "time_norm": {
+                    "event_day": 822,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 忽视健康 离婚期间",
+                "event_summary_cn": "用户在分手期间忽视自身健康"
+            },
+            {
+                "id": "EV_840_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 840,
+                "time_norm": {
+                    "event_day": 840,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去男友 我",
+                "event_summary_cn": "用户因男友离开而悲伤"
+            },
+            {
+                "id": "EV_841_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 841,
+                "time_norm": {
+                    "event_day": 841,
+                    "days_ago": 19,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 缺少 我的男友",
+                "event_summary_cn": "用户表达对男友的思念之情"
+            },
+            {
+                "id": "EV_860_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 860,
+                "time_norm": {
+                    "event_day": 860,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 收到前男友消息 前男友表示仍关注我",
+                "event_summary_cn": "前男友关注我并留言"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_776_0",
+                "target": "EV_785_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_785_1",
+                "target": "EV_790_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_790_2",
+                "target": "EV_790_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_790_3",
+                "target": "EV_790_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_790_4",
+                "target": "EV_797_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_797_5",
+                "target": "EV_806_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_806_6",
+                "target": "EV_813_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_813_7",
+                "target": "EV_822_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_822_8",
+                "target": "EV_840_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_840_9",
+                "target": "EV_841_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_841_10",
+                "target": "EV_860_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "776": [
+                    "EV_776_0"
+                ],
+                "785": [
+                    "EV_785_1"
+                ],
+                "790": [
+                    "EV_790_2",
+                    "EV_790_3",
+                    "EV_790_4"
+                ],
+                "797": [
+                    "EV_797_5"
+                ],
+                "806": [
+                    "EV_806_6"
+                ],
+                "813": [
+                    "EV_813_7"
+                ],
+                "822": [
+                    "EV_822_8"
+                ],
+                "840": [
+                    "EV_840_9"
+                ],
+                "841": [
+                    "EV_841_10"
+                ],
+                "860": [
+                    "EV_860_11"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_860_11"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_840_9",
+                "EV_841_10"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_822_8"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_813_7"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_806_6"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_797_5"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_785_1",
+                "EV_790_2",
+                "EV_790_3",
+                "EV_790_4"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_776_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 收到前男友消息 前男友表示仍关注我。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 缺少 我的男友；我 失去男友 我。代表时间点：2周前（19天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 忽视健康 离婚期间。代表时间点：1个月前（38天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 提醒 他人 我仍属于LGBT社区。代表时间点：1个月前（47天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 用emoji表达 男友吃taco bell。代表时间点：1个月前（54天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 缺少 男朋友。代表时间点：2个月前（63天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以认同 自己的性取向；我 确认 自身的性取向。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 缺失 男朋友。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

@@ -1,0 +1,256 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1404,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1320_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1320,
+                "time_norm": {
+                    "event_day": 1320,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 悲伤 她的离去",
+                "event_summary_cn": "用户表达对逝去之人的悲伤"
+            },
+            {
+                "id": "EV_1384_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1384,
+                "time_norm": {
+                    "event_day": 1384,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 检查 是否支持LGBTQ+权利",
+                "event_summary_cn": "用户关注演员是否支持LGBTQ+权利"
+            },
+            {
+                "id": "EV_1386_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1386,
+                "time_norm": {
+                    "event_day": 1386,
+                    "days_ago": 18,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 关注 najwa",
+                "event_summary_cn": "用户因生活变故暂停关注najwa"
+            },
+            {
+                "id": "EV_1391_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1391,
+                "time_norm": {
+                    "event_day": 1391,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始新工作",
+                "event_summary_cn": "用户开始新工作感到紧张"
+            },
+            {
+                "id": "EV_1391_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1391,
+                "time_norm": {
+                    "event_day": 1391,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成康复 我的新工作",
+                "event_summary_cn": "用户完成康复并开始新工作"
+            },
+            {
+                "id": "EV_1404_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1404,
+                "time_norm": {
+                    "event_day": 1404,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成 新工作前两周",
+                "event_summary_cn": "用户完成新工作前两周"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1320_0",
+                "target": "EV_1384_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1384_1",
+                "target": "EV_1386_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1386_2",
+                "target": "EV_1391_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1391_3",
+                "target": "EV_1391_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1391_4",
+                "target": "EV_1404_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1320": [
+                    "EV_1320_0"
+                ],
+                "1384": [
+                    "EV_1384_1"
+                ],
+                "1386": [
+                    "EV_1386_2"
+                ],
+                "1391": [
+                    "EV_1391_3",
+                    "EV_1391_4"
+                ],
+                "1404": [
+                    "EV_1404_5"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1404_5"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_1391_3",
+                "EV_1391_4"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_1384_1",
+                "EV_1386_2"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1320_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 完成 新工作前两周。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 开始新工作；我 完成康复 我的新工作。代表时间点：1周前（13天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 关注 najwa；我 检查 是否支持LGBTQ+权利。代表时间点：2周前（18天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 悲伤 她的离去。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

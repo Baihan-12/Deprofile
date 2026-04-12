@@ -1,0 +1,521 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 274,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_203_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 203,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 空虚",
+                "evidence": [
+                    "I feel very scared.(。•́︿•̀。) I often want to isolate myself because I blame myself too much for my shortcomings ... This is why I feel empty and have no doctor advised me to accept the reality, which is actually very difficult to do(｡í _ ì｡)"
+                ],
+                "time_norm": {
+                    "event_day": 203,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_203_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 203,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 空虚",
+                "evidence": [
+                    "I feel very scared.(。•́︿•̀。) I often want to isolate myself because I blame myself too much for my shortcomings ... This is why I feel empty and have no doctor advised me to accept the reality, which is actually very difficult to do(｡í _ ì｡)"
+                ],
+                "time_norm": {
+                    "event_day": 203,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_203_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 203,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 社交沟通",
+                "evidence": [
+                    "In fact, during my summer vacation when I was diagnosed with depression, I really didn't want to communicate with others. Because I think I talk too much, I may be hated by some Asucaga fans (or don't want to care about me at all😓)Thank you for liking my talkative character.😭"
+                ],
+                "time_norm": {
+                    "event_day": 203,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_211_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 211,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "Hahahaha me too, you know I have bipolar disorder, sometimes I can't help but want to paint crazily👀 (but I don't have time😔Even when painting, I feel anxious, especially when coloring.)To live, study&amp;really life is more important.💪🏻"
+                ],
+                "time_norm": {
+                    "event_day": 211,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_223_fear_about_social_situations",
+                "node_type": "Symptom",
+                "timestamp_day": 223,
+                "symptom": "fear_about_social_situations",
+                "triple": "我 难以进行 社交互动",
+                "evidence": [
+                    "I think I'll start to keep a distance. just close myself, I have lose my trust in some people. I'm sorry I'm going to be selfish. I'll stay away from people who make me uncomfortable, including those who talk to them. I still can't let it go now. Less dialogue, only art"
+                ],
+                "time_norm": {
+                    "event_day": 223,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_241_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 241,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 感到 胸部疼痛",
+                "evidence": [
+                    "Me tooooo……I'm so angry that my chest hurt.😫"
+                ],
+                "time_norm": {
+                    "event_day": 241,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_241_Respiratory_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 241,
+                "symptom": "Respiratory_symptoms",
+                "triple": "我 感到 胸部疼痛",
+                "evidence": [
+                    "Me tooooo……I'm so angry that my chest hurt.😫"
+                ],
+                "time_norm": {
+                    "event_day": 241,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_241_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 241,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 对官方销售表达个人情感不满",
+                "evidence": [
+                    "Why there is always without Cagalli. They'd rather have Lacus appear twice than let Cagalli and Athrun appear as a couple. It's OK to have a personal love, but I'm angry that the staff expressed such personal feelings in the official sales of goods.🙃"
+                ],
+                "time_norm": {
+                    "event_day": 241,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_258_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 258,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 非常害怕的情绪",
+                "evidence": [
+                    "To be honest, sometimes I am really scared, but I don't want people around me to feel stressed because they get along with me."
+                ],
+                "time_norm": {
+                    "event_day": 258,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_265_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 265,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 感到 手指冻僵",
+                "evidence": [
+                    "omg, soooooo cold , my fingers......frozen........."
+                ],
+                "time_norm": {
+                    "event_day": 265,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_274_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 274,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 坏情绪",
+                "evidence": [
+                    "Sorry, I have been in a bad mood recently. and I have a lot of homework /exams😩 Until I sort things out, I'll probably cut down on the number of times I talk on Twitter💦 Apologize for the inconvenience↓"
+                ],
+                "time_norm": {
+                    "event_day": 274,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_203_Anxious_Mood",
+                "target": "SYM_203_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_203_Depressed_Mood",
+                "target": "SYM_203_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_203_Depressed_Mood",
+                "target": "SYM_211_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_211_Anxious_Mood",
+                "target": "SYM_223_fear_about_social_situations",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_223_fear_about_social_situations",
+                "target": "SYM_241_Cardiovascular_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_241_Cardiovascular_symptoms",
+                "target": "SYM_241_Respiratory_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_241_Respiratory_symptoms",
+                "target": "SYM_241_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_241_Anger_Irritability",
+                "target": "SYM_258_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_258_Anxious_Mood",
+                "target": "SYM_265_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_265_somatic_symptoms_sensory",
+                "target": "SYM_274_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_203_Anxious_Mood",
+                "target": "SYM_211_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_211_Anxious_Mood",
+                "target": "SYM_258_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_203_Depressed_Mood",
+                "target": "SYM_203_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_203_Depressed_Mood",
+                "target": "SYM_274_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "203": [
+                    "SYM_203_Anxious_Mood",
+                    "SYM_203_Depressed_Mood",
+                    "SYM_203_Depressed_Mood"
+                ],
+                "211": [
+                    "SYM_211_Anxious_Mood"
+                ],
+                "223": [
+                    "SYM_223_fear_about_social_situations"
+                ],
+                "241": [
+                    "SYM_241_Cardiovascular_symptoms",
+                    "SYM_241_Respiratory_symptoms",
+                    "SYM_241_Anger_Irritability"
+                ],
+                "258": [
+                    "SYM_258_Anxious_Mood"
+                ],
+                "265": [
+                    "SYM_265_somatic_symptoms_sensory"
+                ],
+                "274": [
+                    "SYM_274_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_203_Anxious_Mood",
+                    "SYM_211_Anxious_Mood",
+                    "SYM_258_Anxious_Mood"
+                ],
+                "Depressed_Mood": [
+                    "SYM_203_Depressed_Mood",
+                    "SYM_203_Depressed_Mood",
+                    "SYM_274_Depressed_Mood"
+                ],
+                "fear_about_social_situations": [
+                    "SYM_223_fear_about_social_situations"
+                ],
+                "Cardiovascular_symptoms": [
+                    "SYM_241_Cardiovascular_symptoms"
+                ],
+                "Respiratory_symptoms": [
+                    "SYM_241_Respiratory_symptoms"
+                ],
+                "Anger_Irritability": [
+                    "SYM_241_Anger_Irritability"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_265_somatic_symptoms_sensory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_274_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_265_somatic_symptoms_sensory"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_258_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_241_Cardiovascular_symptoms",
+                "SYM_241_Respiratory_symptoms",
+                "SYM_241_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_223_fear_about_social_situations"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_211_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_203_Anxious_Mood",
+                "SYM_203_Depressed_Mood",
+                "SYM_203_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 坏情绪。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 感到 手指冻僵。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 非常害怕的情绪。代表时间点：2周前（16天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 感到 胸部疼痛；我 感到 对官方销售表达个人情感不满。代表时间点：1个月前（33天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 社交互动。代表时间点：1个月前（51天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 焦虑。代表时间点：2个月前（63天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 空虚；我 难以进行 社交沟通。代表时间点：2个月前（71天前）。"
+        }
+    ]
+}

@@ -1,0 +1,946 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 702,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_616_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 616,
+                "time_norm": {
+                    "event_day": 616,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 提及 Quinn 婚礼",
+                "event_summary_cn": "用户提及妹妹的婚礼事件"
+            },
+            {
+                "id": "EV_617_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 617,
+                "time_norm": {
+                    "event_day": 617,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 表达 对特朗普的反对立场",
+                "event_summary_cn": "用户表达对特朗普的反对立场"
+            },
+            {
+                "id": "EV_617_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 617,
+                "time_norm": {
+                    "event_day": 617,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 与 Ned 分手",
+                "event_summary_cn": "用户与Ned结束关系"
+            },
+            {
+                "id": "EV_617_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 617,
+                "time_norm": {
+                    "event_day": 617,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想让他们在一起 希望介入",
+                "event_summary_cn": "用户希望两人在一起但被希望破坏"
+            },
+            {
+                "id": "EV_618_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 618,
+                "time_norm": {
+                    "event_day": 618,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 与 Olivia 分手 与 Alexis 有染",
+                "event_summary_cn": "用户承认与Olivia分手并与Alexis有染"
+            },
+            {
+                "id": "EV_618_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 618,
+                "time_norm": {
+                    "event_day": 618,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去丈夫",
+                "event_summary_cn": "用户将失去丈夫"
+            },
+            {
+                "id": "EV_618_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 618,
+                "time_norm": {
+                    "event_day": 618,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 评价 Liv 的经历",
+                "event_summary_cn": "用户评价他人感情受伤害经历"
+            },
+            {
+                "id": "EV_618_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 618,
+                "time_norm": {
+                    "event_day": 618,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 放弃支持 Ned",
+                "event_summary_cn": "用户决定不再支持Ned"
+            },
+            {
+                "id": "EV_619_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 619,
+                "time_norm": {
+                    "event_day": 619,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 陪伴 Liv 参加葬礼",
+                "event_summary_cn": "用户陪伴Liv参加葬礼"
+            },
+            {
+                "id": "EV_620_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 620,
+                "time_norm": {
+                    "event_day": 620,
+                    "days_ago": 82,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 看到 Ned 拥抱 Liv",
+                "event_summary_cn": "用户看到Ned拥抱Liv感到愤怒"
+            },
+            {
+                "id": "EV_620_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 620,
+                "time_norm": {
+                    "event_day": 620,
+                    "days_ago": 82,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 看到 Ned 拥抱 Liv",
+                "event_summary_cn": "用户看到Ned拥抱Liv感到愤怒"
+            },
+            {
+                "id": "EV_623_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 623,
+                "time_norm": {
+                    "event_day": 623,
+                    "days_ago": 79,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 为 Olivia 争取离婚",
+                "event_summary_cn": "用户为 Olivia 争取离婚"
+            },
+            {
+                "id": "EV_624_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 624,
+                "time_norm": {
+                    "event_day": 624,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 沉浸于 Olivia 和 Sonny 的关系变化",
+                "event_summary_cn": "用户对Olivia与Sonny分手感到痛苦"
+            },
+            {
+                "id": "EV_629_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 629,
+                "time_norm": {
+                    "event_day": 629,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 希望 拆散他们",
+                "event_summary_cn": "用户希望拆散情侣关系"
+            },
+            {
+                "id": "EV_635_14",
+                "node_type": "LifeEvent",
+                "timestamp_day": 635,
+                "time_norm": {
+                    "event_day": 635,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要 票",
+                "event_summary_cn": "用户表达对投票的渴望"
+            },
+            {
+                "id": "EV_645_15",
+                "node_type": "LifeEvent",
+                "timestamp_day": 645,
+                "time_norm": {
+                    "event_day": 645,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 移民 美国",
+                "event_summary_cn": "用户表达移民美国的困难"
+            },
+            {
+                "id": "EV_656_16",
+                "node_type": "LifeEvent",
+                "timestamp_day": 656,
+                "time_norm": {
+                    "event_day": 656,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 辞职 因为 Gina 被不公正解雇",
+                "event_summary_cn": "用户因Gina被解雇而辞职"
+            },
+            {
+                "id": "EV_658_17",
+                "node_type": "LifeEvent",
+                "timestamp_day": 658,
+                "time_norm": {
+                    "event_day": 658,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到愤怒 作弊行为",
+                "event_summary_cn": "用户因作弊行为感到愤怒"
+            },
+            {
+                "id": "EV_662_18",
+                "node_type": "LifeEvent",
+                "timestamp_day": 662,
+                "time_norm": {
+                    "event_day": 662,
+                    "days_ago": 40,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 母亲",
+                "event_summary_cn": "用户提及已故母亲的需要"
+            },
+            {
+                "id": "EV_669_19",
+                "node_type": "LifeEvent",
+                "timestamp_day": 669,
+                "time_norm": {
+                    "event_day": 669,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 Liv 查出 Ned 作弊",
+                "event_summary_cn": "用户要求查明他人背叛事件"
+            },
+            {
+                "id": "EV_679_20",
+                "node_type": "LifeEvent",
+                "timestamp_day": 679,
+                "time_norm": {
+                    "event_day": 679,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 观察 到 Monica 和 Ned 的关系变化",
+                "event_summary_cn": "用户关注 Monica 和 Ned 的关系变化"
+            },
+            {
+                "id": "EV_682_21",
+                "node_type": "LifeEvent",
+                "timestamp_day": 682,
+                "time_norm": {
+                    "event_day": 682,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到高兴 Eric 给予原谅",
+                "event_summary_cn": "用户高兴 Eric 给予原谅"
+            },
+            {
+                "id": "EV_685_22",
+                "node_type": "LifeEvent",
+                "timestamp_day": 685,
+                "time_norm": {
+                    "event_day": 685,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 离开 Ethan",
+                "event_summary_cn": "用户失去重要关系"
+            },
+            {
+                "id": "EV_687_23",
+                "node_type": "LifeEvent",
+                "timestamp_day": 687,
+                "time_norm": {
+                    "event_day": 687,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去 亲人",
+                "event_summary_cn": "用户失去亲人"
+            },
+            {
+                "id": "EV_694_24",
+                "node_type": "LifeEvent",
+                "timestamp_day": 694,
+                "time_norm": {
+                    "event_day": 694,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 评价 Olivia 和 Ned 的关系",
+                "event_summary_cn": "用户评价他人关系变化"
+            },
+            {
+                "id": "EV_696_25",
+                "node_type": "LifeEvent",
+                "timestamp_day": 696,
+                "time_norm": {
+                    "event_day": 696,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 退出 事业",
+                "event_summary_cn": "用户退出事业感到开心"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_616_0",
+                "target": "EV_617_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_617_1",
+                "target": "EV_617_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_617_2",
+                "target": "EV_617_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_617_3",
+                "target": "EV_618_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_618_4",
+                "target": "EV_618_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_618_5",
+                "target": "EV_618_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_618_6",
+                "target": "EV_618_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_618_7",
+                "target": "EV_619_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_619_8",
+                "target": "EV_620_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_620_9",
+                "target": "EV_620_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_620_10",
+                "target": "EV_623_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_623_11",
+                "target": "EV_624_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_624_12",
+                "target": "EV_629_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_629_13",
+                "target": "EV_635_14",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_635_14",
+                "target": "EV_645_15",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_645_15",
+                "target": "EV_656_16",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_656_16",
+                "target": "EV_658_17",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_658_17",
+                "target": "EV_662_18",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_662_18",
+                "target": "EV_669_19",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_669_19",
+                "target": "EV_679_20",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_679_20",
+                "target": "EV_682_21",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_682_21",
+                "target": "EV_685_22",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_685_22",
+                "target": "EV_687_23",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_687_23",
+                "target": "EV_694_24",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_694_24",
+                "target": "EV_696_25",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "616": [
+                    "EV_616_0"
+                ],
+                "617": [
+                    "EV_617_1",
+                    "EV_617_2",
+                    "EV_617_3"
+                ],
+                "618": [
+                    "EV_618_4",
+                    "EV_618_5",
+                    "EV_618_6",
+                    "EV_618_7"
+                ],
+                "619": [
+                    "EV_619_8"
+                ],
+                "620": [
+                    "EV_620_9",
+                    "EV_620_10"
+                ],
+                "623": [
+                    "EV_623_11"
+                ],
+                "624": [
+                    "EV_624_12"
+                ],
+                "629": [
+                    "EV_629_13"
+                ],
+                "635": [
+                    "EV_635_14"
+                ],
+                "645": [
+                    "EV_645_15"
+                ],
+                "656": [
+                    "EV_656_16"
+                ],
+                "658": [
+                    "EV_658_17"
+                ],
+                "662": [
+                    "EV_662_18"
+                ],
+                "669": [
+                    "EV_669_19"
+                ],
+                "679": [
+                    "EV_679_20"
+                ],
+                "682": [
+                    "EV_682_21"
+                ],
+                "685": [
+                    "EV_685_22"
+                ],
+                "687": [
+                    "EV_687_23"
+                ],
+                "694": [
+                    "EV_694_24"
+                ],
+                "696": [
+                    "EV_696_25"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_696_25"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_694_24"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_682_21",
+                "EV_685_22",
+                "EV_687_23"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_679_20"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_669_19"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_662_18"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_656_16",
+                "EV_658_17"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_645_15"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_635_14"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_629_13"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_619_8",
+                "EV_620_9",
+                "EV_620_10",
+                "EV_623_11",
+                "EV_624_12"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_616_0",
+                "EV_617_1",
+                "EV_617_2",
+                "EV_617_3",
+                "EV_618_4",
+                "EV_618_5",
+                "EV_618_6",
+                "EV_618_7"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 退出 事业。代表时间点：6天前（6天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 评价 Olivia 和 Ned 的关系。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 失去 亲人；我 离开 Ethan。代表时间点：2周前（15天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 观察 到 Monica 和 Ned 的关系变化。代表时间点：3周前（23天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 需要 Liv 查出 Ned 作弊。代表时间点：1个月前（33天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 需要 母亲。代表时间点：1个月前（40天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到愤怒 作弊行为；我 辞职 因为 Gina 被不公正解雇。代表时间点：1个月前（44天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 移民 美国。代表时间点：1个月前（57天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 想要 票。代表时间点：2个月前（67天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 希望 拆散他们。代表时间点：2个月前（73天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 沉浸于 Olivia 和 Sonny 的关系变化；我 为 Olivia 争取离婚。代表时间点：2个月前（78天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 与 Olivia 分手 与 Alexis 有染；我 失去丈夫。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

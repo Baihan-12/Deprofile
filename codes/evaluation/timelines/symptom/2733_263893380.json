@@ -1,0 +1,475 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 928,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_857_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 857,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "Oof. I'm sorry to hear that. I had trouble sleeping last night myself, but overall I'm feeling a bit better. Sticking to the simple foods with lots of fiber."
+                ],
+                "time_norm": {
+                    "event_day": 857,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_864_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 864,
+                "symptom": "sleep_disturbance",
+                "triple": "我 能够重新入睡",
+                "evidence": [
+                    "I'm mostly better now. Was able to fall back to sleep and felt better when I woke up around noon."
+                ],
+                "time_norm": {
+                    "event_day": 864,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_870_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 870,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 非常担心的情绪",
+                "evidence": [
+                    "That's fucking crazy. LOL Who lies about that shit? And to do it so badly... Like... Acting like you don't care and shit? I was told I needed to get one when I was sick last week and I was BESIDE MYSELF with worry even though I was like 90% sure I was fine."
+                ],
+                "time_norm": {
+                    "event_day": 870,
+                    "days_ago": 58,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_877_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 877,
+                "symptom": "somatic_muscle",
+                "triple": "我 感到 肌肉异常紧绷",
+                "evidence": [
+                    "Been really into massage porn videos recently. I guessing it is from being insanely touch starved and also that my muscles are crazy tight from non-stop stress these days."
+                ],
+                "time_norm": {
+                    "event_day": 877,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_887_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 887,
+                "symptom": "Anger_Irritability",
+                "triple": "我 发出现 一股强烈的愤怒",
+                "evidence": [
+                    "I understand being exhausted with the safety measures, I am too. But now is not the time to bury our heads in the sand and make travel plans to see family for the holidays. Things are only going to get worse and we aren't doing enough. And it sends me into a fucking rage."
+                ],
+                "time_norm": {
+                    "event_day": 887,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_893_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 893,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 难以进行 去社交平台或外出活动",
+                "evidence": [
+                    "I miss having the energy to do things like go on social media or go out twice in the same weekend or have a nice night out after work... I do feel like I'm finally pulling out of the deepest part of the hole this pandemic put me in, but oof is there so much left before the top."
+                ],
+                "time_norm": {
+                    "event_day": 893,
+                    "days_ago": 35,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_903_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 903,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 难以进行 社交互动",
+                "evidence": [
+                    "I miss having the energy to come on Twitter and interact with people. Hasn't been this same since Covid really picked up steam here. Just... It's been real hard to avoid the urge to doomscroll and the less I'm on here the better it is for my brain."
+                ],
+                "time_norm": {
+                    "event_day": 903,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_914_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 914,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 出现 胃部痉挛",
+                "evidence": [
+                    "Doing OK. Had some really bad stomach cramps last night that kept me up but I think they are mostly gone now."
+                ],
+                "time_norm": {
+                    "event_day": 914,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_928_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 928,
+                "symptom": "poor_memory",
+                "triple": "我 难以进行 记得吃午饭",
+                "evidence": [
+                    "It took me a while to remember to have lunch breaks while working at home. And some days I still just forget and have lunch at like 2pm. And when I'm done with work I often take the three steps from my desk to my bed and that's it for the day."
+                ],
+                "time_norm": {
+                    "event_day": 928,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_857_sleep_disturbance",
+                "target": "SYM_864_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_864_sleep_disturbance",
+                "target": "SYM_870_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_870_Anxious_Mood",
+                "target": "SYM_877_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_877_somatic_muscle",
+                "target": "SYM_887_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_887_Anger_Irritability",
+                "target": "SYM_893_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_893_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_903_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_903_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_914_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_914_Gastrointestinal_symptoms",
+                "target": "SYM_928_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_857_sleep_disturbance",
+                "target": "SYM_864_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_893_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_903_Decreased_energy_tiredness_fatigue",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "857": [
+                    "SYM_857_sleep_disturbance"
+                ],
+                "864": [
+                    "SYM_864_sleep_disturbance"
+                ],
+                "870": [
+                    "SYM_870_Anxious_Mood"
+                ],
+                "877": [
+                    "SYM_877_somatic_muscle"
+                ],
+                "887": [
+                    "SYM_887_Anger_Irritability"
+                ],
+                "893": [
+                    "SYM_893_Decreased_energy_tiredness_fatigue"
+                ],
+                "903": [
+                    "SYM_903_Decreased_energy_tiredness_fatigue"
+                ],
+                "914": [
+                    "SYM_914_Gastrointestinal_symptoms"
+                ],
+                "928": [
+                    "SYM_928_poor_memory"
+                ]
+            },
+            "by_symptom": {
+                "sleep_disturbance": [
+                    "SYM_857_sleep_disturbance",
+                    "SYM_864_sleep_disturbance"
+                ],
+                "Anxious_Mood": [
+                    "SYM_870_Anxious_Mood"
+                ],
+                "somatic_muscle": [
+                    "SYM_877_somatic_muscle"
+                ],
+                "Anger_Irritability": [
+                    "SYM_887_Anger_Irritability"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_893_Decreased_energy_tiredness_fatigue",
+                    "SYM_903_Decreased_energy_tiredness_fatigue"
+                ],
+                "Gastrointestinal_symptoms": [
+                    "SYM_914_Gastrointestinal_symptoms"
+                ],
+                "poor_memory": [
+                    "SYM_928_poor_memory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_928_poor_memory"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_914_Gastrointestinal_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_903_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_887_Anger_Irritability",
+                "SYM_893_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_877_somatic_muscle"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_870_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_864_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_857_sleep_disturbance"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 记得吃午饭。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 胃部痉挛。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 难以进行 社交互动。代表时间点：3周前（25天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 去社交平台或外出活动；我 发出现 一股强烈的愤怒。代表时间点：1个月前（35天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 肌肉异常紧绷。代表时间点：1个月前（51天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 非常担心的情绪。代表时间点：1个月前（58天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 能够重新入睡。代表时间点：2个月前（64天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 睡眠。代表时间点：2个月前（71天前）。"
+        }
+    ]
+}

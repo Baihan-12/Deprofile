@@ -1,0 +1,738 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 115,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_29_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 29,
+                "symptom": "Depressed_Mood",
+                "triple": "我 遭受 持续恶化的心理症状",
+                "evidence": [
+                    "Yeah the most frustrating thing about that shit is basically all mood symptoms be fixed by CBT/talk therapy/a handful of meds But for most people rn it's not just depression it's ongoing trauma and in TWENTY FIVE YEARS those three have only made mine worse cuz it's not just me🙃"
+                ],
+                "time_norm": {
+                    "event_day": 29,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_29_drastical_shift_in_mood_and_energy",
+                "node_type": "Symptom",
+                "timestamp_day": 29,
+                "symptom": "drastical_shift_in_mood_and_energy",
+                "triple": "我 感到 情绪和精力状况持续恶化",
+                "evidence": [
+                    "Yeah the most frustrating thing about that shit is basically all mood symptoms be fixed by CBT/talk therapy/a handful of meds But for most people rn it's not just depression it's ongoing trauma and in TWENTY FIVE YEARS those three have only made mine worse cuz it's not just me🙃"
+                ],
+                "time_norm": {
+                    "event_day": 29,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_33_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 33,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Sobbing"
+                ],
+                "time_norm": {
+                    "event_day": 33,
+                    "days_ago": 82,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_33_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 33,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Sobbing"
+                ],
+                "time_norm": {
+                    "event_day": 33,
+                    "days_ago": 82,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_45_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 45,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 自杀念头",
+                "evidence": [
+                    "Im dying"
+                ],
+                "time_norm": {
+                    "event_day": 45,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_59_Worthlessness_and_guilty",
+                "node_type": "Symptom",
+                "timestamp_day": 59,
+                "symptom": "Worthlessness_and_guilty",
+                "triple": "我 出现 晨起时的负面情绪",
+                "evidence": [
+                    "Like I end up feeling bad about it after waking up even before i process NO I did not do the endanger other ppl thing"
+                ],
+                "time_norm": {
+                    "event_day": 59,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_67_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 67,
+                "symptom": "poor_memory",
+                "triple": "我 难以进行 记忆具体行为",
+                "evidence": [
+                    "I for the record afaik have NEVER claimed I did anything I didn't explicitly remember doing??? so that makes it worse like do you know how much effort it takes me, with my severe short term memory issue, to remember that shit? I can barely remember to brush my teeth!!!"
+                ],
+                "time_norm": {
+                    "event_day": 67,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_76_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 76,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 情绪低落",
+                "evidence": [
+                    "Sob"
+                ],
+                "time_norm": {
+                    "event_day": 76,
+                    "days_ago": 39,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_90_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 90,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 低血压",
+                "evidence": [
+                    "Also I have seen \"long covid\" people say they ended up diagnosed with postural orthostatic tachycardia syndrome, which causes low blood pressure so..."
+                ],
+                "time_norm": {
+                    "event_day": 90,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_91_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 91,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 感到 体重增加且裤子变紧",
+                "evidence": [
+                    "Even I gained weight this year and I actually have problems with involuntary weight loss usually Honestly even though I am 100% ok with getting fatter due to that, I am actually a bit worried because MY pants are also getting tight and getting fitting ones just objectively sucks"
+                ],
+                "time_norm": {
+                    "event_day": 91,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_92_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 92,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 社交活动",
+                "evidence": [
+                    "Car classes are 20 classes a year and in the same catagory as concerts and pokemon go. You lost literally years of anxiety progress I have lost basically nothing wrt that because I am still having more talking to people then you by a lot"
+                ],
+                "time_norm": {
+                    "event_day": 92,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_92_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 92,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 日常支付",
+                "evidence": [
+                    "I had my credit card shut off this month because I forgot to pay it because i don't have a brain from the constant anxiety so uhh"
+                ],
+                "time_norm": {
+                    "event_day": 92,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_102_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 102,
+                "symptom": "poor_memory",
+                "triple": "我 难以进行 短期记忆",
+                "evidence": [
+                    "I have no short term memory and appreciated the supernatural ones for ex... But they were roughly 30 seconds long usually and easy to ignore Have you ever watched an anime made by toei oh my fucking god HALF THE EPISODE is recap usually literally no one needs that much"
+                ],
+                "time_norm": {
+                    "event_day": 102,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_105_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 105,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 难以控制的情绪反应",
+                "evidence": [
+                    "This one made me cry too rip"
+                ],
+                "time_norm": {
+                    "event_day": 105,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_108_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 108,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 身体问题",
+                "evidence": [
+                    "Thanks to being dx'd with it at like age 5 so it's the first thing most drs see in my med records, I have had every single health problem I have had including shit like dislocations and swelling on being depressed. Even when the actual depression symptoms were in remission."
+                ],
+                "time_norm": {
+                    "event_day": 108,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_115_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 115,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 难以进行日常活动",
+                "evidence": [
+                    "i am so fucking sad i can only have the most breathable cotton comforters and would probably develop a fever if i had this"
+                ],
+                "time_norm": {
+                    "event_day": 115,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_29_Depressed_Mood",
+                "target": "SYM_29_drastical_shift_in_mood_and_energy",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_29_drastical_shift_in_mood_and_energy",
+                "target": "SYM_33_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_33_Depressed_Mood",
+                "target": "SYM_33_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_33_somatic_symptoms_others",
+                "target": "SYM_45_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_45_Suicidal_ideas",
+                "target": "SYM_59_Worthlessness_and_guilty",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_59_Worthlessness_and_guilty",
+                "target": "SYM_67_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_67_poor_memory",
+                "target": "SYM_76_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_76_Depressed_Mood",
+                "target": "SYM_90_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_90_Autonomic_symptoms",
+                "target": "SYM_91_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_91_weight_and_appetite_change",
+                "target": "SYM_92_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_92_Anxious_Mood",
+                "target": "SYM_92_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_92_Anxious_Mood",
+                "target": "SYM_102_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_102_poor_memory",
+                "target": "SYM_105_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_105_Depressed_Mood",
+                "target": "SYM_108_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_108_Depressed_Mood",
+                "target": "SYM_115_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_29_Depressed_Mood",
+                "target": "SYM_33_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_33_Depressed_Mood",
+                "target": "SYM_76_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_76_Depressed_Mood",
+                "target": "SYM_105_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_105_Depressed_Mood",
+                "target": "SYM_108_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_108_Depressed_Mood",
+                "target": "SYM_115_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_67_poor_memory",
+                "target": "SYM_102_poor_memory",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_92_Anxious_Mood",
+                "target": "SYM_92_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "29": [
+                    "SYM_29_Depressed_Mood",
+                    "SYM_29_drastical_shift_in_mood_and_energy"
+                ],
+                "33": [
+                    "SYM_33_Depressed_Mood",
+                    "SYM_33_somatic_symptoms_others"
+                ],
+                "45": [
+                    "SYM_45_Suicidal_ideas"
+                ],
+                "59": [
+                    "SYM_59_Worthlessness_and_guilty"
+                ],
+                "67": [
+                    "SYM_67_poor_memory"
+                ],
+                "76": [
+                    "SYM_76_Depressed_Mood"
+                ],
+                "90": [
+                    "SYM_90_Autonomic_symptoms"
+                ],
+                "91": [
+                    "SYM_91_weight_and_appetite_change"
+                ],
+                "92": [
+                    "SYM_92_Anxious_Mood",
+                    "SYM_92_Anxious_Mood"
+                ],
+                "102": [
+                    "SYM_102_poor_memory"
+                ],
+                "105": [
+                    "SYM_105_Depressed_Mood"
+                ],
+                "108": [
+                    "SYM_108_Depressed_Mood"
+                ],
+                "115": [
+                    "SYM_115_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_29_Depressed_Mood",
+                    "SYM_33_Depressed_Mood",
+                    "SYM_76_Depressed_Mood",
+                    "SYM_105_Depressed_Mood",
+                    "SYM_108_Depressed_Mood",
+                    "SYM_115_Depressed_Mood"
+                ],
+                "drastical_shift_in_mood_and_energy": [
+                    "SYM_29_drastical_shift_in_mood_and_energy"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_33_somatic_symptoms_others"
+                ],
+                "Suicidal_ideas": [
+                    "SYM_45_Suicidal_ideas"
+                ],
+                "Worthlessness_and_guilty": [
+                    "SYM_59_Worthlessness_and_guilty"
+                ],
+                "poor_memory": [
+                    "SYM_67_poor_memory",
+                    "SYM_102_poor_memory"
+                ],
+                "Autonomic_symptoms": [
+                    "SYM_90_Autonomic_symptoms"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_91_weight_and_appetite_change"
+                ],
+                "Anxious_Mood": [
+                    "SYM_92_Anxious_Mood",
+                    "SYM_92_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_115_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_102_poor_memory",
+                "SYM_105_Depressed_Mood",
+                "SYM_108_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_90_Autonomic_symptoms",
+                "SYM_91_weight_and_appetite_change",
+                "SYM_92_Anxious_Mood",
+                "SYM_92_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_76_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_67_poor_memory"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_59_Worthlessness_and_guilty"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_45_Suicidal_ideas"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_33_Depressed_Mood",
+                "SYM_33_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_29_Depressed_Mood",
+                "SYM_29_drastical_shift_in_mood_and_energy"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 难以进行日常活动。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 身体问题；我 出现 难以控制的情绪反应；我 难以进行 短期记忆。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 难以进行 日常支付；我 感到 体重增加且裤子变紧。代表时间点：3周前（23天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 情绪低落。代表时间点：1个月前（39天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 记忆具体行为。代表时间点：1个月前（48天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 晨起时的负面情绪。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 自杀念头。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 哭泣。代表时间点：2个月前（82天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 遭受 持续恶化的心理症状；我 感到 情绪和精力状况持续恶化。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1050,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1031_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1031,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 对 amy coney barrett 被确认的焦虑",
+                "evidence": [
+                    "is it valid to be scared and anxious that amy coney barrett was confirmed?"
+                ],
+                "time_norm": {
+                    "event_day": 1031,
+                    "days_ago": 19,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1042_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1042,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "IM CRYING OH MY GOD"
+                ],
+                "time_norm": {
+                    "event_day": 1042,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1050_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1050,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 严重焦虑",
+                "evidence": [
+                    "i hate it when people are like “omg why do your hands look like that they look so sad :(“ dawg i have severe anxiety"
+                ],
+                "time_norm": {
+                    "event_day": 1050,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1031_Anxious_Mood",
+                "target": "SYM_1042_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1042_Depressed_Mood",
+                "target": "SYM_1050_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1031_Anxious_Mood",
+                "target": "SYM_1050_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1031": [
+                    "SYM_1031_Anxious_Mood"
+                ],
+                "1042": [
+                    "SYM_1042_Depressed_Mood"
+                ],
+                "1050": [
+                    "SYM_1050_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_1031_Anxious_Mood",
+                    "SYM_1050_Anxious_Mood"
+                ],
+                "Depressed_Mood": [
+                    "SYM_1042_Depressed_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1050_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_1042_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1031_Anxious_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 严重焦虑。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 哭泣。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 对 amy coney barrett 被确认的焦虑。代表时间点：2周前（19天前）。"
+        }
+    ]
+}

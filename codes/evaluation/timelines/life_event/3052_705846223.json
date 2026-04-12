@@ -1,0 +1,928 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1099,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1010_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1010,
+                "time_norm": {
+                    "event_day": 1010,
+                    "days_ago": 89,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失重 多",
+                "event_summary_cn": "用户表示自己体重明显下降"
+            },
+            {
+                "id": "EV_1012_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1012,
+                "time_norm": {
+                    "event_day": 1012,
+                    "days_ago": 87,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 给予生命 给某人",
+                "event_summary_cn": "用户因感情受挫而情绪宣泄"
+            },
+            {
+                "id": "EV_1012_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1012,
+                "time_norm": {
+                    "event_day": 1012,
+                    "days_ago": 87,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 与朋友关系破裂 朋友支持他人新关系",
+                "event_summary_cn": "用户因朋友支持他人新关系而关系破裂"
+            },
+            {
+                "id": "EV_1013_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1013,
+                "time_norm": {
+                    "event_day": 1013,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到失败 我是最好的女朋友",
+                "event_summary_cn": "用户感到自己失败但认为自己是好女友"
+            },
+            {
+                "id": "EV_1013_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1013,
+                "time_norm": {
+                    "event_day": 1013,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 3 次家庭成员死亡",
+                "event_summary_cn": "用户经历三次家庭成员死亡"
+            },
+            {
+                "id": "EV_1013_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1013,
+                "time_norm": {
+                    "event_day": 1013,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 情感背叛与忽视",
+                "event_summary_cn": "用户经历情感背叛与忽视"
+            },
+            {
+                "id": "EV_1013_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1013,
+                "time_norm": {
+                    "event_day": 1013,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 三段失败的恋爱关系",
+                "event_summary_cn": "用户经历三段失败恋爱关系"
+            },
+            {
+                "id": "EV_1014_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1014,
+                "time_norm": {
+                    "event_day": 1014,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受到背叛",
+                "event_summary_cn": "用户感到被背叛"
+            },
+            {
+                "id": "EV_1021_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1021,
+                "time_norm": {
+                    "event_day": 1021,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要 移居 Florida 或 North Carolina",
+                "event_summary_cn": "用户表达移居意向"
+            },
+            {
+                "id": "EV_1023_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1023,
+                "time_norm": {
+                    "event_day": 1023,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 离开 爱我的人",
+                "event_summary_cn": "用户因爱而离开所爱之人"
+            },
+            {
+                "id": "EV_1024_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1024,
+                "time_norm": {
+                    "event_day": 1024,
+                    "days_ago": 75,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受 情感崩溃",
+                "event_summary_cn": "用户经历情感崩溃"
+            },
+            {
+                "id": "EV_1037_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1037,
+                "time_norm": {
+                    "event_day": 1037,
+                    "days_ago": 62,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去童年朋友 klu",
+                "event_summary_cn": "用户失去童年好友klu"
+            },
+            {
+                "id": "EV_1038_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1038,
+                "time_norm": {
+                    "event_day": 1038,
+                    "days_ago": 61,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 恢复 体型",
+                "event_summary_cn": "用户因分手恢复体型"
+            },
+            {
+                "id": "EV_1042_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1042,
+                "time_norm": {
+                    "event_day": 1042,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 爱情经历 另一个女孩",
+                "event_summary_cn": "用户经历失恋但成长"
+            },
+            {
+                "id": "EV_1044_14",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1044,
+                "time_norm": {
+                    "event_day": 1044,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 与某人结束关系",
+                "event_summary_cn": "用户与某人结束关系"
+            },
+            {
+                "id": "EV_1050_15",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1050,
+                "time_norm": {
+                    "event_day": 1050,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 保持友谊 Jimmy",
+                "event_summary_cn": "用户与Jimmy保持八年友谊"
+            },
+            {
+                "id": "EV_1063_16",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1063,
+                "time_norm": {
+                    "event_day": 1063,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成 汽车保险",
+                "event_summary_cn": "用户一天内完成汽车保险"
+            },
+            {
+                "id": "EV_1063_17",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1063,
+                "time_norm": {
+                    "event_day": 1063,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去前任男友 无法再联系",
+                "event_summary_cn": "失去前任男友无法再联系"
+            },
+            {
+                "id": "EV_1071_18",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1071,
+                "time_norm": {
+                    "event_day": 1071,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始 去健身房",
+                "event_summary_cn": "用户决定每天去健身房"
+            },
+            {
+                "id": "EV_1078_19",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1078,
+                "time_norm": {
+                    "event_day": 1078,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 原配关系结束  ex",
+                "event_summary_cn": "用户前男友经历情感变化"
+            },
+            {
+                "id": "EV_1085_20",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1085,
+                "time_norm": {
+                    "event_day": 1085,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 缺少 Mimi",
+                "event_summary_cn": "用户因亲人离世而悲伤"
+            },
+            {
+                "id": "EV_1086_21",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1086,
+                "time_norm": {
+                    "event_day": 1086,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 损伤 他人",
+                "event_summary_cn": "用户因前任伤害而长期单身"
+            },
+            {
+                "id": "EV_1094_22",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1094,
+                "time_norm": {
+                    "event_day": 1094,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 记忆 信任被打破的过去",
+                "event_summary_cn": "回忆信任被打破的过往"
+            },
+            {
+                "id": "EV_1096_23",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1096,
+                "time_norm": {
+                    "event_day": 1096,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 返回 墨西哥",
+                "event_summary_cn": "用户将返回墨西哥"
+            },
+            {
+                "id": "EV_1097_24",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1097,
+                "time_norm": {
+                    "event_day": 1097,
+                    "days_ago": 2,
+                    "relative_cn": "2天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被前任背叛",
+                "event_summary_cn": "用户被前任背叛感到愤怒"
+            },
+            {
+                "id": "EV_1099_25",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1099,
+                "time_norm": {
+                    "event_day": 1099,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 认为 我未来的丈夫",
+                "event_summary_cn": "用户认为自己找到了未来丈夫"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1010_0",
+                "target": "EV_1012_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1012_1",
+                "target": "EV_1012_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1012_2",
+                "target": "EV_1013_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1013_3",
+                "target": "EV_1013_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1013_4",
+                "target": "EV_1013_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1013_5",
+                "target": "EV_1013_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1013_6",
+                "target": "EV_1014_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1014_7",
+                "target": "EV_1021_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1021_8",
+                "target": "EV_1023_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1023_9",
+                "target": "EV_1024_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1024_10",
+                "target": "EV_1037_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1037_11",
+                "target": "EV_1038_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1038_12",
+                "target": "EV_1042_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1042_13",
+                "target": "EV_1044_14",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1044_14",
+                "target": "EV_1050_15",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1050_15",
+                "target": "EV_1063_16",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1063_16",
+                "target": "EV_1063_17",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1063_17",
+                "target": "EV_1071_18",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1071_18",
+                "target": "EV_1078_19",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1078_19",
+                "target": "EV_1085_20",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1085_20",
+                "target": "EV_1086_21",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1086_21",
+                "target": "EV_1094_22",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1094_22",
+                "target": "EV_1096_23",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1096_23",
+                "target": "EV_1097_24",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1097_24",
+                "target": "EV_1099_25",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1010": [
+                    "EV_1010_0"
+                ],
+                "1012": [
+                    "EV_1012_1",
+                    "EV_1012_2"
+                ],
+                "1013": [
+                    "EV_1013_3",
+                    "EV_1013_4",
+                    "EV_1013_5",
+                    "EV_1013_6"
+                ],
+                "1014": [
+                    "EV_1014_7"
+                ],
+                "1021": [
+                    "EV_1021_8"
+                ],
+                "1023": [
+                    "EV_1023_9"
+                ],
+                "1024": [
+                    "EV_1024_10"
+                ],
+                "1037": [
+                    "EV_1037_11"
+                ],
+                "1038": [
+                    "EV_1038_12"
+                ],
+                "1042": [
+                    "EV_1042_13"
+                ],
+                "1044": [
+                    "EV_1044_14"
+                ],
+                "1050": [
+                    "EV_1050_15"
+                ],
+                "1063": [
+                    "EV_1063_16",
+                    "EV_1063_17"
+                ],
+                "1071": [
+                    "EV_1071_18"
+                ],
+                "1078": [
+                    "EV_1078_19"
+                ],
+                "1085": [
+                    "EV_1085_20"
+                ],
+                "1086": [
+                    "EV_1086_21"
+                ],
+                "1094": [
+                    "EV_1094_22"
+                ],
+                "1096": [
+                    "EV_1096_23"
+                ],
+                "1097": [
+                    "EV_1097_24"
+                ],
+                "1099": [
+                    "EV_1099_25"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1094_22",
+                "EV_1096_23",
+                "EV_1097_24",
+                "EV_1099_25"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_1086_21"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_1085_20"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_1078_19"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_1071_18"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1063_16",
+                "EV_1063_17"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1044_14",
+                "EV_1050_15"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1037_11",
+                "EV_1038_12",
+                "EV_1042_13"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1023_9",
+                "EV_1024_10"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1021_8"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1010_0",
+                "EV_1012_1",
+                "EV_1012_2",
+                "EV_1013_3",
+                "EV_1013_4",
+                "EV_1013_5",
+                "EV_1013_6",
+                "EV_1014_7"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 认为 我未来的丈夫；我 被前任背叛。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 损伤 他人。代表时间点：1周前（13天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 缺少 Mimi。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 原配关系结束  ex。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 开始 去健身房。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 完成 汽车保险；我 失去前任男友 无法再联系。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 保持友谊 Jimmy；我 与某人结束关系。代表时间点：1个月前（49天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 爱情经历 另一个女孩；我 恢复 体型。代表时间点：1个月前（57天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感受 情感崩溃；我 离开 爱我的人。代表时间点：2个月前（75天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 想要 移居 Florida 或 North Carolina。代表时间点：2个月前（78天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 感受到背叛；我 感到失败 我是最好的女朋友。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

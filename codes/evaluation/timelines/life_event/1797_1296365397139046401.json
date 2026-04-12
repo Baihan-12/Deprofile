@@ -1,0 +1,350 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 122,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_43_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 43,
+                "time_norm": {
+                    "event_day": 43,
+                    "days_ago": 79,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 发现自己是女性认同的非二元人",
+                "event_summary_cn": "用户发现自己是女性认同的非二元人"
+            },
+            {
+                "id": "EV_78_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 78,
+                "time_norm": {
+                    "event_day": 78,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 注意到 跨性别旗帜比同性恋旗帜稍薄",
+                "event_summary_cn": "用户注意到跨性别旗帜比同性恋旗帜薄"
+            },
+            {
+                "id": "EV_80_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 80,
+                "time_norm": {
+                    "event_day": 80,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受到 身份认同带来的认知功能下降",
+                "event_summary_cn": "用户因性别认同感到认知功能下降"
+            },
+            {
+                "id": "EV_80_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 80,
+                "time_norm": {
+                    "event_day": 80,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 朋友 出柜",
+                "event_summary_cn": "朋友出柜，引发讨论"
+            },
+            {
+                "id": "EV_85_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 85,
+                "time_norm": {
+                    "event_day": 85,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被创作者找到 我的 lesbian 心",
+                "event_summary_cn": "用户被创作者内容触动"
+            },
+            {
+                "id": "EV_93_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 93,
+                "time_norm": {
+                    "event_day": 93,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 喜欢 yakkō",
+                "event_summary_cn": "用户因yakkō产生好感"
+            },
+            {
+                "id": "EV_103_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 103,
+                "time_norm": {
+                    "event_day": 103,
+                    "days_ago": 19,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被贴标签 为 lesbian",
+                "event_summary_cn": "用户被贴上女同性恋标签"
+            },
+            {
+                "id": "EV_122_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 122,
+                "time_norm": {
+                    "event_day": 122,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 认为 butches 在 lesbian 中被低估",
+                "event_summary_cn": "用户认为 butches 被低估"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_43_0",
+                "target": "EV_78_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_78_1",
+                "target": "EV_80_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_80_2",
+                "target": "EV_80_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_80_3",
+                "target": "EV_85_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_85_4",
+                "target": "EV_93_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_93_5",
+                "target": "EV_103_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_103_6",
+                "target": "EV_122_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "43": [
+                    "EV_43_0"
+                ],
+                "78": [
+                    "EV_78_1"
+                ],
+                "80": [
+                    "EV_80_2",
+                    "EV_80_3"
+                ],
+                "85": [
+                    "EV_85_4"
+                ],
+                "93": [
+                    "EV_93_5"
+                ],
+                "103": [
+                    "EV_103_6"
+                ],
+                "122": [
+                    "EV_122_7"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_122_7"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_103_6"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_93_5"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_85_4"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_78_1",
+                "EV_80_2",
+                "EV_80_3"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_43_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 认为 butches 在 lesbian 中被低估。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 被贴标签 为 lesbian。代表时间点：2周前（19天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 喜欢 yakkō。代表时间点：4周前（29天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 被创作者找到 我的 lesbian 心。代表时间点：1个月前（37天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感受到 身份认同带来的认知功能下降；我 朋友 出柜。代表时间点：1个月前（42天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 发现自己是女性认同的非二元人。代表时间点：2个月前（79天前）。"
+        }
+    ]
+}

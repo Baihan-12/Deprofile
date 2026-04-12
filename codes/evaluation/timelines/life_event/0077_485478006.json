@@ -1,0 +1,110 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 597,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_526_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 526,
+                "time_norm": {
+                    "event_day": 526,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历  rape",
+                "event_summary_cn": "用户在休息站遭遇性侵"
+            },
+            {
+                "id": "EV_597_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 597,
+                "time_norm": {
+                    "event_day": 597,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始新工作",
+                "event_summary_cn": "用户开始新工作"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_526_0",
+                "target": "EV_597_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "526": [
+                    "EV_526_0"
+                ],
+                "597": [
+                    "EV_597_1"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_597_1"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_526_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 开始新工作。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 经历  rape。代表时间点：2个月前（71天前）。"
+        }
+    ]
+}

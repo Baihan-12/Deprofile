@@ -1,0 +1,121 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 2091,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_2026_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 2026,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 感到 心痛",
+                "evidence": [
+                    "I'm getting offline, my heart hurts. This year keeps getting worse"
+                ],
+                "time_norm": {
+                    "event_day": 2026,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2091_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 2091,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 高焦虑",
+                "evidence": [
+                    "Mood tho, my anxiety has been high for almost a week now"
+                ],
+                "time_norm": {
+                    "event_day": 2091,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_2026_Cardiovascular_symptoms",
+                "target": "SYM_2091_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "2026": [
+                    "SYM_2026_Cardiovascular_symptoms"
+                ],
+                "2091": [
+                    "SYM_2091_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Cardiovascular_symptoms": [
+                    "SYM_2026_Cardiovascular_symptoms"
+                ],
+                "Anxious_Mood": [
+                    "SYM_2091_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_2091_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_2026_Cardiovascular_symptoms"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 高焦虑。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 心痛。代表时间点：2个月前（65天前）。"
+        }
+    ]
+}

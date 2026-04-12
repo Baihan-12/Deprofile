@@ -1,0 +1,533 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 50,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1,
+                "time_norm": {
+                    "event_day": 1,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 识别为 Lesbian",
+                "event_summary_cn": "用户自我认同为女同性恋"
+            },
+            {
+                "id": "EV_3_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 3,
+                "time_norm": {
+                    "event_day": 3,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 新生儿 宝宝",
+                "event_summary_cn": "用户迎来新生儿宝宝"
+            },
+            {
+                "id": "EV_3_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 3,
+                "time_norm": {
+                    "event_day": 3,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 自称 性取向为女同性恋",
+                "event_summary_cn": "用户宣布自己为女同性恋"
+            },
+            {
+                "id": "EV_4_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 4,
+                "time_norm": {
+                    "event_day": 4,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 新生儿 宝宝",
+                "event_summary_cn": "用户迎来新生儿宝宝"
+            },
+            {
+                "id": "EV_5_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 5,
+                "time_norm": {
+                    "event_day": 5,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 新生儿 宝宝",
+                "event_summary_cn": "用户迎来新生儿宝宝"
+            },
+            {
+                "id": "EV_5_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 5,
+                "time_norm": {
+                    "event_day": 5,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 自称 性取向为女同性恋",
+                "event_summary_cn": "用户公开自己的性取向"
+            },
+            {
+                "id": "EV_15_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 15,
+                "time_norm": {
+                    "event_day": 15,
+                    "days_ago": 35,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 确认性取向  lesbian",
+                "event_summary_cn": "用户确认自己是女同性恋"
+            },
+            {
+                "id": "EV_17_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 17,
+                "time_norm": {
+                    "event_day": 17,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 新生儿 宝宝",
+                "event_summary_cn": "用户迎来新生儿宝宝"
+            },
+            {
+                "id": "EV_21_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 21,
+                "time_norm": {
+                    "event_day": 21,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 确认性取向  lesbian",
+                "event_summary_cn": "用户确认自己是女同性恋"
+            },
+            {
+                "id": "EV_21_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 21,
+                "time_norm": {
+                    "event_day": 21,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 确认性取向 为女同性恋",
+                "event_summary_cn": "用户确认自己为女同性恋"
+            },
+            {
+                "id": "EV_22_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 22,
+                "time_norm": {
+                    "event_day": 22,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 确认性取向 为女同性恋",
+                "event_summary_cn": "用户确认自己为女同性恋"
+            },
+            {
+                "id": "EV_26_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 26,
+                "time_norm": {
+                    "event_day": 26,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受 爱不存在",
+                "event_summary_cn": "用户认为爱已不存在"
+            },
+            {
+                "id": "EV_33_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 33,
+                "time_norm": {
+                    "event_day": 33,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 自称 同性恋",
+                "event_summary_cn": "用户自述为女同性恋"
+            },
+            {
+                "id": "EV_34_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 34,
+                "time_norm": {
+                    "event_day": 34,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 表达 自我认同",
+                "event_summary_cn": "用户表达自我认同"
+            },
+            {
+                "id": "EV_34_14",
+                "node_type": "LifeEvent",
+                "timestamp_day": 34,
+                "time_norm": {
+                    "event_day": 34,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到 恶心",
+                "event_summary_cn": "用户表达自身负面情绪"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1_0",
+                "target": "EV_3_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_3_1",
+                "target": "EV_3_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_3_2",
+                "target": "EV_4_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_4_3",
+                "target": "EV_5_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_5_4",
+                "target": "EV_5_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_5_5",
+                "target": "EV_15_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_15_6",
+                "target": "EV_17_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_17_7",
+                "target": "EV_21_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_21_8",
+                "target": "EV_21_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_21_9",
+                "target": "EV_22_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_22_10",
+                "target": "EV_26_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_26_11",
+                "target": "EV_33_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_33_12",
+                "target": "EV_34_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_34_13",
+                "target": "EV_34_14",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1": [
+                    "EV_1_0"
+                ],
+                "3": [
+                    "EV_3_1",
+                    "EV_3_2"
+                ],
+                "4": [
+                    "EV_4_3"
+                ],
+                "5": [
+                    "EV_5_4",
+                    "EV_5_5"
+                ],
+                "15": [
+                    "EV_15_6"
+                ],
+                "17": [
+                    "EV_17_7"
+                ],
+                "21": [
+                    "EV_21_8",
+                    "EV_21_9"
+                ],
+                "22": [
+                    "EV_22_10"
+                ],
+                "26": [
+                    "EV_26_11"
+                ],
+                "33": [
+                    "EV_33_12"
+                ],
+                "34": [
+                    "EV_34_13",
+                    "EV_34_14"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_33_12",
+                "EV_34_13",
+                "EV_34_14"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_26_11"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_17_7",
+                "EV_21_8",
+                "EV_21_9",
+                "EV_22_10"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_15_6"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_3_1",
+                "EV_3_2",
+                "EV_4_3",
+                "EV_5_4",
+                "EV_5_5"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 表达 自我认同；我 感到 恶心。代表时间点：2周前（16天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 感受 爱不存在。代表时间点：3周前（24天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 确认性取向 为女同性恋；我 确认性取向  lesbian。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 确认性取向  lesbian。代表时间点：1个月前（35天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 有 新生儿 宝宝；我 自称 性取向为女同性恋。代表时间点：1个月前（45天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 识别为 Lesbian。代表时间点：1个月前（49天前）。"
+        }
+    ]
+}

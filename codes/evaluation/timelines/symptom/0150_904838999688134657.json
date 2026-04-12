@@ -1,0 +1,426 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 32,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_2_Impulsivity",
+                "node_type": "Symptom",
+                "timestamp_day": 2,
+                "symptom": "Impulsivity",
+                "triple": "我 难以进行 等待",
+                "evidence": [
+                    "Couldn't wait 47 days"
+                ],
+                "time_norm": {
+                    "event_day": 2,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 2,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 更多泪水",
+                "evidence": [
+                    "CRY MORE"
+                ],
+                "time_norm": {
+                    "event_day": 2,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 2,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 更多泪水",
+                "evidence": [
+                    "CRY MORE"
+                ],
+                "time_norm": {
+                    "event_day": 2,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_3_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 3,
+                "symptom": "poor_memory",
+                "triple": "我 出现 记忆恢复",
+                "evidence": [
+                    "i cant even recall how many times we got wiped. oh shit.. my memories are coming back. I'm calling the hospital to get meds for PTSD"
+                ],
+                "time_norm": {
+                    "event_day": 3,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_5_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 5,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "some people will seek attention but some people genuinely have depression. Years ago I was diagnosed with depression, should I just tweet"
+                ],
+                "time_norm": {
+                    "event_day": 5,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_6_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 6,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 难以进行 自杀",
+                "evidence": [
+                    "I cant even commit suicide properly ):"
+                ],
+                "time_norm": {
+                    "event_day": 6,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_6_do_things_easily_get_painful_consequences",
+                "node_type": "Symptom",
+                "timestamp_day": 6,
+                "symptom": "do_things_easily_get_painful_consequences",
+                "triple": "我 难以进行 自杀",
+                "evidence": [
+                    "I cant even commit suicide properly ):"
+                ],
+                "time_norm": {
+                    "event_day": 6,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_8_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 8,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 想要死亡的念头",
+                "evidence": [
+                    "Wanting to die"
+                ],
+                "time_norm": {
+                    "event_day": 8,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_21_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 21,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "real insomnia hours, we never sleep"
+                ],
+                "time_norm": {
+                    "event_day": 21,
+                    "days_ago": 11,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_32_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 32,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 工作",
+                "evidence": [
+                    "Been up for thirty+ hours and I have to 3 hours left of my shift before I can go to sleep"
+                ],
+                "time_norm": {
+                    "event_day": 32,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_2_Impulsivity",
+                "target": "SYM_2_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2_Depressed_Mood",
+                "target": "SYM_2_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2_somatic_symptoms_others",
+                "target": "SYM_3_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_3_poor_memory",
+                "target": "SYM_5_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_5_Depressed_Mood",
+                "target": "SYM_6_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_6_Suicidal_ideas",
+                "target": "SYM_6_do_things_easily_get_painful_consequences",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_6_do_things_easily_get_painful_consequences",
+                "target": "SYM_8_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_8_Suicidal_ideas",
+                "target": "SYM_21_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_21_sleep_disturbance",
+                "target": "SYM_32_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2_Depressed_Mood",
+                "target": "SYM_5_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_6_Suicidal_ideas",
+                "target": "SYM_8_Suicidal_ideas",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_21_sleep_disturbance",
+                "target": "SYM_32_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "2": [
+                    "SYM_2_Impulsivity",
+                    "SYM_2_Depressed_Mood",
+                    "SYM_2_somatic_symptoms_others"
+                ],
+                "3": [
+                    "SYM_3_poor_memory"
+                ],
+                "5": [
+                    "SYM_5_Depressed_Mood"
+                ],
+                "6": [
+                    "SYM_6_Suicidal_ideas",
+                    "SYM_6_do_things_easily_get_painful_consequences"
+                ],
+                "8": [
+                    "SYM_8_Suicidal_ideas"
+                ],
+                "21": [
+                    "SYM_21_sleep_disturbance"
+                ],
+                "32": [
+                    "SYM_32_sleep_disturbance"
+                ]
+            },
+            "by_symptom": {
+                "Impulsivity": [
+                    "SYM_2_Impulsivity"
+                ],
+                "Depressed_Mood": [
+                    "SYM_2_Depressed_Mood",
+                    "SYM_5_Depressed_Mood"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_2_somatic_symptoms_others"
+                ],
+                "poor_memory": [
+                    "SYM_3_poor_memory"
+                ],
+                "Suicidal_ideas": [
+                    "SYM_6_Suicidal_ideas",
+                    "SYM_8_Suicidal_ideas"
+                ],
+                "do_things_easily_get_painful_consequences": [
+                    "SYM_6_do_things_easily_get_painful_consequences"
+                ],
+                "sleep_disturbance": [
+                    "SYM_21_sleep_disturbance",
+                    "SYM_32_sleep_disturbance"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_32_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_21_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_5_Depressed_Mood",
+                "SYM_6_Suicidal_ideas",
+                "SYM_6_do_things_easily_get_painful_consequences",
+                "SYM_8_Suicidal_ideas"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_2_Impulsivity",
+                "SYM_2_Depressed_Mood",
+                "SYM_2_somatic_symptoms_others",
+                "SYM_3_poor_memory"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 工作。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 难以进行 睡眠。代表时间点：1周前（11天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 想要死亡的念头；我 难以进行 自杀。代表时间点：3周前（24天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 记忆恢复；我 难以进行 等待；我 出现 更多泪水。代表时间点：4周前（29天前）。"
+        }
+    ]
+}

@@ -1,0 +1,351 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 923,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_849_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 849,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 观察到焦虑时的强迫倾向",
+                "evidence": [
+                    "Not autism related at all. Obsessive compulsive tendencies in anxiety are pretty common."
+                ],
+                "time_norm": {
+                    "event_day": 849,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_864_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 864,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 总是脱位的髋关节和肩关节",
+                "evidence": [
+                    "Total dislocation happens to my hip and shoulder sometimes. It's MUCH harder to move, and hurts a lot when I do (usually shooting pains originating at the dislocation). Mainly it's the \"wrong\" feeling that persists, though. Like an instinct screaming at me to fix it."
+                ],
+                "time_norm": {
+                    "event_day": 864,
+                    "days_ago": 59,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_868_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 868,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "No rain clouds here. I'm just crying."
+                ],
+                "time_norm": {
+                    "event_day": 868,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_875_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 875,
+                "symptom": "Anger_Irritability",
+                "triple": "我 难以进行 情绪表达",
+                "evidence": [
+                    "As far as I'm concerned Linkin Park can always trend. They gave angry, hurt adolescent and teenage me words for what I was feeling when I didn't have any."
+                ],
+                "time_norm": {
+                    "event_day": 875,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_877_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 877,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 对命运失去控制",
+                "evidence": [
+                    "I'm enraged that people who don't even know me have complete control over my fate. People who decide disability in NYS, insurance workers who deny treatment and tests, doctors who don't care and shunt me out the moment I'm a \"difficult\" case, &amp; a government who'd prefer me dead."
+                ],
+                "time_norm": {
+                    "event_day": 877,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_881_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 881,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 受影响 更严重的疲劳和疼痛",
+                "evidence": [
+                    "When my CPTSD is triggered, I absolutely notice an increase in severity of flare ups for my hEDS. I'm also triggered into meltdowns more easily for my autism during those times, and that further exacerbates the fatigue and pain as well."
+                ],
+                "time_norm": {
+                    "event_day": 881,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_923_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 923,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 脾气暴躁",
+                "evidence": [
+                    "....well, I've got rage to spare now."
+                ],
+                "time_norm": {
+                    "event_day": 923,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_849_Anxious_Mood",
+                "target": "SYM_864_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_864_somatic_symptoms_others",
+                "target": "SYM_868_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_868_Depressed_Mood",
+                "target": "SYM_875_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_875_Anger_Irritability",
+                "target": "SYM_877_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_877_Anger_Irritability",
+                "target": "SYM_881_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_881_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_923_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_875_Anger_Irritability",
+                "target": "SYM_877_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_877_Anger_Irritability",
+                "target": "SYM_923_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "849": [
+                    "SYM_849_Anxious_Mood"
+                ],
+                "864": [
+                    "SYM_864_somatic_symptoms_others"
+                ],
+                "868": [
+                    "SYM_868_Depressed_Mood"
+                ],
+                "875": [
+                    "SYM_875_Anger_Irritability"
+                ],
+                "877": [
+                    "SYM_877_Anger_Irritability"
+                ],
+                "881": [
+                    "SYM_881_Decreased_energy_tiredness_fatigue"
+                ],
+                "923": [
+                    "SYM_923_Anger_Irritability"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_849_Anxious_Mood"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_864_somatic_symptoms_others"
+                ],
+                "Depressed_Mood": [
+                    "SYM_868_Depressed_Mood"
+                ],
+                "Anger_Irritability": [
+                    "SYM_875_Anger_Irritability",
+                    "SYM_877_Anger_Irritability",
+                    "SYM_923_Anger_Irritability"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_881_Decreased_energy_tiredness_fatigue"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_923_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_875_Anger_Irritability",
+                "SYM_877_Anger_Irritability",
+                "SYM_881_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_868_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_864_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_849_Anxious_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 脾气暴躁。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 受影响 更严重的疲劳和疼痛；我 感到 对命运失去控制；我 难以进行 情绪表达。代表时间点：1个月前（42天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 哭泣。代表时间点：1个月前（55天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 总是脱位的髋关节和肩关节。代表时间点：1个月前（59天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 观察到焦虑时的强迫倾向。代表时间点：2个月前（74天前）。"
+        }
+    ]
+}

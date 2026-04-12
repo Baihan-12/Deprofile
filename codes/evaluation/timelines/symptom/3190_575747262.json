@@ -1,0 +1,848 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 174,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_89_Hyperactivity_agitation",
+                "node_type": "Symptom",
+                "timestamp_day": 89,
+                "symptom": "Hyperactivity_agitation",
+                "triple": "我 出现 内部焦躁不安",
+                "evidence": [
+                    "Exactly, internal restlessness is more common than external hyperactivity - especially in adults. 20 years ago they thought that adults didn’t have ADHD, because they were only looking for stereotypical ‘naughty boy’ behaviour."
+                ],
+                "time_norm": {
+                    "event_day": 89,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_89_Hyperactivity_agitation",
+                "node_type": "Symptom",
+                "timestamp_day": 89,
+                "symptom": "Hyperactivity_agitation",
+                "triple": "我 出现  chaotic thoughts in my brain",
+                "evidence": [
+                    "I thought I was inattentive when first learning about ADHD, but now I recognise that the chaotic thoughts in my brain are mental hyperactivity. There are also coping strategies - like exercise, and masking - which cover up physical restlessness."
+                ],
+                "time_norm": {
+                    "event_day": 89,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_93_Hyperactivity_agitation",
+                "node_type": "Symptom",
+                "timestamp_day": 93,
+                "symptom": "Hyperactivity_agitation",
+                "triple": "我 出现 精神不安",
+                "evidence": [
+                    "Mental restlessness is for sure the most uncomfortable of the two. Exercise and medication help to calm it but it never goes away. IMO that’s the main reason for the very high substance use disorder rates in ADHDers."
+                ],
+                "time_norm": {
+                    "event_day": 93,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_99_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 99,
+                "symptom": "Inattention",
+                "triple": "我 受影响 难以进行优先级排序",
+                "evidence": [
+                    "You’re exactly right about being reactive/proactive too. Meds give me mental clarity, control, and space. I can prioritise and consider what I actually want to do. When the only thing which motivates you is stress, you can only deal with emergencies. They’ve truly changed my life"
+                ],
+                "time_norm": {
+                    "event_day": 99,
+                    "days_ago": 75,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_102_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 102,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 日常活动",
+                "evidence": [
+                    "I thought I just had depression until I researched ADHD and I was then diagnosed with that too. Doctors are very bad at recognising it, 92% of adults in the UK are undiagnosed. Depression and anxiety are also much more likely if you have ADHD."
+                ],
+                "time_norm": {
+                    "event_day": 102,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_103_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 103,
+                "symptom": "Inattention",
+                "triple": "我 遭受 7年痛苦",
+                "evidence": [
+                    "It was even worse for me. I diagnosed my own ADHD at 17, but because my academic performance hadn’t yet suffered enough my school told me that I couldn’t have it. That caused me 7 more years of suffering before I pushed for a diagnosis again."
+                ],
+                "time_norm": {
+                    "event_day": 103,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_106_Impulsivity",
+                "node_type": "Symptom",
+                "timestamp_day": 106,
+                "symptom": "Impulsivity",
+                "triple": "我 遭遇 未被诊断的冲动控制问题",
+                "evidence": [
+                    "I actually discovered I had it at 17 - but my school denied that I could because of my academic performance up to then. So after suffering through 7 more years undiagnosed I wasn’t going to wait another 2."
+                ],
+                "time_norm": {
+                    "event_day": 106,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_117_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 117,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 出现 体力下降和疲劳",
+                "evidence": [
+                    "I’m currently dealing with Chronic Fatigue Syndrome because I pushed myself too hard after getting diagnosed and medicated for ADHD. I’m probably going to have to take months off work, so hopefully that’s a devastating enough reason why you should rest when you need it!"
+                ],
+                "time_norm": {
+                    "event_day": 117,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_138_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 138,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 复习",
+                "evidence": [
+                    "I told my school I had ADHD at 17 when I failed my exams due to an inability to revise. Their response was - “You can’t have ADHD because you’ve been academically successful until now” Yeah because I’d never needed to revise 🙄 Finally diagnosed at 24"
+                ],
+                "time_norm": {
+                    "event_day": 138,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_138_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 138,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 小任务处理",
+                "evidence": [
+                    "It makes you feel dissociated and makes small tasks much harder to process. I’ve had to stop working completely because I just couldn’t cope."
+                ],
+                "time_norm": {
+                    "event_day": 138,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_138_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 138,
+                "symptom": "poor_memory",
+                "triple": "我 难以进行 小任务处理",
+                "evidence": [
+                    "It makes you feel dissociated and makes small tasks much harder to process. I’ve had to stop working completely because I just couldn’t cope."
+                ],
+                "time_norm": {
+                    "event_day": 138,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_141_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 141,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 精力明显下降",
+                "evidence": [
+                    "Masking is extremely uncomfortable. It takes a massive amount of energy and you never feel truly yourself. Being diagnosed with ADHD gave me the freedom to be myself and I’ve never felt happier. Teaching him to bend himself to others will only hurt him in the long run."
+                ],
+                "time_norm": {
+                    "event_day": 141,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_141_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 141,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "Absolutely! I had depression due to being undiagnosed, my sister has had health problems too and my 10yo niece is starting to show signs of issues. That’s the saddest thing - it’s both very treatable and very damaging. Proper investment would have been exponential returns"
+                ],
+                "time_norm": {
+                    "event_day": 141,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_164_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 164,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 大脑运行缓慢",
+                "evidence": [
+                    "Depression feels like your brain is running too slowly - ADHD feels like it’s running too fast."
+                ],
+                "time_norm": {
+                    "event_day": 164,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_167_Impulsivity",
+                "node_type": "Symptom",
+                "timestamp_day": 167,
+                "symptom": "Impulsivity",
+                "triple": "我 难以进行 在会议中打断对话",
+                "evidence": [
+                    "No problem! I go through stages where it’s something I worry about, particularly in meetings at work when I have to interrupt the conversation. One thing that helped was noticing how often EVERYONE stumbles on their words, but it’s only when we do it that we think it’s important"
+                ],
+                "time_norm": {
+                    "event_day": 167,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_167_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 167,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑时的不适体验",
+                "evidence": [
+                    "I think it happens most when you are anxious and the amygdala gets involved, particularly when anxious about exactly that thing happening. So practice retrieval, but the best thing is probably to work on not feeling so embarrassed when it does happen - which will be less often"
+                ],
+                "time_norm": {
+                    "event_day": 167,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_170_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 170,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 气愤",
+                "evidence": [
+                    "Apparently because they “can’t differentiate” between cognitive difficulties from ADHD or CFS. I got a 1st class degree in Finance when unmedicated, now I need help caring for myself 😒 Just going to have to go private AGAIN. It makes me angry for those who can’t afford to"
+                ],
+                "time_norm": {
+                    "event_day": 170,
+                    "days_ago": 4,
+                    "relative_cn": "4天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_170_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 170,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 工作",
+                "evidence": [
+                    "I was diagnosed with ADHD early this year, then got ME/CFS a few months ago. It’s so hard going from working out 6 days a week - to manage my ADHD - to not being able to do anything. Such a difficult combination of conditions!"
+                ],
+                "time_norm": {
+                    "event_day": 170,
+                    "days_ago": 4,
+                    "relative_cn": "4天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_174_Hyperactivity_agitation",
+                "node_type": "Symptom",
+                "timestamp_day": 174,
+                "symptom": "Hyperactivity_agitation",
+                "triple": "我 感到 身体不安",
+                "evidence": [
+                    "Yeah I thought I was inattentive because I was a well behaved kid, but that was just because I had long breaks and played sport every day. Working in an office all day I felt the physical restlessness building up inside me, so I went to the gym straight from work to let it out."
+                ],
+                "time_norm": {
+                    "event_day": 174,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_89_Hyperactivity_agitation",
+                "target": "SYM_89_Hyperactivity_agitation",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_89_Hyperactivity_agitation",
+                "target": "SYM_93_Hyperactivity_agitation",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_93_Hyperactivity_agitation",
+                "target": "SYM_99_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_99_Inattention",
+                "target": "SYM_102_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_102_Depressed_Mood",
+                "target": "SYM_103_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_103_Inattention",
+                "target": "SYM_106_Impulsivity",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_106_Impulsivity",
+                "target": "SYM_117_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_117_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_138_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_138_Inattention",
+                "target": "SYM_138_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_138_Inattention",
+                "target": "SYM_138_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_138_poor_memory",
+                "target": "SYM_141_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_141_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_141_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_141_Depressed_Mood",
+                "target": "SYM_164_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_164_Depressed_Mood",
+                "target": "SYM_167_Impulsivity",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_167_Impulsivity",
+                "target": "SYM_167_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_167_Anxious_Mood",
+                "target": "SYM_170_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_170_Anger_Irritability",
+                "target": "SYM_170_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_170_Inattention",
+                "target": "SYM_174_Hyperactivity_agitation",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_89_Hyperactivity_agitation",
+                "target": "SYM_89_Hyperactivity_agitation",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_89_Hyperactivity_agitation",
+                "target": "SYM_93_Hyperactivity_agitation",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_93_Hyperactivity_agitation",
+                "target": "SYM_174_Hyperactivity_agitation",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_99_Inattention",
+                "target": "SYM_103_Inattention",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_103_Inattention",
+                "target": "SYM_138_Inattention",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_138_Inattention",
+                "target": "SYM_138_Inattention",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_138_Inattention",
+                "target": "SYM_170_Inattention",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_102_Depressed_Mood",
+                "target": "SYM_141_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_141_Depressed_Mood",
+                "target": "SYM_164_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_106_Impulsivity",
+                "target": "SYM_167_Impulsivity",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_117_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_141_Decreased_energy_tiredness_fatigue",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "89": [
+                    "SYM_89_Hyperactivity_agitation",
+                    "SYM_89_Hyperactivity_agitation"
+                ],
+                "93": [
+                    "SYM_93_Hyperactivity_agitation"
+                ],
+                "99": [
+                    "SYM_99_Inattention"
+                ],
+                "102": [
+                    "SYM_102_Depressed_Mood"
+                ],
+                "103": [
+                    "SYM_103_Inattention"
+                ],
+                "106": [
+                    "SYM_106_Impulsivity"
+                ],
+                "117": [
+                    "SYM_117_Decreased_energy_tiredness_fatigue"
+                ],
+                "138": [
+                    "SYM_138_Inattention",
+                    "SYM_138_Inattention",
+                    "SYM_138_poor_memory"
+                ],
+                "141": [
+                    "SYM_141_Decreased_energy_tiredness_fatigue",
+                    "SYM_141_Depressed_Mood"
+                ],
+                "164": [
+                    "SYM_164_Depressed_Mood"
+                ],
+                "167": [
+                    "SYM_167_Impulsivity",
+                    "SYM_167_Anxious_Mood"
+                ],
+                "170": [
+                    "SYM_170_Anger_Irritability",
+                    "SYM_170_Inattention"
+                ],
+                "174": [
+                    "SYM_174_Hyperactivity_agitation"
+                ]
+            },
+            "by_symptom": {
+                "Hyperactivity_agitation": [
+                    "SYM_89_Hyperactivity_agitation",
+                    "SYM_89_Hyperactivity_agitation",
+                    "SYM_93_Hyperactivity_agitation",
+                    "SYM_174_Hyperactivity_agitation"
+                ],
+                "Inattention": [
+                    "SYM_99_Inattention",
+                    "SYM_103_Inattention",
+                    "SYM_138_Inattention",
+                    "SYM_138_Inattention",
+                    "SYM_170_Inattention"
+                ],
+                "Depressed_Mood": [
+                    "SYM_102_Depressed_Mood",
+                    "SYM_141_Depressed_Mood",
+                    "SYM_164_Depressed_Mood"
+                ],
+                "Impulsivity": [
+                    "SYM_106_Impulsivity",
+                    "SYM_167_Impulsivity"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_117_Decreased_energy_tiredness_fatigue",
+                    "SYM_141_Decreased_energy_tiredness_fatigue"
+                ],
+                "poor_memory": [
+                    "SYM_138_poor_memory"
+                ],
+                "Anxious_Mood": [
+                    "SYM_167_Anxious_Mood"
+                ],
+                "Anger_Irritability": [
+                    "SYM_170_Anger_Irritability"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_170_Anger_Irritability",
+                "SYM_170_Inattention",
+                "SYM_174_Hyperactivity_agitation"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_164_Depressed_Mood",
+                "SYM_167_Impulsivity",
+                "SYM_167_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_141_Decreased_energy_tiredness_fatigue",
+                "SYM_141_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_138_Inattention",
+                "SYM_138_Inattention",
+                "SYM_138_poor_memory"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_117_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_106_Impulsivity"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_99_Inattention",
+                "SYM_102_Depressed_Mood",
+                "SYM_103_Inattention"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_93_Hyperactivity_agitation"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_89_Hyperactivity_agitation",
+                "SYM_89_Hyperactivity_agitation"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 身体不安；我 感到 气愤；我 难以进行 工作。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 难以进行 在会议中打断对话；我 出现 焦虑时的不适体验；我 感到 大脑运行缓慢。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 感到 精力明显下降；我 出现 抑郁情绪。代表时间点：1个月前（33天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 小任务处理。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 体力下降和疲劳。代表时间点：1个月前（57天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 遭遇 未被诊断的冲动控制问题。代表时间点：2个月前（68天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 遭受 7年痛苦；我 难以进行 日常活动；我 受影响 难以进行优先级排序。代表时间点：2个月前（71天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 精神不安。代表时间点：2个月前（81天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现  chaotic thoughts in my brain。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

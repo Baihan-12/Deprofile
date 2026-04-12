@@ -1,0 +1,570 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 591,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_540_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 540,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 想要死亡但害怕死亡的矛盾感受",
+                "evidence": [
+                    "i wanna die but i’m also scared of dying; you see my problem?"
+                ],
+                "time_norm": {
+                    "event_day": 540,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_547_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 547,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 入睡",
+                "evidence": [
+                    "trying to fall asleep but i cant stop thinking about how we have to pretend to be asleep to actually fall asleep"
+                ],
+                "time_norm": {
+                    "event_day": 547,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_548_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 548,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 对他人行为的愤怒与不满",
+                "evidence": [
+                    "gets me SO angry why do people just not care about what’s going on but suddenly when all their mates are doing it they feel like they have to"
+                ],
+                "time_norm": {
+                    "event_day": 548,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_562_Respiratory_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 562,
+                "symptom": "Respiratory_symptoms",
+                "triple": "我 难以进行 呼吸",
+                "evidence": [
+                    "yes pls stop breathing"
+                ],
+                "time_norm": {
+                    "event_day": 562,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_562_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 562,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 更害怕外出",
+                "evidence": [
+                    "i’m literally scared to go out more than i was before like wot"
+                ],
+                "time_norm": {
+                    "event_day": 562,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_564_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 564,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 自杀念头",
+                "evidence": [
+                    "i want to die"
+                ],
+                "time_norm": {
+                    "event_day": 564,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_564_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 564,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 无法控制的哭泣",
+                "evidence": [
+                    "i don’t know why i’m crying over this but it is so pure 🥺🥺🥺🥺"
+                ],
+                "time_norm": {
+                    "event_day": 564,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_564_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 564,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 无法控制的哭泣",
+                "evidence": [
+                    "i don’t know why i’m crying over this but it is so pure 🥺🥺🥺🥺"
+                ],
+                "time_norm": {
+                    "event_day": 564,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_575_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 575,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 听到One Direction重聚时起鸡皮疙瘩",
+                "evidence": [
+                    "the thought of one direction getting back together actually makes me have goosebumps"
+                ],
+                "time_norm": {
+                    "event_day": 575,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_576_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 576,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 入睡",
+                "evidence": [
+                    "does anyone else get too anxious to go to slee or am i just weird"
+                ],
+                "time_norm": {
+                    "event_day": 576,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_576_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 576,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 实际流泪",
+                "evidence": [
+                    "i am so shook right now actual tears down my face what the fuck"
+                ],
+                "time_norm": {
+                    "event_day": 576,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_585_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 585,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 自我控制的社交行为",
+                "evidence": [
+                    "sometimes i put myself in situations where i know i’m the centre of attention so i know the reason people are laughing at me is something in my control rather than worrying that people are laughing at me for something i don’t know i’m doing"
+                ],
+                "time_norm": {
+                    "event_day": 585,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_591_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 591,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 对自己最坏的恐惧感到好奇",
+                "evidence": [
+                    "omg this is my worst fear but i want to see i’m really curious"
+                ],
+                "time_norm": {
+                    "event_day": 591,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_540_Suicidal_ideas",
+                "target": "SYM_547_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_547_sleep_disturbance",
+                "target": "SYM_548_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_548_Anger_Irritability",
+                "target": "SYM_562_Respiratory_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_562_Respiratory_symptoms",
+                "target": "SYM_562_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_562_Anxious_Mood",
+                "target": "SYM_564_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_564_Suicidal_ideas",
+                "target": "SYM_564_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_564_Depressed_Mood",
+                "target": "SYM_564_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_564_somatic_symptoms_others",
+                "target": "SYM_575_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_575_somatic_symptoms_sensory",
+                "target": "SYM_576_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_576_Anxious_Mood",
+                "target": "SYM_576_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_576_Depressed_Mood",
+                "target": "SYM_585_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_585_Anxious_Mood",
+                "target": "SYM_591_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_540_Suicidal_ideas",
+                "target": "SYM_564_Suicidal_ideas",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_562_Anxious_Mood",
+                "target": "SYM_576_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_576_Anxious_Mood",
+                "target": "SYM_585_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_585_Anxious_Mood",
+                "target": "SYM_591_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_564_Depressed_Mood",
+                "target": "SYM_576_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "540": [
+                    "SYM_540_Suicidal_ideas"
+                ],
+                "547": [
+                    "SYM_547_sleep_disturbance"
+                ],
+                "548": [
+                    "SYM_548_Anger_Irritability"
+                ],
+                "562": [
+                    "SYM_562_Respiratory_symptoms",
+                    "SYM_562_Anxious_Mood"
+                ],
+                "564": [
+                    "SYM_564_Suicidal_ideas",
+                    "SYM_564_Depressed_Mood",
+                    "SYM_564_somatic_symptoms_others"
+                ],
+                "575": [
+                    "SYM_575_somatic_symptoms_sensory"
+                ],
+                "576": [
+                    "SYM_576_Anxious_Mood",
+                    "SYM_576_Depressed_Mood"
+                ],
+                "585": [
+                    "SYM_585_Anxious_Mood"
+                ],
+                "591": [
+                    "SYM_591_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Suicidal_ideas": [
+                    "SYM_540_Suicidal_ideas",
+                    "SYM_564_Suicidal_ideas"
+                ],
+                "sleep_disturbance": [
+                    "SYM_547_sleep_disturbance"
+                ],
+                "Anger_Irritability": [
+                    "SYM_548_Anger_Irritability"
+                ],
+                "Respiratory_symptoms": [
+                    "SYM_562_Respiratory_symptoms"
+                ],
+                "Anxious_Mood": [
+                    "SYM_562_Anxious_Mood",
+                    "SYM_576_Anxious_Mood",
+                    "SYM_585_Anxious_Mood",
+                    "SYM_591_Anxious_Mood"
+                ],
+                "Depressed_Mood": [
+                    "SYM_564_Depressed_Mood",
+                    "SYM_576_Depressed_Mood"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_564_somatic_symptoms_others"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_575_somatic_symptoms_sensory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_585_Anxious_Mood",
+                "SYM_591_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_575_somatic_symptoms_sensory",
+                "SYM_576_Anxious_Mood",
+                "SYM_576_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_564_Suicidal_ideas",
+                "SYM_564_Depressed_Mood",
+                "SYM_564_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_562_Respiratory_symptoms",
+                "SYM_562_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_547_sleep_disturbance",
+                "SYM_548_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_540_Suicidal_ideas"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 对自己最坏的恐惧感到好奇；我 难以进行 自我控制的社交行为。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 难以进行 入睡；我 出现 实际流泪；我 出现 听到One Direction重聚时起鸡皮疙瘩。代表时间点：2周前（15天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 自杀念头；我 出现 无法控制的哭泣。代表时间点：3周前（27天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 难以进行 呼吸；我 感到 更害怕外出。代表时间点：4周前（29天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 对他人行为的愤怒与不满；我 难以进行 入睡。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 想要死亡但害怕死亡的矛盾感受。代表时间点：1个月前（51天前）。"
+        }
+    ]
+}

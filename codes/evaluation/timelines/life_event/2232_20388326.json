@@ -1,0 +1,305 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1834,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1774_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1774,
+                "time_norm": {
+                    "event_day": 1774,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 停止随意饮食 回归饮食计划",
+                "event_summary_cn": "用户结束自由饮食，准备重新规划饮食"
+            },
+            {
+                "id": "EV_1779_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1779,
+                "time_norm": {
+                    "event_day": 1779,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 遭遇 严重车祸",
+                "event_summary_cn": "用户附近发生致命车祸"
+            },
+            {
+                "id": "EV_1783_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1783,
+                "time_norm": {
+                    "event_day": 1783,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到骄傲 我的侄女成长",
+                "event_summary_cn": "用户侄女成长令其感到骄傲"
+            },
+            {
+                "id": "EV_1798_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1798,
+                "time_norm": {
+                    "event_day": 1798,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始骑行",
+                "event_summary_cn": "用户开始进行骑行活动"
+            },
+            {
+                "id": "EV_1801_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1801,
+                "time_norm": {
+                    "event_day": 1801,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参与 国家自行车周活动",
+                "event_summary_cn": "用户参与国家自行车周活动"
+            },
+            {
+                "id": "EV_1833_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1833,
+                "time_norm": {
+                    "event_day": 1833,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参与 女儿洗礼",
+                "event_summary_cn": "用户分享侄女洗礼的回忆"
+            },
+            {
+                "id": "EV_1834_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1834,
+                "time_norm": {
+                    "event_day": 1834,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 走路 减轻焦虑",
+                "event_summary_cn": "用户通过走路减轻焦虑"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1774_0",
+                "target": "EV_1779_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1779_1",
+                "target": "EV_1783_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1783_2",
+                "target": "EV_1798_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1798_3",
+                "target": "EV_1801_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1801_4",
+                "target": "EV_1833_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1833_5",
+                "target": "EV_1834_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1774": [
+                    "EV_1774_0"
+                ],
+                "1779": [
+                    "EV_1779_1"
+                ],
+                "1783": [
+                    "EV_1783_2"
+                ],
+                "1798": [
+                    "EV_1798_3"
+                ],
+                "1801": [
+                    "EV_1801_4"
+                ],
+                "1833": [
+                    "EV_1833_5"
+                ],
+                "1834": [
+                    "EV_1834_6"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1833_5",
+                "EV_1834_6"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_1801_4"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1798_3"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1779_1",
+                "EV_1783_2"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1774_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 走路 减轻焦虑；我 参与 女儿洗礼。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 参与 国家自行车周活动。代表时间点：1个月前（33天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 开始骑行。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到骄傲 我的侄女成长；我 遭遇 严重车祸。代表时间点：1个月前（51天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 停止随意饮食 回归饮食计划。代表时间点：2个月前（60天前）。"
+        }
+    ]
+}

@@ -1,0 +1,971 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 700,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_631_Worthlessness_and_guilty",
+                "node_type": "Symptom",
+                "timestamp_day": 631,
+                "symptom": "Worthlessness_and_guilty",
+                "triple": "我 感到 自己的努力不被认可",
+                "evidence": [
+                    "Yeah it really sucks :/ Even the times when I have been actively \"working on loosing weight\" (not really, I try to eat better and be more physically active to *feel* better) it seems like such an inane things to compliment. Out of all the things I am and do."
+                ],
+                "time_norm": {
+                    "event_day": 631,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_631_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 631,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 闪回",
+                "evidence": [
+                    "This gave me flashbacks to my first year at uni"
+                ],
+                "time_norm": {
+                    "event_day": 631,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_640_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 640,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 把抑郁/愤世嫉俗当作笑料",
+                "evidence": [
+                    "I'll just add, me making fun of my depression/cynicism is usually an indicator I'm doing pretty alright, I can see the joke in things and use that to move past it. Making fun of my depression makes it seem less serious and unmanageable :v"
+                ],
+                "time_norm": {
+                    "event_day": 640,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_643_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 643,
+                "symptom": "Inattention",
+                "triple": "我 受影响 更容易专注于故事而忽略其他任务",
+                "evidence": [
+                    "Listening to a really engaging podcasts makes me less likely to get distracted. Say, while doing the dishes or laundry. Because I'm all caught up in the story the rest kinda goes on autopilot and makes it less likely I'll spot something else that needs doing and get derailed."
+                ],
+                "time_norm": {
+                    "event_day": 643,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_648_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 648,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 思考",
+                "evidence": [
+                    "Before I read up on it: Energetic and distractible Thoughts about myself before I read up on it: Just a hopeless unorganised terrible person. After: The brain works differently and there's a whole bunch of things I should make considerations for, but that's fine."
+                ],
+                "time_norm": {
+                    "event_day": 648,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_650_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 650,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 慢慢的焦虑感",
+                "evidence": [
+                    "This is slowly stressing me out"
+                ],
+                "time_norm": {
+                    "event_day": 650,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_653_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 653,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 规律进食",
+                "evidence": [
+                    "I'm keeping a very close eye on it, so far it's been a pretty big help? It's made me more regularly eat breakfast, which has been a life long problem for me. I'm \"supposed to\" eat at 11, because that's when my window starts, so I can't wait until 15-16 like I have done sometimes"
+                ],
+                "time_norm": {
+                    "event_day": 653,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_653_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 653,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 清洁饮食和生酮饮食的区分",
+                "evidence": [
+                    "I've struggled with disordered eating, though not an eating disorder (it was never about weight or body image). The ones that got me were the \"bad\" and \"good\" foods, so particularly things like \"clean eating\", keto, etc. Myfitnesspal made it easier to obsess over detailed numbers"
+                ],
+                "time_norm": {
+                    "event_day": 653,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_658_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 658,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 社交活动",
+                "evidence": [
+                    "Does being isolated at home bc of depression count? If so I'm all in."
+                ],
+                "time_norm": {
+                    "event_day": 658,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_660_drastical_shift_in_mood_and_energy",
+                "node_type": "Symptom",
+                "timestamp_day": 660,
+                "symptom": "drastical_shift_in_mood_and_energy",
+                "triple": "我 出现 情绪剧烈波动",
+                "evidence": [
+                    "I don't mind having the reproductive parts (not that I'll ever use them) but the way it wrecked havoc on my body really sucked. No more back pain, major digestive problems, intense mood swings, and a bunch of other smaller problems."
+                ],
+                "time_norm": {
+                    "event_day": 660,
+                    "days_ago": 40,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_683_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 683,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 时间管理",
+                "evidence": [
+                    "Keeping time scales straight is a big problem with ADHD. Everything is either \"now\" or \"not now\". Making it a weekly thing and having deadlines for various tasks made it a lot easier to see things as \"now\", and not something that could be done in the distant future."
+                ],
+                "time_norm": {
+                    "event_day": 683,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_683_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 683,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 集中注意力",
+                "evidence": [
+                    "(Not diagnosed, but have a strong suspicion, also only done a masters, not a phd, so feel free to ignore) I knit during any lectures, I need to keep my hands busy if I'm supposed to be listening. I'm terrible with long term deadlines, I set up weekly ones with my counsellor."
+                ],
+                "time_norm": {
+                    "event_day": 683,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_686_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 686,
+                "symptom": "Depressed_Mood",
+                "triple": "我 受影响 面对社交互动减少",
+                "evidence": [
+                    "I mean, my workplace just shut down. If I'm not going to work that cuts out a good 90-95% of the people I interact with on a weekly basis."
+                ],
+                "time_norm": {
+                    "event_day": 686,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_690_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 690,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "I'm using this as an opportunity to chip away at my depression-mess from last year. Life has been extremely hectic lately, and now I suddenly have a lot of time. I am chilling a lot, but clearing out this mess is having a great effect on my mental health."
+                ],
+                "time_norm": {
+                    "event_day": 690,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_692_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 692,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 精力明显下降",
+                "evidence": [
+                    "Preface: Being stuck at home bc of disability sounds absolutely horrible That said, I'm quite enjoying not having to go out because of C19. It takes an immense amount of energy, and now I don't have to. I call my boss, and sit with my work in bed. It's a big relief tbh."
+                ],
+                "time_norm": {
+                    "event_day": 692,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_694_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 694,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 出现 食欲增加",
+                "evidence": [
+                    "The most drastic thing I've done all week is... eating a little too much ice cream :V"
+                ],
+                "time_norm": {
+                    "event_day": 694,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_695_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 695,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 对社交圈和家人的健康状况担忧",
+                "evidence": [
+                    "I'm not scared for myself, at all. I am super worried about a lot of my social circle that work in event management, sound industry, etc. Also for my family member who have asthma, heart problems, or are just old."
+                ],
+                "time_norm": {
+                    "event_day": 695,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_697_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 697,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 疲惫",
+                "evidence": [
+                    "That's what I've been doing for the past week. I don't really think that's what I have, but (wet) coughing and feeling tired is enough that I'm staying away from people."
+                ],
+                "time_norm": {
+                    "event_day": 697,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_699_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 699,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 准备和外出活动",
+                "evidence": [
+                    "I'm finally dealing with my depression mess from my last bout of Bad Brain Times, suddenly I have the excess time and energy to chip away at it a little bit at a time. Honestly, having to get ready and go place ate up so much of what I could do."
+                ],
+                "time_norm": {
+                    "event_day": 699,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_700_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 700,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 集中注意力",
+                "evidence": [
+                    "\"Is it ADHD or am I just lazy?\" \"am I scatterbrained or..?\" \"Is it a condition or am I just disrespectful of other peoples time?\""
+                ],
+                "time_norm": {
+                    "event_day": 700,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_700_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 700,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 疲劳",
+                "evidence": [
+                    "Pretty sure my tiredness is from not moving much. The three days I had a workout in the morning I had no problem keeping it up through the day. But that's nothing new for me, the less I move the worse I feel."
+                ],
+                "time_norm": {
+                    "event_day": 700,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_700_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 700,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 社交",
+                "evidence": [
+                    "But because I was so good at hiding my issues from everyone around me (including my massive depression that went undiagnosed and unrecognised for ten years) it doesn't seem like I had any problems before my 20s. Even if I did :/"
+                ],
+                "time_norm": {
+                    "event_day": 700,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_700_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 700,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 日常生活",
+                "evidence": [
+                    "Yeah I didn't really start having \"problems\" (if you ignore my mental health and insomnia) until a couple years into university, when I fell apart because I suddenly lost all structure around me. I didn't oversleep bc I had three family members waking me up to get the same bus."
+                ],
+                "time_norm": {
+                    "event_day": 700,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_631_Worthlessness_and_guilty",
+                "target": "SYM_631_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_631_intrusion_symptoms",
+                "target": "SYM_640_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_640_Depressed_Mood",
+                "target": "SYM_643_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_643_Inattention",
+                "target": "SYM_648_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_648_Inattention",
+                "target": "SYM_650_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_650_Anxious_Mood",
+                "target": "SYM_653_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_653_weight_and_appetite_change",
+                "target": "SYM_653_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_653_weight_and_appetite_change",
+                "target": "SYM_658_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_658_Depressed_Mood",
+                "target": "SYM_660_drastical_shift_in_mood_and_energy",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_660_drastical_shift_in_mood_and_energy",
+                "target": "SYM_683_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_683_Inattention",
+                "target": "SYM_683_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_683_Inattention",
+                "target": "SYM_686_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_686_Depressed_Mood",
+                "target": "SYM_690_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_690_Depressed_Mood",
+                "target": "SYM_692_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_692_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_694_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_694_weight_and_appetite_change",
+                "target": "SYM_695_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_695_Anxious_Mood",
+                "target": "SYM_697_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_697_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_699_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_699_Depressed_Mood",
+                "target": "SYM_700_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_700_Inattention",
+                "target": "SYM_700_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_700_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_700_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_700_Depressed_Mood",
+                "target": "SYM_700_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_640_Depressed_Mood",
+                "target": "SYM_658_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_658_Depressed_Mood",
+                "target": "SYM_686_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_686_Depressed_Mood",
+                "target": "SYM_690_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_690_Depressed_Mood",
+                "target": "SYM_699_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_699_Depressed_Mood",
+                "target": "SYM_700_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_643_Inattention",
+                "target": "SYM_648_Inattention",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_648_Inattention",
+                "target": "SYM_683_Inattention",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_683_Inattention",
+                "target": "SYM_683_Inattention",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_683_Inattention",
+                "target": "SYM_700_Inattention",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_650_Anxious_Mood",
+                "target": "SYM_695_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_653_weight_and_appetite_change",
+                "target": "SYM_653_weight_and_appetite_change",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_653_weight_and_appetite_change",
+                "target": "SYM_694_weight_and_appetite_change",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_692_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_697_Decreased_energy_tiredness_fatigue",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_697_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_700_Decreased_energy_tiredness_fatigue",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "631": [
+                    "SYM_631_Worthlessness_and_guilty",
+                    "SYM_631_intrusion_symptoms"
+                ],
+                "640": [
+                    "SYM_640_Depressed_Mood"
+                ],
+                "643": [
+                    "SYM_643_Inattention"
+                ],
+                "648": [
+                    "SYM_648_Inattention"
+                ],
+                "650": [
+                    "SYM_650_Anxious_Mood"
+                ],
+                "653": [
+                    "SYM_653_weight_and_appetite_change",
+                    "SYM_653_weight_and_appetite_change"
+                ],
+                "658": [
+                    "SYM_658_Depressed_Mood"
+                ],
+                "660": [
+                    "SYM_660_drastical_shift_in_mood_and_energy"
+                ],
+                "683": [
+                    "SYM_683_Inattention",
+                    "SYM_683_Inattention"
+                ],
+                "686": [
+                    "SYM_686_Depressed_Mood"
+                ],
+                "690": [
+                    "SYM_690_Depressed_Mood"
+                ],
+                "692": [
+                    "SYM_692_Decreased_energy_tiredness_fatigue"
+                ],
+                "694": [
+                    "SYM_694_weight_and_appetite_change"
+                ],
+                "695": [
+                    "SYM_695_Anxious_Mood"
+                ],
+                "697": [
+                    "SYM_697_Decreased_energy_tiredness_fatigue"
+                ],
+                "699": [
+                    "SYM_699_Depressed_Mood"
+                ],
+                "700": [
+                    "SYM_700_Inattention",
+                    "SYM_700_Decreased_energy_tiredness_fatigue",
+                    "SYM_700_Depressed_Mood",
+                    "SYM_700_sleep_disturbance"
+                ]
+            },
+            "by_symptom": {
+                "Worthlessness_and_guilty": [
+                    "SYM_631_Worthlessness_and_guilty"
+                ],
+                "intrusion_symptoms": [
+                    "SYM_631_intrusion_symptoms"
+                ],
+                "Depressed_Mood": [
+                    "SYM_640_Depressed_Mood",
+                    "SYM_658_Depressed_Mood",
+                    "SYM_686_Depressed_Mood",
+                    "SYM_690_Depressed_Mood",
+                    "SYM_699_Depressed_Mood",
+                    "SYM_700_Depressed_Mood"
+                ],
+                "Inattention": [
+                    "SYM_643_Inattention",
+                    "SYM_648_Inattention",
+                    "SYM_683_Inattention",
+                    "SYM_683_Inattention",
+                    "SYM_700_Inattention"
+                ],
+                "Anxious_Mood": [
+                    "SYM_650_Anxious_Mood",
+                    "SYM_695_Anxious_Mood"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_653_weight_and_appetite_change",
+                    "SYM_653_weight_and_appetite_change",
+                    "SYM_694_weight_and_appetite_change"
+                ],
+                "drastical_shift_in_mood_and_energy": [
+                    "SYM_660_drastical_shift_in_mood_and_energy"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_692_Decreased_energy_tiredness_fatigue",
+                    "SYM_697_Decreased_energy_tiredness_fatigue",
+                    "SYM_700_Decreased_energy_tiredness_fatigue"
+                ],
+                "sleep_disturbance": [
+                    "SYM_700_sleep_disturbance"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_694_weight_and_appetite_change",
+                "SYM_695_Anxious_Mood",
+                "SYM_697_Decreased_energy_tiredness_fatigue",
+                "SYM_699_Depressed_Mood",
+                "SYM_700_Inattention",
+                "SYM_700_Decreased_energy_tiredness_fatigue",
+                "SYM_700_Depressed_Mood",
+                "SYM_700_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_690_Depressed_Mood",
+                "SYM_692_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_683_Inattention",
+                "SYM_683_Inattention",
+                "SYM_686_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_660_drastical_shift_in_mood_and_energy"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_653_weight_and_appetite_change",
+                "SYM_653_weight_and_appetite_change",
+                "SYM_658_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_648_Inattention",
+                "SYM_650_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_640_Depressed_Mood",
+                "SYM_643_Inattention"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_631_Worthlessness_and_guilty",
+                "SYM_631_intrusion_symptoms"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 集中注意力；我 感到 疲劳；我 难以进行 社交。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 感到 精力明显下降；我 出现 抑郁情绪。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 受影响 面对社交互动减少；我 难以进行 集中注意力。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 情绪剧烈波动。代表时间点：1个月前（40天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 社交活动；我 难以进行 清洁饮食和生酮饮食的区分。代表时间点：1个月前（42天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 慢慢的焦虑感；我 难以进行 思考。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 受影响 更容易专注于故事而忽略其他任务；我 出现 把抑郁/愤世嫉俗当作笑料。代表时间点：1个月前（57天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 自己的努力不被认可；我 出现 闪回。代表时间点：2个月前（69天前）。"
+        }
+    ]
+}

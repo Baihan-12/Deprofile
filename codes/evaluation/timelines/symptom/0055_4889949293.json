@@ -1,0 +1,203 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 440,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_379_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 379,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 自杀念头",
+                "evidence": [
+                    "IM DYING"
+                ],
+                "time_norm": {
+                    "event_day": 379,
+                    "days_ago": 61,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_419_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 419,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 情绪低落",
+                "evidence": [
+                    "Yeah im feeling down so it’s angst time and I like to share my angst"
+                ],
+                "time_norm": {
+                    "event_day": 419,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_440_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 440,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 出现 弱",
+                "evidence": [
+                    "It makes me WEAK"
+                ],
+                "time_norm": {
+                    "event_day": 440,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_440_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 440,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 弱",
+                "evidence": [
+                    "It makes me WEAK"
+                ],
+                "time_norm": {
+                    "event_day": 440,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_379_Suicidal_ideas",
+                "target": "SYM_419_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_419_Depressed_Mood",
+                "target": "SYM_440_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_440_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_440_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "379": [
+                    "SYM_379_Suicidal_ideas"
+                ],
+                "419": [
+                    "SYM_419_Depressed_Mood"
+                ],
+                "440": [
+                    "SYM_440_Decreased_energy_tiredness_fatigue",
+                    "SYM_440_somatic_symptoms_sensory"
+                ]
+            },
+            "by_symptom": {
+                "Suicidal_ideas": [
+                    "SYM_379_Suicidal_ideas"
+                ],
+                "Depressed_Mood": [
+                    "SYM_419_Depressed_Mood"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_440_Decreased_energy_tiredness_fatigue"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_440_somatic_symptoms_sensory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_440_Decreased_energy_tiredness_fatigue",
+                "SYM_440_somatic_symptoms_sensory"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_419_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_379_Suicidal_ideas"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 弱。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 情绪低落。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 自杀念头。代表时间点：2个月前（61天前）。"
+        }
+    ]
+}

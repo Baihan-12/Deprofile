@@ -1,0 +1,568 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 723,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_645_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 645,
+                "time_norm": {
+                    "event_day": 645,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 死亡 无",
+                "event_summary_cn": "用户表示自己已去世"
+            },
+            {
+                "id": "EV_653_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 653,
+                "time_norm": {
+                    "event_day": 653,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被禁止 穿着迷彩服",
+                "event_summary_cn": "用户因穿迷彩服被政府禁止"
+            },
+            {
+                "id": "EV_653_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 653,
+                "time_norm": {
+                    "event_day": 653,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 发生 本国警察暴力事件",
+                "event_summary_cn": "用户本国发生警察暴力事件"
+            },
+            {
+                "id": "EV_653_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 653,
+                "time_norm": {
+                    "event_day": 653,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 听说 女儿在贝宁城感到害怕",
+                "event_summary_cn": "用户听说家人在贝宁城感到害怕"
+            },
+            {
+                "id": "EV_653_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 653,
+                "time_norm": {
+                    "event_day": 653,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被杀害 因为它",
+                "event_summary_cn": "用户因某事被杀害"
+            },
+            {
+                "id": "EV_655_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 655,
+                "time_norm": {
+                    "event_day": 655,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 知道 母亲与邻居发生肢体冲突",
+                "event_summary_cn": "母亲与邻居发生肢体冲突"
+            },
+            {
+                "id": "EV_657_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 657,
+                "time_norm": {
+                    "event_day": 657,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要 复制 爸爸的 演讲",
+                "event_summary_cn": "用户希望复制父亲的婚礼演讲"
+            },
+            {
+                "id": "EV_661_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 661,
+                "time_norm": {
+                    "event_day": 661,
+                    "days_ago": 62,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 受到欺凌 zn",
+                "event_summary_cn": "用户遭遇欺凌事件"
+            },
+            {
+                "id": "EV_665_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 665,
+                "time_norm": {
+                    "event_day": 665,
+                    "days_ago": 58,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 学习  school",
+                "event_summary_cn": "用户分享自己在学校的学习经历"
+            },
+            {
+                "id": "EV_673_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 673,
+                "time_norm": {
+                    "event_day": 673,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去关系 对方",
+                "event_summary_cn": "用户经历分手痛苦"
+            },
+            {
+                "id": "EV_675_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 675,
+                "time_norm": {
+                    "event_day": 675,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 决定 改变我的方式",
+                "event_summary_cn": "用户决定改变自己的生活方式"
+            },
+            {
+                "id": "EV_688_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 688,
+                "time_norm": {
+                    "event_day": 688,
+                    "days_ago": 35,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 搬迁 改变身份",
+                "event_summary_cn": "用户表示需要搬迁并改变身份"
+            },
+            {
+                "id": "EV_703_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 703,
+                "time_norm": {
+                    "event_day": 703,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 成为无家可归者",
+                "event_summary_cn": "用户表示自己无家可归"
+            },
+            {
+                "id": "EV_723_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 723,
+                "time_norm": {
+                    "event_day": 723,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 受到攻击",
+                "event_summary_cn": "用户遭遇攻击事件"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_645_0",
+                "target": "EV_653_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_653_1",
+                "target": "EV_653_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_653_2",
+                "target": "EV_653_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_653_3",
+                "target": "EV_653_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_653_4",
+                "target": "EV_655_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_655_5",
+                "target": "EV_657_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_657_6",
+                "target": "EV_661_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_661_7",
+                "target": "EV_665_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_665_8",
+                "target": "EV_673_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_673_9",
+                "target": "EV_675_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_675_10",
+                "target": "EV_688_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_688_11",
+                "target": "EV_703_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_703_12",
+                "target": "EV_723_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "645": [
+                    "EV_645_0"
+                ],
+                "653": [
+                    "EV_653_1",
+                    "EV_653_2",
+                    "EV_653_3",
+                    "EV_653_4"
+                ],
+                "655": [
+                    "EV_655_5"
+                ],
+                "657": [
+                    "EV_657_6"
+                ],
+                "661": [
+                    "EV_661_7"
+                ],
+                "665": [
+                    "EV_665_8"
+                ],
+                "673": [
+                    "EV_673_9"
+                ],
+                "675": [
+                    "EV_675_10"
+                ],
+                "688": [
+                    "EV_688_11"
+                ],
+                "703": [
+                    "EV_703_12"
+                ],
+                "723": [
+                    "EV_723_13"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_723_13"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_703_12"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_688_11"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_675_10"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_673_9"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_661_7",
+                "EV_665_8"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_655_5",
+                "EV_657_6"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_653_1",
+                "EV_653_2",
+                "EV_653_3",
+                "EV_653_4"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_645_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 受到攻击。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 成为无家可归者。代表时间点：2周前（20天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 搬迁 改变身份。代表时间点：1个月前（35天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 决定 改变我的方式。代表时间点：1个月前（48天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 失去关系 对方。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 学习  school；我 受到欺凌 zn。代表时间点：1个月前（58天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 想要 复制 爸爸的 演讲；我 知道 母亲与邻居发生肢体冲突。代表时间点：2个月前（66天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 被禁止 穿着迷彩服；我 发生 本国警察暴力事件。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 死亡 无。代表时间点：2个月前（78天前）。"
+        }
+    ]
+}

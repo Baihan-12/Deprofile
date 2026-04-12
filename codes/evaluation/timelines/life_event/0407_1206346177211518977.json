@@ -1,0 +1,476 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 356,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_273_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 273,
+                "time_norm": {
+                    "event_day": 273,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 制作 Mega Kistune 16 新生儿",
+                "event_summary_cn": "用户制作16个新生儿Mega Kistune"
+            },
+            {
+                "id": "EV_273_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 273,
+                "time_norm": {
+                    "event_day": 273,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 必须去实际学校 上课",
+                "event_summary_cn": "用户因需佩戴标识而无法上网课"
+            },
+            {
+                "id": "EV_288_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 288,
+                "time_norm": {
+                    "event_day": 288,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 在学校",
+                "event_summary_cn": "用户正在学校学习"
+            },
+            {
+                "id": "EV_288_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 288,
+                "time_norm": {
+                    "event_day": 288,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结束学校 我",
+                "event_summary_cn": "用户即将结束学校生活"
+            },
+            {
+                "id": "EV_289_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 289,
+                "time_norm": {
+                    "event_day": 289,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结束 学校",
+                "event_summary_cn": "用户即将结束学校生活"
+            },
+            {
+                "id": "EV_304_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 304,
+                "time_norm": {
+                    "event_day": 304,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 表示 我是双性恋",
+                "event_summary_cn": "用户表示自己是双性恋"
+            },
+            {
+                "id": "EV_309_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 309,
+                "time_norm": {
+                    "event_day": 309,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始上课",
+                "event_summary_cn": "用户表示刚开始上课"
+            },
+            {
+                "id": "EV_312_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 312,
+                "time_norm": {
+                    "event_day": 312,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 死亡 无明确事件",
+                "event_summary_cn": "用户表达对死亡的个人态度"
+            },
+            {
+                "id": "EV_317_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 317,
+                "time_norm": {
+                    "event_day": 317,
+                    "days_ago": 39,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 在学校",
+                "event_summary_cn": "用户正在学校学习"
+            },
+            {
+                "id": "EV_318_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 318,
+                "time_norm": {
+                    "event_day": 318,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 退出 Rh",
+                "event_summary_cn": "用户宣布退出Rh"
+            },
+            {
+                "id": "EV_330_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 330,
+                "time_norm": {
+                    "event_day": 330,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 新生儿 👌😂",
+                "event_summary_cn": "用户分享新生儿出生的喜悦"
+            },
+            {
+                "id": "EV_356_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 356,
+                "time_norm": {
+                    "event_day": 356,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 在学校",
+                "event_summary_cn": "用户正在上学"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_273_0",
+                "target": "EV_273_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_273_1",
+                "target": "EV_288_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_288_2",
+                "target": "EV_288_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_288_3",
+                "target": "EV_289_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_289_4",
+                "target": "EV_304_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_304_5",
+                "target": "EV_309_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_309_6",
+                "target": "EV_312_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_312_7",
+                "target": "EV_317_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_317_8",
+                "target": "EV_318_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_318_9",
+                "target": "EV_330_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_330_10",
+                "target": "EV_356_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "273": [
+                    "EV_273_0",
+                    "EV_273_1"
+                ],
+                "288": [
+                    "EV_288_2",
+                    "EV_288_3"
+                ],
+                "289": [
+                    "EV_289_4"
+                ],
+                "304": [
+                    "EV_304_5"
+                ],
+                "309": [
+                    "EV_309_6"
+                ],
+                "312": [
+                    "EV_312_7"
+                ],
+                "317": [
+                    "EV_317_8"
+                ],
+                "318": [
+                    "EV_318_9"
+                ],
+                "330": [
+                    "EV_330_10"
+                ],
+                "356": [
+                    "EV_356_11"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_356_11"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_330_10"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_317_8",
+                "EV_318_9"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_309_6",
+                "EV_312_7"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_304_5"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_288_2",
+                "EV_288_3",
+                "EV_289_4"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_273_0",
+                "EV_273_1"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 在学校。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 新生儿 👌😂。代表时间点：3周前（26天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 退出 Rh；我 在学校。代表时间点：1个月前（38天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 死亡 无明确事件；我 开始上课。代表时间点：1个月前（44天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 表示 我是双性恋。代表时间点：1个月前（52天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 结束 学校；我 在学校。代表时间点：2个月前（67天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 制作 Mega Kistune 16 新生儿；我 必须去实际学校 上课。代表时间点：2个月前（83天前）。"
+        }
+    ]
+}

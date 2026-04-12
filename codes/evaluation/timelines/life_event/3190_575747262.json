@@ -1,0 +1,651 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 174,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_93_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 93,
+                "time_norm": {
+                    "event_day": 93,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 未能有效复习 学业成绩下降",
+                "event_summary_cn": "用户因未学会复习导致成绩下滑"
+            },
+            {
+                "id": "EV_103_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 103,
+                "time_norm": {
+                    "event_day": 103,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付费用 获取 ADHD 诊断和药物",
+                "event_summary_cn": "用户自费获取ADHD诊断和药物"
+            },
+            {
+                "id": "EV_104_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 104,
+                "time_norm": {
+                    "event_day": 104,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被认为有注意力问题 被给予更长考试时间",
+                "event_summary_cn": "用户因考试时间延长经历困扰"
+            },
+            {
+                "id": "EV_106_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 106,
+                "time_norm": {
+                    "event_day": 106,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被学校拒绝诊断 学术表现",
+                "event_summary_cn": "用户因学术表现被拒诊断"
+            },
+            {
+                "id": "EV_117_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 117,
+                "time_norm": {
+                    "event_day": 117,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 患有 慢性疲劳综合征",
+                "event_summary_cn": "用户因过度劳累患慢性疲劳综合征"
+            },
+            {
+                "id": "EV_128_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 128,
+                "time_norm": {
+                    "event_day": 128,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 停止锻炼 我的身体",
+                "event_summary_cn": "用户因病停止锻炼"
+            },
+            {
+                "id": "EV_135_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 135,
+                "time_norm": {
+                    "event_day": 135,
+                    "days_ago": 39,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 指出 ND 人群被压迫不被重视",
+                "event_summary_cn": "用户指出ND人群被忽视"
+            },
+            {
+                "id": "EV_138_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 138,
+                "time_norm": {
+                    "event_day": 138,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 告诉学校 我有ADHD",
+                "event_summary_cn": "用户因考试失败被学校否认ADHD"
+            },
+            {
+                "id": "EV_141_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 141,
+                "time_norm": {
+                    "event_day": 141,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被拒绝接受教师培训 我的学校",
+                "event_summary_cn": "用户因成绩被拒教师培训"
+            },
+            {
+                "id": "EV_143_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 143,
+                "time_norm": {
+                    "event_day": 143,
+                    "days_ago": 31,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 推迟工作 导致失去工作",
+                "event_summary_cn": "因药物过度工作导致失业"
+            },
+            {
+                "id": "EV_144_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 144,
+                "time_norm": {
+                    "event_day": 144,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 自己拥有工作",
+                "event_summary_cn": "用户因ADHD需要自主工作"
+            },
+            {
+                "id": "EV_162_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 162,
+                "time_norm": {
+                    "event_day": 162,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 患上 ME/CFS",
+                "event_summary_cn": "用户因过度劳累患上慢性疾病"
+            },
+            {
+                "id": "EV_164_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 164,
+                "time_norm": {
+                    "event_day": 164,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 重新搬回与家人同住 我的侄女",
+                "event_summary_cn": "用户重新搬回与家人同住"
+            },
+            {
+                "id": "EV_164_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 164,
+                "time_norm": {
+                    "event_day": 164,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参加A-level考试 遭遇困难",
+                "event_summary_cn": "用户本人参加A-level考试遭遇困难"
+            },
+            {
+                "id": "EV_164_14",
+                "node_type": "LifeEvent",
+                "timestamp_day": 164,
+                "time_norm": {
+                    "event_day": 164,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成学业 我获得金融专业一等学位",
+                "event_summary_cn": "用户顺利完成学业并获得一等学位"
+            },
+            {
+                "id": "EV_166_15",
+                "node_type": "LifeEvent",
+                "timestamp_day": 166,
+                "time_norm": {
+                    "event_day": 166,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被诊断 ADHD",
+                "event_summary_cn": "用户因ADHD诊断经历生活转折"
+            },
+            {
+                "id": "EV_174_16",
+                "node_type": "LifeEvent",
+                "timestamp_day": 174,
+                "time_norm": {
+                    "event_day": 174,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受到 身体不安",
+                "event_summary_cn": "用户因工作感到身体不安"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_93_0",
+                "target": "EV_103_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_103_1",
+                "target": "EV_104_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_104_2",
+                "target": "EV_106_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_106_3",
+                "target": "EV_117_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_117_4",
+                "target": "EV_128_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_128_5",
+                "target": "EV_135_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_135_6",
+                "target": "EV_138_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_138_7",
+                "target": "EV_141_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_141_8",
+                "target": "EV_143_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_143_9",
+                "target": "EV_144_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_144_10",
+                "target": "EV_162_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_162_11",
+                "target": "EV_164_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_164_12",
+                "target": "EV_164_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_164_13",
+                "target": "EV_164_14",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_164_14",
+                "target": "EV_166_15",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_166_15",
+                "target": "EV_174_16",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "93": [
+                    "EV_93_0"
+                ],
+                "103": [
+                    "EV_103_1"
+                ],
+                "104": [
+                    "EV_104_2"
+                ],
+                "106": [
+                    "EV_106_3"
+                ],
+                "117": [
+                    "EV_117_4"
+                ],
+                "128": [
+                    "EV_128_5"
+                ],
+                "135": [
+                    "EV_135_6"
+                ],
+                "138": [
+                    "EV_138_7"
+                ],
+                "141": [
+                    "EV_141_8"
+                ],
+                "143": [
+                    "EV_143_9"
+                ],
+                "144": [
+                    "EV_144_10"
+                ],
+                "162": [
+                    "EV_162_11"
+                ],
+                "164": [
+                    "EV_164_12",
+                    "EV_164_13",
+                    "EV_164_14"
+                ],
+                "166": [
+                    "EV_166_15"
+                ],
+                "174": [
+                    "EV_174_16"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_174_16"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_162_11",
+                "EV_164_12",
+                "EV_164_13",
+                "EV_164_14",
+                "EV_166_15"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_141_8",
+                "EV_143_9",
+                "EV_144_10"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_135_6",
+                "EV_138_7"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_128_5"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_117_4"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_106_3"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_103_1",
+                "EV_104_2"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_93_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感受到 身体不安。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 被诊断 ADHD；我 重新搬回与家人同住 我的侄女。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 需要 自己拥有工作；我 推迟工作 导致失去工作。代表时间点：1个月前（30天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 告诉学校 我有ADHD；我 指出 ND 人群被压迫不被重视。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 停止锻炼 我的身体。代表时间点：1个月前（46天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 患有 慢性疲劳综合征。代表时间点：1个月前（57天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 被学校拒绝诊断 学术表现。代表时间点：2个月前（68天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 被认为有注意力问题 被给予更长考试时间；我 支付费用 获取 ADHD 诊断和药物。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 未能有效复习 学业成绩下降。代表时间点：2个月前（81天前）。"
+        }
+    ]
+}

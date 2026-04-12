@@ -1,0 +1,204 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1110,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1037_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1037,
+                "time_norm": {
+                    "event_day": 1037,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被裁员 获得工作",
+                "event_summary_cn": "用户被裁员且尚未重新就业"
+            },
+            {
+                "id": "EV_1060_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1060,
+                "time_norm": {
+                    "event_day": 1060,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 悲伤 alex trebek 死亡",
+                "event_summary_cn": "用户因alex trebek去世而悲伤"
+            },
+            {
+                "id": "EV_1103_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1103,
+                "time_norm": {
+                    "event_day": 1103,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结束 PUA失业救济金",
+                "event_summary_cn": "用户失业救济金结束面临困境"
+            },
+            {
+                "id": "EV_1110_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1110,
+                "time_norm": {
+                    "event_day": 1110,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 希望获得 $5,000 资金",
+                "event_summary_cn": "用户希望获得5000美元启动资金"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1037_0",
+                "target": "EV_1060_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1060_1",
+                "target": "EV_1103_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1103_2",
+                "target": "EV_1110_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1037": [
+                    "EV_1037_0"
+                ],
+                "1060": [
+                    "EV_1060_1"
+                ],
+                "1103": [
+                    "EV_1103_2"
+                ],
+                "1110": [
+                    "EV_1110_3"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1110_3"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_1103_2"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1060_1"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1037_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 希望获得 $5,000 资金。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 结束 PUA失业救济金。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 悲伤 alex trebek 死亡。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 被裁员 获得工作。代表时间点：2个月前（73天前）。"
+        }
+    ]
+}

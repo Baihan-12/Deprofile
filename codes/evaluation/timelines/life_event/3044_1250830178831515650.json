@@ -1,0 +1,434 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 259,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_187_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 187,
+                "time_norm": {
+                    "event_day": 187,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 留下 收藏品",
+                "event_summary_cn": "用户搬家时留下收藏品"
+            },
+            {
+                "id": "EV_187_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 187,
+                "time_norm": {
+                    "event_day": 187,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受 疾病带来的身体不适",
+                "event_summary_cn": "用户分享自身性别认同体验"
+            },
+            {
+                "id": "EV_187_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 187,
+                "time_norm": {
+                    "event_day": 187,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 移居 跨州",
+                "event_summary_cn": "用户因跨州搬迁成功投票"
+            },
+            {
+                "id": "EV_205_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 205,
+                "time_norm": {
+                    "event_day": 205,
+                    "days_ago": 54,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 变成 poly 我的女友和男友",
+                "event_summary_cn": "用户从单身变为有伴侣"
+            },
+            {
+                "id": "EV_208_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 208,
+                "time_norm": {
+                    "event_day": 208,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 计划搬迁 新居",
+                "event_summary_cn": "用户计划搬迁到新居"
+            },
+            {
+                "id": "EV_208_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 208,
+                "time_norm": {
+                    "event_day": 208,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 计划 移动到更大的房间",
+                "event_summary_cn": "用户计划搬到更大的房间"
+            },
+            {
+                "id": "EV_209_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 209,
+                "time_norm": {
+                    "event_day": 209,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 gender dysphoria",
+                "event_summary_cn": "用户经历性别不安情绪"
+            },
+            {
+                "id": "EV_213_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 213,
+                "time_norm": {
+                    "event_day": 213,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 考虑 创建 AD 账号",
+                "event_summary_cn": "用户考虑创建个人表达账号"
+            },
+            {
+                "id": "EV_247_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 247,
+                "time_norm": {
+                    "event_day": 247,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 亲身经历 死亡事件",
+                "event_summary_cn": "用户亲人因病濒临死亡"
+            },
+            {
+                "id": "EV_249_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 249,
+                "time_norm": {
+                    "event_day": 249,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付 购物车费用",
+                "event_summary_cn": "用户终于能舒适支付购物费用"
+            },
+            {
+                "id": "EV_254_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 254,
+                "time_norm": {
+                    "event_day": 254,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 无法返回 监狱",
+                "event_summary_cn": "用户表达无法再次入狱的强烈情绪"
+            },
+            {
+                "id": "EV_259_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 259,
+                "time_norm": {
+                    "event_day": 259,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 看到 gay transmac rep 看到 Theo",
+                "event_summary_cn": "用户看到同性跨性别代表感到开心"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_187_0",
+                "target": "EV_187_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_187_1",
+                "target": "EV_187_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_187_2",
+                "target": "EV_205_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_205_3",
+                "target": "EV_208_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_208_4",
+                "target": "EV_208_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_208_5",
+                "target": "EV_209_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_209_6",
+                "target": "EV_213_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_213_7",
+                "target": "EV_247_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_247_8",
+                "target": "EV_249_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_249_9",
+                "target": "EV_254_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_254_10",
+                "target": "EV_259_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "187": [
+                    "EV_187_0",
+                    "EV_187_1",
+                    "EV_187_2"
+                ],
+                "205": [
+                    "EV_205_3"
+                ],
+                "208": [
+                    "EV_208_4",
+                    "EV_208_5"
+                ],
+                "209": [
+                    "EV_209_6"
+                ],
+                "213": [
+                    "EV_213_7"
+                ],
+                "247": [
+                    "EV_247_8"
+                ],
+                "249": [
+                    "EV_249_9"
+                ],
+                "254": [
+                    "EV_254_10"
+                ],
+                "259": [
+                    "EV_259_11"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_254_10",
+                "EV_259_11"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_247_8",
+                "EV_249_9"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_213_7"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_205_3",
+                "EV_208_4",
+                "EV_208_5",
+                "EV_209_6"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_187_0",
+                "EV_187_1",
+                "EV_187_2"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 看到 gay transmac rep 看到 Theo；我 无法返回 监狱。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 支付 购物车费用；我 亲身经历 死亡事件。代表时间点：1周前（10天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 考虑 创建 AD 账号。代表时间点：1个月前（46天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 经历 gender dysphoria；我 计划搬迁 新居。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 留下 收藏品；我 感受 疾病带来的身体不适。代表时间点：2个月前（72天前）。"
+        }
+    ]
+}

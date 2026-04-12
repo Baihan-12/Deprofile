@@ -1,0 +1,695 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 110,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_23_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 23,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 更强烈的愤怒和易怒情绪",
+                "evidence": [
+                    "ㅤ has been - his temper is a 𝐁𝐔𝐑𝐍𝐈𝐍𝐆 fire. That is , perhaps , the one thing that remains of his childhood self. ] [ His head lifts, revealing a much more hateful shade of red than the last. ] 𝐍𝐄𝐕𝐄𝐑 could I be anything but sickened + ㅤㅤ"
+                ],
+                "time_norm": {
+                    "event_day": 23,
+                    "days_ago": 87,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_25_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 25,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 无法控制的哭泣",
+                "evidence": [
+                    "/ weeps...........pls i would cry"
+                ],
+                "time_norm": {
+                    "event_day": 25,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_32_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 32,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 无法描述的空虚感",
+                "evidence": [
+                    "ㅤ ❝ the next person to make an indescribable emptiness joke is gonna be drowning in these hands . ❞ ㅤㅤ"
+                ],
+                "time_norm": {
+                    "event_day": 32,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_41_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 41,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 情绪低落",
+                "evidence": [
+                    "cry abt it"
+                ],
+                "time_norm": {
+                    "event_day": 41,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_43_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 43,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "/ CRYING RN"
+                ],
+                "time_norm": {
+                    "event_day": 43,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_53_Hyperactivity_agitation",
+                "node_type": "Symptom",
+                "timestamp_day": 53,
+                "symptom": "Hyperactivity_agitation",
+                "triple": "我 出现 焦躁不安的行为",
+                "evidence": [
+                    "ㅤ pacing , pacing , pacing -- ㅤㅤ"
+                ],
+                "time_norm": {
+                    "event_day": 53,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_59_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 59,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 情绪崩溃",
+                "evidence": [
+                    "i'm going to sob"
+                ],
+                "time_norm": {
+                    "event_day": 59,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_72_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 72,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 入睡",
+                "evidence": [
+                    "ㅤ that is what makes it so difficult to sleep at all. ❞ ㅤㅤ"
+                ],
+                "time_norm": {
+                    "event_day": 72,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_73_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 73,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 血沸的感觉",
+                "evidence": [
+                    "i hate mpreg chrollo, i hate him, my blood boils everytime i think of him. i hate him so much, everyday i break a table because of the anger that mpreg chrollo has caused me, my face turns red because the pain mpreg chrollo has caused me. i hate him."
+                ],
+                "time_norm": {
+                    "event_day": 73,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_74_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 74,
+                "symptom": "Anger_Irritability",
+                "triple": "我 难以进行 信任",
+                "evidence": [
+                    "ㅤ wasn't coming back. ❝ It's-- I have every right to be angry, and question that. How can I just-- How do I trust anything anymore? The world doesn't work like that. I was too naïve as a child to see that. ❞ They pause, head hanging low as + ㅤㅤ"
+                ],
+                "time_norm": {
+                    "event_day": 74,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_84_diminished_emotional_expression",
+                "node_type": "Symptom",
+                "timestamp_day": 84,
+                "symptom": "diminished_emotional_expression",
+                "triple": "我 出现 无法表达情感的状态",
+                "evidence": [
+                    "ㅤ ⠀⠀ ⠀ ⠀hear. ❞ ⠀⠀ ⠀ ⠀they turn their head to face ⠀⠀ ⠀ ⠀him once more, voice devoid ⠀⠀ ⠀ ⠀of any feeling, and beyond ⠀⠀ ⠀ ⠀uncomfortably numb. ⠀⠀ ⠀ ⠀❝ ( he ) is the reason my ⠀⠀ ⠀ ⠀family is only my brother. my ⠀⠀ ⠀ ⠀family &amp;&amp; ㅤㅤ"
+                ],
+                "time_norm": {
+                    "event_day": 84,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_93_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 93,
+                "symptom": "somatic_muscle",
+                "triple": "我 出现 SHAKES",
+                "evidence": [
+                    "ㅤ ┊ ༑ ࿐ྂ。SHAKES ⠀⠀ ⠀ ⠀"
+                ],
+                "time_norm": {
+                    "event_day": 93,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_103_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 103,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 我的世界太充满危险和恐怖",
+                "evidence": [
+                    "ㅤ ⠀⠀ ⠀ ⠀open their eyes again, some ⠀⠀ ⠀ ⠀hint of bittersweetness in ⠀⠀ ⠀ ⠀them, intertwined with light ⠀⠀ ⠀ ⠀ambers and caramels. ⠀⠀ ⠀ ⠀❝ i feel my world is too full ⠀⠀ ⠀ ⠀of danger and terror. i don't ⠀⠀ ⠀ ⠀want my friends in it. ❞ ㅤㅤ"
+                ],
+                "time_norm": {
+                    "event_day": 103,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_110_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 110,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 出现 心跳剧烈且胸部有压迫感",
+                "evidence": [
+                    "ㅤ ⠀⠀ ⠀ ⠀by ⠀⠀ ⠀ ⠀tremors. ⠀⠀ ⠀ ⠀Some were fear-related. ⠀⠀ ⠀ ⠀Some were not. ⠀⠀ ⠀ ⠀Either way, their heart ⠀⠀ ⠀ ⠀pounded in their chest and ⠀⠀ ⠀ ⠀threatened to crash through ⠀⠀ ⠀ ⠀their ribs, lungs feeling tight ⠀⠀ ⠀ ⠀and &amp;&amp; ㅤㅤ"
+                ],
+                "time_norm": {
+                    "event_day": 110,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_23_Anger_Irritability",
+                "target": "SYM_25_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_25_Depressed_Mood",
+                "target": "SYM_32_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_32_Depressed_Mood",
+                "target": "SYM_41_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_41_Depressed_Mood",
+                "target": "SYM_43_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_43_Depressed_Mood",
+                "target": "SYM_53_Hyperactivity_agitation",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_53_Hyperactivity_agitation",
+                "target": "SYM_59_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_59_Depressed_Mood",
+                "target": "SYM_72_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_72_sleep_disturbance",
+                "target": "SYM_73_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_73_Anger_Irritability",
+                "target": "SYM_74_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_74_Anger_Irritability",
+                "target": "SYM_84_diminished_emotional_expression",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_84_diminished_emotional_expression",
+                "target": "SYM_93_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_93_somatic_muscle",
+                "target": "SYM_103_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_103_Anxious_Mood",
+                "target": "SYM_110_Cardiovascular_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_23_Anger_Irritability",
+                "target": "SYM_73_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_73_Anger_Irritability",
+                "target": "SYM_74_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_25_Depressed_Mood",
+                "target": "SYM_32_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_32_Depressed_Mood",
+                "target": "SYM_41_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_41_Depressed_Mood",
+                "target": "SYM_43_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_43_Depressed_Mood",
+                "target": "SYM_59_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "23": [
+                    "SYM_23_Anger_Irritability"
+                ],
+                "25": [
+                    "SYM_25_Depressed_Mood"
+                ],
+                "32": [
+                    "SYM_32_Depressed_Mood"
+                ],
+                "41": [
+                    "SYM_41_Depressed_Mood"
+                ],
+                "43": [
+                    "SYM_43_Depressed_Mood"
+                ],
+                "53": [
+                    "SYM_53_Hyperactivity_agitation"
+                ],
+                "59": [
+                    "SYM_59_Depressed_Mood"
+                ],
+                "72": [
+                    "SYM_72_sleep_disturbance"
+                ],
+                "73": [
+                    "SYM_73_Anger_Irritability"
+                ],
+                "74": [
+                    "SYM_74_Anger_Irritability"
+                ],
+                "84": [
+                    "SYM_84_diminished_emotional_expression"
+                ],
+                "93": [
+                    "SYM_93_somatic_muscle"
+                ],
+                "103": [
+                    "SYM_103_Anxious_Mood"
+                ],
+                "110": [
+                    "SYM_110_Cardiovascular_symptoms"
+                ]
+            },
+            "by_symptom": {
+                "Anger_Irritability": [
+                    "SYM_23_Anger_Irritability",
+                    "SYM_73_Anger_Irritability",
+                    "SYM_74_Anger_Irritability"
+                ],
+                "Depressed_Mood": [
+                    "SYM_25_Depressed_Mood",
+                    "SYM_32_Depressed_Mood",
+                    "SYM_41_Depressed_Mood",
+                    "SYM_43_Depressed_Mood",
+                    "SYM_59_Depressed_Mood"
+                ],
+                "Hyperactivity_agitation": [
+                    "SYM_53_Hyperactivity_agitation"
+                ],
+                "sleep_disturbance": [
+                    "SYM_72_sleep_disturbance"
+                ],
+                "diminished_emotional_expression": [
+                    "SYM_84_diminished_emotional_expression"
+                ],
+                "somatic_muscle": [
+                    "SYM_93_somatic_muscle"
+                ],
+                "Anxious_Mood": [
+                    "SYM_103_Anxious_Mood"
+                ],
+                "Cardiovascular_symptoms": [
+                    "SYM_110_Cardiovascular_symptoms"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_110_Cardiovascular_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_103_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_93_somatic_muscle"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_84_diminished_emotional_expression"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_72_sleep_disturbance",
+                "SYM_73_Anger_Irritability",
+                "SYM_74_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_59_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_53_Hyperactivity_agitation"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_41_Depressed_Mood",
+                "SYM_43_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_32_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_23_Anger_Irritability",
+                "SYM_25_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 心跳剧烈且胸部有压迫感。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 感到 我的世界太充满危险和恐怖。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 SHAKES。代表时间点：2周前（17天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 无法表达情感的状态。代表时间点：3周前（26天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 信任；我 出现 血沸的感觉；我 难以进行 入睡。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 情绪崩溃。代表时间点：1个月前（51天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 焦躁不安的行为。代表时间点：1个月前（57天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 哭泣；我 出现 情绪低落。代表时间点：2个月前（67天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 无法描述的空虚感。代表时间点：2个月前（78天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现 无法控制的哭泣；我 出现 更强烈的愤怒和易怒情绪。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

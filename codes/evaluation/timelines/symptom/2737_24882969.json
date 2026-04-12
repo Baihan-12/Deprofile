@@ -1,0 +1,312 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 897,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_811_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 811,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 难以进行 梦境过于生动",
+                "evidence": [
+                    "Yo I need to avoid naps. My dreams are far too vivid and I can't deal with this. Rough nightmares."
+                ],
+                "time_norm": {
+                    "event_day": 811,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_811_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 811,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 梦境过于生动",
+                "evidence": [
+                    "Yo I need to avoid naps. My dreams are far too vivid and I can't deal with this. Rough nightmares."
+                ],
+                "time_norm": {
+                    "event_day": 811,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_827_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 827,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 头痛",
+                "evidence": [
+                    "I have a pounding headache at work. Can't even see straight"
+                ],
+                "time_norm": {
+                    "event_day": 827,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_831_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 831,
+                "symptom": "somatic_muscle",
+                "triple": "我 难以进行 专注和做事",
+                "evidence": [
+                    "I'm having muscle spasms today mostly in my arms and my face. Making it hard to focus and get anything done. Will see about streaming later this evening but right now its just painful. My headset is moving off my ears that's how bad this is."
+                ],
+                "time_norm": {
+                    "event_day": 831,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_844_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 844,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 入睡",
+                "evidence": [
+                    "I've had a lot of nightmares this week and made it hard to get any restful sleep. I'm exhausted today and just ready for next week where I'm off work and can just take a huge mental break from everything."
+                ],
+                "time_norm": {
+                    "event_day": 844,
+                    "days_ago": 53,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_873_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 873,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 疲惫和愤怒",
+                "evidence": [
+                    "I have such major fatigue from working during it in Healthcare. Having people just get frustrated with you when you tell them to wear their masks properly by itself is exhausting not to mention to actual anger and denying of it."
+                ],
+                "time_norm": {
+                    "event_day": 873,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_811_intrusion_symptoms",
+                "target": "SYM_811_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_811_sleep_disturbance",
+                "target": "SYM_827_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_827_Autonomic_symptoms",
+                "target": "SYM_831_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_831_somatic_muscle",
+                "target": "SYM_844_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_844_sleep_disturbance",
+                "target": "SYM_873_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_811_sleep_disturbance",
+                "target": "SYM_844_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "811": [
+                    "SYM_811_intrusion_symptoms",
+                    "SYM_811_sleep_disturbance"
+                ],
+                "827": [
+                    "SYM_827_Autonomic_symptoms"
+                ],
+                "831": [
+                    "SYM_831_somatic_muscle"
+                ],
+                "844": [
+                    "SYM_844_sleep_disturbance"
+                ],
+                "873": [
+                    "SYM_873_Anger_Irritability"
+                ]
+            },
+            "by_symptom": {
+                "intrusion_symptoms": [
+                    "SYM_811_intrusion_symptoms"
+                ],
+                "sleep_disturbance": [
+                    "SYM_811_sleep_disturbance",
+                    "SYM_844_sleep_disturbance"
+                ],
+                "Autonomic_symptoms": [
+                    "SYM_827_Autonomic_symptoms"
+                ],
+                "somatic_muscle": [
+                    "SYM_831_somatic_muscle"
+                ],
+                "Anger_Irritability": [
+                    "SYM_873_Anger_Irritability"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_873_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_844_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_831_somatic_muscle"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_827_Autonomic_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_811_intrusion_symptoms",
+                "SYM_811_sleep_disturbance"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 感到 疲惫和愤怒。代表时间点：3周前（24天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 入睡。代表时间点：1个月前（53天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 专注和做事。代表时间点：2个月前（66天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 头痛。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 难以进行 梦境过于生动。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

@@ -1,0 +1,629 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1775,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1687_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1687,
+                "time_norm": {
+                    "event_day": 1687,
+                    "days_ago": 88,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受到 欺骗",
+                "event_summary_cn": "用户感到被欺骗"
+            },
+            {
+                "id": "EV_1689_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1689,
+                "time_norm": {
+                    "event_day": 1689,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 工作创伤",
+                "event_summary_cn": "用户分享工作经历中的创伤"
+            },
+            {
+                "id": "EV_1689_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1689,
+                "time_norm": {
+                    "event_day": 1689,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 受害于 气质操控与贬低",
+                "event_summary_cn": "用户经历他人操控与贬低"
+            },
+            {
+                "id": "EV_1695_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1695,
+                "time_norm": {
+                    "event_day": 1695,
+                    "days_ago": 80,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 发布 necrobarista",
+                "event_summary_cn": "用户在困难时期推出作品"
+            },
+            {
+                "id": "EV_1705_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1705,
+                "time_norm": {
+                    "event_day": 1705,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去 钱",
+                "event_summary_cn": "用户的钱从钱包中消失"
+            },
+            {
+                "id": "EV_1709_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1709,
+                "time_norm": {
+                    "event_day": 1709,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 BETRAYAL",
+                "event_summary_cn": "用户遭遇背叛事件"
+            },
+            {
+                "id": "EV_1712_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1712,
+                "time_norm": {
+                    "event_day": 1712,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 被歧视和辱骂",
+                "event_summary_cn": "用户遭遇歧视性言论"
+            },
+            {
+                "id": "EV_1728_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1728,
+                "time_norm": {
+                    "event_day": 1728,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 表达观点 不尊重不站起敬国歌",
+                "event_summary_cn": "用户表达对不敬国歌行为的不满"
+            },
+            {
+                "id": "EV_1730_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1730,
+                "time_norm": {
+                    "event_day": 1730,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 接收 $10 直接存款",
+                "event_summary_cn": "用户收到10美元直接存款"
+            },
+            {
+                "id": "EV_1732_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1732,
+                "time_norm": {
+                    "event_day": 1732,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 锁down",
+                "event_summary_cn": "用户经历 lockdown 限制措施"
+            },
+            {
+                "id": "EV_1732_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1732,
+                "time_norm": {
+                    "event_day": 1732,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 观察到 南路被封锁",
+                "event_summary_cn": "用户提及南路被封锁的情况"
+            },
+            {
+                "id": "EV_1732_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1732,
+                "time_norm": {
+                    "event_day": 1732,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 锁定与严重山火危险",
+                "event_summary_cn": "用户经历 lockdown 和山火危险"
+            },
+            {
+                "id": "EV_1739_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1739,
+                "time_norm": {
+                    "event_day": 1739,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 通知 Centrelink 停止学习",
+                "event_summary_cn": "用户停止学习后仍被Centrelink追查"
+            },
+            {
+                "id": "EV_1761_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1761,
+                "time_norm": {
+                    "event_day": 1761,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 爱情无果的婚姻",
+                "event_summary_cn": "用户经历爱情无果的婚姻"
+            },
+            {
+                "id": "EV_1770_14",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1770,
+                "time_norm": {
+                    "event_day": 1770,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参观 Indigenous art exhibition at the AGSA",
+                "event_summary_cn": "用户参观原住民艺术展"
+            },
+            {
+                "id": "EV_1772_15",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1772,
+                "time_norm": {
+                    "event_day": 1772,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 森林火灾",
+                "event_summary_cn": "用户经历森林火灾事件"
+            },
+            {
+                "id": "EV_1775_16",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1775,
+                "time_norm": {
+                    "event_day": 1775,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 取消友谊",
+                "event_summary_cn": "用户取消与朋友的友谊"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1687_0",
+                "target": "EV_1689_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1689_1",
+                "target": "EV_1689_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1689_2",
+                "target": "EV_1695_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1695_3",
+                "target": "EV_1705_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1705_4",
+                "target": "EV_1709_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1709_5",
+                "target": "EV_1712_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1712_6",
+                "target": "EV_1728_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1728_7",
+                "target": "EV_1730_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1730_8",
+                "target": "EV_1732_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1732_9",
+                "target": "EV_1732_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1732_10",
+                "target": "EV_1732_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1732_11",
+                "target": "EV_1739_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1739_12",
+                "target": "EV_1761_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1761_13",
+                "target": "EV_1770_14",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1770_14",
+                "target": "EV_1772_15",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1772_15",
+                "target": "EV_1775_16",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1687": [
+                    "EV_1687_0"
+                ],
+                "1689": [
+                    "EV_1689_1",
+                    "EV_1689_2"
+                ],
+                "1695": [
+                    "EV_1695_3"
+                ],
+                "1705": [
+                    "EV_1705_4"
+                ],
+                "1709": [
+                    "EV_1709_5"
+                ],
+                "1712": [
+                    "EV_1712_6"
+                ],
+                "1728": [
+                    "EV_1728_7"
+                ],
+                "1730": [
+                    "EV_1730_8"
+                ],
+                "1732": [
+                    "EV_1732_9",
+                    "EV_1732_10",
+                    "EV_1732_11"
+                ],
+                "1739": [
+                    "EV_1739_12"
+                ],
+                "1761": [
+                    "EV_1761_13"
+                ],
+                "1770": [
+                    "EV_1770_14"
+                ],
+                "1772": [
+                    "EV_1772_15"
+                ],
+                "1775": [
+                    "EV_1775_16"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1770_14",
+                "EV_1772_15",
+                "EV_1775_16"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_1761_13"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1739_12"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1728_7",
+                "EV_1730_8",
+                "EV_1732_9",
+                "EV_1732_10",
+                "EV_1732_11"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1709_5",
+                "EV_1712_6"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1705_4"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1695_3"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1687_0",
+                "EV_1689_1",
+                "EV_1689_2"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 取消友谊；我 经历 森林火灾。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 经历 爱情无果的婚姻。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 通知 Centrelink 停止学习。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 经历 锁down；我 观察到 南路被封锁。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 经历 被歧视和辱骂；我 BETRAYAL。代表时间点：2个月前（63天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 失去 钱。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 发布 necrobarista。代表时间点：2个月前（80天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 经历 工作创伤；我 受害于 气质操控与贬低。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

@@ -1,0 +1,344 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 300,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_239_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 239,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 学习",
+                "evidence": [
+                    "I know but I’ve been to busy to keep up with it, I have to balance work and school and it’s very hard for me, so I’m trying to focus on school more without trying to stress"
+                ],
+                "time_norm": {
+                    "event_day": 239,
+                    "days_ago": 61,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_240_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 240,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 恶心",
+                "evidence": [
+                    "Yeah, some people were very upset and I feel horrible"
+                ],
+                "time_norm": {
+                    "event_day": 240,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_254_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 254,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 愤怒并放弃行为",
+                "evidence": [
+                    "Yesss can relate except I get mad 😂 then rage quit"
+                ],
+                "time_norm": {
+                    "event_day": 254,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_260_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 260,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 出现 体重增加",
+                "evidence": [
+                    "For me, gain weight."
+                ],
+                "time_norm": {
+                    "event_day": 260,
+                    "days_ago": 40,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_278_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 278,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑发作和抑郁",
+                "evidence": [
+                    "I have a severe anxiety attack and anxiety and depression WOAH OK"
+                ],
+                "time_norm": {
+                    "event_day": 278,
+                    "days_ago": 22,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_278_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 278,
+                "symptom": "panic_fear",
+                "triple": "我 出现 焦虑发作和抑郁",
+                "evidence": [
+                    "I have a severe anxiety attack and anxiety and depression WOAH OK"
+                ],
+                "time_norm": {
+                    "event_day": 278,
+                    "days_ago": 22,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_300_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 300,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 Depressed_Mood",
+                "evidence": [
+                    "Causually has of this, but at least I'm diagnosed, people don't brag about their mental problems, lmao it's like me saying \"Im DePrEsSeD\" to everyone I see"
+                ],
+                "time_norm": {
+                    "event_day": 300,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_239_Inattention",
+                "target": "SYM_240_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_240_Depressed_Mood",
+                "target": "SYM_254_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_254_Anger_Irritability",
+                "target": "SYM_260_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_260_weight_and_appetite_change",
+                "target": "SYM_278_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_278_Anxious_Mood",
+                "target": "SYM_278_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_278_panic_fear",
+                "target": "SYM_300_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_240_Depressed_Mood",
+                "target": "SYM_300_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "239": [
+                    "SYM_239_Inattention"
+                ],
+                "240": [
+                    "SYM_240_Depressed_Mood"
+                ],
+                "254": [
+                    "SYM_254_Anger_Irritability"
+                ],
+                "260": [
+                    "SYM_260_weight_and_appetite_change"
+                ],
+                "278": [
+                    "SYM_278_Anxious_Mood",
+                    "SYM_278_panic_fear"
+                ],
+                "300": [
+                    "SYM_300_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Inattention": [
+                    "SYM_239_Inattention"
+                ],
+                "Depressed_Mood": [
+                    "SYM_240_Depressed_Mood",
+                    "SYM_300_Depressed_Mood"
+                ],
+                "Anger_Irritability": [
+                    "SYM_254_Anger_Irritability"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_260_weight_and_appetite_change"
+                ],
+                "Anxious_Mood": [
+                    "SYM_278_Anxious_Mood"
+                ],
+                "panic_fear": [
+                    "SYM_278_panic_fear"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_300_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_278_Anxious_Mood",
+                "SYM_278_panic_fear"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_260_weight_and_appetite_change"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_254_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_239_Inattention",
+                "SYM_240_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 Depressed_Mood。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 焦虑发作和抑郁。代表时间点：3周前（22天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 体重增加。代表时间点：1个月前（40天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 愤怒并放弃行为。代表时间点：1个月前（46天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 感到 恶心；我 难以进行 学习。代表时间点：2个月前（60天前）。"
+        }
+    ]
+}

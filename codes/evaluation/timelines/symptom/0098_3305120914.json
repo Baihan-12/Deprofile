@@ -1,0 +1,426 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 682,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_608_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 608,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Me crying over DeanCas at 3am My pillow"
+                ],
+                "time_norm": {
+                    "event_day": 608,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_608_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 608,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Me crying over DeanCas at 3am My pillow"
+                ],
+                "time_norm": {
+                    "event_day": 608,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_617_Respiratory_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 617,
+                "symptom": "Respiratory_symptoms",
+                "triple": "我 出现 呼吸困难",
+                "evidence": [
+                    ": *breathes* me:"
+                ],
+                "time_norm": {
+                    "event_day": 617,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_626_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 626,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 LAST DANCE PERFORMANCE",
+                "evidence": [
+                    "So there's a possibility that my LAST DANCE PERFORMANCE won't happen tomorrow because of the weather and I'm ready to cry"
+                ],
+                "time_norm": {
+                    "event_day": 626,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_632_Worthlessness_and_guilty",
+                "node_type": "Symptom",
+                "timestamp_day": 632,
+                "symptom": "Worthlessness_and_guilty",
+                "triple": "我 感到 自责和失望",
+                "evidence": [
+                    "I'm so FUCKING mad and disappointed from myself bc I feel like I trusted the wrong person again-"
+                ],
+                "time_norm": {
+                    "event_day": 632,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_658_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 658,
+                "symptom": "poor_memory",
+                "triple": "我 难以进行 删除",
+                "evidence": [
+                    "please somebody delete this from my memory PLEASE"
+                ],
+                "time_norm": {
+                    "event_day": 658,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_664_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 664,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣并被枕头包裹的场景",
+                "evidence": [
+                    "i can see my 27-year-old self crying on the couch of my apartment with a pillow in my hands at 4 am and my dog watching me from a corner super confused"
+                ],
+                "time_norm": {
+                    "event_day": 664,
+                    "days_ago": 18,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_682_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 682,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "i cried"
+                ],
+                "time_norm": {
+                    "event_day": 682,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_608_Depressed_Mood",
+                "target": "SYM_608_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_608_somatic_symptoms_others",
+                "target": "SYM_617_Respiratory_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_617_Respiratory_symptoms",
+                "target": "SYM_626_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_626_Depressed_Mood",
+                "target": "SYM_632_Worthlessness_and_guilty",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_632_Worthlessness_and_guilty",
+                "target": "SYM_658_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_658_poor_memory",
+                "target": "SYM_664_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_664_Depressed_Mood",
+                "target": "SYM_682_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_608_Depressed_Mood",
+                "target": "SYM_626_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_626_Depressed_Mood",
+                "target": "SYM_664_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_664_Depressed_Mood",
+                "target": "SYM_682_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "608": [
+                    "SYM_608_Depressed_Mood",
+                    "SYM_608_somatic_symptoms_others"
+                ],
+                "617": [
+                    "SYM_617_Respiratory_symptoms"
+                ],
+                "626": [
+                    "SYM_626_Depressed_Mood"
+                ],
+                "632": [
+                    "SYM_632_Worthlessness_and_guilty"
+                ],
+                "658": [
+                    "SYM_658_poor_memory"
+                ],
+                "664": [
+                    "SYM_664_Depressed_Mood"
+                ],
+                "682": [
+                    "SYM_682_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_608_Depressed_Mood",
+                    "SYM_626_Depressed_Mood",
+                    "SYM_664_Depressed_Mood",
+                    "SYM_682_Depressed_Mood"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_608_somatic_symptoms_others"
+                ],
+                "Respiratory_symptoms": [
+                    "SYM_617_Respiratory_symptoms"
+                ],
+                "Worthlessness_and_guilty": [
+                    "SYM_632_Worthlessness_and_guilty"
+                ],
+                "poor_memory": [
+                    "SYM_658_poor_memory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_682_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_664_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_658_poor_memory"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_632_Worthlessness_and_guilty"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_626_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_617_Respiratory_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_608_Depressed_Mood",
+                "SYM_608_somatic_symptoms_others"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 哭泣。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 哭泣并被枕头包裹的场景。代表时间点：2周前（18天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 难以进行 删除。代表时间点：3周前（24天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 自责和失望。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 难以进行 LAST DANCE PERFORMANCE。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 呼吸困难。代表时间点：2个月前（65天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 哭泣。代表时间点：2个月前（74天前）。"
+        }
+    ]
+}

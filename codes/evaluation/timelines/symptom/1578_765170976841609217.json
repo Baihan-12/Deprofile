@@ -1,0 +1,696 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1489,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1403_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1403,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 怒火将爆发的预感",
+                "evidence": [
+                    "It's cool. I probably am going to go on an angry rant before the day is over. It's very frustrating. It's also upsetting that people that have been talking about this but could not participate yesterday are now shouldering that burden of guilt."
+                ],
+                "time_norm": {
+                    "event_day": 1403,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1403_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1403,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现  terror, anger, 和 confusion",
+                "evidence": [
+                    "I want to take a moment and thank for all the work they've put in to organize this. Within the #citizenship4adoptees advocacy circles, I've finally found people that understood the terror, anger, and confusion of discovering I was undocumented."
+                ],
+                "time_norm": {
+                    "event_day": 1403,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1409_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1409,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 非常愤怒",
+                "evidence": [
+                    "Yeah. Some days are hard without someone being so dismissive and insulting on top. I'm sorry that happened. It makes me very angry on your behalf."
+                ],
+                "time_norm": {
+                    "event_day": 1409,
+                    "days_ago": 80,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1411_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 1411,
+                "symptom": "poor_memory",
+                "triple": "我 难以进行 记忆他人",
+                "evidence": [
+                    "I'm so bad at remembering everyone and then I feel like an ass because I don't want someone to be like oh. Guess I don't count."
+                ],
+                "time_norm": {
+                    "event_day": 1411,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1414_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1414,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "Right. I could do without waking up on the ground for the rest of my life. They did a brain scan... but it may be time for just a full workup if possible. Bloodwork, stress test for the heart, etc."
+                ],
+                "time_norm": {
+                    "event_day": 1414,
+                    "days_ago": 75,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1414_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 1414,
+                "symptom": "somatic_muscle",
+                "triple": "我 出现 稍微刺痛的颤抖感",
+                "evidence": [
+                    "They're still not sure how I made it all the way to adulthood without it coming up as an issue. I guess this was something that for me, was under the radar for years. Sometimes I still get a prickly shaky feeling but a bit of sugar corrects it."
+                ],
+                "time_norm": {
+                    "event_day": 1414,
+                    "days_ago": 75,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1414_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 1414,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 稍微刺痛的颤抖感",
+                "evidence": [
+                    "They're still not sure how I made it all the way to adulthood without it coming up as an issue. I guess this was something that for me, was under the radar for years. Sometimes I still get a prickly shaky feeling but a bit of sugar corrects it."
+                ],
+                "time_norm": {
+                    "event_day": 1414,
+                    "days_ago": 75,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1416_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1416,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "Nothing helps stress like a doctor saying you're going to die sooner because stress. /s"
+                ],
+                "time_norm": {
+                    "event_day": 1416,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1445_drastical_shift_in_mood_and_energy",
+                "node_type": "Symptom",
+                "timestamp_day": 1445,
+                "symptom": "drastical_shift_in_mood_and_energy",
+                "triple": "我 出现 大起大落的情绪",
+                "evidence": [
+                    "Big mood."
+                ],
+                "time_norm": {
+                    "event_day": 1445,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1471_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1471,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 怒火",
+                "evidence": [
+                    "That's so gross. I am angry that happened."
+                ],
+                "time_norm": {
+                    "event_day": 1471,
+                    "days_ago": 18,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1473_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1473,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "Dont be messing with what day it is lol. Give me a whole panic attack, pandachild."
+                ],
+                "time_norm": {
+                    "event_day": 1473,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1473_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 1473,
+                "symptom": "panic_fear",
+                "triple": "我 出现 焦虑发作",
+                "evidence": [
+                    "Dont be messing with what day it is lol. Give me a whole panic attack, pandachild."
+                ],
+                "time_norm": {
+                    "event_day": 1473,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1477_Genitourinary_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1477,
+                "symptom": "Genitourinary_symptoms",
+                "triple": "我 出现 无法控制的出血",
+                "evidence": [
+                    "Yes. I can (and will) bleed all over everything without menstrual products. Although they could argue it's technically a choice.... they really really shouldn't."
+                ],
+                "time_norm": {
+                    "event_day": 1477,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1479_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 1479,
+                "symptom": "somatic_muscle",
+                "triple": "我 出现 眼部抽动",
+                "evidence": [
+                    "That made my eye twitch."
+                ],
+                "time_norm": {
+                    "event_day": 1479,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1483_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1483,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 对 adoption 的愤怒和烦躁",
+                "evidence": [
+                    "The three polls after dealt with anger frustration and attitudes surrounding adoption. The majority of adoptees have a set or series of WTF faces we use, and have also dead eyed stated we are adopted to get people to stop doing what they're doing in regards to adoption."
+                ],
+                "time_norm": {
+                    "event_day": 1483,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1489_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1489,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 非常愤怒",
+                "evidence": [
+                    "I tried very hard to read that book. I truly did. I thought perhaps I would give a concise review of all the things that it got wrong and maybe even manage to pinpoint things it got right. However it was extremely tropey, rather offensive, and made me angry. I couldn't finish it."
+                ],
+                "time_norm": {
+                    "event_day": 1489,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1403_Anger_Irritability",
+                "target": "SYM_1403_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1403_Anger_Irritability",
+                "target": "SYM_1409_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1409_Anger_Irritability",
+                "target": "SYM_1411_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1411_poor_memory",
+                "target": "SYM_1414_Cardiovascular_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1414_Cardiovascular_symptoms",
+                "target": "SYM_1414_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1414_somatic_muscle",
+                "target": "SYM_1414_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1414_somatic_symptoms_sensory",
+                "target": "SYM_1416_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1416_Anxious_Mood",
+                "target": "SYM_1445_drastical_shift_in_mood_and_energy",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1445_drastical_shift_in_mood_and_energy",
+                "target": "SYM_1471_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1471_Anger_Irritability",
+                "target": "SYM_1473_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1473_Anxious_Mood",
+                "target": "SYM_1473_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1473_panic_fear",
+                "target": "SYM_1477_Genitourinary_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1477_Genitourinary_symptoms",
+                "target": "SYM_1479_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1479_somatic_muscle",
+                "target": "SYM_1483_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1483_Anger_Irritability",
+                "target": "SYM_1489_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1403_Anger_Irritability",
+                "target": "SYM_1403_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1403_Anger_Irritability",
+                "target": "SYM_1409_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1409_Anger_Irritability",
+                "target": "SYM_1471_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1471_Anger_Irritability",
+                "target": "SYM_1483_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1483_Anger_Irritability",
+                "target": "SYM_1489_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1414_somatic_muscle",
+                "target": "SYM_1479_somatic_muscle",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1416_Anxious_Mood",
+                "target": "SYM_1473_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1403": [
+                    "SYM_1403_Anger_Irritability",
+                    "SYM_1403_Anger_Irritability"
+                ],
+                "1409": [
+                    "SYM_1409_Anger_Irritability"
+                ],
+                "1411": [
+                    "SYM_1411_poor_memory"
+                ],
+                "1414": [
+                    "SYM_1414_Cardiovascular_symptoms",
+                    "SYM_1414_somatic_muscle",
+                    "SYM_1414_somatic_symptoms_sensory"
+                ],
+                "1416": [
+                    "SYM_1416_Anxious_Mood"
+                ],
+                "1445": [
+                    "SYM_1445_drastical_shift_in_mood_and_energy"
+                ],
+                "1471": [
+                    "SYM_1471_Anger_Irritability"
+                ],
+                "1473": [
+                    "SYM_1473_Anxious_Mood",
+                    "SYM_1473_panic_fear"
+                ],
+                "1477": [
+                    "SYM_1477_Genitourinary_symptoms"
+                ],
+                "1479": [
+                    "SYM_1479_somatic_muscle"
+                ],
+                "1483": [
+                    "SYM_1483_Anger_Irritability"
+                ],
+                "1489": [
+                    "SYM_1489_Anger_Irritability"
+                ]
+            },
+            "by_symptom": {
+                "Anger_Irritability": [
+                    "SYM_1403_Anger_Irritability",
+                    "SYM_1403_Anger_Irritability",
+                    "SYM_1409_Anger_Irritability",
+                    "SYM_1471_Anger_Irritability",
+                    "SYM_1483_Anger_Irritability",
+                    "SYM_1489_Anger_Irritability"
+                ],
+                "poor_memory": [
+                    "SYM_1411_poor_memory"
+                ],
+                "Cardiovascular_symptoms": [
+                    "SYM_1414_Cardiovascular_symptoms"
+                ],
+                "somatic_muscle": [
+                    "SYM_1414_somatic_muscle",
+                    "SYM_1479_somatic_muscle"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_1414_somatic_symptoms_sensory"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1416_Anxious_Mood",
+                    "SYM_1473_Anxious_Mood"
+                ],
+                "drastical_shift_in_mood_and_energy": [
+                    "SYM_1445_drastical_shift_in_mood_and_energy"
+                ],
+                "panic_fear": [
+                    "SYM_1473_panic_fear"
+                ],
+                "Genitourinary_symptoms": [
+                    "SYM_1477_Genitourinary_symptoms"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1483_Anger_Irritability",
+                "SYM_1489_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_1477_Genitourinary_symptoms",
+                "SYM_1479_somatic_muscle"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1471_Anger_Irritability",
+                "SYM_1473_Anxious_Mood",
+                "SYM_1473_panic_fear"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1445_drastical_shift_in_mood_and_energy"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1414_Cardiovascular_symptoms",
+                "SYM_1414_somatic_muscle",
+                "SYM_1414_somatic_symptoms_sensory",
+                "SYM_1416_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1409_Anger_Irritability",
+                "SYM_1411_poor_memory"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1403_Anger_Irritability",
+                "SYM_1403_Anger_Irritability"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 非常愤怒；我 出现 对 adoption 的愤怒和烦躁。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 眼部抽动；我 出现 无法控制的出血。代表时间点：1周前（10天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 焦虑情绪；我 出现 焦虑发作；我 感到 怒火。代表时间点：2周前（16天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 大起大落的情绪。代表时间点：1个月前（44天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 焦虑；我 难以进行 睡眠；我 出现 稍微刺痛的颤抖感。代表时间点：2个月前（73天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 记忆他人；我 感到 非常愤怒。代表时间点：2个月前（78天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现  terror, anger, 和 confusion。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

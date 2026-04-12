@@ -1,0 +1,121 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1390,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1380_Respiratory_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1380,
+                "symptom": "Respiratory_symptoms",
+                "triple": "我 难以进行 呼吸",
+                "evidence": [
+                    "Am feeling you hon. For me it’s like I can’t breath. Someone is sitting in my chest, and there’s no joy ...everything is black. I can’t feel or function or do or be. Can’t even sleep to escape it. I just exist. Please know you are not alone hon. Sending a whole lot of love xxx"
+                ],
+                "time_norm": {
+                    "event_day": 1380,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1390_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1390,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 泪水",
+                "evidence": [
+                    "So true. There’s been a few tears shed here."
+                ],
+                "time_norm": {
+                    "event_day": 1390,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1380_Respiratory_symptoms",
+                "target": "SYM_1390_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1380": [
+                    "SYM_1380_Respiratory_symptoms"
+                ],
+                "1390": [
+                    "SYM_1390_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Respiratory_symptoms": [
+                    "SYM_1380_Respiratory_symptoms"
+                ],
+                "Depressed_Mood": [
+                    "SYM_1390_Depressed_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1390_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_1380_Respiratory_symptoms"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 泪水。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 难以进行 呼吸。代表时间点：1周前（10天前）。"
+        }
+    ]
+}

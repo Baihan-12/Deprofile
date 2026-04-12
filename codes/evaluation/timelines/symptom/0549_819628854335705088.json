@@ -1,0 +1,748 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 691,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_605_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 605,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 自发性直播",
+                "evidence": [
+                    "I come back from not streaming for a month and a half due to DEPRESSION/OCD/ANXIETY meds. Completely spontaneous stream... FOR 12 HOURS. (NO CAM) &amp; WTF do y'all do??? Shower me with fucking love. I absolutely can't with y'all."
+                ],
+                "time_norm": {
+                    "event_day": 605,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_605_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 605,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 自发性直播",
+                "evidence": [
+                    "I come back from not streaming for a month and a half due to DEPRESSION/OCD/ANXIETY meds. Completely spontaneous stream... FOR 12 HOURS. (NO CAM) &amp; WTF do y'all do??? Shower me with fucking love. I absolutely can't with y'all."
+                ],
+                "time_norm": {
+                    "event_day": 605,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_606_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 606,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 出现 体重波动",
+                "evidence": [
+                    "❗PSA: Weight fluctuates ⚖ I also ate more than I usually do because I was hanging out with loved ones &amp; Im not gonna worry about food during that. I did my best to make smart decisions but still went over. My weight spiked &amp; guess what? 💯 IT. CAME. THE. FUCK. BACK. DOWN. 💯"
+                ],
+                "time_norm": {
+                    "event_day": 606,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_610_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 610,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 胃部不适",
+                "evidence": [
+                    "I'm physically ill after last night. My stomach is in knots. I am actually scared for my life. This is insanity."
+                ],
+                "time_norm": {
+                    "event_day": 610,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_610_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 610,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 感到 胃部不适",
+                "evidence": [
+                    "I'm physically ill after last night. My stomach is in knots. I am actually scared for my life. This is insanity."
+                ],
+                "time_norm": {
+                    "event_day": 610,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_614_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 614,
+                "symptom": "somatic_muscle",
+                "triple": "我 感到 胃部肌肉紧缩",
+                "evidence": [
+                    "Fasciating how stomach pain constricts your muscles SOO MUCH! I've been releasing tension in my legs and back all day. 🤕😵"
+                ],
+                "time_norm": {
+                    "event_day": 614,
+                    "days_ago": 77,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_618_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 618,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 难以进行 � doodle",
+                "evidence": [
+                    "It's okay if you can't do all of inktober. It's okay if you can't do a single one. It's okay if you can barely get the energy to doodle. It's okay if you have a billion side unfinished projects. You're still an artist. You're still amazing."
+                ],
+                "time_norm": {
+                    "event_day": 618,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_621_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 621,
+                "symptom": "poor_memory",
+                "triple": "我 难以进行 记忆",
+                "evidence": [
+                    "But then I don't remember them when I wake up 😵🥺"
+                ],
+                "time_norm": {
+                    "event_day": 621,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_627_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 627,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 日常清洁",
+                "evidence": [
+                    "TW: Depression is a real fucker: I sleep 11-12 hours+. I don't remember my last shower. I did shittily brush my teeth a few days ago at least? Brushed my hair when I showered... Stopped taking vitamins out of tiredness. I've at least forced myself to take my antidepressant."
+                ],
+                "time_norm": {
+                    "event_day": 627,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_637_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 637,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 自我控制",
+                "evidence": [
+                    "Waste-not complex This has caused me to overeat through the years. & is one of the reasons I gained 50 lbs in 2 years with E. Since we traveled a lot, we ate out & I hated wasting. So I ate (even leftovers) when I wasn't hungry. I'm doing a great job of self control. 🥺🍋"
+                ],
+                "time_norm": {
+                    "event_day": 637,
+                    "days_ago": 54,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_659_Genitourinary_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 659,
+                "symptom": "Genitourinary_symptoms",
+                "triple": "我 难以进行 性行为",
+                "evidence": [
+                    "If you have any questions privately, I also have no problem answering best of my ability. But youtube helped me a lot and just googling. C:\\n\\nThere are not a lot of sexuals loll I don't really know many people like me.\\n\\nSome are just low libidos as well."
+                ],
+                "time_norm": {
+                    "event_day": 659,
+                    "days_ago": 32,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_660_compensatory_behaviors_to_prevent_weight_gain",
+                "node_type": "Symptom",
+                "timestamp_day": 660,
+                "symptom": "compensatory_behaviors_to_prevent_weight_gain",
+                "triple": "我 出现 反胃",
+                "evidence": [
+                    "Me body: wow I love tea My body: /Proceeds to spit up all over herself/"
+                ],
+                "time_norm": {
+                    "event_day": 660,
+                    "days_ago": 31,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_668_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 668,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 艺术治疗",
+                "evidence": [
+                    "I get there fear. A lot with art therapy. I want to help people with art but Im afraid to misdiagnose or miss something."
+                ],
+                "time_norm": {
+                    "event_day": 668,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_689_do_things_easily_get_painful_consequences",
+                "node_type": "Symptom",
+                "timestamp_day": 689,
+                "symptom": "do_things_easily_get_painful_consequences",
+                "triple": "我 难以进行 自我破坏",
+                "evidence": [
+                    "It's a special kinda Hell, self sabotage."
+                ],
+                "time_norm": {
+                    "event_day": 689,
+                    "days_ago": 2,
+                    "relative_cn": "2天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_691_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 691,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 集中注意力",
+                "evidence": [
+                    "So I'm losing my mind in a small cramped room, trying to focus on myself (and my insane baby fever), trying to be there for others in my community and circle. Still taking on commissions slowly, trying to do side projects, few streams due to stress/pressure/depression. /8"
+                ],
+                "time_norm": {
+                    "event_day": 691,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_691_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 691,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 等待整个月的就诊",
+                "evidence": [
+                    "Imposter syndrome set it, what if the Dr didn't believe me? I had to wait an ENTIRE. MONTH. For the appt. I almost missed it &amp; only had a half hour appt instead. I was diagnosed with Depression, Generalized Anxiety Disorder, &amp; OCD. I was entirely blown away by OCD diagnosis. /4"
+                ],
+                "time_norm": {
+                    "event_day": 691,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_691_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 691,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 情绪低落",
+                "evidence": [
+                    "Imposter syndrome set it, what if the Dr didn't believe me? I had to wait an ENTIRE. MONTH. For the appt. I almost missed it &amp; only had a half hour appt instead. I was diagnosed with Depression, Generalized Anxiety Disorder, &amp; OCD. I was entirely blown away by OCD diagnosis. /4"
+                ],
+                "time_norm": {
+                    "event_day": 691,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_605_Anxious_Mood",
+                "target": "SYM_605_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_605_Depressed_Mood",
+                "target": "SYM_606_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_606_weight_and_appetite_change",
+                "target": "SYM_610_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_610_Anxious_Mood",
+                "target": "SYM_610_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_610_Gastrointestinal_symptoms",
+                "target": "SYM_614_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_614_somatic_muscle",
+                "target": "SYM_618_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_618_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_621_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_621_poor_memory",
+                "target": "SYM_627_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_627_Depressed_Mood",
+                "target": "SYM_637_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_637_weight_and_appetite_change",
+                "target": "SYM_659_Genitourinary_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_659_Genitourinary_symptoms",
+                "target": "SYM_660_compensatory_behaviors_to_prevent_weight_gain",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_660_compensatory_behaviors_to_prevent_weight_gain",
+                "target": "SYM_668_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_668_Anxious_Mood",
+                "target": "SYM_689_do_things_easily_get_painful_consequences",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_689_do_things_easily_get_painful_consequences",
+                "target": "SYM_691_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_691_Anxious_Mood",
+                "target": "SYM_691_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_691_Anxious_Mood",
+                "target": "SYM_691_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_605_Anxious_Mood",
+                "target": "SYM_610_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_610_Anxious_Mood",
+                "target": "SYM_668_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_668_Anxious_Mood",
+                "target": "SYM_691_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_691_Anxious_Mood",
+                "target": "SYM_691_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_605_Depressed_Mood",
+                "target": "SYM_627_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_627_Depressed_Mood",
+                "target": "SYM_691_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_606_weight_and_appetite_change",
+                "target": "SYM_637_weight_and_appetite_change",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "605": [
+                    "SYM_605_Anxious_Mood",
+                    "SYM_605_Depressed_Mood"
+                ],
+                "606": [
+                    "SYM_606_weight_and_appetite_change"
+                ],
+                "610": [
+                    "SYM_610_Anxious_Mood",
+                    "SYM_610_Gastrointestinal_symptoms"
+                ],
+                "614": [
+                    "SYM_614_somatic_muscle"
+                ],
+                "618": [
+                    "SYM_618_Decreased_energy_tiredness_fatigue"
+                ],
+                "621": [
+                    "SYM_621_poor_memory"
+                ],
+                "627": [
+                    "SYM_627_Depressed_Mood"
+                ],
+                "637": [
+                    "SYM_637_weight_and_appetite_change"
+                ],
+                "659": [
+                    "SYM_659_Genitourinary_symptoms"
+                ],
+                "660": [
+                    "SYM_660_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "668": [
+                    "SYM_668_Anxious_Mood"
+                ],
+                "689": [
+                    "SYM_689_do_things_easily_get_painful_consequences"
+                ],
+                "691": [
+                    "SYM_691_Anxious_Mood",
+                    "SYM_691_Anxious_Mood",
+                    "SYM_691_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_605_Anxious_Mood",
+                    "SYM_610_Anxious_Mood",
+                    "SYM_668_Anxious_Mood",
+                    "SYM_691_Anxious_Mood",
+                    "SYM_691_Anxious_Mood"
+                ],
+                "Depressed_Mood": [
+                    "SYM_605_Depressed_Mood",
+                    "SYM_627_Depressed_Mood",
+                    "SYM_691_Depressed_Mood"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_606_weight_and_appetite_change",
+                    "SYM_637_weight_and_appetite_change"
+                ],
+                "Gastrointestinal_symptoms": [
+                    "SYM_610_Gastrointestinal_symptoms"
+                ],
+                "somatic_muscle": [
+                    "SYM_614_somatic_muscle"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_618_Decreased_energy_tiredness_fatigue"
+                ],
+                "poor_memory": [
+                    "SYM_621_poor_memory"
+                ],
+                "Genitourinary_symptoms": [
+                    "SYM_659_Genitourinary_symptoms"
+                ],
+                "compensatory_behaviors_to_prevent_weight_gain": [
+                    "SYM_660_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "do_things_easily_get_painful_consequences": [
+                    "SYM_689_do_things_easily_get_painful_consequences"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_689_do_things_easily_get_painful_consequences",
+                "SYM_691_Anxious_Mood",
+                "SYM_691_Anxious_Mood",
+                "SYM_691_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_668_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_659_Genitourinary_symptoms",
+                "SYM_660_compensatory_behaviors_to_prevent_weight_gain"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_637_weight_and_appetite_change"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_627_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_618_Decreased_energy_tiredness_fatigue",
+                "SYM_621_poor_memory"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_610_Anxious_Mood",
+                "SYM_610_Gastrointestinal_symptoms",
+                "SYM_614_somatic_muscle"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_605_Anxious_Mood",
+                "SYM_605_Depressed_Mood",
+                "SYM_606_weight_and_appetite_change"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 等待整个月的就诊；我 难以进行 情绪低落。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 难以进行 艺术治疗。代表时间点：3周前（23天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 反胃；我 难以进行 性行为。代表时间点：1个月前（31天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 自我控制。代表时间点：1个月前（54天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 日常清洁。代表时间点：2个月前（64天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 记忆；我 难以进行 � doodle。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 胃部肌肉紧缩；我 感到 胃部不适。代表时间点：2个月前（77天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现 体重波动；我 难以进行 自发性直播。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

@@ -1,0 +1,325 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 366,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_288_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 288,
+                "time_norm": {
+                    "event_day": 288,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去医生 我的医生",
+                "event_summary_cn": "用户失去信任的医生"
+            },
+            {
+                "id": "EV_305_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 305,
+                "time_norm": {
+                    "event_day": 305,
+                    "days_ago": 61,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去朋友",
+                "event_summary_cn": "用户失去朋友感到悲伤"
+            },
+            {
+                "id": "EV_307_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 307,
+                "time_norm": {
+                    "event_day": 307,
+                    "days_ago": 59,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 改变 晨跑时间",
+                "event_summary_cn": "用户调整晨跑时间感到开心"
+            },
+            {
+                "id": "EV_341_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 341,
+                "time_norm": {
+                    "event_day": 341,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 丧事",
+                "event_summary_cn": "用户需参加亲友的葬礼"
+            },
+            {
+                "id": "EV_349_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 349,
+                "time_norm": {
+                    "event_day": 349,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要工作 更努力 我感到贫穷",
+                "event_summary_cn": "用户表达因贫穷而想加倍努力工作"
+            },
+            {
+                "id": "EV_358_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 358,
+                "time_norm": {
+                    "event_day": 358,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去亲人 疫情",
+                "event_summary_cn": "用户因疫情失去亲人"
+            },
+            {
+                "id": "EV_366_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 366,
+                "time_norm": {
+                    "event_day": 366,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 做运动 喝水散步",
+                "event_summary_cn": "用户分享日常健康习惯"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_288_0",
+                "target": "EV_305_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_305_1",
+                "target": "EV_307_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_307_2",
+                "target": "EV_341_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_341_3",
+                "target": "EV_349_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_349_4",
+                "target": "EV_358_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_358_5",
+                "target": "EV_366_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "288": [
+                    "EV_288_0"
+                ],
+                "305": [
+                    "EV_305_1"
+                ],
+                "307": [
+                    "EV_307_2"
+                ],
+                "341": [
+                    "EV_341_3"
+                ],
+                "349": [
+                    "EV_349_4"
+                ],
+                "358": [
+                    "EV_358_5"
+                ],
+                "366": [
+                    "EV_366_6"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_366_6"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_358_5"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_349_4"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_341_3"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_305_1",
+                "EV_307_2"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_288_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 做运动 喝水散步。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 失去亲人 疫情。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 想要工作 更努力 我感到贫穷。代表时间点：2周前（17天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 有 丧事。代表时间点：3周前（25天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 改变 晨跑时间；我 失去朋友。代表时间点：1个月前（59天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 失去医生 我的医生。代表时间点：2个月前（78天前）。"
+        }
+    ]
+}

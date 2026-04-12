@@ -1,0 +1,173 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 2020,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1950_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1950,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 头脑空虚",
+                "evidence": [
+                    "feels sad head empty lol"
+                ],
+                "time_norm": {
+                    "event_day": 1950,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1966_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1966,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 难以承受的恐惧",
+                "evidence": [
+                    "I can feel the joy through this photo IT'S TERRIFYING"
+                ],
+                "time_norm": {
+                    "event_day": 1966,
+                    "days_ago": 54,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2020_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 2020,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 回忆童年游戏的闪回体验",
+                "evidence": [
+                    "Making me flashback to my childhood here, playing the Star Wars D20 game..."
+                ],
+                "time_norm": {
+                    "event_day": 2020,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1950_Depressed_Mood",
+                "target": "SYM_1966_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1966_Anxious_Mood",
+                "target": "SYM_2020_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1950": [
+                    "SYM_1950_Depressed_Mood"
+                ],
+                "1966": [
+                    "SYM_1966_Anxious_Mood"
+                ],
+                "2020": [
+                    "SYM_2020_intrusion_symptoms"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_1950_Depressed_Mood"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1966_Anxious_Mood"
+                ],
+                "intrusion_symptoms": [
+                    "SYM_2020_intrusion_symptoms"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_2020_intrusion_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1966_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1950_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 回忆童年游戏的闪回体验。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 难以承受的恐惧。代表时间点：1个月前（54天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 头脑空虚。代表时间点：2个月前（70天前）。"
+        }
+    ]
+}

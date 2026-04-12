@@ -1,0 +1,204 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 2027,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1961_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1961,
+                "time_norm": {
+                    "event_day": 1961,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 变得不感兴趣",
+                "event_summary_cn": "用户突然失去兴趣"
+            },
+            {
+                "id": "EV_1967_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1967,
+                "time_norm": {
+                    "event_day": 1967,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结婚 去年",
+                "event_summary_cn": "用户去年结婚"
+            },
+            {
+                "id": "EV_2018_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2018,
+                "time_norm": {
+                    "event_day": 2018,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 无法负担 月租金",
+                "event_summary_cn": "用户无法负担月租金"
+            },
+            {
+                "id": "EV_2027_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2027,
+                "time_norm": {
+                    "event_day": 2027,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 达成 资产达百万",
+                "event_summary_cn": "用户表示即将达成百万资产"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1961_0",
+                "target": "EV_1967_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1967_1",
+                "target": "EV_2018_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_2018_2",
+                "target": "EV_2027_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1961": [
+                    "EV_1961_0"
+                ],
+                "1967": [
+                    "EV_1967_1"
+                ],
+                "2018": [
+                    "EV_2018_2"
+                ],
+                "2027": [
+                    "EV_2027_3"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_2027_3"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_2018_2"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1967_1"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1961_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 达成 资产达百万。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 无法负担 月租金。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 结婚 去年。代表时间点：2个月前（60天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 变得不感兴趣。代表时间点：2个月前（66天前）。"
+        }
+    ]
+}

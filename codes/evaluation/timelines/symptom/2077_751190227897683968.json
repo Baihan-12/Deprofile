@@ -1,0 +1,329 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 795,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_726_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 726,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 出现 心脏病发作前的不适",
+                "evidence": [
+                    "12 year old me would of been shaking, me now is about to get a heart attack just watching this"
+                ],
+                "time_norm": {
+                    "event_day": 726,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_728_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 728,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "depression is crushing me alexa play mad world"
+                ],
+                "time_norm": {
+                    "event_day": 728,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_736_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 736,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "i hate not being able to sleep, feeling tired but despite that you can't stay asleep"
+                ],
+                "time_norm": {
+                    "event_day": 736,
+                    "days_ago": 59,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_739_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 739,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 出现了糟糕的情绪",
+                "evidence": [
+                    "i feel like shit"
+                ],
+                "time_norm": {
+                    "event_day": 739,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_748_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 748,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 抑郁情绪",
+                "evidence": [
+                    "im so tired! stan twt is draining! tumblr is a mess! the irls make me depressed on ig fb and sc! fuck m-"
+                ],
+                "time_norm": {
+                    "event_day": 748,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_795_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 795,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 头痛",
+                "evidence": [
+                    "all this shit is giving me a headache"
+                ],
+                "time_norm": {
+                    "event_day": 795,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_795_drastical_shift_in_mood_and_energy",
+                "node_type": "Symptom",
+                "timestamp_day": 795,
+                "symptom": "drastical_shift_in_mood_and_energy",
+                "triple": "我 出现 更大的情绪波动",
+                "evidence": [
+                    "bruh a big mood"
+                ],
+                "time_norm": {
+                    "event_day": 795,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_726_Cardiovascular_symptoms",
+                "target": "SYM_728_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_728_Depressed_Mood",
+                "target": "SYM_736_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_736_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_739_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_739_Depressed_Mood",
+                "target": "SYM_748_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_748_Depressed_Mood",
+                "target": "SYM_795_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_795_Autonomic_symptoms",
+                "target": "SYM_795_drastical_shift_in_mood_and_energy",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_728_Depressed_Mood",
+                "target": "SYM_739_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_739_Depressed_Mood",
+                "target": "SYM_748_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "726": [
+                    "SYM_726_Cardiovascular_symptoms"
+                ],
+                "728": [
+                    "SYM_728_Depressed_Mood"
+                ],
+                "736": [
+                    "SYM_736_Decreased_energy_tiredness_fatigue"
+                ],
+                "739": [
+                    "SYM_739_Depressed_Mood"
+                ],
+                "748": [
+                    "SYM_748_Depressed_Mood"
+                ],
+                "795": [
+                    "SYM_795_Autonomic_symptoms",
+                    "SYM_795_drastical_shift_in_mood_and_energy"
+                ]
+            },
+            "by_symptom": {
+                "Cardiovascular_symptoms": [
+                    "SYM_726_Cardiovascular_symptoms"
+                ],
+                "Depressed_Mood": [
+                    "SYM_728_Depressed_Mood",
+                    "SYM_739_Depressed_Mood",
+                    "SYM_748_Depressed_Mood"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_736_Decreased_energy_tiredness_fatigue"
+                ],
+                "Autonomic_symptoms": [
+                    "SYM_795_Autonomic_symptoms"
+                ],
+                "drastical_shift_in_mood_and_energy": [
+                    "SYM_795_drastical_shift_in_mood_and_energy"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_795_Autonomic_symptoms",
+                "SYM_795_drastical_shift_in_mood_and_energy"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_748_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_736_Decreased_energy_tiredness_fatigue",
+                "SYM_739_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_726_Cardiovascular_symptoms",
+                "SYM_728_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 头痛；我 出现 更大的情绪波动。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 抑郁情绪。代表时间点：1个月前（47天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 感到 出现了糟糕的情绪；我 难以进行 睡眠。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 抑郁情绪；我 出现 心脏病发作前的不适。代表时间点：2个月前（67天前）。"
+        }
+    ]
+}

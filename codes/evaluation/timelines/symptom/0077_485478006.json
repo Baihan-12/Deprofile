@@ -1,0 +1,68 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 652,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_652_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 652,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 隐藏伤疤",
+                "evidence": [
+                    "Exactly! People don't understand just how much effort goes into hiding at, how much fear and anxiety. I'm generally okay with my scars being visible, but fresh sh... I'd much prefer no one know about. Hope you're okay ❤"
+                ],
+                "time_norm": {
+                    "event_day": 652,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [],
+        "index": {
+            "by_day": {
+                "652": [
+                    "SYM_652_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_652_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_652_Anxious_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 隐藏伤疤。代表时间点：今天（0天前）。"
+        }
+    ]
+}

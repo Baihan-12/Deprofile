@@ -1,0 +1,258 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1335,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1250_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1250,
+                "time_norm": {
+                    "event_day": 1250,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失重 我",
+                "event_summary_cn": "用户减肥成功但自我要求高"
+            },
+            {
+                "id": "EV_1257_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1257,
+                "time_norm": {
+                    "event_day": 1257,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 与男友开始恋爱关系",
+                "event_summary_cn": "用户与男友开始恋爱关系"
+            },
+            {
+                "id": "EV_1276_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1276,
+                "time_norm": {
+                    "event_day": 1276,
+                    "days_ago": 59,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 投票了 今天",
+                "event_summary_cn": "用户首次投票感到兴奋"
+            },
+            {
+                "id": "EV_1279_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1279,
+                "time_norm": {
+                    "event_day": 1279,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 job interview",
+                "event_summary_cn": "用户获得面试机会"
+            },
+            {
+                "id": "EV_1334_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1334,
+                "time_norm": {
+                    "event_day": 1334,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得工作 pc repair",
+                "event_summary_cn": "用户获得电脑维修工作"
+            },
+            {
+                "id": "EV_1335_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1335,
+                "time_norm": {
+                    "event_day": 1335,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 尝试购买汽车 未成功",
+                "event_summary_cn": "用户尝试购车未果"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1250_0",
+                "target": "EV_1257_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1257_1",
+                "target": "EV_1276_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1276_2",
+                "target": "EV_1279_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1279_3",
+                "target": "EV_1334_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1334_4",
+                "target": "EV_1335_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1250": [
+                    "EV_1250_0"
+                ],
+                "1257": [
+                    "EV_1257_1"
+                ],
+                "1276": [
+                    "EV_1276_2"
+                ],
+                "1279": [
+                    "EV_1279_3"
+                ],
+                "1334": [
+                    "EV_1334_4"
+                ],
+                "1335": [
+                    "EV_1335_5"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1334_4",
+                "EV_1335_5"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1276_2",
+                "EV_1279_3"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1257_1"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1250_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 尝试购买汽车 未成功；我 获得工作 pc repair。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 有 job interview；我 投票了 今天。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 与男友开始恋爱关系。代表时间点：2个月前（78天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 失重 我。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

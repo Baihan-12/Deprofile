@@ -1,0 +1,157 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 746,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_668_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 668,
+                "time_norm": {
+                    "event_day": 668,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被背叛 布丽·拉森",
+                "event_summary_cn": "用户声称被布丽·拉森背叛"
+            },
+            {
+                "id": "EV_681_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 681,
+                "time_norm": {
+                    "event_day": 681,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 老去 无子女",
+                "event_summary_cn": "用户表达对老年孤独的担忧"
+            },
+            {
+                "id": "EV_746_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 746,
+                "time_norm": {
+                    "event_day": 746,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 恐惧 Jesse Quick 死亡",
+                "event_summary_cn": "用户担心Jesse Quick去世"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_668_0",
+                "target": "EV_681_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_681_1",
+                "target": "EV_746_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "668": [
+                    "EV_668_0"
+                ],
+                "681": [
+                    "EV_681_1"
+                ],
+                "746": [
+                    "EV_746_2"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_746_2"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_681_1"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_668_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 恐惧 Jesse Quick 死亡。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 老去 无子女。代表时间点：2个月前（65天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 被背叛 布丽·拉森。代表时间点：2个月前（78天前）。"
+        }
+    ]
+}

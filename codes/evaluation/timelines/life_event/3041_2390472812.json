@@ -1,0 +1,353 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1004,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_938_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 938,
+                "time_norm": {
+                    "event_day": 938,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到非常糟糕 自己",
+                "event_summary_cn": "用户独自生活感到情绪低落"
+            },
+            {
+                "id": "EV_939_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 939,
+                "time_norm": {
+                    "event_day": 939,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 去私密化 我妈妈的前任",
+                "event_summary_cn": "用户因前男友行为去私密化"
+            },
+            {
+                "id": "EV_939_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 939,
+                "time_norm": {
+                    "event_day": 939,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被跟踪 陌生人",
+                "event_summary_cn": "我被陌生人跟踪并骚扰"
+            },
+            {
+                "id": "EV_939_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 939,
+                "time_norm": {
+                    "event_day": 939,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 违反 禁止令",
+                "event_summary_cn": "用户违反禁止令"
+            },
+            {
+                "id": "EV_948_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 948,
+                "time_norm": {
+                    "event_day": 948,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 投票 了",
+                "event_summary_cn": "用户顺利完成投票并表达满意"
+            },
+            {
+                "id": "EV_956_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 956,
+                "time_norm": {
+                    "event_day": 956,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 5 个孩子",
+                "event_summary_cn": "用户昨日有5个孩子且无人听从"
+            },
+            {
+                "id": "EV_968_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 968,
+                "time_norm": {
+                    "event_day": 968,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 计划 5年还清贷款",
+                "event_summary_cn": "用户计划5年还清贷款"
+            },
+            {
+                "id": "EV_968_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 968,
+                "time_norm": {
+                    "event_day": 968,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 忘记 朋友未参加毕业派对",
+                "event_summary_cn": "用户忘记朋友未参加毕业派对"
+            },
+            {
+                "id": "EV_994_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 994,
+                "time_norm": {
+                    "event_day": 994,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 relived 呼叫警察",
+                "event_summary_cn": "用户回忆呼叫警察经历"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_938_0",
+                "target": "EV_939_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_939_1",
+                "target": "EV_939_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_939_2",
+                "target": "EV_939_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_939_3",
+                "target": "EV_948_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_948_4",
+                "target": "EV_956_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_956_5",
+                "target": "EV_968_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_968_6",
+                "target": "EV_968_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_968_7",
+                "target": "EV_994_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "938": [
+                    "EV_938_0"
+                ],
+                "939": [
+                    "EV_939_1",
+                    "EV_939_2",
+                    "EV_939_3"
+                ],
+                "948": [
+                    "EV_948_4"
+                ],
+                "956": [
+                    "EV_956_5"
+                ],
+                "968": [
+                    "EV_968_6",
+                    "EV_968_7"
+                ],
+                "994": [
+                    "EV_994_8"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_994_8"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_968_6",
+                "EV_968_7"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_956_5"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_948_4"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_938_0",
+                "EV_939_1",
+                "EV_939_2",
+                "EV_939_3"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 relived 呼叫警察。代表时间点：1周前（10天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 计划 5年还清贷款；我 忘记 朋友未参加毕业派对。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 有 5 个孩子。代表时间点：1个月前（48天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 投票 了。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 去私密化 我妈妈的前任；我 被跟踪 陌生人。代表时间点：2个月前（65天前）。"
+        }
+    ]
+}

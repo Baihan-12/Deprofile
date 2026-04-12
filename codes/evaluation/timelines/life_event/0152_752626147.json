@@ -1,0 +1,137 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1178,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1161_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1161,
+                "time_norm": {
+                    "event_day": 1161,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 作业和期中考试",
+                "event_summary_cn": "用户面临作业和期中考试压力"
+            },
+            {
+                "id": "EV_1175_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1175,
+                "time_norm": {
+                    "event_day": 1175,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 讨论 兄弟姐妹对选举结果的反应",
+                "event_summary_cn": "用户讨论家人对选举的看法"
+            },
+            {
+                "id": "EV_1178_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1178,
+                "time_norm": {
+                    "event_day": 1178,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 听到家人欢呼 美国总统选举结果",
+                "event_summary_cn": "用户家人庆祝拜登当选总统"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1161_0",
+                "target": "EV_1175_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1175_1",
+                "target": "EV_1178_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1161": [
+                    "EV_1161_0"
+                ],
+                "1175": [
+                    "EV_1175_1"
+                ],
+                "1178": [
+                    "EV_1178_2"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1175_1",
+                "EV_1178_2"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_1161_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 听到家人欢呼 美国总统选举结果；我 讨论 兄弟姐妹对选举结果的反应。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 有 作业和期中考试。代表时间点：2周前（17天前）。"
+        }
+    ]
+}

@@ -1,0 +1,540 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 663,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_587_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 587,
+                "time_norm": {
+                    "event_day": 587,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要起诉 Robbers",
+                "event_summary_cn": "用户想起诉抢劫者"
+            },
+            {
+                "id": "EV_590_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 590,
+                "time_norm": {
+                    "event_day": 590,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 兴奋 重返学校",
+                "event_summary_cn": "用户表达对重返学校感到兴奋"
+            },
+            {
+                "id": "EV_590_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 590,
+                "time_norm": {
+                    "event_day": 590,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 每隔一天剃须 产生严重剃须灼伤",
+                "event_summary_cn": "用户频繁剃须导致皮肤灼伤"
+            },
+            {
+                "id": "EV_591_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 591,
+                "time_norm": {
+                    "event_day": 591,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "用户本人 收入 £25 每张门票",
+                "event_summary_cn": "用户通过门票收入获得利润"
+            },
+            {
+                "id": "EV_592_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 592,
+                "time_norm": {
+                    "event_day": 592,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 穿比基尼 我第一次夏天",
+                "event_summary_cn": "用户首次夏天穿比基尼"
+            },
+            {
+                "id": "EV_592_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 592,
+                "time_norm": {
+                    "event_day": 592,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受到 穿着不适",
+                "event_summary_cn": "用户分享穿衣不适经历"
+            },
+            {
+                "id": "EV_594_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 594,
+                "time_norm": {
+                    "event_day": 594,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 决定 第六形式",
+                "event_summary_cn": "用户决定进入第六形式"
+            },
+            {
+                "id": "EV_595_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 595,
+                "time_norm": {
+                    "event_day": 595,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 等待 GCSE results day",
+                "event_summary_cn": "用户等待GCSE考试结果"
+            },
+            {
+                "id": "EV_597_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 597,
+                "time_norm": {
+                    "event_day": 597,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 应用 了真实工作",
+                "event_summary_cn": "用户申请了真实工作"
+            },
+            {
+                "id": "EV_597_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 597,
+                "time_norm": {
+                    "event_day": 597,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被使用邮箱 获取贷款",
+                "event_summary_cn": "用户邮箱被用于贷款"
+            },
+            {
+                "id": "EV_625_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 625,
+                "time_norm": {
+                    "event_day": 625,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 拿到成绩 我 重新坚持学业",
+                "event_summary_cn": "用户坚持学业并拿到成绩"
+            },
+            {
+                "id": "EV_627_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 627,
+                "time_norm": {
+                    "event_day": 627,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成学业 我的GCSEs",
+                "event_summary_cn": "用户完成学业进入第六形式"
+            },
+            {
+                "id": "EV_646_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 646,
+                "time_norm": {
+                    "event_day": 646,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参加第六形式的课程 我感到厌烦",
+                "event_summary_cn": "用户对第六形式课程感到厌烦"
+            },
+            {
+                "id": "EV_660_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 660,
+                "time_norm": {
+                    "event_day": 660,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始 学习 社会学",
+                "event_summary_cn": "用户开始学习社会学并表达厌恶"
+            },
+            {
+                "id": "EV_663_14",
+                "node_type": "LifeEvent",
+                "timestamp_day": 663,
+                "time_norm": {
+                    "event_day": 663,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结束 一段关系",
+                "event_summary_cn": "用户结束了一段关系"
+            },
+            {
+                "id": "EV_663_15",
+                "node_type": "LifeEvent",
+                "timestamp_day": 663,
+                "time_norm": {
+                    "event_day": 663,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 告诉 朋友们 我在恋爱",
+                "event_summary_cn": "用户宣布自己正在恋爱"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_587_0",
+                "target": "EV_590_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_590_1",
+                "target": "EV_590_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_590_2",
+                "target": "EV_591_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_591_3",
+                "target": "EV_592_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_592_4",
+                "target": "EV_592_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_592_5",
+                "target": "EV_594_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_594_6",
+                "target": "EV_595_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_595_7",
+                "target": "EV_597_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_597_8",
+                "target": "EV_597_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_597_9",
+                "target": "EV_625_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_625_10",
+                "target": "EV_627_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_627_11",
+                "target": "EV_646_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_646_12",
+                "target": "EV_660_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_660_13",
+                "target": "EV_663_14",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_663_14",
+                "target": "EV_663_15",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "587": [
+                    "EV_587_0"
+                ],
+                "590": [
+                    "EV_590_1",
+                    "EV_590_2"
+                ],
+                "591": [
+                    "EV_591_3"
+                ],
+                "592": [
+                    "EV_592_4",
+                    "EV_592_5"
+                ],
+                "594": [
+                    "EV_594_6"
+                ],
+                "595": [
+                    "EV_595_7"
+                ],
+                "597": [
+                    "EV_597_8",
+                    "EV_597_9"
+                ],
+                "625": [
+                    "EV_625_10"
+                ],
+                "627": [
+                    "EV_627_11"
+                ],
+                "646": [
+                    "EV_646_12"
+                ],
+                "660": [
+                    "EV_660_13"
+                ],
+                "663": [
+                    "EV_663_14",
+                    "EV_663_15"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_660_13",
+                "EV_663_14",
+                "EV_663_15"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_646_12"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_625_10",
+                "EV_627_11"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_594_6",
+                "EV_595_7",
+                "EV_597_8",
+                "EV_597_9"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_587_0",
+                "EV_590_1",
+                "EV_590_2",
+                "EV_591_3",
+                "EV_592_4",
+                "EV_592_5"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 结束 一段关系；我 告诉 朋友们 我在恋爱。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 参加第六形式的课程 我感到厌烦。代表时间点：2周前（17天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 完成学业 我的GCSEs；我 拿到成绩 我 重新坚持学业。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 应用 了真实工作；我 被使用邮箱 获取贷款。代表时间点：2个月前（66天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 穿比基尼 我第一次夏天；我 感受到 穿着不适。代表时间点：2个月前（71天前）。"
+        }
+    ]
+}

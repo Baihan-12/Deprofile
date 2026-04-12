@@ -1,0 +1,478 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 882,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_795_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 795,
+                "time_norm": {
+                    "event_day": 795,
+                    "days_ago": 87,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 庆祝 年幼的孩子五周岁生日",
+                "event_summary_cn": "用户庆祝孩子五周岁生日"
+            },
+            {
+                "id": "EV_796_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 796,
+                "time_norm": {
+                    "event_day": 796,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 认为 Merlin 过世",
+                "event_summary_cn": "用户认为Merlin已去世"
+            },
+            {
+                "id": "EV_798_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 798,
+                "time_norm": {
+                    "event_day": 798,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 接受 死刑",
+                "event_summary_cn": "用户表示已接受死刑判决"
+            },
+            {
+                "id": "EV_798_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 798,
+                "time_norm": {
+                    "event_day": 798,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 创建 另一个商业账户",
+                "event_summary_cn": "用户创建新商业账户并取得成功"
+            },
+            {
+                "id": "EV_799_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 799,
+                "time_norm": {
+                    "event_day": 799,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 喜欢 THE CRAFT LEGACY",
+                "event_summary_cn": "用户期待新电影《The Craft Legacy》"
+            },
+            {
+                "id": "EV_805_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 805,
+                "time_norm": {
+                    "event_day": 805,
+                    "days_ago": 77,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得 新职位",
+                "event_summary_cn": "用户获得新职位"
+            },
+            {
+                "id": "EV_806_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 806,
+                "time_norm": {
+                    "event_day": 806,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 创建 clothing公司",
+                "event_summary_cn": "用户创建服装公司资助学业"
+            },
+            {
+                "id": "EV_813_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 813,
+                "time_norm": {
+                    "event_day": 813,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受到 被他人不认可",
+                "event_summary_cn": "用户分享艺术学校被他人不认可的经历"
+            },
+            {
+                "id": "EV_822_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 822,
+                "time_norm": {
+                    "event_day": 822,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 killed this",
+                "event_summary_cn": "用户表示自己完成了某事"
+            },
+            {
+                "id": "EV_848_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 848,
+                "time_norm": {
+                    "event_day": 848,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "用户本人 恢复联系 Game Informer",
+                "event_summary_cn": "用户恢复与Game Informer的联系"
+            },
+            {
+                "id": "EV_854_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 854,
+                "time_norm": {
+                    "event_day": 854,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 学习 BA in Multimedia Design with an option in Graphic",
+                "event_summary_cn": "用户学习多媒体设计专业"
+            },
+            {
+                "id": "EV_882_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 882,
+                "time_norm": {
+                    "event_day": 882,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 个人成长",
+                "event_summary_cn": "用户经历个人成长"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_795_0",
+                "target": "EV_796_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_796_1",
+                "target": "EV_798_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_798_2",
+                "target": "EV_798_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_798_3",
+                "target": "EV_799_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_799_4",
+                "target": "EV_805_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_805_5",
+                "target": "EV_806_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_806_6",
+                "target": "EV_813_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_813_7",
+                "target": "EV_822_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_822_8",
+                "target": "EV_848_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_848_9",
+                "target": "EV_854_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_854_10",
+                "target": "EV_882_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "795": [
+                    "EV_795_0"
+                ],
+                "796": [
+                    "EV_796_1"
+                ],
+                "798": [
+                    "EV_798_2",
+                    "EV_798_3"
+                ],
+                "799": [
+                    "EV_799_4"
+                ],
+                "805": [
+                    "EV_805_5"
+                ],
+                "806": [
+                    "EV_806_6"
+                ],
+                "813": [
+                    "EV_813_7"
+                ],
+                "822": [
+                    "EV_822_8"
+                ],
+                "848": [
+                    "EV_848_9"
+                ],
+                "854": [
+                    "EV_854_10"
+                ],
+                "882": [
+                    "EV_882_11"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_882_11"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_848_9",
+                "EV_854_10"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_822_8"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_813_7"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_806_6"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_799_4",
+                "EV_805_5"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_795_0",
+                "EV_796_1",
+                "EV_798_2",
+                "EV_798_3"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 经历 个人成长。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 学习 BA in Multimedia Design with an option in Graphic；用户本人 恢复联系 Game Informer。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 killed this。代表时间点：2个月前（60天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感受到 被他人不认可。代表时间点：2个月前（69天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 创建 clothing公司。代表时间点：2个月前（76天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 获得 新职位；我 喜欢 THE CRAFT LEGACY。代表时间点：2个月前（77天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 接受 死刑；我 创建 另一个商业账户。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

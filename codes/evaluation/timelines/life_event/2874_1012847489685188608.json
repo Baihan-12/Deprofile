@@ -1,0 +1,305 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 428,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_364_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 364,
+                "time_norm": {
+                    "event_day": 364,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 突然成为同性恋",
+                "event_summary_cn": "用户突然承认自己是同性恋"
+            },
+            {
+                "id": "EV_386_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 386,
+                "time_norm": {
+                    "event_day": 386,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 投资 太阳能板",
+                "event_summary_cn": "用户计划投资太阳能板"
+            },
+            {
+                "id": "EV_387_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 387,
+                "time_norm": {
+                    "event_day": 387,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被提亲 家人",
+                "event_summary_cn": "用户被家人提亲"
+            },
+            {
+                "id": "EV_405_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 405,
+                "time_norm": {
+                    "event_day": 405,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 决定移居海外 我的国家",
+                "event_summary_cn": "用户决定移居海外以避开偶像"
+            },
+            {
+                "id": "EV_422_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 422,
+                "time_norm": {
+                    "event_day": 422,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得 Ph.D. in wilding",
+                "event_summary_cn": "用户获得Ph.D. in wilding"
+            },
+            {
+                "id": "EV_427_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 427,
+                "time_norm": {
+                    "event_day": 427,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 指出 违法行为",
+                "event_summary_cn": "用户指出某行为违法"
+            },
+            {
+                "id": "EV_428_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 428,
+                "time_norm": {
+                    "event_day": 428,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 移居 加拿大",
+                "event_summary_cn": "用户宣布将移居加拿大"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_364_0",
+                "target": "EV_386_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_386_1",
+                "target": "EV_387_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_387_2",
+                "target": "EV_405_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_405_3",
+                "target": "EV_422_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_422_4",
+                "target": "EV_427_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_427_5",
+                "target": "EV_428_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "364": [
+                    "EV_364_0"
+                ],
+                "386": [
+                    "EV_386_1"
+                ],
+                "387": [
+                    "EV_387_2"
+                ],
+                "405": [
+                    "EV_405_3"
+                ],
+                "422": [
+                    "EV_422_4"
+                ],
+                "427": [
+                    "EV_427_5"
+                ],
+                "428": [
+                    "EV_428_6"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_422_4",
+                "EV_427_5",
+                "EV_428_6"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_405_3"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_387_2"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_386_1"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_364_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 移居 加拿大；我 指出 违法行为。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 决定移居海外 我的国家。代表时间点：3周前（23天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 被提亲 家人。代表时间点：1个月前（41天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 需要 投资 太阳能板。代表时间点：1个月前（42天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 突然成为同性恋。代表时间点：2个月前（64天前）。"
+        }
+    ]
+}

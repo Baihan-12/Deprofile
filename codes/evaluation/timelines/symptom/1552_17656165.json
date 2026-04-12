@@ -1,0 +1,181 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 872,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_861_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 861,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 非理性消费行为",
+                "evidence": [
+                    "I hate when I get into my depressive modes, I start to be reckless with my money because I just need to feel something."
+                ],
+                "time_norm": {
+                    "event_day": 861,
+                    "days_ago": 11,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_872_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 872,
+                "symptom": "poor_memory",
+                "triple": "我 遗忘 那首歌",
+                "evidence": [
+                    "oh god...the way i forgot that song even existed. i just erased it from my memory."
+                ],
+                "time_norm": {
+                    "event_day": 872,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_872_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 872,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 夜间惊醒的闪回",
+                "evidence": [
+                    "i get nightmare flashbacks just hearing the name Curb Event Center"
+                ],
+                "time_norm": {
+                    "event_day": 872,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_872_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 872,
+                "symptom": "sleep_disturbance",
+                "triple": "我 出现 夜间惊醒与闪回",
+                "evidence": [
+                    "i get nightmare flashbacks just hearing the name Curb Event Center"
+                ],
+                "time_norm": {
+                    "event_day": 872,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_861_Depressed_Mood",
+                "target": "SYM_872_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_872_poor_memory",
+                "target": "SYM_872_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_872_intrusion_symptoms",
+                "target": "SYM_872_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "861": [
+                    "SYM_861_Depressed_Mood"
+                ],
+                "872": [
+                    "SYM_872_poor_memory",
+                    "SYM_872_intrusion_symptoms",
+                    "SYM_872_sleep_disturbance"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_861_Depressed_Mood"
+                ],
+                "poor_memory": [
+                    "SYM_872_poor_memory"
+                ],
+                "intrusion_symptoms": [
+                    "SYM_872_intrusion_symptoms"
+                ],
+                "sleep_disturbance": [
+                    "SYM_872_sleep_disturbance"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_872_poor_memory",
+                "SYM_872_intrusion_symptoms",
+                "SYM_872_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_861_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 遗忘 那首歌；我 出现 夜间惊醒的闪回；我 出现 夜间惊醒与闪回。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 非理性消费行为。代表时间点：1周前（11天前）。"
+        }
+    ]
+}

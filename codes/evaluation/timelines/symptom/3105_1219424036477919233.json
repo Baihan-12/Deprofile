@@ -1,0 +1,527 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 33,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_-15_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": -15,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 泪水",
+                "evidence": [
+                    "Im about to cry"
+                ],
+                "time_norm": {
+                    "event_day": -15,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_-15_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": -15,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 泪水",
+                "evidence": [
+                    "Im about to cry"
+                ],
+                "time_norm": {
+                    "event_day": -15,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_-15_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": -15,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 感到 心痛",
+                "evidence": [
+                    "My heart hurts. Can i talk to someone..?"
+                ],
+                "time_norm": {
+                    "event_day": -15,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_-15_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": -15,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 更严重的抑郁情绪",
+                "evidence": [
+                    "Don't wanna brag but... I am more depressed than Eeyore😎"
+                ],
+                "time_norm": {
+                    "event_day": -15,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_0_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 0,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "!!TRIGGER WARNING!! Now also during this time i was diagnosed with depression, social amxiety, and anxiety. I was in a hospital a few times for attempting and self harm. I felt lost and alone because when they were together my mom always took his side. In her mind it was ok"
+                ],
+                "time_norm": {
+                    "event_day": 0,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_0_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 0,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 孤独和被忽视",
+                "evidence": [
+                    "!!TRIGGER WARNING!! Now also during this time i was diagnosed with depression, social amxiety, and anxiety. I was in a hospital a few times for attempting and self harm. I felt lost and alone because when they were together my mom always took his side. In her mind it was ok"
+                ],
+                "time_norm": {
+                    "event_day": 0,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_0_fear_about_social_situations",
+                "node_type": "Symptom",
+                "timestamp_day": 0,
+                "symptom": "fear_about_social_situations",
+                "triple": "我 感到 独立无助",
+                "evidence": [
+                    "!!TRIGGER WARNING!! Now also during this time i was diagnosed with depression, social amxiety, and anxiety. I was in a hospital a few times for attempting and self harm. I felt lost and alone because when they were together my mom always took his side. In her mind it was ok"
+                ],
+                "time_norm": {
+                    "event_day": 0,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_0_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 0,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "I WORK AT 8 and HAVENT SLEPT BUT MY INSOMNIA IS BAD"
+                ],
+                "time_norm": {
+                    "event_day": 0,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_4_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 4,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 想哭的情绪",
+                "evidence": [
+                    "I am about to cry. I dont want to again.."
+                ],
+                "time_norm": {
+                    "event_day": 4,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_4_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 4,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 情绪崩溃的前兆",
+                "evidence": [
+                    "I am about to cry. I dont want to again.."
+                ],
+                "time_norm": {
+                    "event_day": 4,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_7_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 7,
+                "symptom": "poor_memory",
+                "triple": "我 受影响 记忆",
+                "evidence": [
+                    "My memories fuck me up.. man.."
+                ],
+                "time_norm": {
+                    "event_day": 7,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_33_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 33,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 落入低谷",
+                "evidence": [
+                    "Yeah, I just feel like I'm falling out of it and it saddens me. They saved me.."
+                ],
+                "time_norm": {
+                    "event_day": 33,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_33_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 33,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 精力维持",
+                "evidence": [
+                    "I wanna be honest about something.. idk if it's just depression but..I love BTS but lately it's hard for me to focus on them. I wanna be a good fan but I just struggle to stay up to date lately.."
+                ],
+                "time_norm": {
+                    "event_day": 33,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_-15_Depressed_Mood",
+                "target": "SYM_-15_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_-15_somatic_symptoms_others",
+                "target": "SYM_-15_Cardiovascular_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_-15_Cardiovascular_symptoms",
+                "target": "SYM_-15_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_-15_Depressed_Mood",
+                "target": "SYM_0_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_0_Anxious_Mood",
+                "target": "SYM_0_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_0_Depressed_Mood",
+                "target": "SYM_0_fear_about_social_situations",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_0_fear_about_social_situations",
+                "target": "SYM_0_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_0_sleep_disturbance",
+                "target": "SYM_4_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_4_Depressed_Mood",
+                "target": "SYM_4_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_4_somatic_symptoms_others",
+                "target": "SYM_7_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_7_poor_memory",
+                "target": "SYM_33_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_33_Depressed_Mood",
+                "target": "SYM_33_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_-15_Depressed_Mood",
+                "target": "SYM_-15_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_-15_Depressed_Mood",
+                "target": "SYM_0_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_0_Depressed_Mood",
+                "target": "SYM_4_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_4_Depressed_Mood",
+                "target": "SYM_33_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_33_Depressed_Mood",
+                "target": "SYM_33_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_-15_somatic_symptoms_others",
+                "target": "SYM_4_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "-15": [
+                    "SYM_-15_Depressed_Mood",
+                    "SYM_-15_somatic_symptoms_others",
+                    "SYM_-15_Cardiovascular_symptoms",
+                    "SYM_-15_Depressed_Mood"
+                ],
+                "0": [
+                    "SYM_0_Anxious_Mood",
+                    "SYM_0_Depressed_Mood",
+                    "SYM_0_fear_about_social_situations",
+                    "SYM_0_sleep_disturbance"
+                ],
+                "4": [
+                    "SYM_4_Depressed_Mood",
+                    "SYM_4_somatic_symptoms_others"
+                ],
+                "7": [
+                    "SYM_7_poor_memory"
+                ],
+                "33": [
+                    "SYM_33_Depressed_Mood",
+                    "SYM_33_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_-15_Depressed_Mood",
+                    "SYM_-15_Depressed_Mood",
+                    "SYM_0_Depressed_Mood",
+                    "SYM_4_Depressed_Mood",
+                    "SYM_33_Depressed_Mood",
+                    "SYM_33_Depressed_Mood"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_-15_somatic_symptoms_others",
+                    "SYM_4_somatic_symptoms_others"
+                ],
+                "Cardiovascular_symptoms": [
+                    "SYM_-15_Cardiovascular_symptoms"
+                ],
+                "Anxious_Mood": [
+                    "SYM_0_Anxious_Mood"
+                ],
+                "fear_about_social_situations": [
+                    "SYM_0_fear_about_social_situations"
+                ],
+                "sleep_disturbance": [
+                    "SYM_0_sleep_disturbance"
+                ],
+                "poor_memory": [
+                    "SYM_7_poor_memory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_33_Depressed_Mood",
+                "SYM_33_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_7_poor_memory"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_0_Anxious_Mood",
+                "SYM_0_Depressed_Mood",
+                "SYM_0_fear_about_social_situations",
+                "SYM_0_sleep_disturbance",
+                "SYM_4_Depressed_Mood",
+                "SYM_4_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_-15_Depressed_Mood",
+                "SYM_-15_somatic_symptoms_others",
+                "SYM_-15_Cardiovascular_symptoms",
+                "SYM_-15_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 精力维持。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 受影响 记忆。代表时间点：3周前（26天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 想哭的情绪；我 出现 情绪崩溃的前兆；我 感到 焦虑。代表时间点：4周前（29天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 更严重的抑郁情绪；我 出现 泪水；我 感到 心痛。代表时间点：1个月前（48天前）。"
+        }
+    ]
+}

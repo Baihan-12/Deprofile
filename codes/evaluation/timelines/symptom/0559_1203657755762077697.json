@@ -1,0 +1,416 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 322,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_242_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 242,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 夜间噩梦",
+                "evidence": [
+                    "This will give me nightmares"
+                ],
+                "time_norm": {
+                    "event_day": 242,
+                    "days_ago": 80,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_242_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 242,
+                "symptom": "sleep_disturbance",
+                "triple": "我 出现 夜间噩梦",
+                "evidence": [
+                    "This will give me nightmares"
+                ],
+                "time_norm": {
+                    "event_day": 242,
+                    "days_ago": 80,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_244_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 244,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 感到 胃部不适",
+                "evidence": [
+                    "Eww, that sounds painful! Though chest and stomach are usually the worst in my opinion I Hope it'll fade soon!"
+                ],
+                "time_norm": {
+                    "event_day": 244,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_259_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 259,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 夜间惊醒和噩梦",
+                "evidence": [
+                    "This is going to give nightmares 😱 And I'm inspired for my next rpg prep session 😈"
+                ],
+                "time_norm": {
+                    "event_day": 259,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_284_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 284,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 Depressed_Mood",
+                "evidence": [
+                    "Depressed bastard Ouch; but not completely off 😁"
+                ],
+                "time_norm": {
+                    "event_day": 284,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_308_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 308,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 恐惧感",
+                "evidence": [
+                    "I've got chills they're multiplying..."
+                ],
+                "time_norm": {
+                    "event_day": 308,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_316_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 316,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 决定什么要做的事情",
+                "evidence": [
+                    "cw: signs of depression I've been very irritable the last weeks I have trouble sleeping I spent the last evenings unable to decide what to do, and couldn't bring up the enthusiasm to do anything The writing is on the wall. I'll probably be quiet for a few days I'll be fine"
+                ],
+                "time_norm": {
+                    "event_day": 316,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_316_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 316,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 无法决定做什么",
+                "evidence": [
+                    "cw: signs of depression I've been very irritable the last weeks I have trouble sleeping I spent the last evenings unable to decide what to do, and couldn't bring up the enthusiasm to do anything The writing is on the wall. I'll probably be quiet for a few days I'll be fine"
+                ],
+                "time_norm": {
+                    "event_day": 316,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_322_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 322,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 悲伤",
+                "evidence": [
+                    "So sad. So true. I feel the same pain. Frequently. 😢"
+                ],
+                "time_norm": {
+                    "event_day": 322,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_242_intrusion_symptoms",
+                "target": "SYM_242_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_242_sleep_disturbance",
+                "target": "SYM_244_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_244_Gastrointestinal_symptoms",
+                "target": "SYM_259_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_259_intrusion_symptoms",
+                "target": "SYM_284_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_284_Depressed_Mood",
+                "target": "SYM_308_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_308_somatic_symptoms_sensory",
+                "target": "SYM_316_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_316_Depressed_Mood",
+                "target": "SYM_316_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_316_Anger_Irritability",
+                "target": "SYM_322_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_242_intrusion_symptoms",
+                "target": "SYM_259_intrusion_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_284_Depressed_Mood",
+                "target": "SYM_316_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_316_Depressed_Mood",
+                "target": "SYM_322_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "242": [
+                    "SYM_242_intrusion_symptoms",
+                    "SYM_242_sleep_disturbance"
+                ],
+                "244": [
+                    "SYM_244_Gastrointestinal_symptoms"
+                ],
+                "259": [
+                    "SYM_259_intrusion_symptoms"
+                ],
+                "284": [
+                    "SYM_284_Depressed_Mood"
+                ],
+                "308": [
+                    "SYM_308_somatic_symptoms_sensory"
+                ],
+                "316": [
+                    "SYM_316_Depressed_Mood",
+                    "SYM_316_Anger_Irritability"
+                ],
+                "322": [
+                    "SYM_322_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "intrusion_symptoms": [
+                    "SYM_242_intrusion_symptoms",
+                    "SYM_259_intrusion_symptoms"
+                ],
+                "sleep_disturbance": [
+                    "SYM_242_sleep_disturbance"
+                ],
+                "Gastrointestinal_symptoms": [
+                    "SYM_244_Gastrointestinal_symptoms"
+                ],
+                "Depressed_Mood": [
+                    "SYM_284_Depressed_Mood",
+                    "SYM_316_Depressed_Mood",
+                    "SYM_322_Depressed_Mood"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_308_somatic_symptoms_sensory"
+                ],
+                "Anger_Irritability": [
+                    "SYM_316_Anger_Irritability"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_316_Depressed_Mood",
+                "SYM_316_Anger_Irritability",
+                "SYM_322_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_308_somatic_symptoms_sensory"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_284_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_259_intrusion_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_242_intrusion_symptoms",
+                "SYM_242_sleep_disturbance",
+                "SYM_244_Gastrointestinal_symptoms"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 悲伤；我 难以进行 决定什么要做的事情；我 出现 无法决定做什么。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 恐惧感。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 Depressed_Mood。代表时间点：1个月前（38天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 夜间惊醒和噩梦。代表时间点：2个月前（63天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 胃部不适；我 出现 夜间噩梦。代表时间点：2个月前（78天前）。"
+        }
+    ]
+}

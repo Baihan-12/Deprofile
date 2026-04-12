@@ -1,0 +1,157 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 863,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_799_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 799,
+                "time_norm": {
+                    "event_day": 799,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 呼吁 投票",
+                "event_summary_cn": "用户呼吁大家投票支持候选人"
+            },
+            {
+                "id": "EV_823_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 823,
+                "time_norm": {
+                    "event_day": 823,
+                    "days_ago": 40,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 收到信息 NES",
+                "event_summary_cn": "用户收到前伴侣发来的信息"
+            },
+            {
+                "id": "EV_863_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 863,
+                "time_norm": {
+                    "event_day": 863,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 行使投票权 投票",
+                "event_summary_cn": "用户首次行使投票权"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_799_0",
+                "target": "EV_823_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_823_1",
+                "target": "EV_863_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "799": [
+                    "EV_799_0"
+                ],
+                "823": [
+                    "EV_823_1"
+                ],
+                "863": [
+                    "EV_863_2"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_863_2"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_823_1"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_799_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 行使投票权 投票。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 收到信息 NES。代表时间点：1个月前（40天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 呼吁 投票。代表时间点：2个月前（64天前）。"
+        }
+    ]
+}

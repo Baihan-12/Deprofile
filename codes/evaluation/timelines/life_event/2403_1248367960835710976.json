@@ -1,0 +1,357 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 260,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_209_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 209,
+                "time_norm": {
+                    "event_day": 209,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 transitioning",
+                "event_summary_cn": "用户宣布正在转型"
+            },
+            {
+                "id": "EV_237_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 237,
+                "time_norm": {
+                    "event_day": 237,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 高压",
+                "event_summary_cn": "用户表示生活压力增大"
+            },
+            {
+                "id": "EV_243_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 243,
+                "time_norm": {
+                    "event_day": 243,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结婚了 他人",
+                "event_summary_cn": "用户表示自己已结婚"
+            },
+            {
+                "id": "EV_248_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 248,
+                "time_norm": {
+                    "event_day": 248,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 maxed out 信用额度",
+                "event_summary_cn": "用户透支信用卡"
+            },
+            {
+                "id": "EV_251_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 251,
+                "time_norm": {
+                    "event_day": 251,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要钱 买朋友圣诞礼物",
+                "event_summary_cn": "用户需用钱为朋友买圣诞礼物"
+            },
+            {
+                "id": "EV_252_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 252,
+                "time_norm": {
+                    "event_day": 252,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 说出 我是同性恋",
+                "event_summary_cn": "用户表明自己是同性恋"
+            },
+            {
+                "id": "EV_254_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 254,
+                "time_norm": {
+                    "event_day": 254,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 恐惧 发现 我的 奶奶 死亡 身体",
+                "event_summary_cn": "用户害怕发现奶奶死亡"
+            },
+            {
+                "id": "EV_255_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 255,
+                "time_norm": {
+                    "event_day": 255,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "用户本人 被捕 无明确对象",
+                "event_summary_cn": "用户本人被逮捕"
+            },
+            {
+                "id": "EV_255_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 255,
+                "time_norm": {
+                    "event_day": 255,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 弟弟 被逮捕",
+                "event_summary_cn": "用户弟弟被逮捕"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_209_0",
+                "target": "EV_237_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_237_1",
+                "target": "EV_243_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_243_2",
+                "target": "EV_248_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_248_3",
+                "target": "EV_251_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_251_4",
+                "target": "EV_252_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_252_5",
+                "target": "EV_254_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_254_6",
+                "target": "EV_255_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_255_7",
+                "target": "EV_255_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "209": [
+                    "EV_209_0"
+                ],
+                "237": [
+                    "EV_237_1"
+                ],
+                "243": [
+                    "EV_243_2"
+                ],
+                "248": [
+                    "EV_248_3"
+                ],
+                "251": [
+                    "EV_251_4"
+                ],
+                "252": [
+                    "EV_252_5"
+                ],
+                "254": [
+                    "EV_254_6"
+                ],
+                "255": [
+                    "EV_255_7",
+                    "EV_255_8"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_254_6",
+                "EV_255_7",
+                "EV_255_8"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_248_3",
+                "EV_251_4",
+                "EV_252_5"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_243_2"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_237_1"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_209_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：用户本人 被捕 无明确对象；我 弟弟 被逮捕。代表时间点：5天前（5天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 说出 我是同性恋；我 需要钱 买朋友圣诞礼物。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 结婚了 他人。代表时间点：2周前（17天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 经历 高压。代表时间点：3周前（23天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 transitioning。代表时间点：1个月前（51天前）。"
+        }
+    ]
+}

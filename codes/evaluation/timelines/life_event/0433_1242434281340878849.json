@@ -1,0 +1,692 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 273,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_200_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 200,
+                "time_norm": {
+                    "event_day": 200,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 临近考试 用脑细胞",
+                "event_summary_cn": "用户临近考试感到脑力消耗"
+            },
+            {
+                "id": "EV_201_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 201,
+                "time_norm": {
+                    "event_day": 201,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 移动到 其他账户",
+                "event_summary_cn": "用户将迁移到其他社交媒体账户"
+            },
+            {
+                "id": "EV_205_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 205,
+                "time_norm": {
+                    "event_day": 205,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 担心 中期考试",
+                "event_summary_cn": "用户因考试焦虑寻求安慰"
+            },
+            {
+                "id": "EV_205_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 205,
+                "time_norm": {
+                    "event_day": 205,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参加 中期考试",
+                "event_summary_cn": "用户参加中期考试"
+            },
+            {
+                "id": "EV_206_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 206,
+                "time_norm": {
+                    "event_day": 206,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参加期中考试 我 得分尚可",
+                "event_summary_cn": "用户期中考试成绩尚可"
+            },
+            {
+                "id": "EV_208_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 208,
+                "time_norm": {
+                    "event_day": 208,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 情绪崩溃 D-Day",
+                "event_summary_cn": "用户经历情绪崩溃事件"
+            },
+            {
+                "id": "EV_209_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 209,
+                "time_norm": {
+                    "event_day": 209,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 上课 我的课堂",
+                "event_summary_cn": "用户今天上了一堂课"
+            },
+            {
+                "id": "EV_213_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 213,
+                "time_norm": {
+                    "event_day": 213,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成 期末考试要求",
+                "event_summary_cn": "用户完成考试要求后得知延期"
+            },
+            {
+                "id": "EV_214_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 214,
+                "time_norm": {
+                    "event_day": 214,
+                    "days_ago": 59,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 准备 中期考试",
+                "event_summary_cn": "用户正在准备会计中期考试"
+            },
+            {
+                "id": "EV_244_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 244,
+                "time_norm": {
+                    "event_day": 244,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感谢 教授",
+                "event_summary_cn": "用户感谢会计教授"
+            },
+            {
+                "id": "EV_247_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 247,
+                "time_norm": {
+                    "event_day": 247,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 压力大 填写10个要求",
+                "event_summary_cn": "用户今日需填写10个课程要求"
+            },
+            {
+                "id": "EV_248_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 248,
+                "time_norm": {
+                    "event_day": 248,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 决定命名 他",
+                "event_summary_cn": "用户决定给新生儿取名"
+            },
+            {
+                "id": "EV_262_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 262,
+                "time_norm": {
+                    "event_day": 262,
+                    "days_ago": 11,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 出售 Junhui Official Polas",
+                "event_summary_cn": "用户出售限量版Polas以筹措资金"
+            },
+            {
+                "id": "EV_265_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 265,
+                "time_norm": {
+                    "event_day": 265,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 卖掉 junhao pola sets",
+                "event_summary_cn": "用户出售 junhao pola sets"
+            },
+            {
+                "id": "EV_266_14",
+                "node_type": "LifeEvent",
+                "timestamp_day": 266,
+                "time_norm": {
+                    "event_day": 266,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 准备考试",
+                "event_summary_cn": "用户为考试感到紧张激动"
+            },
+            {
+                "id": "EV_267_15",
+                "node_type": "LifeEvent",
+                "timestamp_day": 267,
+                "time_norm": {
+                    "event_day": 267,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成 最终要求",
+                "event_summary_cn": "用户完成多项最终要求"
+            },
+            {
+                "id": "EV_268_16",
+                "node_type": "LifeEvent",
+                "timestamp_day": 268,
+                "time_norm": {
+                    "event_day": 268,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有会计考试",
+                "event_summary_cn": "用户即将参加会计考试"
+            },
+            {
+                "id": "EV_268_17",
+                "node_type": "LifeEvent",
+                "timestamp_day": 268,
+                "time_norm": {
+                    "event_day": 268,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结束 学期",
+                "event_summary_cn": "用户结束学期学习"
+            },
+            {
+                "id": "EV_270_18",
+                "node_type": "LifeEvent",
+                "timestamp_day": 270,
+                "time_norm": {
+                    "event_day": 270,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "用户本人 安置 Junnie",
+                "event_summary_cn": "用户安置Junnie到新家"
+            },
+            {
+                "id": "EV_273_19",
+                "node_type": "LifeEvent",
+                "timestamp_day": 273,
+                "time_norm": {
+                    "event_day": 273,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得会计课最终成绩 uno",
+                "event_summary_cn": "用户获得会计课不及格成绩"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_200_0",
+                "target": "EV_201_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_201_1",
+                "target": "EV_205_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_205_2",
+                "target": "EV_205_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_205_3",
+                "target": "EV_206_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_206_4",
+                "target": "EV_208_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_208_5",
+                "target": "EV_209_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_209_6",
+                "target": "EV_213_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_213_7",
+                "target": "EV_214_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_214_8",
+                "target": "EV_244_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_244_9",
+                "target": "EV_247_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_247_10",
+                "target": "EV_248_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_248_11",
+                "target": "EV_262_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_262_12",
+                "target": "EV_265_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_265_13",
+                "target": "EV_266_14",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_266_14",
+                "target": "EV_267_15",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_267_15",
+                "target": "EV_268_16",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_268_16",
+                "target": "EV_268_17",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_268_17",
+                "target": "EV_270_18",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_270_18",
+                "target": "EV_273_19",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "200": [
+                    "EV_200_0"
+                ],
+                "201": [
+                    "EV_201_1"
+                ],
+                "205": [
+                    "EV_205_2",
+                    "EV_205_3"
+                ],
+                "206": [
+                    "EV_206_4"
+                ],
+                "208": [
+                    "EV_208_5"
+                ],
+                "209": [
+                    "EV_209_6"
+                ],
+                "213": [
+                    "EV_213_7"
+                ],
+                "214": [
+                    "EV_214_8"
+                ],
+                "244": [
+                    "EV_244_9"
+                ],
+                "247": [
+                    "EV_247_10"
+                ],
+                "248": [
+                    "EV_248_11"
+                ],
+                "262": [
+                    "EV_262_12"
+                ],
+                "265": [
+                    "EV_265_13"
+                ],
+                "266": [
+                    "EV_266_14"
+                ],
+                "267": [
+                    "EV_267_15"
+                ],
+                "268": [
+                    "EV_268_16",
+                    "EV_268_17"
+                ],
+                "270": [
+                    "EV_270_18"
+                ],
+                "273": [
+                    "EV_273_19"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_267_15",
+                "EV_268_16",
+                "EV_268_17",
+                "EV_270_18",
+                "EV_273_19"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_262_12",
+                "EV_265_13",
+                "EV_266_14"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_247_10",
+                "EV_248_11"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_244_9"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_213_7",
+                "EV_214_8"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_205_2",
+                "EV_205_3",
+                "EV_206_4",
+                "EV_208_5",
+                "EV_209_6"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_200_0",
+                "EV_201_1"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 获得会计课最终成绩 uno；用户本人 安置 Junnie。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 准备考试；我 卖掉 junhao pola sets。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 决定命名 他；我 压力大 填写10个要求。代表时间点：3周前（25天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 感谢 教授。代表时间点：4周前（29天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 准备 中期考试；我 完成 期末考试要求。代表时间点：1个月前（59天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 上课 我的课堂；我 情绪崩溃 D-Day。代表时间点：2个月前（64天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 移动到 其他账户；我 临近考试 用脑细胞。代表时间点：2个月前（72天前）。"
+        }
+    ]
+}

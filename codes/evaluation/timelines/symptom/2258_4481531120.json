@@ -1,0 +1,403 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 754,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_672_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 672,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 难以解释自己的行为",
+                "evidence": [
+                    "I can't count the times I've had to say \"Yes I know the consequences of not doing this. No I don't know why I'm not doing this.\" And people get frustrated with me for not having an answer and in my head I'm like \"YEAH IMAGINE HOW FRUSTRATED I AM WITH MYSELF!!!\" I hate it..."
+                ],
+                "time_norm": {
+                    "event_day": 672,
+                    "days_ago": 82,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_685_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 685,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "Probably like a 1 or 2. I am just a quiet little ball of anxiety."
+                ],
+                "time_norm": {
+                    "event_day": 685,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_686_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 686,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 被他人误解和内疚",
+                "evidence": [
+                    "And when ppl try to reassure me that the little anxiety demon is wrong, I feel bad bc it feels like I was just begging for attention or being whiny &amp; made other ppl feel bad now. For the most part I've gotten a little better with it, but it's still there, &amp; lately there's a-"
+                ],
+                "time_norm": {
+                    "event_day": 686,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_686_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 686,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 99% 的事情",
+                "evidence": [
+                    "I've struggled with this so much for pretty much my whole life, though part of what fuels that anxiety is that a lot of the things I worry people will think about me are things that I have unfortunately thought about other people. Also I don't know what I'm doing 99% of the time."
+                ],
+                "time_norm": {
+                    "event_day": 686,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_687_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 687,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "I generally think it's more like it seems unprofessional to be inconsistent in how you draw things, even if they all look fantastic. (I don't agree with that idea, but it still makes me anxious that other people might think it)"
+                ],
+                "time_norm": {
+                    "event_day": 687,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_690_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 690,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 难以进行 学习西班牙语",
+                "evidence": [
+                    "A thing that you wanted to learn the most? — Right now I really want to learn Spanish, but I unfortunately have neither the time nor the energy to do so. Even when I do have spare time, I'm very bad at studying outside…"
+                ],
+                "time_norm": {
+                    "event_day": 690,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_696_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 696,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 专注完成任务",
+                "evidence": [
+                    "I finally get home and it's just \"Okay I need to do this thing on my phone\" *gets distracted* *looks up* \"oh shit, I still need to do that\" *gets distracted* *looks up* \"dammit\" *gets distracte"
+                ],
+                "time_norm": {
+                    "event_day": 696,
+                    "days_ago": 58,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_751_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 751,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 看字典时被其他单词吸引",
+                "evidence": [
+                    "But every time I open a dictionary to look for a word, I get distracted looking at other interesting words. I'd love to learn every language in the world if I could. And fuckin MEMES. This shit changes history. Also white people taking parts of AAVE &amp; integrating them with-"
+                ],
+                "time_norm": {
+                    "event_day": 751,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_754_fear_about_social_situations",
+                "node_type": "Symptom",
+                "timestamp_day": 754,
+                "symptom": "fear_about_social_situations",
+                "triple": "我 难以进行 对话",
+                "evidence": [
+                    "Every time I have a conversation with someone I don't usually talk to:"
+                ],
+                "time_norm": {
+                    "event_day": 754,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_672_Depressed_Mood",
+                "target": "SYM_685_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_685_Anxious_Mood",
+                "target": "SYM_686_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_686_Anxious_Mood",
+                "target": "SYM_686_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_686_Anxious_Mood",
+                "target": "SYM_687_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_687_Anxious_Mood",
+                "target": "SYM_690_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_690_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_696_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_696_Inattention",
+                "target": "SYM_751_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_751_Inattention",
+                "target": "SYM_754_fear_about_social_situations",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_685_Anxious_Mood",
+                "target": "SYM_686_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_686_Anxious_Mood",
+                "target": "SYM_686_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_686_Anxious_Mood",
+                "target": "SYM_687_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_696_Inattention",
+                "target": "SYM_751_Inattention",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "672": [
+                    "SYM_672_Depressed_Mood"
+                ],
+                "685": [
+                    "SYM_685_Anxious_Mood"
+                ],
+                "686": [
+                    "SYM_686_Anxious_Mood",
+                    "SYM_686_Anxious_Mood"
+                ],
+                "687": [
+                    "SYM_687_Anxious_Mood"
+                ],
+                "690": [
+                    "SYM_690_Decreased_energy_tiredness_fatigue"
+                ],
+                "696": [
+                    "SYM_696_Inattention"
+                ],
+                "751": [
+                    "SYM_751_Inattention"
+                ],
+                "754": [
+                    "SYM_754_fear_about_social_situations"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_672_Depressed_Mood"
+                ],
+                "Anxious_Mood": [
+                    "SYM_685_Anxious_Mood",
+                    "SYM_686_Anxious_Mood",
+                    "SYM_686_Anxious_Mood",
+                    "SYM_687_Anxious_Mood"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_690_Decreased_energy_tiredness_fatigue"
+                ],
+                "Inattention": [
+                    "SYM_696_Inattention",
+                    "SYM_751_Inattention"
+                ],
+                "fear_about_social_situations": [
+                    "SYM_754_fear_about_social_situations"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_751_Inattention",
+                "SYM_754_fear_about_social_situations"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_696_Inattention"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_685_Anxious_Mood",
+                "SYM_686_Anxious_Mood",
+                "SYM_686_Anxious_Mood",
+                "SYM_687_Anxious_Mood",
+                "SYM_690_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_672_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 对话；我 难以进行 看字典时被其他单词吸引。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 难以进行 专注完成任务。代表时间点：1个月前（58天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 学习西班牙语；我 感到 焦虑；我 难以进行 99% 的事情。代表时间点：2个月前（64天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 难以解释自己的行为。代表时间点：2个月前（82天前）。"
+        }
+    ]
+}

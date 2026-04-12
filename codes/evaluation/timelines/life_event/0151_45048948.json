@@ -1,0 +1,471 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1155,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1068_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1068,
+                "time_norm": {
+                    "event_day": 1068,
+                    "days_ago": 87,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 认识 意见一致的人",
+                "event_summary_cn": "与价值观一致的人即将搬迁"
+            },
+            {
+                "id": "EV_1082_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1082,
+                "time_norm": {
+                    "event_day": 1082,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被Twitter封禁 因发布涉及特朗普的言论",
+                "event_summary_cn": "用户因言论被Twitter封禁"
+            },
+            {
+                "id": "EV_1102_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1102,
+                "time_norm": {
+                    "event_day": 1102,
+                    "days_ago": 53,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去父母 死亡",
+                "event_summary_cn": "用户失去父母"
+            },
+            {
+                "id": "EV_1118_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1118,
+                "time_norm": {
+                    "event_day": 1118,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结婚了 Bae",
+                "event_summary_cn": "用户与Bae已结婚"
+            },
+            {
+                "id": "EV_1126_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1126,
+                "time_norm": {
+                    "event_day": 1126,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 停止购买 信用卡债务",
+                "event_summary_cn": "用户选择还债而非消费"
+            },
+            {
+                "id": "EV_1139_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1139,
+                "time_norm": {
+                    "event_day": 1139,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要 挂艺术作品",
+                "event_summary_cn": "用户因经济困难无法展示艺术"
+            },
+            {
+                "id": "EV_1143_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1143,
+                "time_norm": {
+                    "event_day": 1143,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 设定目标",
+                "event_summary_cn": "用户设定2021年个人目标"
+            },
+            {
+                "id": "EV_1143_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1143,
+                "time_norm": {
+                    "event_day": 1143,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 表达 想要宝宝但未怀孕的情绪",
+                "event_summary_cn": "用户表达想要宝宝但未怀孕"
+            },
+            {
+                "id": "EV_1149_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1149,
+                "time_norm": {
+                    "event_day": 1149,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 花费 $500 购买 iPad",
+                "event_summary_cn": "用户自购iPad用于业务投资"
+            },
+            {
+                "id": "EV_1154_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1154,
+                "time_norm": {
+                    "event_day": 1154,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 爱 上 她",
+                "event_summary_cn": "用户表达对某人的爱慕之情"
+            },
+            {
+                "id": "EV_1155_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1155,
+                "time_norm": {
+                    "event_day": 1155,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 停用避孕药 为了生育孩子",
+                "event_summary_cn": "用户停用避孕药准备生育"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1068_0",
+                "target": "EV_1082_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1082_1",
+                "target": "EV_1102_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1102_2",
+                "target": "EV_1118_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1118_3",
+                "target": "EV_1126_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1126_4",
+                "target": "EV_1139_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1139_5",
+                "target": "EV_1143_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1143_6",
+                "target": "EV_1143_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1143_7",
+                "target": "EV_1149_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1149_8",
+                "target": "EV_1154_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1154_9",
+                "target": "EV_1155_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1068": [
+                    "EV_1068_0"
+                ],
+                "1082": [
+                    "EV_1082_1"
+                ],
+                "1102": [
+                    "EV_1102_2"
+                ],
+                "1118": [
+                    "EV_1118_3"
+                ],
+                "1126": [
+                    "EV_1126_4"
+                ],
+                "1139": [
+                    "EV_1139_5"
+                ],
+                "1143": [
+                    "EV_1143_6",
+                    "EV_1143_7"
+                ],
+                "1149": [
+                    "EV_1149_8"
+                ],
+                "1154": [
+                    "EV_1154_9"
+                ],
+                "1155": [
+                    "EV_1155_10"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1149_8",
+                "EV_1154_9",
+                "EV_1155_10"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_1143_6",
+                "EV_1143_7"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_1139_5"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_1126_4"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1118_3"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1102_2"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1082_1"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1068_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 停用避孕药 为了生育孩子；我 爱 上 她。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 设定目标；我 表达 想要宝宝但未怀孕的情绪。代表时间点：1周前（12天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 想要 挂艺术作品。代表时间点：2周前（16天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 停止购买 信用卡债务。代表时间点：4周前（29天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 结婚了 Bae。代表时间点：1个月前（37天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 失去父母 死亡。代表时间点：1个月前（53天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 被Twitter封禁 因发布涉及特朗普的言论。代表时间点：2个月前（73天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 认识 意见一致的人。代表时间点：2个月前（87天前）。"
+        }
+    ]
+}

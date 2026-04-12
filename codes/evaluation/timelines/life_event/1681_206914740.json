@@ -1,0 +1,110 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 870,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_807_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 807,
+                "time_norm": {
+                    "event_day": 807,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 死亡",
+                "event_summary_cn": "用户因家人去世而暂停相关活动"
+            },
+            {
+                "id": "EV_837_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 837,
+                "time_norm": {
+                    "event_day": 837,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 Relocation Mrs Groubert",
+                "event_summary_cn": "用户中途搬迁并遇到新老师"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_807_0",
+                "target": "EV_837_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "807": [
+                    "EV_807_0"
+                ],
+                "837": [
+                    "EV_837_1"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_837_1"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_807_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 Relocation Mrs Groubert。代表时间点：1个月前（33天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 经历 死亡。代表时间点：2个月前（63天前）。"
+        }
+    ]
+}

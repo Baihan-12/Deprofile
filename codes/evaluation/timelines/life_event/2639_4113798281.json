@@ -1,0 +1,110 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1707,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1623_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1623,
+                "time_norm": {
+                    "event_day": 1623,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 缺席 一周课程",
+                "event_summary_cn": "用户因心理住院错过一周课程"
+            },
+            {
+                "id": "EV_1707_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1707,
+                "time_norm": {
+                    "event_day": 1707,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 克服抑郁与焦虑 我完成大学学期",
+                "event_summary_cn": "用户克服心理困扰完成学业"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1623_0",
+                "target": "EV_1707_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1623": [
+                    "EV_1623_0"
+                ],
+                "1707": [
+                    "EV_1707_1"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1707_1"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1623_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 克服抑郁与焦虑 我完成大学学期。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 缺席 一周课程。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1211,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1151_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1151,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 难以进行 喝咖啡",
+                "evidence": [
+                    "Coffee and my stomach don’t agree and I hate that"
+                ],
+                "time_norm": {
+                    "event_day": 1151,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1203_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 1203,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 出现 没有精力",
+                "evidence": [
+                    "I’ve been having no energy lately I hate it bc I have so much due in so little time 😭"
+                ],
+                "time_norm": {
+                    "event_day": 1203,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1211_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1211,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 出现 胃部疼痛",
+                "evidence": [
+                    "WHY DOES MY STOMACH STILL HURT"
+                ],
+                "time_norm": {
+                    "event_day": 1211,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1151_Gastrointestinal_symptoms",
+                "target": "SYM_1203_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1203_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_1211_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1151_Gastrointestinal_symptoms",
+                "target": "SYM_1211_Gastrointestinal_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1151": [
+                    "SYM_1151_Gastrointestinal_symptoms"
+                ],
+                "1203": [
+                    "SYM_1203_Decreased_energy_tiredness_fatigue"
+                ],
+                "1211": [
+                    "SYM_1211_Gastrointestinal_symptoms"
+                ]
+            },
+            "by_symptom": {
+                "Gastrointestinal_symptoms": [
+                    "SYM_1151_Gastrointestinal_symptoms",
+                    "SYM_1211_Gastrointestinal_symptoms"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_1203_Decreased_energy_tiredness_fatigue"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1211_Gastrointestinal_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_1203_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1151_Gastrointestinal_symptoms"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 胃部疼痛。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 没有精力。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 难以进行 喝咖啡。代表时间点：2个月前（60天前）。"
+        }
+    ]
+}

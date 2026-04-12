@@ -1,0 +1,442 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 803,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_726_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 726,
+                "time_norm": {
+                    "event_day": 726,
+                    "days_ago": 77,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 睡觉 在我叔叔家地板上",
+                "event_summary_cn": "用户曾无家可归睡在叔叔家地板上"
+            },
+            {
+                "id": "EV_754_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 754,
+                "time_norm": {
+                    "event_day": 754,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 消除 医疗债务",
+                "event_summary_cn": "用户消除部分医疗债务"
+            },
+            {
+                "id": "EV_755_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 755,
+                "time_norm": {
+                    "event_day": 755,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到不满 GOP 阻止邮寄选票计数",
+                "event_summary_cn": "用户不满 GOP 阻止邮寄选票计数"
+            },
+            {
+                "id": "EV_755_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 755,
+                "time_norm": {
+                    "event_day": 755,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 投票给蓝色政党 在传统红色州",
+                "event_summary_cn": "用户在传统红州投票支持蓝党"
+            },
+            {
+                "id": "EV_770_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 770,
+                "time_norm": {
+                    "event_day": 770,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 发现自己是双性恋",
+                "event_summary_cn": "用户发现自身性取向"
+            },
+            {
+                "id": "EV_782_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 782,
+                "time_norm": {
+                    "event_day": 782,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 购买 Yaya Han cosplay fabric",
+                "event_summary_cn": "用户购买Yaya Han cosplay面料"
+            },
+            {
+                "id": "EV_785_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 785,
+                "time_norm": {
+                    "event_day": 785,
+                    "days_ago": 18,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 反思 花费习惯",
+                "event_summary_cn": "用户反思展会期间的花费习惯"
+            },
+            {
+                "id": "EV_792_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 792,
+                "time_norm": {
+                    "event_day": 792,
+                    "days_ago": 11,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 调整价格 6+次",
+                "event_summary_cn": "用户多次调整价格感到痛苦"
+            },
+            {
+                "id": "EV_803_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 803,
+                "time_norm": {
+                    "event_day": 803,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被削减工时 医疗费用",
+                "event_summary_cn": "用户因工时削减无法支付医疗费"
+            },
+            {
+                "id": "EV_803_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 803,
+                "time_norm": {
+                    "event_day": 803,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被削减工时 我的医疗费用",
+                "event_summary_cn": "用户因工时削减无法支付医疗费用"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_726_0",
+                "target": "EV_754_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_754_1",
+                "target": "EV_755_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_755_2",
+                "target": "EV_755_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_755_3",
+                "target": "EV_770_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_770_4",
+                "target": "EV_782_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_782_5",
+                "target": "EV_785_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_785_6",
+                "target": "EV_792_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_792_7",
+                "target": "EV_803_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_803_8",
+                "target": "EV_803_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "726": [
+                    "EV_726_0"
+                ],
+                "754": [
+                    "EV_754_1"
+                ],
+                "755": [
+                    "EV_755_2",
+                    "EV_755_3"
+                ],
+                "770": [
+                    "EV_770_4"
+                ],
+                "782": [
+                    "EV_782_5"
+                ],
+                "785": [
+                    "EV_785_6"
+                ],
+                "792": [
+                    "EV_792_7"
+                ],
+                "803": [
+                    "EV_803_8",
+                    "EV_803_9"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_803_8",
+                "EV_803_9"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_792_7"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_785_6"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_782_5"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_770_4"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_755_2",
+                "EV_755_3"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_754_1"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_726_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 被削减工时 医疗费用；我 被削减工时 我的医疗费用。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 调整价格 6+次。代表时间点：1周前（11天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 反思 花费习惯。代表时间点：2周前（18天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 购买 Yaya Han cosplay fabric。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 发现自己是双性恋。代表时间点：1个月前（33天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到不满 GOP 阻止邮寄选票计数；我 投票给蓝色政党 在传统红色州。代表时间点：1个月前（48天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 消除 医疗债务。代表时间点：1个月前（49天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 睡觉 在我叔叔家地板上。代表时间点：2个月前（77天前）。"
+        }
+    ]
+}

@@ -1,0 +1,182 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 777,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_688_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 688,
+                "time_norm": {
+                    "event_day": 688,
+                    "days_ago": 89,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 移民 Portland",
+                "event_summary_cn": "用户表示要搬到波特兰"
+            },
+            {
+                "id": "EV_707_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 707,
+                "time_norm": {
+                    "event_day": 707,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 离开 滥用关系",
+                "event_summary_cn": "用户经历离开虐待关系"
+            },
+            {
+                "id": "EV_748_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 748,
+                "time_norm": {
+                    "event_day": 748,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 购买 新司机",
+                "event_summary_cn": "用户购买新球杆并练习"
+            },
+            {
+                "id": "EV_748_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 748,
+                "time_norm": {
+                    "event_day": 748,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 破产 了",
+                "event_summary_cn": "用户表示自己破产了"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_688_0",
+                "target": "EV_707_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_707_1",
+                "target": "EV_748_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_748_2",
+                "target": "EV_748_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "688": [
+                    "EV_688_0"
+                ],
+                "707": [
+                    "EV_707_1"
+                ],
+                "748": [
+                    "EV_748_2",
+                    "EV_748_3"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_748_2",
+                "EV_748_3"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_707_1"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_688_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 购买 新司机；我 破产 了。代表时间点：4周前（29天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 离开 滥用关系。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 移民 Portland。代表时间点：2个月前（89天前）。"
+        }
+    ]
+}

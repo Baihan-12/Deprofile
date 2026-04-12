@@ -1,0 +1,278 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1893,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1810_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1810,
+                "time_norm": {
+                    "event_day": 1810,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 购买 比利时唱片和绿色衬衫",
+                "event_summary_cn": "用户购买了心仪的商品"
+            },
+            {
+                "id": "EV_1831_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1831,
+                "time_norm": {
+                    "event_day": 1831,
+                    "days_ago": 62,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 自残 伤疤",
+                "event_summary_cn": "用户分享自残经历与伤疤"
+            },
+            {
+                "id": "EV_1845_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1845,
+                "time_norm": {
+                    "event_day": 1845,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 看见 5SOS",
+                "event_summary_cn": "用户实现观看偶像演出的梦想"
+            },
+            {
+                "id": "EV_1882_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1882,
+                "time_norm": {
+                    "event_day": 1882,
+                    "days_ago": 11,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被拒绝 后又被喜欢",
+                "event_summary_cn": "被拒绝后又被喜欢"
+            },
+            {
+                "id": "EV_1889_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1889,
+                "time_norm": {
+                    "event_day": 1889,
+                    "days_ago": 4,
+                    "relative_cn": "4天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 表达 对男性自信的吸引",
+                "event_summary_cn": "用户表达对自信男性的吸引"
+            },
+            {
+                "id": "EV_1893_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1893,
+                "time_norm": {
+                    "event_day": 1893,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 破坏友谊 我的友谊",
+                "event_summary_cn": "用户表示自己破坏友谊"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1810_0",
+                "target": "EV_1831_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1831_1",
+                "target": "EV_1845_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1845_2",
+                "target": "EV_1882_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1882_3",
+                "target": "EV_1889_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1889_4",
+                "target": "EV_1893_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1810": [
+                    "EV_1810_0"
+                ],
+                "1831": [
+                    "EV_1831_1"
+                ],
+                "1845": [
+                    "EV_1845_2"
+                ],
+                "1882": [
+                    "EV_1882_3"
+                ],
+                "1889": [
+                    "EV_1889_4"
+                ],
+                "1893": [
+                    "EV_1893_5"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1889_4",
+                "EV_1893_5"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_1882_3"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1845_2"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1831_1"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1810_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 破坏友谊 我的友谊；我 表达 对男性自信的吸引。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 被拒绝 后又被喜欢。代表时间点：1周前（11天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 看见 5SOS。代表时间点：1个月前（48天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 自残 伤疤。代表时间点：2个月前（62天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 购买 比利时唱片和绿色衬衫。代表时间点：2个月前（83天前）。"
+        }
+    ]
+}

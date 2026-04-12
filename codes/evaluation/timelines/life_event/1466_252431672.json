@@ -1,0 +1,402 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 808,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_722_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 722,
+                "time_norm": {
+                    "event_day": 722,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 美国教育体系的创伤",
+                "event_summary_cn": "用户经历美国教育体系的创伤"
+            },
+            {
+                "id": "EV_729_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 729,
+                "time_norm": {
+                    "event_day": 729,
+                    "days_ago": 79,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 剪发 感觉变轻",
+                "event_summary_cn": "用户剪发后感觉变轻"
+            },
+            {
+                "id": "EV_729_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 729,
+                "time_norm": {
+                    "event_day": 729,
+                    "days_ago": 79,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 讨论 警察种族主义问题",
+                "event_summary_cn": "用户讨论警察种族主义问题"
+            },
+            {
+                "id": "EV_739_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 739,
+                "time_norm": {
+                    "event_day": 739,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受到 压力",
+                "event_summary_cn": "非二元性别者面临家庭称呼压力"
+            },
+            {
+                "id": "EV_739_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 739,
+                "time_norm": {
+                    "event_day": 739,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到挫败 我想与女性身份分离",
+                "event_summary_cn": "用户对性别认同感到困惑和挫败"
+            },
+            {
+                "id": "EV_743_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 743,
+                "time_norm": {
+                    "event_day": 743,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 切伤手 工作第一天",
+                "event_summary_cn": "工作首日意外受伤后与对方相爱"
+            },
+            {
+                "id": "EV_765_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 765,
+                "time_norm": {
+                    "event_day": 765,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想到 可以玩DND",
+                "event_summary_cn": "用户因朋友早产而期待玩DND"
+            },
+            {
+                "id": "EV_777_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 777,
+                "time_norm": {
+                    "event_day": 777,
+                    "days_ago": 31,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 伪装 成直男情侣",
+                "event_summary_cn": "用户伪装成直男情侣"
+            },
+            {
+                "id": "EV_778_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 778,
+                "time_norm": {
+                    "event_day": 778,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 阅读大卫·利维坦书籍 我是同性恋",
+                "event_summary_cn": "用户分享自己阅读书籍的经历"
+            },
+            {
+                "id": "EV_808_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 808,
+                "time_norm": {
+                    "event_day": 808,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得第一份工作 我的第一份工作",
+                "event_summary_cn": "用户获得第一份工作"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_722_0",
+                "target": "EV_729_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_729_1",
+                "target": "EV_729_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_729_2",
+                "target": "EV_739_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_739_3",
+                "target": "EV_739_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_739_4",
+                "target": "EV_743_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_743_5",
+                "target": "EV_765_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_765_6",
+                "target": "EV_777_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_777_7",
+                "target": "EV_778_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_778_8",
+                "target": "EV_808_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "722": [
+                    "EV_722_0"
+                ],
+                "729": [
+                    "EV_729_1",
+                    "EV_729_2"
+                ],
+                "739": [
+                    "EV_739_3",
+                    "EV_739_4"
+                ],
+                "743": [
+                    "EV_743_5"
+                ],
+                "765": [
+                    "EV_765_6"
+                ],
+                "777": [
+                    "EV_777_7"
+                ],
+                "778": [
+                    "EV_778_8"
+                ],
+                "808": [
+                    "EV_808_9"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_808_9"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_777_7",
+                "EV_778_8"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_765_6"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_739_3",
+                "EV_739_4",
+                "EV_743_5"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_729_1",
+                "EV_729_2"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_722_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 获得第一份工作 我的第一份工作。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 阅读大卫·利维坦书籍 我是同性恋；我 伪装 成直男情侣。代表时间点：1个月前（30天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 想到 可以玩DND。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 切伤手 工作第一天；我 感受到 压力。代表时间点：2个月前（65天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 剪发 感觉变轻；我 讨论 警察种族主义问题。代表时间点：2个月前（79天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 经历 美国教育体系的创伤。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

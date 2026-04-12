@@ -1,0 +1,330 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 782,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_694_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 694,
+                "time_norm": {
+                    "event_day": 694,
+                    "days_ago": 88,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 计划 移民",
+                "event_summary_cn": "用户计划与朋友一起移民"
+            },
+            {
+                "id": "EV_699_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 699,
+                "time_norm": {
+                    "event_day": 699,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 剪发 十年",
+                "event_summary_cn": "用户坚持自己剪发十年"
+            },
+            {
+                "id": "EV_700_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 700,
+                "time_norm": {
+                    "event_day": 700,
+                    "days_ago": 82,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 改变学习方式 从每周作业变为期末考试",
+                "event_summary_cn": "用户经历学习方式转变"
+            },
+            {
+                "id": "EV_700_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 700,
+                "time_norm": {
+                    "event_day": 700,
+                    "days_ago": 82,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付 学生福利保险费用",
+                "event_summary_cn": "用户分享自己支付学生保险费用的经历"
+            },
+            {
+                "id": "EV_705_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 705,
+                "time_norm": {
+                    "event_day": 705,
+                    "days_ago": 77,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 准备搬家 准备搬家",
+                "event_summary_cn": "用户正在准备搬家"
+            },
+            {
+                "id": "EV_707_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 707,
+                "time_norm": {
+                    "event_day": 707,
+                    "days_ago": 75,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 清理抑郁后遗留问题",
+                "event_summary_cn": "用户正在清理抑郁后遗留问题"
+            },
+            {
+                "id": "EV_714_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 714,
+                "time_norm": {
+                    "event_day": 714,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 正在搬家 我的过去8年生活",
+                "event_summary_cn": "用户正在搬家并处理生活变动"
+            },
+            {
+                "id": "EV_782_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 782,
+                "time_norm": {
+                    "event_day": 782,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到不适 女性相关词汇",
+                "event_summary_cn": "用户对女性相关词汇感到不适"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_694_0",
+                "target": "EV_699_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_699_1",
+                "target": "EV_700_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_700_2",
+                "target": "EV_700_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_700_3",
+                "target": "EV_705_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_705_4",
+                "target": "EV_707_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_707_5",
+                "target": "EV_714_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_714_6",
+                "target": "EV_782_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "694": [
+                    "EV_694_0"
+                ],
+                "699": [
+                    "EV_699_1"
+                ],
+                "700": [
+                    "EV_700_2",
+                    "EV_700_3"
+                ],
+                "705": [
+                    "EV_705_4"
+                ],
+                "707": [
+                    "EV_707_5"
+                ],
+                "714": [
+                    "EV_714_6"
+                ],
+                "782": [
+                    "EV_782_7"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_782_7"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_714_6"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_707_5"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_699_1",
+                "EV_700_2",
+                "EV_700_3",
+                "EV_705_4"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_694_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到不适 女性相关词汇。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 正在搬家 我的过去8年生活。代表时间点：2个月前（68天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 清理抑郁后遗留问题。代表时间点：2个月前（75天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 准备搬家 准备搬家；我 改变学习方式 从每周作业变为期末考试。代表时间点：2个月前（77天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 计划 移民。代表时间点：2个月前（88天前）。"
+        }
+    ]
+}

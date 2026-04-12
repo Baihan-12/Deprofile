@@ -1,0 +1,332 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1222,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1148_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1148,
+                "time_norm": {
+                    "event_day": 1148,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 停止 使用 大麻",
+                "event_summary_cn": "用户决定停止使用大麻"
+            },
+            {
+                "id": "EV_1151_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1151,
+                "time_norm": {
+                    "event_day": 1151,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历了 生育",
+                "event_summary_cn": "用户分享生育经历"
+            },
+            {
+                "id": "EV_1161_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1161,
+                "time_norm": {
+                    "event_day": 1161,
+                    "days_ago": 61,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 签订婚姻关系 母亲",
+                "event_summary_cn": "用户母亲即将举行婚礼"
+            },
+            {
+                "id": "EV_1179_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1179,
+                "time_norm": {
+                    "event_day": 1179,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被关押 Twitter jail",
+                "event_summary_cn": "用户被关押在Twitter jail"
+            },
+            {
+                "id": "EV_1197_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1197,
+                "time_norm": {
+                    "event_day": 1197,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 爱上 Elliot Page",
+                "event_summary_cn": "用户表达对Elliot Page的爱慕之情"
+            },
+            {
+                "id": "EV_1198_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1198,
+                "time_norm": {
+                    "event_day": 1198,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成 多项生活安排",
+                "event_summary_cn": "用户完成多项生活安排"
+            },
+            {
+                "id": "EV_1221_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1221,
+                "time_norm": {
+                    "event_day": 1221,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失业 失业",
+                "event_summary_cn": "用户失业并面临经济困难"
+            },
+            {
+                "id": "EV_1222_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1222,
+                "time_norm": {
+                    "event_day": 1222,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 爱上 Nina 的帖子",
+                "event_summary_cn": "用户因Nina的帖子而心动"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1148_0",
+                "target": "EV_1151_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1151_1",
+                "target": "EV_1161_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1161_2",
+                "target": "EV_1179_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1179_3",
+                "target": "EV_1197_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1197_4",
+                "target": "EV_1198_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1198_5",
+                "target": "EV_1221_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1221_6",
+                "target": "EV_1222_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1148": [
+                    "EV_1148_0"
+                ],
+                "1151": [
+                    "EV_1151_1"
+                ],
+                "1161": [
+                    "EV_1161_2"
+                ],
+                "1179": [
+                    "EV_1179_3"
+                ],
+                "1197": [
+                    "EV_1197_4"
+                ],
+                "1198": [
+                    "EV_1198_5"
+                ],
+                "1221": [
+                    "EV_1221_6"
+                ],
+                "1222": [
+                    "EV_1222_7"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1221_6",
+                "EV_1222_7"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_1197_4",
+                "EV_1198_5"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1179_3"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1161_2"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1148_0",
+                "EV_1151_1"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 爱上 Nina 的帖子；我 失业 失业。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 完成 多项生活安排；我 爱上 Elliot Page。代表时间点：3周前（24天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 被关押 Twitter jail。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 签订婚姻关系 母亲。代表时间点：2个月前（61天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 经历了 生育；我 停止 使用 大麻。代表时间点：2个月前（71天前）。"
+        }
+    ]
+}

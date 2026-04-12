@@ -1,0 +1,452 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1769,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1686_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1686,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 MISERABLE",
+                "evidence": [
+                    "I'm doing a job this week and I am MISERABLE and honestly this has done it in. I do not want to EVER have any children. I mean maybe I would feel differently about my own but wow at least until I'm done being traumatized from this week I don't want a kid"
+                ],
+                "time_norm": {
+                    "event_day": 1686,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1686_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1686,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 MISERABLE",
+                "evidence": [
+                    "I'm doing a job this week and I am MISERABLE and honestly this has done it in. I do not want to EVER have any children. I mean maybe I would feel differently about my own but wow at least until I'm done being traumatized from this week I don't want a kid"
+                ],
+                "time_norm": {
+                    "event_day": 1686,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1693_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1693,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 控制体重",
+                "evidence": [
+                    "I was put on anti-anxiety medicine and anti-depressants for a bit. I started at 111lbs in Feb 2019 and then when I got off the medication in Nov of 2019 I was 141 lbs. Since then I've been trying to hard to lose the weight I put on. I know originally"
+                ],
+                "time_norm": {
+                    "event_day": 1693,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1693_fear_of_gaining_weight",
+                "node_type": "Symptom",
+                "timestamp_day": 1693,
+                "symptom": "fear_of_gaining_weight",
+                "triple": "我 难以进行 体重控制",
+                "evidence": [
+                    "I was put on anti-anxiety medicine and anti-depressants for a bit. I started at 111lbs in Feb 2019 and then when I got off the medication in Nov of 2019 I was 141 lbs. Since then I've been trying to hard to lose the weight I put on. I know originally"
+                ],
+                "time_norm": {
+                    "event_day": 1693,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1693_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 1693,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 体重管理",
+                "evidence": [
+                    "I was put on anti-anxiety medicine and anti-depressants for a bit. I started at 111lbs in Feb 2019 and then when I got off the medication in Nov of 2019 I was 141 lbs. Since then I've been trying to hard to lose the weight I put on. I know originally"
+                ],
+                "time_norm": {
+                    "event_day": 1693,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1719_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1719,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "I have so much anxiety I'm on the verge of mania"
+                ],
+                "time_norm": {
+                    "event_day": 1719,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1719_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 1719,
+                "symptom": "panic_fear",
+                "triple": "我 出现 焦虑",
+                "evidence": [
+                    "I have so much anxiety I'm on the verge of mania"
+                ],
+                "time_norm": {
+                    "event_day": 1719,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1750_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1750,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 社交",
+                "evidence": [
+                    "Those people on that video are ignorant. You absolutely should not have to prove social anxiety or any type of anxiety for that matter"
+                ],
+                "time_norm": {
+                    "event_day": 1750,
+                    "days_ago": 19,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1769_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1769,
+                "symptom": "Anxious_Mood",
+                "triple": "用户本人 感到 焦虑",
+                "evidence": [
+                    "from an outside perspective and love learning more. She also has depression and anxiety but depression is more severe"
+                ],
+                "time_norm": {
+                    "event_day": 1769,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1769_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1769,
+                "symptom": "Depressed_Mood",
+                "triple": "用户本人 出现 更严重的抑郁",
+                "evidence": [
+                    "from an outside perspective and love learning more. She also has depression and anxiety but depression is more severe"
+                ],
+                "time_norm": {
+                    "event_day": 1769,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1686_Anxious_Mood",
+                "target": "SYM_1686_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1686_Depressed_Mood",
+                "target": "SYM_1693_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1693_Anxious_Mood",
+                "target": "SYM_1693_fear_of_gaining_weight",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1693_fear_of_gaining_weight",
+                "target": "SYM_1693_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1693_weight_and_appetite_change",
+                "target": "SYM_1719_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1719_Anxious_Mood",
+                "target": "SYM_1719_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1719_panic_fear",
+                "target": "SYM_1750_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1750_Anxious_Mood",
+                "target": "SYM_1769_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1769_Anxious_Mood",
+                "target": "SYM_1769_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1686_Anxious_Mood",
+                "target": "SYM_1693_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1693_Anxious_Mood",
+                "target": "SYM_1719_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1719_Anxious_Mood",
+                "target": "SYM_1750_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1750_Anxious_Mood",
+                "target": "SYM_1769_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1686_Depressed_Mood",
+                "target": "SYM_1769_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1686": [
+                    "SYM_1686_Anxious_Mood",
+                    "SYM_1686_Depressed_Mood"
+                ],
+                "1693": [
+                    "SYM_1693_Anxious_Mood",
+                    "SYM_1693_fear_of_gaining_weight",
+                    "SYM_1693_weight_and_appetite_change"
+                ],
+                "1719": [
+                    "SYM_1719_Anxious_Mood",
+                    "SYM_1719_panic_fear"
+                ],
+                "1750": [
+                    "SYM_1750_Anxious_Mood"
+                ],
+                "1769": [
+                    "SYM_1769_Anxious_Mood",
+                    "SYM_1769_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_1686_Anxious_Mood",
+                    "SYM_1693_Anxious_Mood",
+                    "SYM_1719_Anxious_Mood",
+                    "SYM_1750_Anxious_Mood",
+                    "SYM_1769_Anxious_Mood"
+                ],
+                "Depressed_Mood": [
+                    "SYM_1686_Depressed_Mood",
+                    "SYM_1769_Depressed_Mood"
+                ],
+                "fear_of_gaining_weight": [
+                    "SYM_1693_fear_of_gaining_weight"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_1693_weight_and_appetite_change"
+                ],
+                "panic_fear": [
+                    "SYM_1719_panic_fear"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1769_Anxious_Mood",
+                "SYM_1769_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1750_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1719_Anxious_Mood",
+                "SYM_1719_panic_fear"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1693_Anxious_Mood",
+                "SYM_1693_fear_of_gaining_weight",
+                "SYM_1693_weight_and_appetite_change"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1686_Anxious_Mood",
+                "SYM_1686_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：用户本人 感到 焦虑；用户本人 出现 更严重的抑郁。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 难以进行 社交。代表时间点：2周前（19天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 焦虑情绪；我 出现 焦虑。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 控制体重；我 难以进行 体重控制；我 难以进行 体重管理。代表时间点：2个月前（76天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 MISERABLE。代表时间点：2个月前（83天前）。"
+        }
+    ]
+}

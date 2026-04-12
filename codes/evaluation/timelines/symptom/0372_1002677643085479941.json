@@ -1,0 +1,151 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 832,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_817_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 817,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "i get so anxious about singing but i seriously love it and i rlly hope 2021 can be my confidence comeback✨"
+                ],
+                "time_norm": {
+                    "event_day": 817,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_825_Impulsivity",
+                "node_type": "Symptom",
+                "timestamp_day": 825,
+                "symptom": "Impulsivity",
+                "triple": "我 难以进行 等待",
+                "evidence": [
+                    "PLS OMG i cant wait any longer"
+                ],
+                "time_norm": {
+                    "event_day": 825,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_825_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 825,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣冲动",
+                "evidence": [
+                    "i tried to turn up the volume and then i realised- cry"
+                ],
+                "time_norm": {
+                    "event_day": 825,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_817_Anxious_Mood",
+                "target": "SYM_825_Impulsivity",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_825_Impulsivity",
+                "target": "SYM_825_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "817": [
+                    "SYM_817_Anxious_Mood"
+                ],
+                "825": [
+                    "SYM_825_Impulsivity",
+                    "SYM_825_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_817_Anxious_Mood"
+                ],
+                "Impulsivity": [
+                    "SYM_825_Impulsivity"
+                ],
+                "Depressed_Mood": [
+                    "SYM_825_Depressed_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_825_Impulsivity",
+                "SYM_825_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_817_Anxious_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 难以进行 等待；我 出现 哭泣冲动。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 焦虑情绪。代表时间点：2周前（15天前）。"
+        }
+    ]
+}

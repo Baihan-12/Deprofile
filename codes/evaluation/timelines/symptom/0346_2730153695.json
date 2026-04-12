@@ -1,0 +1,243 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1364,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1297_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1297,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 情绪低落",
+                "evidence": [
+                    "Sad"
+                ],
+                "time_norm": {
+                    "event_day": 1297,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1355_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1355,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 侵入性想法",
+                "evidence": [
+                    "Even though I'm getting better, intrusive thoughts are still a pain"
+                ],
+                "time_norm": {
+                    "event_day": 1355,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1364_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1364,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 难以控制自己的行为",
+                "evidence": [
+                    "I have family and friends who have been rape victims or victims of molestation. Even though I do my best to be a great person, I'm afraid that I can become this horrible person who can hurt someone. I know this is random and scary but I have to get these thoughts out of my head"
+                ],
+                "time_norm": {
+                    "event_day": 1364,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1364_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1364,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 难以进行社交互动",
+                "evidence": [
+                    "And treated women like shit. I felt awful about those things. That's why I'm so careful with everyone I interact with. I'm scared to give compliments and when I do, I feel weird because I Don't want to think I'm a horrible person. I just feel like shit recently"
+                ],
+                "time_norm": {
+                    "event_day": 1364,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1364_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1364,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 与创伤相关的侵入性想法",
+                "evidence": [
+                    "After having an appointment with my therapist, we discovered that my intrusive thoughts are linked with trauma I had in my life. When I was four or five, I was m*lested and I blocked that until recently. Also, when I was a teenager, I had friends who pursued younger girls"
+                ],
+                "time_norm": {
+                    "event_day": 1364,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1297_Depressed_Mood",
+                "target": "SYM_1355_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1355_intrusion_symptoms",
+                "target": "SYM_1364_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1364_Anxious_Mood",
+                "target": "SYM_1364_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1364_Anxious_Mood",
+                "target": "SYM_1364_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1355_intrusion_symptoms",
+                "target": "SYM_1364_intrusion_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1364_Anxious_Mood",
+                "target": "SYM_1364_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1297": [
+                    "SYM_1297_Depressed_Mood"
+                ],
+                "1355": [
+                    "SYM_1355_intrusion_symptoms"
+                ],
+                "1364": [
+                    "SYM_1364_Anxious_Mood",
+                    "SYM_1364_Anxious_Mood",
+                    "SYM_1364_intrusion_symptoms"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_1297_Depressed_Mood"
+                ],
+                "intrusion_symptoms": [
+                    "SYM_1355_intrusion_symptoms",
+                    "SYM_1364_intrusion_symptoms"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1364_Anxious_Mood",
+                    "SYM_1364_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1364_Anxious_Mood",
+                "SYM_1364_Anxious_Mood",
+                "SYM_1364_intrusion_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_1355_intrusion_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1297_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 难以进行社交互动；我 出现 与创伤相关的侵入性想法。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 侵入性想法。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 情绪低落。代表时间点：2个月前（67天前）。"
+        }
+    ]
+}

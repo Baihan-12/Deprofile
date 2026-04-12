@@ -1,0 +1,372 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 740,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_669_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 669,
+                "time_norm": {
+                    "event_day": 669,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 摧毁 人际关系",
+                "event_summary_cn": "用户自毁人际关系"
+            },
+            {
+                "id": "EV_672_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 672,
+                "time_norm": {
+                    "event_day": 672,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 喜欢 lrt",
+                "event_summary_cn": "用户表达对lrt的喜欢"
+            },
+            {
+                "id": "EV_673_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 673,
+                "time_norm": {
+                    "event_day": 673,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 健康恶化 无",
+                "event_summary_cn": "用户健康状况严重恶化"
+            },
+            {
+                "id": "EV_681_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 681,
+                "time_norm": {
+                    "event_day": 681,
+                    "days_ago": 59,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到抑郁 我是同性恋",
+                "event_summary_cn": "用户表达抑郁和同性恋身份"
+            },
+            {
+                "id": "EV_688_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 688,
+                "time_norm": {
+                    "event_day": 688,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 见证 白人报警针对无辜黑人",
+                "event_summary_cn": "用户目睹白人针对黑人的警察行为"
+            },
+            {
+                "id": "EV_699_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 699,
+                "time_norm": {
+                    "event_day": 699,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 无法支付 服务费用",
+                "event_summary_cn": "用户抱怨无法支付服务费用"
+            },
+            {
+                "id": "EV_718_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 718,
+                "time_norm": {
+                    "event_day": 718,
+                    "days_ago": 22,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 梳头 感到发痒",
+                "event_summary_cn": "用户因头发发痒而感到不适"
+            },
+            {
+                "id": "EV_734_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 734,
+                "time_norm": {
+                    "event_day": 734,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 尝试修复关系 我弄糟了",
+                "event_summary_cn": "用户表示自己弄糟了关系"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_669_0",
+                "target": "EV_672_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_672_1",
+                "target": "EV_673_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_673_2",
+                "target": "EV_681_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_681_3",
+                "target": "EV_688_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_688_4",
+                "target": "EV_699_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_699_5",
+                "target": "EV_718_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_718_6",
+                "target": "EV_734_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "669": [
+                    "EV_669_0"
+                ],
+                "672": [
+                    "EV_672_1"
+                ],
+                "673": [
+                    "EV_673_2"
+                ],
+                "681": [
+                    "EV_681_3"
+                ],
+                "688": [
+                    "EV_688_4"
+                ],
+                "699": [
+                    "EV_699_5"
+                ],
+                "718": [
+                    "EV_718_6"
+                ],
+                "734": [
+                    "EV_734_7"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_734_7"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_718_6"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_699_5"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_688_4"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_681_3"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_672_1",
+                "EV_673_2"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_669_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 尝试修复关系 我弄糟了。代表时间点：6天前（6天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 梳头 感到发痒。代表时间点：3周前（22天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 无法支付 服务费用。代表时间点：1个月前（41天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 见证 白人报警针对无辜黑人。代表时间点：1个月前（52天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 感到抑郁 我是同性恋。代表时间点：1个月前（59天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 健康恶化 无；我 喜欢 lrt。代表时间点：2个月前（67天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 摧毁 人际关系。代表时间点：2个月前（71天前）。"
+        }
+    ]
+}

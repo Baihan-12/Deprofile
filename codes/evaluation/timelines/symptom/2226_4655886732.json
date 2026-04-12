@@ -1,0 +1,68 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1570,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1570_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1570,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "Its 3:40 am and my anxiety has started kickin in IF THEY DONT GET THAT #1 IM GONNA HAVE TO SMACK SOME PEOPLE'S HEAD TO FEEL BETTER"
+                ],
+                "time_norm": {
+                    "event_day": 1570,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [],
+        "index": {
+            "by_day": {
+                "1570": [
+                    "SYM_1570_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_1570_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1570_Anxious_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 焦虑情绪。代表时间点：今天（0天前）。"
+        }
+    ]
+}

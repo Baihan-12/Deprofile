@@ -1,0 +1,383 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1800,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1714_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1714,
+                "time_norm": {
+                    "event_day": 1714,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 接受 我在性少数谱系中",
+                "event_summary_cn": "用户确认自身处于性少数谱系"
+            },
+            {
+                "id": "EV_1716_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1716,
+                "time_norm": {
+                    "event_day": 1716,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付 租金、水电和网络费用",
+                "event_summary_cn": "用户支付生活费用"
+            },
+            {
+                "id": "EV_1716_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1716,
+                "time_norm": {
+                    "event_day": 1716,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 学习到 有两位女性伴侣",
+                "event_summary_cn": "用户得知自己有两位女性伴侣"
+            },
+            {
+                "id": "EV_1716_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1716,
+                "time_norm": {
+                    "event_day": 1716,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付更多税款 超过唐纳德·特朗普两年总和",
+                "event_summary_cn": "用户支付税款超过特朗普两年总和"
+            },
+            {
+                "id": "EV_1716_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1716,
+                "time_norm": {
+                    "event_day": 1716,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付更多税款 超过唐纳德·特朗普两年总和",
+                "event_summary_cn": "用户支付税款超过特朗普两年总和"
+            },
+            {
+                "id": "EV_1717_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1717,
+                "time_norm": {
+                    "event_day": 1717,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始职业生涯",
+                "event_summary_cn": "用户开启职业生涯第一天"
+            },
+            {
+                "id": "EV_1720_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1720,
+                "time_norm": {
+                    "event_day": 1720,
+                    "days_ago": 80,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得 10000美元折扣",
+                "event_summary_cn": "用户成功获得新车1万美元折扣"
+            },
+            {
+                "id": "EV_1758_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1758,
+                "time_norm": {
+                    "event_day": 1758,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 隐瞒身份 加入Gay Straight Alliance俱乐部",
+                "event_summary_cn": "用户隐瞒身份加入性少数群体社团"
+            },
+            {
+                "id": "EV_1758_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1758,
+                "time_norm": {
+                    "event_day": 1758,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 保持性取向隐秘 于朋友和同事",
+                "event_summary_cn": "用户隐秘性取向未向朋友同事透露"
+            },
+            {
+                "id": "EV_1758_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1758,
+                "time_norm": {
+                    "event_day": 1758,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始分享与长期女友的合照",
+                "event_summary_cn": "用户开始分享与女友的合照"
+            },
+            {
+                "id": "EV_1800_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1800,
+                "time_norm": {
+                    "event_day": 1800,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想见 你",
+                "event_summary_cn": "用户即将搬迁，想见对方"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1714_0",
+                "target": "EV_1716_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1716_1",
+                "target": "EV_1716_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1716_2",
+                "target": "EV_1716_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1716_3",
+                "target": "EV_1716_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1716_4",
+                "target": "EV_1717_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1717_5",
+                "target": "EV_1720_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1720_6",
+                "target": "EV_1758_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1758_7",
+                "target": "EV_1758_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1758_8",
+                "target": "EV_1758_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1758_9",
+                "target": "EV_1800_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1714": [
+                    "EV_1714_0"
+                ],
+                "1716": [
+                    "EV_1716_1",
+                    "EV_1716_2",
+                    "EV_1716_3",
+                    "EV_1716_4"
+                ],
+                "1717": [
+                    "EV_1717_5"
+                ],
+                "1720": [
+                    "EV_1720_6"
+                ],
+                "1758": [
+                    "EV_1758_7",
+                    "EV_1758_8",
+                    "EV_1758_9"
+                ],
+                "1800": [
+                    "EV_1800_10"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1800_10"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1758_7",
+                "EV_1758_8",
+                "EV_1758_9"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1717_5",
+                "EV_1720_6"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1714_0",
+                "EV_1716_1",
+                "EV_1716_2",
+                "EV_1716_3",
+                "EV_1716_4"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 想见 你。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 隐瞒身份 加入Gay Straight Alliance俱乐部；我 保持性取向隐秘 于朋友和同事。代表时间点：1个月前（42天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 获得 10000美元折扣；我 开始职业生涯。代表时间点：2个月前（80天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 支付 租金、水电和网络费用；我 学习到 有两位女性伴侣。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

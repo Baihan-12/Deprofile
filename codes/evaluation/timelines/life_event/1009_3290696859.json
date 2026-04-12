@@ -1,0 +1,449 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 622,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_549_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 549,
+                "time_norm": {
+                    "event_day": 549,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始 新习惯",
+                "event_summary_cn": "用户开始建立新习惯"
+            },
+            {
+                "id": "EV_549_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 549,
+                "time_norm": {
+                    "event_day": 549,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 花费 剩余的钱",
+                "event_summary_cn": "用户花完账后剩余的钱"
+            },
+            {
+                "id": "EV_572_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 572,
+                "time_norm": {
+                    "event_day": 572,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 计划 安葬",
+                "event_summary_cn": "用户计划为逝者举行葬礼"
+            },
+            {
+                "id": "EV_575_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 575,
+                "time_norm": {
+                    "event_day": 575,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 发现 我的叔叔 在太平间",
+                "event_summary_cn": "用户发现叔叔在太平间"
+            },
+            {
+                "id": "EV_594_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 594,
+                "time_norm": {
+                    "event_day": 594,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付 我妈妈的房子",
+                "event_summary_cn": "用户支付母亲房屋贷款"
+            },
+            {
+                "id": "EV_594_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 594,
+                "time_norm": {
+                    "event_day": 594,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付 房贷",
+                "event_summary_cn": "用户还清了母亲的房贷"
+            },
+            {
+                "id": "EV_608_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 608,
+                "time_norm": {
+                    "event_day": 608,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要还清她的房贷",
+                "event_summary_cn": "用户想还清对方的房贷"
+            },
+            {
+                "id": "EV_610_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 610,
+                "time_norm": {
+                    "event_day": 610,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 告诉 我的外祖父母",
+                "event_summary_cn": "用户向外祖父母寻求支持"
+            },
+            {
+                "id": "EV_613_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 613,
+                "time_norm": {
+                    "event_day": 613,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要搬迁 Kodwa",
+                "event_summary_cn": "用户因未做研究需搬迁"
+            },
+            {
+                "id": "EV_616_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 616,
+                "time_norm": {
+                    "event_day": 616,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得 000 000",
+                "event_summary_cn": "用户账户获得大量资金"
+            },
+            {
+                "id": "EV_622_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 622,
+                "time_norm": {
+                    "event_day": 622,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 去见前男友 前男友",
+                "event_summary_cn": "用户与前男友重新联系"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_549_0",
+                "target": "EV_549_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_549_1",
+                "target": "EV_572_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_572_2",
+                "target": "EV_575_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_575_3",
+                "target": "EV_594_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_594_4",
+                "target": "EV_594_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_594_5",
+                "target": "EV_608_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_608_6",
+                "target": "EV_610_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_610_7",
+                "target": "EV_613_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_613_8",
+                "target": "EV_616_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_616_9",
+                "target": "EV_622_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "549": [
+                    "EV_549_0",
+                    "EV_549_1"
+                ],
+                "572": [
+                    "EV_572_2"
+                ],
+                "575": [
+                    "EV_575_3"
+                ],
+                "594": [
+                    "EV_594_4",
+                    "EV_594_5"
+                ],
+                "608": [
+                    "EV_608_6"
+                ],
+                "610": [
+                    "EV_610_7"
+                ],
+                "613": [
+                    "EV_613_8"
+                ],
+                "616": [
+                    "EV_616_9"
+                ],
+                "622": [
+                    "EV_622_10"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_616_9",
+                "EV_622_10"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_610_7",
+                "EV_613_8"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_608_6"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_594_4",
+                "EV_594_5"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_575_3"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_572_2"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_549_0",
+                "EV_549_1"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 去见前男友 前男友；我 获得 000 000。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 需要搬迁 Kodwa；我 告诉 我的外祖父母。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 想要还清她的房贷。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 支付 我妈妈的房子；我 支付 房贷。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 发现 我的叔叔 在太平间。代表时间点：1个月前（47天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 计划 安葬。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 开始 新习惯；我 花费 剩余的钱。代表时间点：2个月前（73天前）。"
+        }
+    ]
+}

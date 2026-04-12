@@ -1,0 +1,411 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 789,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_706_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 706,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 集中注意力",
+                "evidence": [
+                    "one time someone told me I would make a good mumble rapper because of how fast I talk and I was like thanks it’s the adhd and listening to watsky constantly with"
+                ],
+                "time_norm": {
+                    "event_day": 706,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_728_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 728,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 神经感官超载",
+                "evidence": [
+                    "i feel this! i’d get what i’m sure now is sensory overload but at the time i thought maybe that’s what anxiety was? but even then it didn’t feel like what ppl had described a panic attack as being like to me so i was ???? about it"
+                ],
+                "time_norm": {
+                    "event_day": 728,
+                    "days_ago": 61,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_728_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 728,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 持续的奇怪感觉",
+                "evidence": [
+                    "i was diagnosed with depression a decade before adhd. for a long time i thought maybe bpd or something similar? but that was just the hyperactivity cutting through the depression from feeling so fuckin weird all the time and doing terribly in school."
+                ],
+                "time_norm": {
+                    "event_day": 728,
+                    "days_ago": 61,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_740_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 740,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 更加愤怒",
+                "evidence": [
+                    "every time i see a family member or friend eat out a restaurant :) my anger increases another notch or two :) quit putting people at risk :) so that u can eat nachos and drink beer on a patio somewhere :)"
+                ],
+                "time_norm": {
+                    "event_day": 740,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_750_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 750,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 想要攻击的冲动",
+                "evidence": [
+                    "i’m so angry and not even at anything in particular i just wanna fucking punch something"
+                ],
+                "time_norm": {
+                    "event_day": 750,
+                    "days_ago": 39,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_776_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 776,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 对他人自称共情者的焦虑反应",
+                "evidence": [
+                    "everytime i see someone call themselves an empath my fight or flight instinct kicks in. 9/10 times it’a a girl who would have bullied me in middle school or a mean twink and the 10th time it’s just someone with anxiety and rsd"
+                ],
+                "time_norm": {
+                    "event_day": 776,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_788_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 788,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 无法容纳更多愤怒的情绪",
+                "evidence": [
+                    "i’ve seen people be like \"be angry at the gov/companies for not paying ppl to stay home from work, they’re the real problem, not the people out at restaurants and stuff\" and i get the point for sure but believe me i have enough capacity for anger in my heart for both ♥️"
+                ],
+                "time_norm": {
+                    "event_day": 788,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_789_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 789,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 所有进步被剥夺的痛苦",
+                "evidence": [
+                    "this is ya kno low on the priority list of problems but the fact that i had made so much progress in managing my adhd, climbing out of debt, and having an in person social life only to have all that progress ripped out from underneath me early this year is so ironic and upsetting"
+                ],
+                "time_norm": {
+                    "event_day": 789,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_706_Inattention",
+                "target": "SYM_728_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_728_Anxious_Mood",
+                "target": "SYM_728_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_728_Depressed_Mood",
+                "target": "SYM_740_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_740_Anger_Irritability",
+                "target": "SYM_750_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_750_Anger_Irritability",
+                "target": "SYM_776_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_776_Anxious_Mood",
+                "target": "SYM_788_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_788_Anger_Irritability",
+                "target": "SYM_789_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_728_Anxious_Mood",
+                "target": "SYM_776_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_728_Depressed_Mood",
+                "target": "SYM_789_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_740_Anger_Irritability",
+                "target": "SYM_750_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_750_Anger_Irritability",
+                "target": "SYM_788_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "706": [
+                    "SYM_706_Inattention"
+                ],
+                "728": [
+                    "SYM_728_Anxious_Mood",
+                    "SYM_728_Depressed_Mood"
+                ],
+                "740": [
+                    "SYM_740_Anger_Irritability"
+                ],
+                "750": [
+                    "SYM_750_Anger_Irritability"
+                ],
+                "776": [
+                    "SYM_776_Anxious_Mood"
+                ],
+                "788": [
+                    "SYM_788_Anger_Irritability"
+                ],
+                "789": [
+                    "SYM_789_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Inattention": [
+                    "SYM_706_Inattention"
+                ],
+                "Anxious_Mood": [
+                    "SYM_728_Anxious_Mood",
+                    "SYM_776_Anxious_Mood"
+                ],
+                "Depressed_Mood": [
+                    "SYM_728_Depressed_Mood",
+                    "SYM_789_Depressed_Mood"
+                ],
+                "Anger_Irritability": [
+                    "SYM_740_Anger_Irritability",
+                    "SYM_750_Anger_Irritability",
+                    "SYM_788_Anger_Irritability"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_788_Anger_Irritability",
+                "SYM_789_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_776_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_750_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_740_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_728_Anxious_Mood",
+                "SYM_728_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_706_Inattention"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 所有进步被剥夺的痛苦；我 出现 无法容纳更多愤怒的情绪。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 对他人自称共情者的焦虑反应。代表时间点：1周前（13天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 想要攻击的冲动。代表时间点：1个月前（39天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 更加愤怒。代表时间点：1个月前（49天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 神经感官超载；我 出现 持续的奇怪感觉。代表时间点：2个月前（61天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 集中注意力。代表时间点：2个月前（83天前）。"
+        }
+    ]
+}

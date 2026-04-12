@@ -1,0 +1,110 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 2034,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1949_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1949,
+                "time_norm": {
+                    "event_day": 1949,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 得到 新纹身",
+                "event_summary_cn": "用户获得新纹身并表达喜爱"
+            },
+            {
+                "id": "EV_2034_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2034,
+                "time_norm": {
+                    "event_day": 2034,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 三个孩子",
+                "event_summary_cn": "用户宣布有三个孩子"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1949_0",
+                "target": "EV_2034_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1949": [
+                    "EV_1949_0"
+                ],
+                "2034": [
+                    "EV_2034_1"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_2034_1"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1949_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 有 三个孩子。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 得到 新纹身。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

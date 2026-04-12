@@ -1,0 +1,297 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 2146,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_2089_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 2089,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "i’ve felt anxiety since the minute i opened my eyes this morning"
+                ],
+                "time_norm": {
+                    "event_day": 2089,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2090_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 2090,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 注意力集中",
+                "evidence": [
+                    "literally how am i supposed to focus on anything today at all"
+                ],
+                "time_norm": {
+                    "event_day": 2090,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2094_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 2094,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "HELP IM CRYING"
+                ],
+                "time_norm": {
+                    "event_day": 2094,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2094_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 2094,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 情绪崩溃",
+                "evidence": [
+                    "HELP IM CRYING"
+                ],
+                "time_norm": {
+                    "event_day": 2094,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2116_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 2116,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 难以表达的情绪",
+                "evidence": [
+                    "i want to scream. that is all"
+                ],
+                "time_norm": {
+                    "event_day": 2116,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2146_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 2146,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "this coffee is fueling my anxiety but im so tired lmao fml"
+                ],
+                "time_norm": {
+                    "event_day": 2146,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_2089_Anxious_Mood",
+                "target": "SYM_2090_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2090_Inattention",
+                "target": "SYM_2094_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2094_Depressed_Mood",
+                "target": "SYM_2094_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2094_somatic_symptoms_others",
+                "target": "SYM_2116_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2116_somatic_symptoms_others",
+                "target": "SYM_2146_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2089_Anxious_Mood",
+                "target": "SYM_2146_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_2094_somatic_symptoms_others",
+                "target": "SYM_2116_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "2089": [
+                    "SYM_2089_Anxious_Mood"
+                ],
+                "2090": [
+                    "SYM_2090_Inattention"
+                ],
+                "2094": [
+                    "SYM_2094_Depressed_Mood",
+                    "SYM_2094_somatic_symptoms_others"
+                ],
+                "2116": [
+                    "SYM_2116_somatic_symptoms_others"
+                ],
+                "2146": [
+                    "SYM_2146_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_2089_Anxious_Mood",
+                    "SYM_2146_Anxious_Mood"
+                ],
+                "Inattention": [
+                    "SYM_2090_Inattention"
+                ],
+                "Depressed_Mood": [
+                    "SYM_2094_Depressed_Mood"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_2094_somatic_symptoms_others",
+                    "SYM_2116_somatic_symptoms_others"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_2146_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_2116_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_2094_Depressed_Mood",
+                "SYM_2094_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_2089_Anxious_Mood",
+                "SYM_2090_Inattention"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 焦虑情绪。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 难以表达的情绪。代表时间点：1个月前（30天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 哭泣；我 出现 情绪崩溃。代表时间点：1个月前（52天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 难以进行 注意力集中；我 出现 焦虑情绪。代表时间点：1个月前（56天前）。"
+        }
+    ]
+}

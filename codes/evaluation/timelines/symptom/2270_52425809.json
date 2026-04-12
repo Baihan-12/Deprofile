@@ -1,0 +1,183 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1273,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1208_Impulsivity",
+                "node_type": "Symptom",
+                "timestamp_day": 1208,
+                "symptom": "Impulsivity",
+                "triple": "我 难以进行 自控对话",
+                "evidence": [
+                    "recognizing it was my first step! i started by catching myself, apologizing, and returning to spotlight to the person i cut off. eventually that helped me learn how to go “if i speak now i’ll interrupt them, so i’ll wait” rather than “shoot i interrupted them, i should’ve waited”"
+                ],
+                "time_norm": {
+                    "event_day": 1208,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1209_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1209,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 dissociate",
+                "evidence": [
+                    "dissociate"
+                ],
+                "time_norm": {
+                    "event_day": 1209,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1209_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 1209,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 dissociate",
+                "evidence": [
+                    "dissociate"
+                ],
+                "time_norm": {
+                    "event_day": 1209,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1250_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 1250,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 出现 精力明显下降",
+                "evidence": [
+                    "i used to cosplay and write!! all the time, back when i had the energy to do things! i've been completely wiped out for about two years but i can finally feel myself building up enough motivation to maybe get back into it soon, n i hope things continue on the incline 😊"
+                ],
+                "time_norm": {
+                    "event_day": 1250,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1208_Impulsivity",
+                "target": "SYM_1209_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1209_intrusion_symptoms",
+                "target": "SYM_1209_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1209_somatic_symptoms_others",
+                "target": "SYM_1250_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1208": [
+                    "SYM_1208_Impulsivity"
+                ],
+                "1209": [
+                    "SYM_1209_intrusion_symptoms",
+                    "SYM_1209_somatic_symptoms_others"
+                ],
+                "1250": [
+                    "SYM_1250_Decreased_energy_tiredness_fatigue"
+                ]
+            },
+            "by_symptom": {
+                "Impulsivity": [
+                    "SYM_1208_Impulsivity"
+                ],
+                "intrusion_symptoms": [
+                    "SYM_1209_intrusion_symptoms"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_1209_somatic_symptoms_others"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_1250_Decreased_energy_tiredness_fatigue"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_1250_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1208_Impulsivity",
+                "SYM_1209_intrusion_symptoms",
+                "SYM_1209_somatic_symptoms_others"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 精力明显下降。代表时间点：3周前（23天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 dissociate；我 难以进行 自控对话。代表时间点：2个月前（64天前）。"
+        }
+    ]
+}

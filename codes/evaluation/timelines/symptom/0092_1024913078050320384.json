@@ -1,0 +1,584 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 858,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_780_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 780,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 社交连接",
+                "evidence": [
+                    "Just wanna throw it out there that some people do this not to be mean or misleading, but because they genuinely do want to connect but can't because of anxiety/other mental health issues."
+                ],
+                "time_norm": {
+                    "event_day": 780,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_811_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 811,
+                "symptom": "Anxious_Mood",
+                "triple": "我 理解 精神疾病的真实情况",
+                "evidence": [
+                    "You really think somebody with moderate to severe depression or a panic disorder should hold one of the most stressful and important positions in the country? Because I actually understand mental illness and its reality, and I think that sounds like a recipe for disaster."
+                ],
+                "time_norm": {
+                    "event_day": 811,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_811_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 811,
+                "symptom": "Depressed_Mood",
+                "triple": "我 理解 精神疾病的真实情况",
+                "evidence": [
+                    "You really think somebody with moderate to severe depression or a panic disorder should hold one of the most stressful and important positions in the country? Because I actually understand mental illness and its reality, and I think that sounds like a recipe for disaster."
+                ],
+                "time_norm": {
+                    "event_day": 811,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_820_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 820,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 夜间反复出现创伤性梦境",
+                "evidence": [
+                    "Sounds like one of the most common side effects of anxiety. I have a panic disorder and all of the nightmares I have revolve around reality, be it something traumatic from my past or a fear of something bad occurring. Anxiety is lovely."
+                ],
+                "time_norm": {
+                    "event_day": 820,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_820_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 820,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 夜间反复出现创伤性梦境",
+                "evidence": [
+                    "Sounds like one of the most common side effects of anxiety. I have a panic disorder and all of the nightmares I have revolve around reality, be it something traumatic from my past or a fear of something bad occurring. Anxiety is lovely."
+                ],
+                "time_norm": {
+                    "event_day": 820,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_820_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 820,
+                "symptom": "panic_fear",
+                "triple": "我 出现 夜间噩梦",
+                "evidence": [
+                    "Sounds like one of the most common side effects of anxiety. I have a panic disorder and all of the nightmares I have revolve around reality, be it something traumatic from my past or a fear of something bad occurring. Anxiety is lovely."
+                ],
+                "time_norm": {
+                    "event_day": 820,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_820_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 820,
+                "symptom": "sleep_disturbance",
+                "triple": "我 出现 夜间噩梦",
+                "evidence": [
+                    "Sounds like one of the most common side effects of anxiety. I have a panic disorder and all of the nightmares I have revolve around reality, be it something traumatic from my past or a fear of something bad occurring. Anxiety is lovely."
+                ],
+                "time_norm": {
+                    "event_day": 820,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_828_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 828,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 令人恐慌的噩梦",
+                "evidence": [
+                    "I don't remember my dreams too often and the vast majority of the time that I do, they're panic inducing nightmares about my traumas. So yea, I'd be fine without them."
+                ],
+                "time_norm": {
+                    "event_day": 828,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_828_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 828,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 侵入性创伤梦境",
+                "evidence": [
+                    "I don't remember my dreams too often and the vast majority of the time that I do, they're panic inducing nightmares about my traumas. So yea, I'd be fine without them."
+                ],
+                "time_norm": {
+                    "event_day": 828,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_828_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 828,
+                "symptom": "sleep_disturbance",
+                "triple": "我 出现 令人恐慌的噩梦",
+                "evidence": [
+                    "I don't remember my dreams too often and the vast majority of the time that I do, they're panic inducing nightmares about my traumas. So yea, I'd be fine without them."
+                ],
+                "time_norm": {
+                    "event_day": 828,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_853_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 853,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 持续感到糟糕的情绪",
+                "evidence": [
+                    "Every time I see people say something like this (which is extremely often here on Twitter), I immediately think \"No, I am pretty much constantly at the same level of feeling like shit and it's been that way for over a decade.\" You just find a way to deal with it."
+                ],
+                "time_norm": {
+                    "event_day": 853,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_853_Worthlessness_and_guilty",
+                "node_type": "Symptom",
+                "timestamp_day": 853,
+                "symptom": "Worthlessness_and_guilty",
+                "triple": "我 出现 持续感到自己毫无价值",
+                "evidence": [
+                    "Every time I see people say something like this (which is extremely often here on Twitter), I immediately think \"No, I am pretty much constantly at the same level of feeling like shit and it's been that way for over a decade.\" You just find a way to deal with it."
+                ],
+                "time_norm": {
+                    "event_day": 853,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_858_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 858,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "Seeing them biting that string is making me anxious. All I can think about is the possibility that they'll ingest it, and the very expensive emergency surgery that could follow said ingesting. Be careful 😬"
+                ],
+                "time_norm": {
+                    "event_day": 858,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_858_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 858,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 因他人行为而愤怒",
+                "evidence": [
+                    "The amount of people proudly touting in-bed co-sleeping is really fucking upsetting and honestly infuriating. \"By sheer luck my baby didn't get injured or die like MANY other babies have from this extremely unsafe practice, so that must mean it's ok.\""
+                ],
+                "time_norm": {
+                    "event_day": 858,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_780_Anxious_Mood",
+                "target": "SYM_811_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_811_Anxious_Mood",
+                "target": "SYM_811_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_811_Depressed_Mood",
+                "target": "SYM_820_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_820_Anxious_Mood",
+                "target": "SYM_820_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_820_intrusion_symptoms",
+                "target": "SYM_820_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_820_panic_fear",
+                "target": "SYM_820_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_820_sleep_disturbance",
+                "target": "SYM_828_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_828_Anxious_Mood",
+                "target": "SYM_828_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_828_intrusion_symptoms",
+                "target": "SYM_828_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_828_sleep_disturbance",
+                "target": "SYM_853_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_853_Depressed_Mood",
+                "target": "SYM_853_Worthlessness_and_guilty",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_853_Worthlessness_and_guilty",
+                "target": "SYM_858_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_858_Anxious_Mood",
+                "target": "SYM_858_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_780_Anxious_Mood",
+                "target": "SYM_811_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_811_Anxious_Mood",
+                "target": "SYM_820_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_820_Anxious_Mood",
+                "target": "SYM_828_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_828_Anxious_Mood",
+                "target": "SYM_858_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_811_Depressed_Mood",
+                "target": "SYM_853_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_820_intrusion_symptoms",
+                "target": "SYM_828_intrusion_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_820_sleep_disturbance",
+                "target": "SYM_828_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "780": [
+                    "SYM_780_Anxious_Mood"
+                ],
+                "811": [
+                    "SYM_811_Anxious_Mood",
+                    "SYM_811_Depressed_Mood"
+                ],
+                "820": [
+                    "SYM_820_Anxious_Mood",
+                    "SYM_820_intrusion_symptoms",
+                    "SYM_820_panic_fear",
+                    "SYM_820_sleep_disturbance"
+                ],
+                "828": [
+                    "SYM_828_Anxious_Mood",
+                    "SYM_828_intrusion_symptoms",
+                    "SYM_828_sleep_disturbance"
+                ],
+                "853": [
+                    "SYM_853_Depressed_Mood",
+                    "SYM_853_Worthlessness_and_guilty"
+                ],
+                "858": [
+                    "SYM_858_Anxious_Mood",
+                    "SYM_858_Anger_Irritability"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_780_Anxious_Mood",
+                    "SYM_811_Anxious_Mood",
+                    "SYM_820_Anxious_Mood",
+                    "SYM_828_Anxious_Mood",
+                    "SYM_858_Anxious_Mood"
+                ],
+                "Depressed_Mood": [
+                    "SYM_811_Depressed_Mood",
+                    "SYM_853_Depressed_Mood"
+                ],
+                "intrusion_symptoms": [
+                    "SYM_820_intrusion_symptoms",
+                    "SYM_828_intrusion_symptoms"
+                ],
+                "panic_fear": [
+                    "SYM_820_panic_fear"
+                ],
+                "sleep_disturbance": [
+                    "SYM_820_sleep_disturbance",
+                    "SYM_828_sleep_disturbance"
+                ],
+                "Worthlessness_and_guilty": [
+                    "SYM_853_Worthlessness_and_guilty"
+                ],
+                "Anger_Irritability": [
+                    "SYM_858_Anger_Irritability"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_853_Depressed_Mood",
+                "SYM_853_Worthlessness_and_guilty",
+                "SYM_858_Anxious_Mood",
+                "SYM_858_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_828_Anxious_Mood",
+                "SYM_828_intrusion_symptoms",
+                "SYM_828_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_820_Anxious_Mood",
+                "SYM_820_intrusion_symptoms",
+                "SYM_820_panic_fear",
+                "SYM_820_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_811_Anxious_Mood",
+                "SYM_811_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_780_Anxious_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 焦虑；我 感到 因他人行为而愤怒；我 出现 持续感到糟糕的情绪。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 令人恐慌的噩梦；我 出现 侵入性创伤梦境。代表时间点：1个月前（30天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 夜间反复出现创伤性梦境；我 出现 夜间噩梦。代表时间点：1个月前（38天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 理解 精神疾病的真实情况。代表时间点：1个月前（47天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 社交连接。代表时间点：2个月前（78天前）。"
+        }
+    ]
+}

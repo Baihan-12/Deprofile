@@ -1,0 +1,356 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 233,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_152_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 152,
+                "time_norm": {
+                    "event_day": 152,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 回忆 死亡纪念日",
+                "event_summary_cn": "用户回忆某人去世纪念日"
+            },
+            {
+                "id": "EV_156_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 156,
+                "time_norm": {
+                    "event_day": 156,
+                    "days_ago": 77,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到沮丧 未结识朋友",
+                "event_summary_cn": "用户感到沮丧因未结识朋友"
+            },
+            {
+                "id": "EV_190_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 190,
+                "time_norm": {
+                    "event_day": 190,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 一堂讲座",
+                "event_summary_cn": "用户即将结束一堂讲座"
+            },
+            {
+                "id": "EV_200_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 200,
+                "time_norm": {
+                    "event_day": 200,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 回忆 父亲去世纪念日",
+                "event_summary_cn": "用户回忆父亲去世纪念日"
+            },
+            {
+                "id": "EV_200_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 200,
+                "time_norm": {
+                    "event_day": 200,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 回忆 完成大学第一门考试",
+                "event_summary_cn": "回忆完成大学第一门考试的经历"
+            },
+            {
+                "id": "EV_200_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 200,
+                "time_norm": {
+                    "event_day": 200,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 知道 父亲返回医院陪伴叔叔",
+                "event_summary_cn": "父亲返回医院陪伴叔叔"
+            },
+            {
+                "id": "EV_200_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 200,
+                "time_norm": {
+                    "event_day": 200,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去亲人 他",
+                "event_summary_cn": "用户失去亲人并面临考试"
+            },
+            {
+                "id": "EV_200_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 200,
+                "time_norm": {
+                    "event_day": 200,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 崩溃 有考试",
+                "event_summary_cn": "用户因考试崩溃并退学"
+            },
+            {
+                "id": "EV_200_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 200,
+                "time_norm": {
+                    "event_day": 200,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 写作 记忆中Wilhand的死亡",
+                "event_summary_cn": "用户回忆创作中Wilhand死亡的情节"
+            },
+            {
+                "id": "EV_233_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 233,
+                "time_norm": {
+                    "event_day": 233,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成考试 我",
+                "event_summary_cn": "用户完成学期考试"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_152_0",
+                "target": "EV_156_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_156_1",
+                "target": "EV_190_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_190_2",
+                "target": "EV_200_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_200_3",
+                "target": "EV_200_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_200_4",
+                "target": "EV_200_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_200_5",
+                "target": "EV_200_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_200_6",
+                "target": "EV_200_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_200_7",
+                "target": "EV_200_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_200_8",
+                "target": "EV_233_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "152": [
+                    "EV_152_0"
+                ],
+                "156": [
+                    "EV_156_1"
+                ],
+                "190": [
+                    "EV_190_2"
+                ],
+                "200": [
+                    "EV_200_3",
+                    "EV_200_4",
+                    "EV_200_5",
+                    "EV_200_6",
+                    "EV_200_7",
+                    "EV_200_8"
+                ],
+                "233": [
+                    "EV_233_9"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_233_9"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_200_3",
+                "EV_200_4",
+                "EV_200_5",
+                "EV_200_6",
+                "EV_200_7",
+                "EV_200_8"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_190_2"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_152_0",
+                "EV_156_1"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 完成考试 我。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 回忆 父亲去世纪念日；我 回忆 完成大学第一门考试。代表时间点：1个月前（33天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 有 一堂讲座。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到沮丧 未结识朋友；我 回忆 死亡纪念日。代表时间点：2个月前（77天前）。"
+        }
+    ]
+}

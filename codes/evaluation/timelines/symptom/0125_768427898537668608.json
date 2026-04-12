@@ -1,0 +1,68 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 870,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_870_Impulsivity",
+                "node_type": "Symptom",
+                "timestamp_day": 870,
+                "symptom": "Impulsivity",
+                "triple": "我 难以进行 等待",
+                "evidence": [
+                    "IM SO IMPATIENT I CANT WAIT TIL IT BECOMES FREE"
+                ],
+                "time_norm": {
+                    "event_day": 870,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [],
+        "index": {
+            "by_day": {
+                "870": [
+                    "SYM_870_Impulsivity"
+                ]
+            },
+            "by_symptom": {
+                "Impulsivity": [
+                    "SYM_870_Impulsivity"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_870_Impulsivity"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 等待。代表时间点：今天（0天前）。"
+        }
+    ]
+}

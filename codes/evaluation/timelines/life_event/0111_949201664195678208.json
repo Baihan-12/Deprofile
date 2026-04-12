@@ -1,0 +1,182 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 984,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_956_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 956,
+                "time_norm": {
+                    "event_day": 956,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 应对 大学生活与疫情",
+                "event_summary_cn": "用户提及应对大学与疫情的挑战"
+            },
+            {
+                "id": "EV_972_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 972,
+                "time_norm": {
+                    "event_day": 972,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要告诉某人他很美 某人离开",
+                "event_summary_cn": "用户想表达赞美但被拒绝"
+            },
+            {
+                "id": "EV_972_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 972,
+                "time_norm": {
+                    "event_day": 972,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 放弃争取 硬壳",
+                "event_summary_cn": "用户放弃争取失去的事物"
+            },
+            {
+                "id": "EV_984_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 984,
+                "time_norm": {
+                    "event_day": 984,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 歌唱 在戏剧系",
+                "event_summary_cn": "用户首次在戏剧系公开演唱"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_956_0",
+                "target": "EV_972_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_972_1",
+                "target": "EV_972_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_972_2",
+                "target": "EV_984_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "956": [
+                    "EV_956_0"
+                ],
+                "972": [
+                    "EV_972_1",
+                    "EV_972_2"
+                ],
+                "984": [
+                    "EV_984_3"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_984_3"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_972_1",
+                "EV_972_2"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_956_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 歌唱 在戏剧系。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 想要告诉某人他很美 某人离开；我 放弃争取 硬壳。代表时间点：1周前（12天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 应对 大学生活与疫情。代表时间点：4周前（28天前）。"
+        }
+    ]
+}

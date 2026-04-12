@@ -1,0 +1,419 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1547,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1492_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1492,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 独自哭泣",
+                "evidence": [
+                    "still up just sobbing alone"
+                ],
+                "time_norm": {
+                    "event_day": 1492,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1498_Respiratory_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1498,
+                "symptom": "Respiratory_symptoms",
+                "triple": "我 出现 严重的恐慌发作",
+                "evidence": [
+                    "4:25 am rachel report: had a massive panic attack in the shower and felt like i was actually losing my mind but did a grounding breathing vid and pet chief im,, trying to fix this"
+                ],
+                "time_norm": {
+                    "event_day": 1498,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1498_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 1498,
+                "symptom": "panic_fear",
+                "triple": "我 出现 严重的恐慌发作",
+                "evidence": [
+                    "4:25 am rachel report: had a massive panic attack in the shower and felt like i was actually losing my mind but did a grounding breathing vid and pet chief im,, trying to fix this"
+                ],
+                "time_norm": {
+                    "event_day": 1498,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1506_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1506,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "i do cry ab it :(( often"
+                ],
+                "time_norm": {
+                    "event_day": 1506,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1506_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 1506,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "i do cry ab it :(( often"
+                ],
+                "time_norm": {
+                    "event_day": 1506,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1528_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 1528,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 惊冷感",
+                "evidence": [
+                    "no ur absolutely right actually like i got chills but,, i wanna get to know her"
+                ],
+                "time_norm": {
+                    "event_day": 1528,
+                    "days_ago": 19,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1531_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1531,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 自我批判性焦虑悲伤",
+                "evidence": [
+                    "i have tripped a bit into some self critical anxiety sadness now 😞"
+                ],
+                "time_norm": {
+                    "event_day": 1531,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1531_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1531,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 自我批判焦虑悲伤",
+                "evidence": [
+                    "i have tripped a bit into some self critical anxiety sadness now 😞"
+                ],
+                "time_norm": {
+                    "event_day": 1531,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1547_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1547,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 绝对最糟糕的噩梦",
+                "evidence": [
+                    "my absolute worst fucking nightmare not okay at all i dont wanna talk about this"
+                ],
+                "time_norm": {
+                    "event_day": 1547,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1547_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 1547,
+                "symptom": "sleep_disturbance",
+                "triple": "我 出现 睡眠障碍",
+                "evidence": [
+                    "my absolute worst fucking nightmare not okay at all i dont wanna talk about this"
+                ],
+                "time_norm": {
+                    "event_day": 1547,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1492_Depressed_Mood",
+                "target": "SYM_1498_Respiratory_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1498_Respiratory_symptoms",
+                "target": "SYM_1498_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1498_panic_fear",
+                "target": "SYM_1506_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1506_Depressed_Mood",
+                "target": "SYM_1506_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1506_somatic_symptoms_others",
+                "target": "SYM_1528_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1528_somatic_symptoms_sensory",
+                "target": "SYM_1531_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1531_Anxious_Mood",
+                "target": "SYM_1531_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1531_Depressed_Mood",
+                "target": "SYM_1547_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1547_intrusion_symptoms",
+                "target": "SYM_1547_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1492_Depressed_Mood",
+                "target": "SYM_1506_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1506_Depressed_Mood",
+                "target": "SYM_1531_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1492": [
+                    "SYM_1492_Depressed_Mood"
+                ],
+                "1498": [
+                    "SYM_1498_Respiratory_symptoms",
+                    "SYM_1498_panic_fear"
+                ],
+                "1506": [
+                    "SYM_1506_Depressed_Mood",
+                    "SYM_1506_somatic_symptoms_others"
+                ],
+                "1528": [
+                    "SYM_1528_somatic_symptoms_sensory"
+                ],
+                "1531": [
+                    "SYM_1531_Anxious_Mood",
+                    "SYM_1531_Depressed_Mood"
+                ],
+                "1547": [
+                    "SYM_1547_intrusion_symptoms",
+                    "SYM_1547_sleep_disturbance"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_1492_Depressed_Mood",
+                    "SYM_1506_Depressed_Mood",
+                    "SYM_1531_Depressed_Mood"
+                ],
+                "Respiratory_symptoms": [
+                    "SYM_1498_Respiratory_symptoms"
+                ],
+                "panic_fear": [
+                    "SYM_1498_panic_fear"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_1506_somatic_symptoms_others"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_1528_somatic_symptoms_sensory"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1531_Anxious_Mood"
+                ],
+                "intrusion_symptoms": [
+                    "SYM_1547_intrusion_symptoms"
+                ],
+                "sleep_disturbance": [
+                    "SYM_1547_sleep_disturbance"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1547_intrusion_symptoms",
+                "SYM_1547_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1528_somatic_symptoms_sensory",
+                "SYM_1531_Anxious_Mood",
+                "SYM_1531_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1506_Depressed_Mood",
+                "SYM_1506_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1492_Depressed_Mood",
+                "SYM_1498_Respiratory_symptoms",
+                "SYM_1498_panic_fear"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 绝对最糟糕的噩梦；我 出现 睡眠障碍。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 自我批判性焦虑悲伤；我 出现 自我批判焦虑悲伤；我 出现 惊冷感。代表时间点：2周前（16天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 哭泣。代表时间点：1个月前（41天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 严重的恐慌发作；我 出现 独自哭泣。代表时间点：1个月前（49天前）。"
+        }
+    ]
+}

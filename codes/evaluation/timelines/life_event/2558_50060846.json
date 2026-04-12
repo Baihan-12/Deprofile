@@ -1,0 +1,577 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1583,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1495_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1495,
+                "time_norm": {
+                    "event_day": 1495,
+                    "days_ago": 88,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 前往 新西兰",
+                "event_summary_cn": "用户前往新西兰生活"
+            },
+            {
+                "id": "EV_1507_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1507,
+                "time_norm": {
+                    "event_day": 1507,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被迫离开 日本",
+                "event_summary_cn": "用户因 misogyny 被迫离开日本"
+            },
+            {
+                "id": "EV_1512_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1512,
+                "time_norm": {
+                    "event_day": 1512,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 抗议 被好莱坞利用文化",
+                "event_summary_cn": "用户抗议被好莱坞利用文化"
+            },
+            {
+                "id": "EV_1517_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1517,
+                "time_norm": {
+                    "event_day": 1517,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 申请了PPP贷款 200+员工",
+                "event_summary_cn": "用户申请PPP贷款后员工大幅减少"
+            },
+            {
+                "id": "EV_1528_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1528,
+                "time_norm": {
+                    "event_day": 1528,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 计划求婚 给这个男人",
+                "event_summary_cn": "用户计划向某人求婚"
+            },
+            {
+                "id": "EV_1531_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1531,
+                "time_norm": {
+                    "event_day": 1531,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 觉得 邻里安静",
+                "event_summary_cn": "用户认为邻里因种族主义而安静"
+            },
+            {
+                "id": "EV_1533_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1533,
+                "time_norm": {
+                    "event_day": 1533,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 发现 某些种族主义者 殴打 Uncle Roger",
+                "event_summary_cn": "用户发现有人殴打Uncle Roger"
+            },
+            {
+                "id": "EV_1553_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1553,
+                "time_norm": {
+                    "event_day": 1553,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到庆幸 你安全且对方被逮捕",
+                "event_summary_cn": "用户庆幸他人安全并对方被逮捕"
+            },
+            {
+                "id": "EV_1558_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1558,
+                "time_norm": {
+                    "event_day": 1558,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 发现 学生贷款还款金额增加",
+                "event_summary_cn": "学生贷款还款金额将增加"
+            },
+            {
+                "id": "EV_1558_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1558,
+                "time_norm": {
+                    "event_day": 1558,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 焦虑发作",
+                "event_summary_cn": "用户做预算时经历焦虑发作"
+            },
+            {
+                "id": "EV_1559_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1559,
+                "time_norm": {
+                    "event_day": 1559,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 增加收入 学生贷款支付增加",
+                "event_summary_cn": "收入增加导致贷款支付增加"
+            },
+            {
+                "id": "EV_1559_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1559,
+                "time_norm": {
+                    "event_day": 1559,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 学生贷款利息支付压力",
+                "event_summary_cn": "用户因学生贷款利息压力焦虑"
+            },
+            {
+                "id": "EV_1571_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1571,
+                "time_norm": {
+                    "event_day": 1571,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 会预订机票到 新西兰",
+                "event_summary_cn": "用户计划前往新西兰"
+            },
+            {
+                "id": "EV_1573_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1573,
+                "time_norm": {
+                    "event_day": 1573,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 准备角色表 使用新骰子和骰子塔",
+                "event_summary_cn": "用户准备进行角色扮演游戏"
+            },
+            {
+                "id": "EV_1581_14",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1581,
+                "time_norm": {
+                    "event_day": 1581,
+                    "days_ago": 2,
+                    "relative_cn": "2天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 计划 独自旅行",
+                "event_summary_cn": "用户计划进行独自旅行"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1495_0",
+                "target": "EV_1507_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1507_1",
+                "target": "EV_1512_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1512_2",
+                "target": "EV_1517_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1517_3",
+                "target": "EV_1528_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1528_4",
+                "target": "EV_1531_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1531_5",
+                "target": "EV_1533_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1533_6",
+                "target": "EV_1553_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1553_7",
+                "target": "EV_1558_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1558_8",
+                "target": "EV_1558_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1558_9",
+                "target": "EV_1559_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1559_10",
+                "target": "EV_1559_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1559_11",
+                "target": "EV_1571_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1571_12",
+                "target": "EV_1573_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1573_13",
+                "target": "EV_1581_14",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1495": [
+                    "EV_1495_0"
+                ],
+                "1507": [
+                    "EV_1507_1"
+                ],
+                "1512": [
+                    "EV_1512_2"
+                ],
+                "1517": [
+                    "EV_1517_3"
+                ],
+                "1528": [
+                    "EV_1528_4"
+                ],
+                "1531": [
+                    "EV_1531_5"
+                ],
+                "1533": [
+                    "EV_1533_6"
+                ],
+                "1553": [
+                    "EV_1553_7"
+                ],
+                "1558": [
+                    "EV_1558_8",
+                    "EV_1558_9"
+                ],
+                "1559": [
+                    "EV_1559_10",
+                    "EV_1559_11"
+                ],
+                "1571": [
+                    "EV_1571_12"
+                ],
+                "1573": [
+                    "EV_1573_13"
+                ],
+                "1581": [
+                    "EV_1581_14"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1581_14"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_1571_12",
+                "EV_1573_13"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_1558_8",
+                "EV_1558_9",
+                "EV_1559_10",
+                "EV_1559_11"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_1553_7"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1528_4",
+                "EV_1531_5",
+                "EV_1533_6"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1517_3"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1507_1",
+                "EV_1512_2"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1495_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 计划 独自旅行。代表时间点：2天前（2天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 准备角色表 使用新骰子和骰子塔；我 会预订机票到 新西兰。代表时间点：1周前（10天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 增加收入 学生贷款支付增加；我 经历 学生贷款利息支付压力。代表时间点：3周前（24天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 感到庆幸 你安全且对方被逮捕。代表时间点：1个月前（30天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 发现 某些种族主义者 殴打 Uncle Roger；我 觉得 邻里安静。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 申请了PPP贷款 200+员工。代表时间点：2个月前（66天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 抗议 被好莱坞利用文化；我 被迫离开 日本。代表时间点：2个月前（71天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 前往 新西兰。代表时间点：2个月前（88天前）。"
+        }
+    ]
+}

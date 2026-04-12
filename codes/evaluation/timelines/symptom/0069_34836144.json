@@ -1,0 +1,382 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 2057,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1994_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1994,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 投票",
+                "evidence": [
+                    "I will simple vote the depression out"
+                ],
+                "time_norm": {
+                    "event_day": 1994,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1994_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1994,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 出现 胃痛",
+                "evidence": [
+                    "My stomach has been hurting for DAYS."
+                ],
+                "time_norm": {
+                    "event_day": 1994,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1995_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 1995,
+                "symptom": "somatic_muscle",
+                "triple": "我 出现 牙齿磨得更厉害",
+                "evidence": [
+                    "I’ve been grinding my teeth so much more lately."
+                ],
+                "time_norm": {
+                    "event_day": 1995,
+                    "days_ago": 62,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1995_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1995,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 出现 头痛和胃痛",
+                "evidence": [
+                    "I thought eating would stop my headache but now I just have a headache AND stomach ache"
+                ],
+                "time_norm": {
+                    "event_day": 1995,
+                    "days_ago": 62,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2002_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 2002,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Why am i crying?"
+                ],
+                "time_norm": {
+                    "event_day": 2002,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2002_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 2002,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Why am i crying?"
+                ],
+                "time_norm": {
+                    "event_day": 2002,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2014_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 2014,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 问题解决",
+                "evidence": [
+                    "Problem solving is extremely difficult when you don’t feel safe."
+                ],
+                "time_norm": {
+                    "event_day": 2014,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2057_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 2057,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 声音嘶吼",
+                "evidence": [
+                    "I’m SCREAMING"
+                ],
+                "time_norm": {
+                    "event_day": 2057,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1994_Depressed_Mood",
+                "target": "SYM_1994_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1994_Gastrointestinal_symptoms",
+                "target": "SYM_1995_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1995_somatic_muscle",
+                "target": "SYM_1995_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1995_Gastrointestinal_symptoms",
+                "target": "SYM_2002_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2002_Depressed_Mood",
+                "target": "SYM_2002_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2002_somatic_symptoms_others",
+                "target": "SYM_2014_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2014_Anxious_Mood",
+                "target": "SYM_2057_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1994_Depressed_Mood",
+                "target": "SYM_2002_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1994_Gastrointestinal_symptoms",
+                "target": "SYM_1995_Gastrointestinal_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_2002_somatic_symptoms_others",
+                "target": "SYM_2057_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1994": [
+                    "SYM_1994_Depressed_Mood",
+                    "SYM_1994_Gastrointestinal_symptoms"
+                ],
+                "1995": [
+                    "SYM_1995_somatic_muscle",
+                    "SYM_1995_Gastrointestinal_symptoms"
+                ],
+                "2002": [
+                    "SYM_2002_Depressed_Mood",
+                    "SYM_2002_somatic_symptoms_others"
+                ],
+                "2014": [
+                    "SYM_2014_Anxious_Mood"
+                ],
+                "2057": [
+                    "SYM_2057_somatic_symptoms_others"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_1994_Depressed_Mood",
+                    "SYM_2002_Depressed_Mood"
+                ],
+                "Gastrointestinal_symptoms": [
+                    "SYM_1994_Gastrointestinal_symptoms",
+                    "SYM_1995_Gastrointestinal_symptoms"
+                ],
+                "somatic_muscle": [
+                    "SYM_1995_somatic_muscle"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_2002_somatic_symptoms_others",
+                    "SYM_2057_somatic_symptoms_others"
+                ],
+                "Anxious_Mood": [
+                    "SYM_2014_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_2057_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_2014_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_2002_Depressed_Mood",
+                "SYM_2002_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1995_somatic_muscle",
+                "SYM_1995_Gastrointestinal_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1994_Depressed_Mood",
+                "SYM_1994_Gastrointestinal_symptoms"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 声音嘶吼。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 问题解决。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 哭泣。代表时间点：1个月前（55天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 牙齿磨得更厉害；我 出现 头痛和胃痛。代表时间点：2个月前（62天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 投票；我 出现 胃痛。代表时间点：2个月前（63天前）。"
+        }
+    ]
+}

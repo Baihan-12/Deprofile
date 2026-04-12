@@ -1,0 +1,472 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 682,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_598_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 598,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 严重的焦虑情绪",
+                "evidence": [
+                    "Totally. Raked up my anxiety (something I had worked very hard on last year by developing a physically active and healthy lifestyle) and almost pushed me back into depression. Thankfully I saw it coming so I re-started therapy in May and began regular meditation in July."
+                ],
+                "time_norm": {
+                    "event_day": 598,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_598_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 598,
+                "symptom": "Depressed_Mood",
+                "triple": "我 几乎被推回抑郁",
+                "evidence": [
+                    "Totally. Raked up my anxiety (something I had worked very hard on last year by developing a physically active and healthy lifestyle) and almost pushed me back into depression. Thankfully I saw it coming so I re-started therapy in May and began regular meditation in July."
+                ],
+                "time_norm": {
+                    "event_day": 598,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_638_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 638,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 对Prince Charles的愤怒",
+                "evidence": [
+                    "By the time I finished #TheCrownSeason4, I developed a massive amount of anger for Prince Charles; while Season 3 made me sympathize with him, Season 4 made me plain mad; this despite having seen several documentaries that captured this and being very much aware of the story."
+                ],
+                "time_norm": {
+                    "event_day": 638,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_669_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 669,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 恐惧感",
+                "evidence": [
+                    "So scary. Specially during the winters. In the middle of the night. Shook the whole place."
+                ],
+                "time_norm": {
+                    "event_day": 669,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_669_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 669,
+                "symptom": "somatic_muscle",
+                "triple": "我 出现 震动感",
+                "evidence": [
+                    "So scary. Specially during the winters. In the middle of the night. Shook the whole place."
+                ],
+                "time_norm": {
+                    "event_day": 669,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_671_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 671,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑减轻",
+                "evidence": [
+                    "I've been on the path to renegotiating my expectations vs outcomes as well; thank you for showing you can make tweaks to the process instead - calms down a lot of anxiety and helps alleviate disappointment in self."
+                ],
+                "time_norm": {
+                    "event_day": 671,
+                    "days_ago": 11,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_682_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 682,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 抑郁症、焦虑症和PTSD",
+                "evidence": [
+                    "When good things happen to me, I give the credit to others. But this one right here - from the time I walked in to therapy &amp; got diagnosed with depression, anxiety &amp; PTSD by the psychiatrist in 2016 - I did it all by myself against all odds. It's the best thing I've ever done."
+                ],
+                "time_norm": {
+                    "event_day": 682,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_682_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 682,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁症、焦虑症和创伤后应激障碍",
+                "evidence": [
+                    "When good things happen to me, I give the credit to others. But this one right here - from the time I walked in to therapy &amp; got diagnosed with depression, anxiety &amp; PTSD by the psychiatrist in 2016 - I did it all by myself against all odds. It's the best thing I've ever done."
+                ],
+                "time_norm": {
+                    "event_day": 682,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_682_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 682,
+                "symptom": "Anxious_Mood",
+                "triple": "我 遭受 童年创伤和深层痛苦与焦虑的影响",
+                "evidence": [
+                    "I wouldn't have known and acknowledged what childhood trauma and deep pain + anxiety were doing to me if I hadn't hit the depression phase. Not to be masochistic here (I would have loved to learn that without the depression) but it taught a great deal."
+                ],
+                "time_norm": {
+                    "event_day": 682,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_682_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 682,
+                "symptom": "Depressed_Mood",
+                "triple": "我 遭受 童年创伤和深层痛苦与焦虑的影响",
+                "evidence": [
+                    "I wouldn't have known and acknowledged what childhood trauma and deep pain + anxiety were doing to me if I hadn't hit the depression phase. Not to be masochistic here (I would have loved to learn that without the depression) but it taught a great deal."
+                ],
+                "time_norm": {
+                    "event_day": 682,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_682_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 682,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 Depressed_Mood",
+                "evidence": [
+                    "Depression has surely been by biggest lesson and wake up call."
+                ],
+                "time_norm": {
+                    "event_day": 682,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_598_Anxious_Mood",
+                "target": "SYM_598_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_598_Depressed_Mood",
+                "target": "SYM_638_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_638_Anger_Irritability",
+                "target": "SYM_669_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_669_Anxious_Mood",
+                "target": "SYM_669_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_669_somatic_muscle",
+                "target": "SYM_671_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_671_Anxious_Mood",
+                "target": "SYM_682_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_682_Anxious_Mood",
+                "target": "SYM_682_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_682_Depressed_Mood",
+                "target": "SYM_682_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_682_Anxious_Mood",
+                "target": "SYM_682_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_682_Depressed_Mood",
+                "target": "SYM_682_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_598_Anxious_Mood",
+                "target": "SYM_669_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_669_Anxious_Mood",
+                "target": "SYM_671_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_671_Anxious_Mood",
+                "target": "SYM_682_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_682_Anxious_Mood",
+                "target": "SYM_682_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_598_Depressed_Mood",
+                "target": "SYM_682_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_682_Depressed_Mood",
+                "target": "SYM_682_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_682_Depressed_Mood",
+                "target": "SYM_682_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "598": [
+                    "SYM_598_Anxious_Mood",
+                    "SYM_598_Depressed_Mood"
+                ],
+                "638": [
+                    "SYM_638_Anger_Irritability"
+                ],
+                "669": [
+                    "SYM_669_Anxious_Mood",
+                    "SYM_669_somatic_muscle"
+                ],
+                "671": [
+                    "SYM_671_Anxious_Mood"
+                ],
+                "682": [
+                    "SYM_682_Anxious_Mood",
+                    "SYM_682_Depressed_Mood",
+                    "SYM_682_Anxious_Mood",
+                    "SYM_682_Depressed_Mood",
+                    "SYM_682_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_598_Anxious_Mood",
+                    "SYM_669_Anxious_Mood",
+                    "SYM_671_Anxious_Mood",
+                    "SYM_682_Anxious_Mood",
+                    "SYM_682_Anxious_Mood"
+                ],
+                "Depressed_Mood": [
+                    "SYM_598_Depressed_Mood",
+                    "SYM_682_Depressed_Mood",
+                    "SYM_682_Depressed_Mood",
+                    "SYM_682_Depressed_Mood"
+                ],
+                "Anger_Irritability": [
+                    "SYM_638_Anger_Irritability"
+                ],
+                "somatic_muscle": [
+                    "SYM_669_somatic_muscle"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_682_Anxious_Mood",
+                "SYM_682_Depressed_Mood",
+                "SYM_682_Anxious_Mood",
+                "SYM_682_Depressed_Mood",
+                "SYM_682_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_669_Anxious_Mood",
+                "SYM_669_somatic_muscle",
+                "SYM_671_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_638_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_598_Anxious_Mood",
+                "SYM_598_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 遭受 童年创伤和深层痛苦与焦虑的影响；我 出现 Depressed_Mood。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 感到 焦虑减轻；我 出现 恐惧感；我 出现 震动感。代表时间点：1周前（11天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 对Prince Charles的愤怒。代表时间点：1个月前（44天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现 严重的焦虑情绪；我 几乎被推回抑郁。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

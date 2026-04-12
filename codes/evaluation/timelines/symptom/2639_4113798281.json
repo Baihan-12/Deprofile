@@ -1,0 +1,401 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1709,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1626_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1626,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 出现 胸痛",
+                "evidence": [
+                    "Got my flu shot. Gave me chest pain. Lovely."
+                ],
+                "time_norm": {
+                    "event_day": 1626,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1626_Respiratory_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1626,
+                "symptom": "Respiratory_symptoms",
+                "triple": "我 出现 胸痛",
+                "evidence": [
+                    "Got my flu shot. Gave me chest pain. Lovely."
+                ],
+                "time_norm": {
+                    "event_day": 1626,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1631_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1631,
+                "symptom": "Depressed_Mood",
+                "triple": "我 遭受 抑郁情绪",
+                "evidence": [
+                    "Sorry I have nothing to share right now. My depression is debilitating."
+                ],
+                "time_norm": {
+                    "event_day": 1631,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1680_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 1680,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 疲惫和疼痛",
+                "evidence": [
+                    "just so tired and in pain and i feel like it’s nothing new"
+                ],
+                "time_norm": {
+                    "event_day": 1680,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1690_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1690,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "depression"
+                ],
+                "time_norm": {
+                    "event_day": 1690,
+                    "days_ago": 19,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1706_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1706,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "started in depression, now we here"
+                ],
+                "time_norm": {
+                    "event_day": 1706,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1707_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1707,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 希望渺茫",
+                "evidence": [
+                    "goodbye 22. you were filled to the brim with depression, anxiety and hopelessness. i almost didn’t make it to 23. i also got through a semester of college, got clean, and spent the year building relationships. for once, i’m looking forward to another year around the sun 🎊💝✨"
+                ],
+                "time_norm": {
+                    "event_day": 1707,
+                    "days_ago": 2,
+                    "relative_cn": "2天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1707_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1707,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁、焦虑和绝望",
+                "evidence": [
+                    "goodbye 22. you were filled to the brim with depression, anxiety and hopelessness. i almost didn’t make it to 23. i also got through a semester of college, got clean, and spent the year building relationships. for once, i’m looking forward to another year around the sun 🎊💝✨"
+                ],
+                "time_norm": {
+                    "event_day": 1707,
+                    "days_ago": 2,
+                    "relative_cn": "2天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1709_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1709,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "here is the depression. the suffering has arrived."
+                ],
+                "time_norm": {
+                    "event_day": 1709,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1626_Cardiovascular_symptoms",
+                "target": "SYM_1626_Respiratory_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1626_Respiratory_symptoms",
+                "target": "SYM_1631_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1631_Depressed_Mood",
+                "target": "SYM_1680_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1680_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_1690_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1690_Depressed_Mood",
+                "target": "SYM_1706_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1706_Depressed_Mood",
+                "target": "SYM_1707_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1707_Anxious_Mood",
+                "target": "SYM_1707_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1707_Depressed_Mood",
+                "target": "SYM_1709_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1631_Depressed_Mood",
+                "target": "SYM_1690_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1690_Depressed_Mood",
+                "target": "SYM_1706_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1706_Depressed_Mood",
+                "target": "SYM_1707_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1707_Depressed_Mood",
+                "target": "SYM_1709_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1626": [
+                    "SYM_1626_Cardiovascular_symptoms",
+                    "SYM_1626_Respiratory_symptoms"
+                ],
+                "1631": [
+                    "SYM_1631_Depressed_Mood"
+                ],
+                "1680": [
+                    "SYM_1680_Decreased_energy_tiredness_fatigue"
+                ],
+                "1690": [
+                    "SYM_1690_Depressed_Mood"
+                ],
+                "1706": [
+                    "SYM_1706_Depressed_Mood"
+                ],
+                "1707": [
+                    "SYM_1707_Anxious_Mood",
+                    "SYM_1707_Depressed_Mood"
+                ],
+                "1709": [
+                    "SYM_1709_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Cardiovascular_symptoms": [
+                    "SYM_1626_Cardiovascular_symptoms"
+                ],
+                "Respiratory_symptoms": [
+                    "SYM_1626_Respiratory_symptoms"
+                ],
+                "Depressed_Mood": [
+                    "SYM_1631_Depressed_Mood",
+                    "SYM_1690_Depressed_Mood",
+                    "SYM_1706_Depressed_Mood",
+                    "SYM_1707_Depressed_Mood",
+                    "SYM_1709_Depressed_Mood"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_1680_Decreased_energy_tiredness_fatigue"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1707_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1706_Depressed_Mood",
+                "SYM_1707_Anxious_Mood",
+                "SYM_1707_Depressed_Mood",
+                "SYM_1709_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1690_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_1680_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1626_Cardiovascular_symptoms",
+                "SYM_1626_Respiratory_symptoms",
+                "SYM_1631_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 抑郁情绪；我 感到 希望渺茫；我 出现 抑郁、焦虑和绝望。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 抑郁情绪。代表时间点：2周前（19天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 感到 疲惫和疼痛。代表时间点：4周前（29天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 遭受 抑郁情绪；我 出现 胸痛。代表时间点：2个月前（78天前）。"
+        }
+    ]
+}

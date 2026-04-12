@@ -1,0 +1,677 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1918,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1861_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 1861,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 发烧",
+                "evidence": [
+                    "I know there was a huge viral infection going around which is why I wasnt worried cause my fever legit only lasted 5 hours and my chills for like 2? So i was like I’m fine.. yeah nope lol"
+                ],
+                "time_norm": {
+                    "event_day": 1861,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1865_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1865,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 胸部不适",
+                "evidence": [
+                    "I been anxious allll day since yesterday my chest kinda hurt idk if it’s from covid or my anxiety bro lmaooooo"
+                ],
+                "time_norm": {
+                    "event_day": 1865,
+                    "days_ago": 53,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1865_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1865,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 出现 胸部疼痛",
+                "evidence": [
+                    "I been anxious allll day since yesterday my chest kinda hurt idk if it’s from covid or my anxiety bro lmaooooo"
+                ],
+                "time_norm": {
+                    "event_day": 1865,
+                    "days_ago": 53,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1865_Respiratory_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1865,
+                "symptom": "Respiratory_symptoms",
+                "triple": "我 感到 胸部疼痛",
+                "evidence": [
+                    "I been anxious allll day since yesterday my chest kinda hurt idk if it’s from covid or my anxiety bro lmaooooo"
+                ],
+                "time_norm": {
+                    "event_day": 1865,
+                    "days_ago": 53,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1865_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1865,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "This whole thing has given me anxiety brooooo lol"
+                ],
+                "time_norm": {
+                    "event_day": 1865,
+                    "days_ago": 53,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1866_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1866,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现  panic attack",
+                "evidence": [
+                    "I now feel a panic attack coming along"
+                ],
+                "time_norm": {
+                    "event_day": 1866,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1866_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 1866,
+                "symptom": "panic_fear",
+                "triple": "我 出现  panic attack",
+                "evidence": [
+                    "I now feel a panic attack coming along"
+                ],
+                "time_norm": {
+                    "event_day": 1866,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1867_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1867,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 真心难过",
+                "evidence": [
+                    "Exactly :-) this made me genuinely sad."
+                ],
+                "time_norm": {
+                    "event_day": 1867,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1867_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1867,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 情绪恶化",
+                "evidence": [
+                    "It gets fucking worse"
+                ],
+                "time_norm": {
+                    "event_day": 1867,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1873_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1873,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 被地震和电影院的噪音所创伤",
+                "evidence": [
+                    "I was in the movie theater when this happened &amp; all the lights went out and stuff from the ceiling began to fall. I am so traumatized by both earthquakes AND loud movies at the theater ☺️☺️☺️"
+                ],
+                "time_norm": {
+                    "event_day": 1873,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1902_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1902,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 恐惧/焦虑",
+                "evidence": [
+                    "My son was exposed to covid for the second time in less than 2 months and the fear/anxiety I have had today is fucking killing me. He has no symptoms &amp; is totally fine right now. Please keep my baby in your prayers that he doesn’t get sick, this is a whole new type of pain."
+                ],
+                "time_norm": {
+                    "event_day": 1902,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1905_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 1905,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 精力明显下降",
+                "evidence": [
+                    "I’m so exhausted it’s insane 😅"
+                ],
+                "time_norm": {
+                    "event_day": 1905,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1909_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1909,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 自我厌恶",
+                "evidence": [
+                    "Can I just say the anxiety & self hate I have had over the years failing my test ONCE & having the constant failure mindset came to a motherfucking end TODAY cause I passed my written & have drivers appt in 4 weeks! This is so small but something so big to me lmaoooo😭🥺💙"
+                ],
+                "time_norm": {
+                    "event_day": 1909,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1917_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1917,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 胸部疼痛并引发恐慌发作",
+                "evidence": [
+                    "So I pulled a muscle in my chest right (I think) and without knowing, my chest started to hurt and I got so freaked out thinking it’s the after effect of covid I dead ass had a panic attack which made my chest hurt MORE bro I swear I was gonna die 🤣🥺"
+                ],
+                "time_norm": {
+                    "event_day": 1917,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1917_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 1917,
+                "symptom": "panic_fear",
+                "triple": "我 出现 胸部疼痛加剧",
+                "evidence": [
+                    "So I pulled a muscle in my chest right (I think) and without knowing, my chest started to hurt and I got so freaked out thinking it’s the after effect of covid I dead ass had a panic attack which made my chest hurt MORE bro I swear I was gonna die 🤣🥺"
+                ],
+                "time_norm": {
+                    "event_day": 1917,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1918_Hyperactivity_agitation",
+                "node_type": "Symptom",
+                "timestamp_day": 1918,
+                "symptom": "Hyperactivity_agitation",
+                "triple": "我 难以进行 安抚孩子入睡",
+                "evidence": [
+                    "I used to struggle to put Adriel to sleep bc he was so restless or it would take me hours and a couple weeks ago I finally got a method down and now I can put him to sleep in 10 minutes!! It means so much bc I can tell he has is comforted by me &amp; I just cry almost everytime 🥺🤣"
+                ],
+                "time_norm": {
+                    "event_day": 1918,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1861_somatic_symptoms_sensory",
+                "target": "SYM_1865_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1865_Anxious_Mood",
+                "target": "SYM_1865_Cardiovascular_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1865_Cardiovascular_symptoms",
+                "target": "SYM_1865_Respiratory_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1865_Respiratory_symptoms",
+                "target": "SYM_1865_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1865_Anxious_Mood",
+                "target": "SYM_1866_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1866_Anxious_Mood",
+                "target": "SYM_1866_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1866_panic_fear",
+                "target": "SYM_1867_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1867_Depressed_Mood",
+                "target": "SYM_1867_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1867_Depressed_Mood",
+                "target": "SYM_1873_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1873_Anxious_Mood",
+                "target": "SYM_1902_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1902_Anxious_Mood",
+                "target": "SYM_1905_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1905_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_1909_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1909_Anxious_Mood",
+                "target": "SYM_1917_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1917_Anxious_Mood",
+                "target": "SYM_1917_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1917_panic_fear",
+                "target": "SYM_1918_Hyperactivity_agitation",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1865_Anxious_Mood",
+                "target": "SYM_1865_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1865_Anxious_Mood",
+                "target": "SYM_1866_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1866_Anxious_Mood",
+                "target": "SYM_1873_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1873_Anxious_Mood",
+                "target": "SYM_1902_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1902_Anxious_Mood",
+                "target": "SYM_1909_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1909_Anxious_Mood",
+                "target": "SYM_1917_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1866_panic_fear",
+                "target": "SYM_1917_panic_fear",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1867_Depressed_Mood",
+                "target": "SYM_1867_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1861": [
+                    "SYM_1861_somatic_symptoms_sensory"
+                ],
+                "1865": [
+                    "SYM_1865_Anxious_Mood",
+                    "SYM_1865_Cardiovascular_symptoms",
+                    "SYM_1865_Respiratory_symptoms",
+                    "SYM_1865_Anxious_Mood"
+                ],
+                "1866": [
+                    "SYM_1866_Anxious_Mood",
+                    "SYM_1866_panic_fear"
+                ],
+                "1867": [
+                    "SYM_1867_Depressed_Mood",
+                    "SYM_1867_Depressed_Mood"
+                ],
+                "1873": [
+                    "SYM_1873_Anxious_Mood"
+                ],
+                "1902": [
+                    "SYM_1902_Anxious_Mood"
+                ],
+                "1905": [
+                    "SYM_1905_Decreased_energy_tiredness_fatigue"
+                ],
+                "1909": [
+                    "SYM_1909_Anxious_Mood"
+                ],
+                "1917": [
+                    "SYM_1917_Anxious_Mood",
+                    "SYM_1917_panic_fear"
+                ],
+                "1918": [
+                    "SYM_1918_Hyperactivity_agitation"
+                ]
+            },
+            "by_symptom": {
+                "somatic_symptoms_sensory": [
+                    "SYM_1861_somatic_symptoms_sensory"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1865_Anxious_Mood",
+                    "SYM_1865_Anxious_Mood",
+                    "SYM_1866_Anxious_Mood",
+                    "SYM_1873_Anxious_Mood",
+                    "SYM_1902_Anxious_Mood",
+                    "SYM_1909_Anxious_Mood",
+                    "SYM_1917_Anxious_Mood"
+                ],
+                "Cardiovascular_symptoms": [
+                    "SYM_1865_Cardiovascular_symptoms"
+                ],
+                "Respiratory_symptoms": [
+                    "SYM_1865_Respiratory_symptoms"
+                ],
+                "panic_fear": [
+                    "SYM_1866_panic_fear",
+                    "SYM_1917_panic_fear"
+                ],
+                "Depressed_Mood": [
+                    "SYM_1867_Depressed_Mood",
+                    "SYM_1867_Depressed_Mood"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_1905_Decreased_energy_tiredness_fatigue"
+                ],
+                "Hyperactivity_agitation": [
+                    "SYM_1918_Hyperactivity_agitation"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1917_Anxious_Mood",
+                "SYM_1917_panic_fear",
+                "SYM_1918_Hyperactivity_agitation"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_1905_Decreased_energy_tiredness_fatigue",
+                "SYM_1909_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1902_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1873_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1865_Anxious_Mood",
+                "SYM_1865_Cardiovascular_symptoms",
+                "SYM_1865_Respiratory_symptoms",
+                "SYM_1865_Anxious_Mood",
+                "SYM_1866_Anxious_Mood",
+                "SYM_1866_panic_fear",
+                "SYM_1867_Depressed_Mood",
+                "SYM_1867_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1861_somatic_symptoms_sensory"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 安抚孩子入睡；我 出现 胸部疼痛并引发恐慌发作；我 出现 胸部疼痛加剧。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 自我厌恶；我 感到 精力明显下降。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 感到 恐惧/焦虑。代表时间点：2周前（16天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 被地震和电影院的噪音所创伤。代表时间点：1个月前（45天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 情绪恶化；我 出现  panic attack。代表时间点：1个月前（51天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 发烧。代表时间点：1个月前（57天前）。"
+        }
+    ]
+}

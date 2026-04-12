@@ -1,0 +1,448 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 124,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_39_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 39,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 难以进行 呼吸",
+                "evidence": [
+                    "I am BEGGING him to deprive me of oxygen"
+                ],
+                "time_norm": {
+                    "event_day": 39,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_41_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 41,
+                "symptom": "somatic_muscle",
+                "triple": "我 难以进行 思维活动",
+                "evidence": [
+                    "GRITS TEETH IM LOOSING MY MIND OVER THSJ THANK YOU"
+                ],
+                "time_norm": {
+                    "event_day": 41,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_82_drastical_shift_in_mood_and_energy",
+                "node_type": "Symptom",
+                "timestamp_day": 82,
+                "symptom": "drastical_shift_in_mood_and_energy",
+                "triple": "我 出现 境界变化",
+                "evidence": [
+                    "My mood changes a lot on cucking but cucking goro is very much something i can get behind"
+                ],
+                "time_norm": {
+                    "event_day": 82,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_95_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 95,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 恐惧感",
+                "evidence": [
+                    "Im now fucking terrified! I feel like an scp how flattering k Kylie ♥️"
+                ],
+                "time_norm": {
+                    "event_day": 95,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_105_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 105,
+                "symptom": "poor_memory",
+                "triple": "我 难以进行 决策",
+                "evidence": [
+                    "me debating buying it for ps4 or pc for performance vs switch for portability and then remembering i never go outside"
+                ],
+                "time_norm": {
+                    "event_day": 105,
+                    "days_ago": 19,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_107_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 107,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 难以进行 性行为",
+                "evidence": [
+                    "for like 2 days been too exhausted to be horny this sucks . My brain is fried but unsexily"
+                ],
+                "time_norm": {
+                    "event_day": 107,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_111_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 111,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 出现 饮食控制与社交互动的矛盾体验",
+                "evidence": [
+                    "eating disorder | ed / akira is unintentionally an enabler too, goro doesn't rlly like coffee but it's such a strong appetite suppressant it's why he started drinking it. &amp; when the hot barista starts making nice conversation over drinks, it almost feels Right to not have dinner"
+                ],
+                "time_norm": {
+                    "event_day": 111,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_111_compensatory_behaviors_to_prevent_weight_gain",
+                "node_type": "Symptom",
+                "timestamp_day": 111,
+                "symptom": "compensatory_behaviors_to_prevent_weight_gain",
+                "triple": "我 出现 停止进食以防止最坏情况",
+                "evidence": [
+                    "he's been prone to vomiting after a murder (even if he thinks he's desensitized to it) and eventual nightmares and just. Started doing it before entering the metaverse to save pride or stopped eating anything more than the literal bare minimum to prevent the worst of it"
+                ],
+                "time_norm": {
+                    "event_day": 111,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_124_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 124,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑",
+                "evidence": [
+                    "Made a nonbinary coming out post to some friends and now im ✨anxious✨ so i will now be thinking about hubert in subspace"
+                ],
+                "time_norm": {
+                    "event_day": 124,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_39_somatic_symptoms_others",
+                "target": "SYM_41_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_41_somatic_muscle",
+                "target": "SYM_82_drastical_shift_in_mood_and_energy",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_82_drastical_shift_in_mood_and_energy",
+                "target": "SYM_95_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_95_Anxious_Mood",
+                "target": "SYM_105_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_105_poor_memory",
+                "target": "SYM_107_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_107_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_111_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_111_weight_and_appetite_change",
+                "target": "SYM_111_compensatory_behaviors_to_prevent_weight_gain",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_111_compensatory_behaviors_to_prevent_weight_gain",
+                "target": "SYM_124_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_95_Anxious_Mood",
+                "target": "SYM_124_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "39": [
+                    "SYM_39_somatic_symptoms_others"
+                ],
+                "41": [
+                    "SYM_41_somatic_muscle"
+                ],
+                "82": [
+                    "SYM_82_drastical_shift_in_mood_and_energy"
+                ],
+                "95": [
+                    "SYM_95_Anxious_Mood"
+                ],
+                "105": [
+                    "SYM_105_poor_memory"
+                ],
+                "107": [
+                    "SYM_107_Decreased_energy_tiredness_fatigue"
+                ],
+                "111": [
+                    "SYM_111_weight_and_appetite_change",
+                    "SYM_111_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "124": [
+                    "SYM_124_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "somatic_symptoms_others": [
+                    "SYM_39_somatic_symptoms_others"
+                ],
+                "somatic_muscle": [
+                    "SYM_41_somatic_muscle"
+                ],
+                "drastical_shift_in_mood_and_energy": [
+                    "SYM_82_drastical_shift_in_mood_and_energy"
+                ],
+                "Anxious_Mood": [
+                    "SYM_95_Anxious_Mood",
+                    "SYM_124_Anxious_Mood"
+                ],
+                "poor_memory": [
+                    "SYM_105_poor_memory"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_107_Decreased_energy_tiredness_fatigue"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_111_weight_and_appetite_change"
+                ],
+                "compensatory_behaviors_to_prevent_weight_gain": [
+                    "SYM_111_compensatory_behaviors_to_prevent_weight_gain"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_124_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_111_weight_and_appetite_change",
+                "SYM_111_compensatory_behaviors_to_prevent_weight_gain"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_105_poor_memory",
+                "SYM_107_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_95_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_82_drastical_shift_in_mood_and_energy"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_41_somatic_muscle"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_39_somatic_symptoms_others"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 焦虑。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 饮食控制与社交互动的矛盾体验；我 出现 停止进食以防止最坏情况。代表时间点：1周前（13天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 难以进行 性行为；我 难以进行 决策。代表时间点：2周前（17天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 恐惧感。代表时间点：4周前（29天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 境界变化。代表时间点：1个月前（42天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 思维活动。代表时间点：2个月前（83天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 难以进行 呼吸。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1559,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1559_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1559,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 热潮红和出汗",
+                "evidence": [
+                    "also wtf is with this fever and hot flashes. i feel like im always sweating through my fuckin clothes."
+                ],
+                "time_norm": {
+                    "event_day": 1559,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1559_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 1559,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 热潮红和出汗",
+                "evidence": [
+                    "also wtf is with this fever and hot flashes. i feel like im always sweating through my fuckin clothes."
+                ],
+                "time_norm": {
+                    "event_day": 1559,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1559_Autonomic_symptoms",
+                "target": "SYM_1559_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1559": [
+                    "SYM_1559_Autonomic_symptoms",
+                    "SYM_1559_somatic_symptoms_sensory"
+                ]
+            },
+            "by_symptom": {
+                "Autonomic_symptoms": [
+                    "SYM_1559_Autonomic_symptoms"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_1559_somatic_symptoms_sensory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1559_Autonomic_symptoms",
+                "SYM_1559_somatic_symptoms_sensory"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 热潮红和出汗。代表时间点：今天（0天前）。"
+        }
+    ]
+}

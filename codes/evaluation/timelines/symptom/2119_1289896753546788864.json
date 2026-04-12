@@ -1,0 +1,394 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 130,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_73_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 73,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 难以进行 嗅觉和味觉",
+                "evidence": [
+                    "Gonna make a thread. Day 1. Self isolation I still can't smell anything nor taste anything i do have cough and cold but i don't have fever.. I just felt dizzy everytime i take my medication 😔😔😔"
+                ],
+                "time_norm": {
+                    "event_day": 73,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_73_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 73,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 难以进行 嗅觉和味觉",
+                "evidence": [
+                    "Gonna make a thread. Day 1. Self isolation I still can't smell anything nor taste anything i do have cough and cold but i don't have fever.. I just felt dizzy everytime i take my medication 😔😔😔"
+                ],
+                "time_norm": {
+                    "event_day": 73,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_74_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 74,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 正常进食",
+                "evidence": [
+                    "DAY 2. still can't smell anything nor taste anything i just eat and imagine what it taste like.. 😔😔😔😔 My cough is getting worst, i haven't sleep good because i keep on coughing.."
+                ],
+                "time_norm": {
+                    "event_day": 74,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_75_Respiratory_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 75,
+                "symptom": "Respiratory_symptoms",
+                "triple": "我 感到 难以呼吸",
+                "evidence": [
+                    "DAY 3 being positive but 1 week of isolation I feel the same... Can't smell nor taste anything.. I still have this feeling that i can't breathe 😔😔😔😔 but i just drink water with lemon.. I don't have fever but still have cough and cold.."
+                ],
+                "time_norm": {
+                    "event_day": 75,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_75_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 75,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 感到 难以呼吸",
+                "evidence": [
+                    "DAY 3 being positive but 1 week of isolation I feel the same... Can't smell nor taste anything.. I still have this feeling that i can't breathe 😔😔😔😔 but i just drink water with lemon.. I don't have fever but still have cough and cold.."
+                ],
+                "time_norm": {
+                    "event_day": 75,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_94_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 94,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 分心",
+                "evidence": [
+                    "Im distracted with hyunsuk"
+                ],
+                "time_norm": {
+                    "event_day": 94,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_129_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 129,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 入睡",
+                "evidence": [
+                    "I can't sleep my insomnia is attacking me again 😭😭😭 but i hate taking sleeping pills.. What to do?? 😭😭😭 #TREASURE #트레저"
+                ],
+                "time_norm": {
+                    "event_day": 129,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_130_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 130,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "It's not that i hate Christmas but i hate when i ever see Christmas lights 😔😔😔😔 it's makes me anxious i feel like my migraine will attack again😭😭😭😭😭 i really hate this kind of illness 😭😭😭 i hate blinking lights i hate different colors #auramigraine #migraine"
+                ],
+                "time_norm": {
+                    "event_day": 130,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_130_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 130,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "It's not that i hate Christmas but i hate when i ever see Christmas lights 😔😔😔😔 it's makes me anxious i feel like my migraine will attack again😭😭😭😭😭 i really hate this kind of illness 😭😭😭 i hate blinking lights i hate different colors #auramigraine #migraine"
+                ],
+                "time_norm": {
+                    "event_day": 130,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_73_Autonomic_symptoms",
+                "target": "SYM_73_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_73_somatic_symptoms_sensory",
+                "target": "SYM_74_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_74_sleep_disturbance",
+                "target": "SYM_75_Respiratory_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_75_Respiratory_symptoms",
+                "target": "SYM_75_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_75_somatic_symptoms_sensory",
+                "target": "SYM_94_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_94_Inattention",
+                "target": "SYM_129_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_129_sleep_disturbance",
+                "target": "SYM_130_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_130_Anxious_Mood",
+                "target": "SYM_130_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_73_Autonomic_symptoms",
+                "target": "SYM_130_Autonomic_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_73_somatic_symptoms_sensory",
+                "target": "SYM_75_somatic_symptoms_sensory",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_74_sleep_disturbance",
+                "target": "SYM_129_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "73": [
+                    "SYM_73_Autonomic_symptoms",
+                    "SYM_73_somatic_symptoms_sensory"
+                ],
+                "74": [
+                    "SYM_74_sleep_disturbance"
+                ],
+                "75": [
+                    "SYM_75_Respiratory_symptoms",
+                    "SYM_75_somatic_symptoms_sensory"
+                ],
+                "94": [
+                    "SYM_94_Inattention"
+                ],
+                "129": [
+                    "SYM_129_sleep_disturbance"
+                ],
+                "130": [
+                    "SYM_130_Anxious_Mood",
+                    "SYM_130_Autonomic_symptoms"
+                ]
+            },
+            "by_symptom": {
+                "Autonomic_symptoms": [
+                    "SYM_73_Autonomic_symptoms",
+                    "SYM_130_Autonomic_symptoms"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_73_somatic_symptoms_sensory",
+                    "SYM_75_somatic_symptoms_sensory"
+                ],
+                "sleep_disturbance": [
+                    "SYM_74_sleep_disturbance",
+                    "SYM_129_sleep_disturbance"
+                ],
+                "Respiratory_symptoms": [
+                    "SYM_75_Respiratory_symptoms"
+                ],
+                "Inattention": [
+                    "SYM_94_Inattention"
+                ],
+                "Anxious_Mood": [
+                    "SYM_130_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_129_sleep_disturbance",
+                "SYM_130_Anxious_Mood",
+                "SYM_130_Autonomic_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_94_Inattention"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_75_Respiratory_symptoms",
+                "SYM_75_somatic_symptoms_sensory"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_73_Autonomic_symptoms",
+                "SYM_73_somatic_symptoms_sensory",
+                "SYM_74_sleep_disturbance"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 焦虑；我 难以进行 入睡。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 分心。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 难以呼吸。代表时间点：1个月前（55天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 难以进行 正常进食；我 难以进行 嗅觉和味觉。代表时间点：1个月前（56天前）。"
+        }
+    ]
+}

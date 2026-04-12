@@ -1,0 +1,1189 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 809,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_723_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 723,
+                "time_norm": {
+                    "event_day": 723,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 退出工作 我的奶奶免疫功能低下",
+                "event_summary_cn": "因奶奶健康问题退出工作"
+            },
+            {
+                "id": "EV_724_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 724,
+                "time_norm": {
+                    "event_day": 724,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 学习 六门课程",
+                "event_summary_cn": "用户正在学习六门课程"
+            },
+            {
+                "id": "EV_725_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 725,
+                "time_norm": {
+                    "event_day": 725,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 花费金钱 购买水晶",
+                "event_summary_cn": "用户因购买水晶而经济拮据"
+            },
+            {
+                "id": "EV_725_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 725,
+                "time_norm": {
+                    "event_day": 725,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要筹集资金 购买树脂",
+                "event_summary_cn": "用户需要筹集资金购买树脂"
+            },
+            {
+                "id": "EV_735_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 735,
+                "time_norm": {
+                    "event_day": 735,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 发布商品信息",
+                "event_summary_cn": "用户发布商品信息并催促付款"
+            },
+            {
+                "id": "EV_737_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 737,
+                "time_norm": {
+                    "event_day": 737,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始上课 我的月经期",
+                "event_summary_cn": "用户在月经期开始上课"
+            },
+            {
+                "id": "EV_737_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 737,
+                "time_norm": {
+                    "event_day": 737,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 收到的财务援助 减少",
+                "event_summary_cn": "用户财务援助金额减少"
+            },
+            {
+                "id": "EV_737_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 737,
+                "time_norm": {
+                    "event_day": 737,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 节省 $1000",
+                "event_summary_cn": "用户节省了约1000美元"
+            },
+            {
+                "id": "EV_737_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 737,
+                "time_norm": {
+                    "event_day": 737,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去助学金 被取消免学费资格",
+                "event_summary_cn": "用户失去助学金和免学费资格"
+            },
+            {
+                "id": "EV_737_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 737,
+                "time_norm": {
+                    "event_day": 737,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要支付 租金、汽车保险和书籍费用",
+                "event_summary_cn": "用户面临经济压力需支付多项费用"
+            },
+            {
+                "id": "EV_747_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 747,
+                "time_norm": {
+                    "event_day": 747,
+                    "days_ago": 62,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 关闭储蓄账户",
+                "event_summary_cn": "用户关闭储蓄账户"
+            },
+            {
+                "id": "EV_747_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 747,
+                "time_norm": {
+                    "event_day": 747,
+                    "days_ago": 62,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去 人",
+                "event_summary_cn": "用户经历连续失去亲人的痛苦"
+            },
+            {
+                "id": "EV_753_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 753,
+                "time_norm": {
+                    "event_day": 753,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 分手",
+                "event_summary_cn": "用户经历了一次痛苦的分手"
+            },
+            {
+                "id": "EV_756_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 756,
+                "time_norm": {
+                    "event_day": 756,
+                    "days_ago": 53,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始自残 我 18岁",
+                "event_summary_cn": "用户经历自残并最终成功转型"
+            },
+            {
+                "id": "EV_759_14",
+                "node_type": "LifeEvent",
+                "timestamp_day": 759,
+                "time_norm": {
+                    "event_day": 759,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 无法发货 昨天银行关闭",
+                "event_summary_cn": "因银行关闭导致无法发货"
+            },
+            {
+                "id": "EV_766_15",
+                "node_type": "LifeEvent",
+                "timestamp_day": 766,
+                "time_norm": {
+                    "event_day": 766,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失落 祖父部落的物品",
+                "event_summary_cn": "用户失落祖传物品"
+            },
+            {
+                "id": "EV_766_16",
+                "node_type": "LifeEvent",
+                "timestamp_day": 766,
+                "time_norm": {
+                    "event_day": 766,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 延误 做水晶生意",
+                "event_summary_cn": "用户因物流问题延误水晶生意"
+            },
+            {
+                "id": "EV_767_17",
+                "node_type": "LifeEvent",
+                "timestamp_day": 767,
+                "time_norm": {
+                    "event_day": 767,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 更多钱",
+                "event_summary_cn": "用户急需现金用于购物"
+            },
+            {
+                "id": "EV_770_18",
+                "node_type": "LifeEvent",
+                "timestamp_day": 770,
+                "time_norm": {
+                    "event_day": 770,
+                    "days_ago": 39,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要支付房租 我举办折扣销售",
+                "event_summary_cn": "用户因房租问题举办折扣销售"
+            },
+            {
+                "id": "EV_771_19",
+                "node_type": "LifeEvent",
+                "timestamp_day": 771,
+                "time_norm": {
+                    "event_day": 771,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 $120",
+                "event_summary_cn": "用户急需120美元"
+            },
+            {
+                "id": "EV_771_20",
+                "node_type": "LifeEvent",
+                "timestamp_day": 771,
+                "time_norm": {
+                    "event_day": 771,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 $120 做房租",
+                "event_summary_cn": "用户需要120美元支付房租"
+            },
+            {
+                "id": "EV_771_21",
+                "node_type": "LifeEvent",
+                "timestamp_day": 771,
+                "time_norm": {
+                    "event_day": 771,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 $100",
+                "event_summary_cn": "用户急需100美元帮助"
+            },
+            {
+                "id": "EV_772_22",
+                "node_type": "LifeEvent",
+                "timestamp_day": 772,
+                "time_norm": {
+                    "event_day": 772,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要支付 租金",
+                "event_summary_cn": "用户面临租金支付压力"
+            },
+            {
+                "id": "EV_773_23",
+                "node_type": "LifeEvent",
+                "timestamp_day": 773,
+                "time_norm": {
+                    "event_day": 773,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 $60 支付房租",
+                "event_summary_cn": "用户急需60美元支付房租"
+            },
+            {
+                "id": "EV_774_24",
+                "node_type": "LifeEvent",
+                "timestamp_day": 774,
+                "time_norm": {
+                    "event_day": 774,
+                    "days_ago": 35,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 缺少 $60 租金",
+                "event_summary_cn": "用户租金不足60美元"
+            },
+            {
+                "id": "EV_775_25",
+                "node_type": "LifeEvent",
+                "timestamp_day": 775,
+                "time_norm": {
+                    "event_day": 775,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 缺少 60 美元",
+                "event_summary_cn": "用户面临租金短缺问题"
+            },
+            {
+                "id": "EV_784_26",
+                "node_type": "LifeEvent",
+                "timestamp_day": 784,
+                "time_norm": {
+                    "event_day": 784,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被 PirateShip 欺骗",
+                "event_summary_cn": "用户因被欺骗导致账户欠款"
+            },
+            {
+                "id": "EV_784_27",
+                "node_type": "LifeEvent",
+                "timestamp_day": 784,
+                "time_norm": {
+                    "event_day": 784,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被扣费 55美元",
+                "event_summary_cn": "用户被无故扣费55美元"
+            },
+            {
+                "id": "EV_784_28",
+                "node_type": "LifeEvent",
+                "timestamp_day": 784,
+                "time_norm": {
+                    "event_day": 784,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 遭遇费用问题 需要支付$55",
+                "event_summary_cn": "用户需支付55美元才能发货"
+            },
+            {
+                "id": "EV_786_29",
+                "node_type": "LifeEvent",
+                "timestamp_day": 786,
+                "time_norm": {
+                    "event_day": 786,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 阐述 Trump 的行为 对原住民有害",
+                "event_summary_cn": "用户讲述特朗普伤害原住民的行为"
+            },
+            {
+                "id": "EV_797_30",
+                "node_type": "LifeEvent",
+                "timestamp_day": 797,
+                "time_norm": {
+                    "event_day": 797,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 无法承受 经济压力",
+                "event_summary_cn": "用户因疫情经济压力巨大"
+            },
+            {
+                "id": "EV_797_31",
+                "node_type": "LifeEvent",
+                "timestamp_day": 797,
+                "time_norm": {
+                    "event_day": 797,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 通过购物 支付房租和买 groceries",
+                "event_summary_cn": "用户通过购物支付房租和买 groceries"
+            },
+            {
+                "id": "EV_798_32",
+                "node_type": "LifeEvent",
+                "timestamp_day": 798,
+                "time_norm": {
+                    "event_day": 798,
+                    "days_ago": 11,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 面临经济压力 无法购买物品",
+                "event_summary_cn": "用户因经济压力无法购买物品"
+            },
+            {
+                "id": "EV_801_33",
+                "node_type": "LifeEvent",
+                "timestamp_day": 801,
+                "time_norm": {
+                    "event_day": 801,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 购买物品 给宠物",
+                "event_summary_cn": "用户购买宠物所需用品"
+            },
+            {
+                "id": "EV_801_34",
+                "node_type": "LifeEvent",
+                "timestamp_day": 801,
+                "time_norm": {
+                    "event_day": 801,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得财务援助 购买者与转发者",
+                "event_summary_cn": "用户获得他人帮助支付账单"
+            },
+            {
+                "id": "EV_804_35",
+                "node_type": "LifeEvent",
+                "timestamp_day": 804,
+                "time_norm": {
+                    "event_day": 804,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 经济困难",
+                "event_summary_cn": "用户因收入延迟面临经济困难"
+            },
+            {
+                "id": "EV_809_36",
+                "node_type": "LifeEvent",
+                "timestamp_day": 809,
+                "time_norm": {
+                    "event_day": 809,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 使用 月费为30美元的电商平台",
+                "event_summary_cn": "用户分享使用电商平台的费用体验"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_723_0",
+                "target": "EV_724_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_724_1",
+                "target": "EV_725_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_725_2",
+                "target": "EV_725_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_725_3",
+                "target": "EV_735_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_735_4",
+                "target": "EV_737_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_737_5",
+                "target": "EV_737_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_737_6",
+                "target": "EV_737_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_737_7",
+                "target": "EV_737_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_737_8",
+                "target": "EV_737_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_737_9",
+                "target": "EV_747_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_747_10",
+                "target": "EV_747_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_747_11",
+                "target": "EV_753_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_753_12",
+                "target": "EV_756_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_756_13",
+                "target": "EV_759_14",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_759_14",
+                "target": "EV_766_15",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_766_15",
+                "target": "EV_766_16",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_766_16",
+                "target": "EV_767_17",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_767_17",
+                "target": "EV_770_18",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_770_18",
+                "target": "EV_771_19",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_771_19",
+                "target": "EV_771_20",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_771_20",
+                "target": "EV_771_21",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_771_21",
+                "target": "EV_772_22",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_772_22",
+                "target": "EV_773_23",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_773_23",
+                "target": "EV_774_24",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_774_24",
+                "target": "EV_775_25",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_775_25",
+                "target": "EV_784_26",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_784_26",
+                "target": "EV_784_27",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_784_27",
+                "target": "EV_784_28",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_784_28",
+                "target": "EV_786_29",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_786_29",
+                "target": "EV_797_30",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_797_30",
+                "target": "EV_797_31",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_797_31",
+                "target": "EV_798_32",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_798_32",
+                "target": "EV_801_33",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_801_33",
+                "target": "EV_801_34",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_801_34",
+                "target": "EV_804_35",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_804_35",
+                "target": "EV_809_36",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "723": [
+                    "EV_723_0"
+                ],
+                "724": [
+                    "EV_724_1"
+                ],
+                "725": [
+                    "EV_725_2",
+                    "EV_725_3"
+                ],
+                "735": [
+                    "EV_735_4"
+                ],
+                "737": [
+                    "EV_737_5",
+                    "EV_737_6",
+                    "EV_737_7",
+                    "EV_737_8",
+                    "EV_737_9"
+                ],
+                "747": [
+                    "EV_747_10",
+                    "EV_747_11"
+                ],
+                "753": [
+                    "EV_753_12"
+                ],
+                "756": [
+                    "EV_756_13"
+                ],
+                "759": [
+                    "EV_759_14"
+                ],
+                "766": [
+                    "EV_766_15",
+                    "EV_766_16"
+                ],
+                "767": [
+                    "EV_767_17"
+                ],
+                "770": [
+                    "EV_770_18"
+                ],
+                "771": [
+                    "EV_771_19",
+                    "EV_771_20",
+                    "EV_771_21"
+                ],
+                "772": [
+                    "EV_772_22"
+                ],
+                "773": [
+                    "EV_773_23"
+                ],
+                "774": [
+                    "EV_774_24"
+                ],
+                "775": [
+                    "EV_775_25"
+                ],
+                "784": [
+                    "EV_784_26",
+                    "EV_784_27",
+                    "EV_784_28"
+                ],
+                "786": [
+                    "EV_786_29"
+                ],
+                "797": [
+                    "EV_797_30",
+                    "EV_797_31"
+                ],
+                "798": [
+                    "EV_798_32"
+                ],
+                "801": [
+                    "EV_801_33",
+                    "EV_801_34"
+                ],
+                "804": [
+                    "EV_804_35"
+                ],
+                "809": [
+                    "EV_809_36"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_804_35",
+                "EV_809_36"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_797_30",
+                "EV_797_31",
+                "EV_798_32",
+                "EV_801_33",
+                "EV_801_34"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_784_26",
+                "EV_784_27",
+                "EV_784_28",
+                "EV_786_29"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_775_25"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_770_18",
+                "EV_771_19",
+                "EV_771_20",
+                "EV_771_21",
+                "EV_772_22",
+                "EV_773_23",
+                "EV_774_24"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_766_15",
+                "EV_766_16",
+                "EV_767_17"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_756_13",
+                "EV_759_14"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_747_10",
+                "EV_747_11",
+                "EV_753_12"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_735_4",
+                "EV_737_5",
+                "EV_737_6",
+                "EV_737_7",
+                "EV_737_8",
+                "EV_737_9"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_723_0",
+                "EV_724_1",
+                "EV_725_2",
+                "EV_725_3"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 使用 月费为30美元的电商平台；我 经历 经济困难。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 购买物品 给宠物；我 获得财务援助 购买者与转发者。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 阐述 Trump 的行为 对原住民有害；我 被 PirateShip 欺骗。代表时间点：3周前（23天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 缺少 60 美元。代表时间点：1个月前（34天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 缺少 $60 租金；我 需要 $60 支付房租。代表时间点：1个月前（35天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 需要 更多钱；我 失落 祖父部落的物品。代表时间点：1个月前（42天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 无法发货 昨天银行关闭；我 开始自残 我 18岁。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 经历 分手；我 关闭储蓄账户。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 开始上课 我的月经期；我 收到的财务援助 减少。代表时间点：2个月前（72天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 花费金钱 购买水晶；我 需要筹集资金 购买树脂。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

@@ -1,0 +1,303 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1899,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1811_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1811,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 自伤念头",
+                "evidence": [
+                    "tw// suicidal thoughts haven’t seen my therapist regularly bc of covid and with lockdown again and me feeling so lonely and getting hurt by people here and irl and basically me hurting my self with my thoughts i’m just so tired and kinda wish i was gone"
+                ],
+                "time_norm": {
+                    "event_day": 1811,
+                    "days_ago": 88,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1811_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 1811,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 自伤念头",
+                "evidence": [
+                    "tw// suicidal thoughts haven’t seen my therapist regularly bc of covid and with lockdown again and me feeling so lonely and getting hurt by people here and irl and basically me hurting my self with my thoughts i’m just so tired and kinda wish i was gone"
+                ],
+                "time_norm": {
+                    "event_day": 1811,
+                    "days_ago": 88,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1811_loss_of_interest_or_motivation",
+                "node_type": "Symptom",
+                "timestamp_day": 1811,
+                "symptom": "loss_of_interest_or_motivation",
+                "triple": "我 出现 自伤念头",
+                "evidence": [
+                    "tw// suicidal thoughts haven’t seen my therapist regularly bc of covid and with lockdown again and me feeling so lonely and getting hurt by people here and irl and basically me hurting my self with my thoughts i’m just so tired and kinda wish i was gone"
+                ],
+                "time_norm": {
+                    "event_day": 1811,
+                    "days_ago": 88,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1831_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 1831,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 自残伤疤",
+                "evidence": [
+                    "tw// self harm suicide scar by is out and i couldn’t think of a song that has a deeper stronger meaning to me than this one, i’ve been dealing with self harm for years and although my scars hide behind tattoos i see them everyday. they remind me of the fight-"
+                ],
+                "time_norm": {
+                    "event_day": 1831,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1831_do_things_easily_get_painful_consequences",
+                "node_type": "Symptom",
+                "timestamp_day": 1831,
+                "symptom": "do_things_easily_get_painful_consequences",
+                "triple": "我 难以进行 自我伤害",
+                "evidence": [
+                    "tw// self harm suicide scar by is out and i couldn’t think of a song that has a deeper stronger meaning to me than this one, i’ve been dealing with self harm for years and although my scars hide behind tattoos i see them everyday. they remind me of the fight-"
+                ],
+                "time_norm": {
+                    "event_day": 1831,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1899_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1899,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 孤独",
+                "evidence": [
+                    "i don’t feel so good lately this year is so hard and my mental health went down hill i fill like i lost all of my friends and even here where i felt safe i feel so lonely i just gotta take it off of my chest bc i don’t really talk to anyone anymore"
+                ],
+                "time_norm": {
+                    "event_day": 1899,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1899_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1899,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 孤独",
+                "evidence": [
+                    "i don’t feel so good lately this year is so hard and my mental health went down hill i fill like i lost all of my friends and even here where i felt safe i feel so lonely i just gotta take it off of my chest bc i don’t really talk to anyone anymore"
+                ],
+                "time_norm": {
+                    "event_day": 1899,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1811_Depressed_Mood",
+                "target": "SYM_1811_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1811_Suicidal_ideas",
+                "target": "SYM_1811_loss_of_interest_or_motivation",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1811_loss_of_interest_or_motivation",
+                "target": "SYM_1831_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1831_Suicidal_ideas",
+                "target": "SYM_1831_do_things_easily_get_painful_consequences",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1831_do_things_easily_get_painful_consequences",
+                "target": "SYM_1899_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1899_Anxious_Mood",
+                "target": "SYM_1899_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1811_Depressed_Mood",
+                "target": "SYM_1899_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1811_Suicidal_ideas",
+                "target": "SYM_1831_Suicidal_ideas",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1811": [
+                    "SYM_1811_Depressed_Mood",
+                    "SYM_1811_Suicidal_ideas",
+                    "SYM_1811_loss_of_interest_or_motivation"
+                ],
+                "1831": [
+                    "SYM_1831_Suicidal_ideas",
+                    "SYM_1831_do_things_easily_get_painful_consequences"
+                ],
+                "1899": [
+                    "SYM_1899_Anxious_Mood",
+                    "SYM_1899_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_1811_Depressed_Mood",
+                    "SYM_1899_Depressed_Mood"
+                ],
+                "Suicidal_ideas": [
+                    "SYM_1811_Suicidal_ideas",
+                    "SYM_1831_Suicidal_ideas"
+                ],
+                "loss_of_interest_or_motivation": [
+                    "SYM_1811_loss_of_interest_or_motivation"
+                ],
+                "do_things_easily_get_painful_consequences": [
+                    "SYM_1831_do_things_easily_get_painful_consequences"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1899_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1899_Anxious_Mood",
+                "SYM_1899_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1831_Suicidal_ideas",
+                "SYM_1831_do_things_easily_get_painful_consequences"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1811_Depressed_Mood",
+                "SYM_1811_Suicidal_ideas",
+                "SYM_1811_loss_of_interest_or_motivation"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 孤独。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 自残伤疤；我 难以进行 自我伤害。代表时间点：2个月前（68天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现 自伤念头。代表时间点：2个月前（88天前）。"
+        }
+    ]
+}

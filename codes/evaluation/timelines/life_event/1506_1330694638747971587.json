@@ -1,0 +1,231 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 35,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_12_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 12,
+                "time_norm": {
+                    "event_day": 12,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 没有被邀请 婚礼",
+                "event_summary_cn": "用户未被邀请参加婚礼"
+            },
+            {
+                "id": "EV_16_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 16,
+                "time_norm": {
+                    "event_day": 16,
+                    "days_ago": 19,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 会哭 他们在一起",
+                "event_summary_cn": "用户因关系变化而情绪激动"
+            },
+            {
+                "id": "EV_26_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 26,
+                "time_norm": {
+                    "event_day": 26,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 死亡 *one minute later*",
+                "event_summary_cn": "用户声称自己死亡"
+            },
+            {
+                "id": "EV_27_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 27,
+                "time_norm": {
+                    "event_day": 27,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 听闻 死亡",
+                "event_summary_cn": "用户听闻某人去世感到心碎"
+            },
+            {
+                "id": "EV_30_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 30,
+                "time_norm": {
+                    "event_day": 30,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 爱 某人",
+                "event_summary_cn": "用户表达对某人的喜爱"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_12_0",
+                "target": "EV_16_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_16_1",
+                "target": "EV_26_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_26_2",
+                "target": "EV_27_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_27_3",
+                "target": "EV_30_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "12": [
+                    "EV_12_0"
+                ],
+                "16": [
+                    "EV_16_1"
+                ],
+                "26": [
+                    "EV_26_2"
+                ],
+                "27": [
+                    "EV_27_3"
+                ],
+                "30": [
+                    "EV_30_4"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_30_4"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_26_2",
+                "EV_27_3"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_16_1"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_12_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 爱 某人。代表时间点：5天前（5天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 听闻 死亡；我 死亡 *one minute later*。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 会哭 他们在一起。代表时间点：2周前（19天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 没有被邀请 婚礼。代表时间点：3周前（23天前）。"
+        }
+    ]
+}

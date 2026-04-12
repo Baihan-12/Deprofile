@@ -1,0 +1,156 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 916,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_845_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 845,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣冲动",
+                "evidence": [
+                    "im going to cry"
+                ],
+                "time_norm": {
+                    "event_day": 845,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_845_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 845,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 泪水",
+                "evidence": [
+                    "im going to cry"
+                ],
+                "time_norm": {
+                    "event_day": 845,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_860_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 860,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "time to cry myself to sleep"
+                ],
+                "time_norm": {
+                    "event_day": 860,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_845_Depressed_Mood",
+                "target": "SYM_845_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_845_somatic_symptoms_others",
+                "target": "SYM_860_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_845_Depressed_Mood",
+                "target": "SYM_860_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "845": [
+                    "SYM_845_Depressed_Mood",
+                    "SYM_845_somatic_symptoms_others"
+                ],
+                "860": [
+                    "SYM_860_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_845_Depressed_Mood",
+                    "SYM_860_Depressed_Mood"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_845_somatic_symptoms_others"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_860_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_845_Depressed_Mood",
+                "SYM_845_somatic_symptoms_others"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 难以进行 睡眠。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 哭泣冲动；我 出现 泪水。代表时间点：2个月前（71天前）。"
+        }
+    ]
+}

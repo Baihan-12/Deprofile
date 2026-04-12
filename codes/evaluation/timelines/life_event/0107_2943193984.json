@@ -1,0 +1,62 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1544,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1512_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1512,
+                "time_norm": {
+                    "event_day": 1512,
+                    "days_ago": 32,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 偿还 学校贷款",
+                "event_summary_cn": "用户抱怨偿还学校贷款"
+            }
+        ],
+        "edges": [],
+        "index": {
+            "by_day": {
+                "1512": [
+                    "EV_1512_0"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_1512_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 偿还 学校贷款。代表时间点：1个月前（32天前）。"
+        }
+    ]
+}

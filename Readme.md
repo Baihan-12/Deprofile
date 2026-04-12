@@ -20,32 +20,49 @@ Many simulators rely on shallow, snapshot-style prompts; Deprofile instead:
 
 ### Repository layout
 
-Everything lives under the repo root **`Deprofile/`**: documentation, simulation code (`src/patient_sim/`), datasets (`data/`), evaluation & API scripts (`evaluation/`), and prototypes such as CoC / Gradio (`code/`).
-
-Run evaluation scripts from `evaluation/` (or call `python evaluation/api.py` from the repo root). `evaluation/_bootstrap.py` adds `src/` to `sys.path` automatically.
+This release follows the paper repository plan: **DEPROFILE** (indices + sample dialogues), **timeline** (STMHD annotations), **prompts** (labeling / patient / evaluation), and **codes** (pairing pipeline, evaluation, CoC agent).
 
 | Path (relative to repo root) | Contents |
 |-------------------------------|----------|
-| `Readme.md` | This document |
-| `.cursorrules` | Cursor rules (reproducibility-first) |
-| `src/patient_sim/patient_prompts.py` | System prompts: `generate_patient_prompts`, `evaluate_patient_prompts`, baselines **G0–G7** and variants (e.g. G0.5, G1.5, G2.0, G2.5) |
-| `src/patient_sim/memory_cards.py` | Timeline memory cards: `build_cards_prompt`, `load_render_cards` (under `data/timelines/{life_event\|symptom}/…`) |
-| `src/patient_sim/timeline_agent.py` | `TimelineAgent` (loads/cuts `data/stmhd_*_timeline/`); includes **`EXTRACT_EVENT_PROMPT`** |
-| `evaluation/` | Batch QA (`api.py`, `direct_api.py`), G-Eval (`g_eval_new.py`), post-processing (`post_process.py`), HTTP batch (`run_batch.py`), local backends (`*_backend.py`), etc. |
-| `data/` | Profiles, dialogues, timelines, question files (e.g. `main_select_profiles_2.json`, `dialogues/`, `stmhd_*_timeline/`). **Do not commit secrets.** |
-| `code/` | `CoCAgent/`, Gradio `run.py`, `backend.py`, and related experiments |
+| `DEPROFILE/deprofiles_complete_index.json` | Full index of all **3258** patient pairs (`pair_id` → demographics, Big Five, symptoms, `cr_id` / `d4_id`, candidates, etc.) |
+| `DEPROFILE/selected_samples.json` | **27** curated pair ids (see `myplan.md`) for examples and small-scale tests |
+| `DEPROFILE/dialogues_sample/` | Ground-truth **assessment** and **counseling** dialogues for those 27 pairs only (`{pair_id}.json`) |
+| `DEPROFILE/dataset_statistics.json` | Machine-readable counts (age, gender, risk labels, symptom list lengths) |
+| `timeline/` | `stmhd_symptom_timeline/`, `stmhd_life_event_timeline/` (STMHD timeline JSON + CSV statistics); see `timeline/README.md` |
+| `prompts/labeling/` | Scripts from the original `deprofile/codes/` pipeline used to build prompts and timelines (annotation-oriented) |
+| `prompts/patient/` | Deprofile patient-facing prompt pieces: `clinical.py`, `risk.py`, `personality_traits.py` |
+| `prompts/evaluation/` | G-Eval template text + `questions/` QA JSON files |
+| `codes/pair/` | Same pairing / preprocessing scripts as `prompts/labeling/` (pair construction pipeline) |
+| `codes/evaluation/` | Batch QA (`api.py`, `direct_api.py`), G-Eval (`g_eval_new.py`), `utils.py` (`generate_patient_prompts`, baselines **G0–G7**), `agent.py` (`TimelineAgent`), backends, `timelines/` render cards, etc. Run scripts from this directory with `PYTHONPATH` including the folder (see below). |
+| `codes/CoCAgent/` | Chain-of-Change timeline agent (`TimelineCoCAgent.py`, helpers) |
+| `scripts/build_repo_layout.py` | Regenerates/copies artifacts from the parent `deprofile/` tree (does not modify sources outside this repo) |
+
+**Run evaluation:** `cd codes/evaluation && PYTHONPATH=. python api.py --help` (set `OPENAI_API_KEY`; tune `--data_path` to `../../DEPROFILE/deprofiles_complete_index.json` or a subset file).
+
+### DEPROFILE dataset statistics (full index)
+
+Derived from `DEPROFILE/deprofiles_complete_index.json` (see `dataset_statistics.json` for exact numbers):
+
+- **Pairs:** 3258  
+- **Age:** min 10, max 72, mean ≈ 26.8  
+- **Gender:** F 2531, M 727  
+- **Work status (top):** student 1234, employed 946, Unknown 794, unemployed 275, retired 9  
+- **Marital status (top):** single 2241, married 902, Unknown 87, divorced 17, widowed 11  
+- **Depression risk (0–3):** 0→1245, 1→869, 2→753, 3→391  
+- **Suicide risk (0–3):** 0→2097, 1→657, 2→334, 3→170  
+- **Symptom tags per profile (mean):** positive ≈ 12.47, negative ≈ 7.38  
 
 ### Environment variables
 
-- **APIs:** `OPENAI_API_KEY`; optional `OPENAI_BASE_URL`. Example shells do not embed keys.
-- **Local Hugging Face models:** `DEPROFILE_MODEL_DIR` (path or Hub id) for `*_backend.py`, `code/run.py`, etc.
-- **Data roots:** optional `DEPROFILE_DATA_ROOT` (defaults to repo `data/`); optional `DEPROFILE_TIMELINES_DIR` (defaults to `data/timelines`).
-- **Few-shot dialogues:** `load_clinical_dialogues` / `load_consultation_dialogues` read **`data/dialogues/assessment|counseling/{profile_id}.json`** by default.
-- Large run artifacts (`evaluation/api_res/`, `evaluation/results/`, …) are listed in **`.gitignore`**.
+- **APIs:** `OPENAI_API_KEY`; optional `OPENAI_BASE_URL`. Do not commit keys; defaults in copied scripts are cleared.
+- **Local Hugging Face models:** `DEPROFILE_MODEL_DIR` (path or Hub id) for `codes/evaluation/*_backend.py` when applicable.
+- **Timelines & cards:** `codes/evaluation/agent.py` reads **`timeline/stmhd_*_timeline/`** under the repo root; `ls_utils.py` uses **`codes/evaluation/timelines/`** for rendered cards.
+- **Few-shot dialogues:** `load_clinical_dialogues` / `load_consultation_dialogues` in `utils.py` default to **`DEPROFILE/dialogues_sample/{assessment|counseling}/{pair_id}.json`**.
+- Large run outputs under `codes/evaluation/` are ignored via **`.gitignore`**.
 
 ### Simulation prompts (baseline sketch)
 
-These summarize the intent of **`generate_patient_prompts`** in `src/patient_sim/patient_prompts.py` (exact strings are in code). Used for ablations: add profile fields, dialogue style, and timelines step by step.
+These summarize the intent of **`generate_patient_prompts`** in `codes/evaluation/utils.py` (exact strings are in code). Used for ablations: add profile fields, dialogue style, and timelines step by step.
 
 - **G0:** Demographics + behavior constraints + `risk_prompt`
 - **G1:** G0 + **Big Five** (`big_five_prompt`)
@@ -65,11 +82,10 @@ These summarize the intent of **`generate_patient_prompts`** in `src/patient_sim
 
 | Script | Role |
 |--------|------|
-| `evaluation/api.py` | **Scheme A:** one API call per profile for all questions in `questions_path`; writes under `evaluation/results/{model}_{run_name}_results/run_{baseline}_{run_name}/` |
-| `evaluation/run.sh`, `run_qa.sh` | Examples: set `OPENAI_API_KEY`; paths are relative to repo layout |
-| `evaluation/run_batch.py` | POST batch jobs to a local HTTP server (backend must be up) |
-| `evaluation/g_eval_new.py` | LLM-as-judge; needs `OPENAI_API_KEY`; default cleaned paths `evaluation/cleaned_result/{MODEL_NAME}/{baseline}` (edit `BASELINES_MAP` as needed) |
-| `evaluation/post_process.py` | Cleans `answer` fields; supports `--results_parent`, `--cleaned_parent` |
+| `codes/evaluation/api.py` | **Scheme A:** one API call per profile for all questions in `questions_path`; writes under `codes/evaluation/results/{model}_{run_name}_results/run_{baseline}_{run_name}/` |
+| `codes/evaluation/run_batch.py` | POST batch jobs to a local HTTP server (backend must be up) |
+| `codes/evaluation/g_eval_new.py` | LLM-as-judge; needs `OPENAI_API_KEY`; configure `BASELINES_MAP` and cleaned result paths as needed |
+| `codes/evaluation/post_process.py` | Cleans `answer` fields; supports `--results_parent`, `--cleaned_parent` |
 
 **G-Eval dimensions** (see `g_eval_new.py`): realism; persona & Big Five fit; event richness and time diversity; consistency with pos/neg symptoms; strict JSON schema output.
 
@@ -146,32 +162,40 @@ This project simulates patient behavior for research. It **does not** provide me
 
 ### 仓库结构
 
-所有内容位于仓库根目录 **`Deprofile/`** 下：文档、模拟代码（`src/patient_sim/`）、数据（`data/`）、评测与 API 脚本（`evaluation/`），以及 CoC / Gradio 等原型（`code/`）。
-
-运行评测脚本时请在 `evaluation/` 目录下执行，或在仓库根使用 `python evaluation/api.py` 等形式。`evaluation/_bootstrap.py` 会自动把 `src/` 加入 `sys.path`。
+本仓库按论文配套数据与代码组织：**DEPROFILE**（索引与样例对话）、**timeline**（STMHD 标注时间线）、**prompts**（标注脚本 / 患者 prompt 片段 / 评测 prompt 与题集）、**codes**（配对流水线、评测、CoC）。
 
 | 路径（相对仓库根） | 内容 |
 |-------------------|------|
-| `Readme.md` | 本说明 |
-| `.cursorrules` | Cursor 规则（可复现优先） |
-| `src/patient_sim/patient_prompts.py` | 系统 Prompt：`generate_patient_prompts`、`evaluate_patient_prompts`，基线 **G0–G7** 及变体（如 G0.5、G1.5、G2.0、G2.5） |
-| `src/patient_sim/memory_cards.py` | 时间线记忆卡片：`build_cards_prompt`、`load_render_cards`（数据在 `data/timelines/{life_event\|symptom}/…`） |
-| `src/patient_sim/timeline_agent.py` | `TimelineAgent`（读取/裁剪 `data/stmhd_*_timeline/`）；含 **`EXTRACT_EVENT_PROMPT`** |
-| `evaluation/` | 批量 QA（`api.py`、`direct_api.py`）、G-Eval（`g_eval_new.py`）、后处理（`post_process.py`）、HTTP 批跑（`run_batch.py`）、本地后端（`*_backend.py`）等 |
-| `data/` | 档案、对话、时间线、问卷等（如 `main_select_profiles_2.json`、`dialogues/`、`stmhd_*_timeline/`）。**勿提交密钥。** |
-| `code/` | `CoCAgent/`、Gradio `run.py`、`backend.py` 等实验代码 |
+| `DEPROFILE/deprofiles_complete_index.json` | 全部 **3258** 条 pair 的索引 |
+| `DEPROFILE/selected_samples.json` | **27** 条精选 pair（见 `myplan.md`） |
+| `DEPROFILE/dialogues_sample/` | 上述 27 对的问诊（assessment）与咨询（counseling）对话 |
+| `DEPROFILE/dataset_statistics.json` | 全量索引的统计量 |
+| `timeline/` | STMHD 症状/生活事件时间线及 CSV 说明 |
+| `prompts/labeling/` | 标注与数据流水线脚本（来自原 `deprofile/codes/`） |
+| `prompts/patient/` | 患者模拟用 prompt 模块：`clinical.py`、`risk.py`、`personality_traits.py` |
+| `prompts/evaluation/` | G-Eval 模板摘要 + `questions/` 下各 QA JSON |
+| `codes/pair/` | 配对与预处理脚本（与 labeling 同源） |
+| `codes/evaluation/` | 批量 QA、G-Eval、`utils.py`（**G0–G7** 等）、`TimelineAgent`、渲染卡片 `timelines/` 等 |
+| `codes/CoCAgent/` | CoC 时间线智能体代码 |
+| `scripts/build_repo_layout.py` | 从上级 `deprofile/` 目录同步本仓库内容（不修改上级源文件） |
+
+**运行评测示例：** `cd codes/evaluation && PYTHONPATH=. python api.py --help`，并设置 `OPENAI_API_KEY`。
+
+### DEPROFILE 数据统计（全量索引）
+
+见上文英文小节「DEPROFILE dataset statistics」与 `DEPROFILE/dataset_statistics.json`（年龄、性别、风险等级、症状条数等均在其中）。
 
 ### 环境变量
 
-- **API：** `OPENAI_API_KEY`；可选 `OPENAI_BASE_URL`。示例脚本不内置密钥。
-- **本地 Hugging Face 模型：** `DEPROFILE_MODEL_DIR`（本地路径或 Hub 模型 id），供 `*_backend.py`、`code/run.py` 等使用。
-- **数据根目录：** 可选 `DEPROFILE_DATA_ROOT`（默认仓库内 `data/`）；时间线卡片目录可选 `DEPROFILE_TIMELINES_DIR`（默认 `data/timelines`）。
-- **Few-shot 对话：** `load_clinical_dialogues` / `load_consultation_dialogues` 默认读取 **`data/dialogues/assessment|counseling/{profile_id}.json`**。
-- 大批量运行产物（`evaluation/api_res/`、`evaluation/results/` 等）已在 **`.gitignore`** 中忽略。
+- **API：** `OPENAI_API_KEY`；可选 `OPENAI_BASE_URL`。请勿提交密钥；仓库内脚本默认密钥已清空。
+- **本地 Hugging Face 模型：** `DEPROFILE_MODEL_DIR`，供 `codes/evaluation/*_backend.py` 等使用。
+- **时间线：** `agent.py` 读取仓库根下 **`timeline/stmhd_*_timeline/`**；`ls_utils.py` 使用 **`codes/evaluation/timelines/`** 中的渲染卡片。
+- **Few-shot 对话：** `utils.py` 默认读取 **`DEPROFILE/dialogues_sample/{assessment|counseling}/{pair_id}.json`**。
+- 大批量评测输出目录已在 **`.gitignore`** 中忽略。
 
 ### 模拟 Prompt（Baseline 摘要）
 
-以下对应 `src/patient_sim/patient_prompts.py` 中 **`generate_patient_prompts`** 的设计意图（具体字符串以源码为准），用于 **消融**：逐层加入档案、对话风格与时间线。
+以下对应 `codes/evaluation/utils.py` 中 **`generate_patient_prompts`** 的设计意图（具体字符串以源码为准），用于 **消融**：逐层加入档案、对话风格与时间线。
 
 - **G0：** 人口学 + 行为约束 + `risk_prompt`
 - **G1：** G0 + **大五人格**（`big_five_prompt`）
@@ -191,11 +215,10 @@ This project simulates patient behavior for research. It **does not** provide me
 
 | 脚本 | 作用 |
 |------|------|
-| `evaluation/api.py` | **方案 A：** 每个 profile **一次 API 请求**答完 `questions_path` 中全部题目；结果写入 `evaluation/results/{model}_{run_name}_results/run_{baseline}_{run_name}/` |
-| `evaluation/run.sh`、`run_qa.sh` | 示例：需先 `export OPENAI_API_KEY`；路径相对本仓库 |
-| `evaluation/run_batch.py` | 向本机 HTTP 服务 `POST` 批量任务（需后端已启动） |
-| `evaluation/g_eval_new.py` | **LLM裁判**：依赖 `OPENAI_API_KEY`；默认清洗后路径 `evaluation/cleaned_result/{MODEL_NAME}/{baseline}`（可改 `BASELINES_MAP`） |
-| `evaluation/post_process.py` | 清洗结果 JSON 中的 `answer`；支持 `--results_parent`、`--cleaned_parent` |
+| `codes/evaluation/api.py` | **方案 A：** 每个 profile **一次 API 请求**答完 `questions_path` 中全部题目 |
+| `codes/evaluation/run_batch.py` | 向本机 HTTP 服务 `POST` 批量任务（需后端已启动） |
+| `codes/evaluation/g_eval_new.py` | **LLM 裁判**：配置 `BASELINES_MAP` 与数据路径 |
+| `codes/evaluation/post_process.py` | 清洗结果 JSON 中的 `answer`；支持 `--results_parent`、`--cleaned_parent` |
 
 **G-Eval 维度**（见 `g_eval_new.py`）：真实感；人设与大五一致性；事件丰富度与时间多样性；与阳/阴性症状一致性；输出严格 JSON schema。
 

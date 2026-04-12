@@ -1,0 +1,62 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 760,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_732_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 732,
+                "time_norm": {
+                    "event_day": 732,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 破碎 与女友分手",
+                "event_summary_cn": "用户与女友分手感到痛苦"
+            }
+        ],
+        "edges": [],
+        "index": {
+            "by_day": {
+                "732": [
+                    "EV_732_0"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_732_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 破碎 与女友分手。代表时间点：4周前（28天前）。"
+        }
+    ]
+}

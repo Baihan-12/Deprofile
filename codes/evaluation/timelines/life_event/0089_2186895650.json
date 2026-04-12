@@ -1,0 +1,251 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1893,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1812_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1812,
+                "time_norm": {
+                    "event_day": 1812,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 重新开始职业生涯 我的第二硕士学位",
+                "event_summary_cn": "用户重新开始职业生涯"
+            },
+            {
+                "id": "EV_1818_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1818,
+                "time_norm": {
+                    "event_day": 1818,
+                    "days_ago": 75,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 成长于 Mafalda 的故事",
+                "event_summary_cn": "用户回忆成长中的漫画角色"
+            },
+            {
+                "id": "EV_1836_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1836,
+                "time_norm": {
+                    "event_day": 1836,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到被冒犯 由同性恋等于不深刻的观点",
+                "event_summary_cn": "用户因同性恋被误解而感到被冒犯"
+            },
+            {
+                "id": "EV_1883_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1883,
+                "time_norm": {
+                    "event_day": 1883,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参与 创意写作课程",
+                "event_summary_cn": "用户参与创意写作课程"
+            },
+            {
+                "id": "EV_1893_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1893,
+                "time_norm": {
+                    "event_day": 1893,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失望 公司",
+                "event_summary_cn": "用户对公司长期失望"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1812_0",
+                "target": "EV_1818_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1818_1",
+                "target": "EV_1836_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1836_2",
+                "target": "EV_1883_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1883_3",
+                "target": "EV_1893_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1812": [
+                    "EV_1812_0"
+                ],
+                "1818": [
+                    "EV_1818_1"
+                ],
+                "1836": [
+                    "EV_1836_2"
+                ],
+                "1883": [
+                    "EV_1883_3"
+                ],
+                "1893": [
+                    "EV_1893_4"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1893_4"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_1883_3"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1836_2"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1818_1"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1812_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 失望 公司。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 参与 创意写作课程。代表时间点：1周前（10天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 感到被冒犯 由同性恋等于不深刻的观点。代表时间点：1个月前（57天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 成长于 Mafalda 的故事。代表时间点：2个月前（75天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 重新开始职业生涯 我的第二硕士学位。代表时间点：2个月前（81天前）。"
+        }
+    ]
+}

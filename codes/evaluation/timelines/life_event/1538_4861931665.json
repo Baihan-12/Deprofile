@@ -1,0 +1,278 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1768,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1711_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1711,
+                "time_norm": {
+                    "event_day": 1711,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 忽视 我的家人",
+                "event_summary_cn": "用户因家人忽视而设立界限"
+            },
+            {
+                "id": "EV_1723_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1723,
+                "time_norm": {
+                    "event_day": 1723,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 达成销售目标 548",
+                "event_summary_cn": "用户达成548笔销售目标"
+            },
+            {
+                "id": "EV_1727_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1727,
+                "time_norm": {
+                    "event_day": 1727,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 接到消息 家庭宠物去世",
+                "event_summary_cn": "用户家庭宠物去世，感到悲伤"
+            },
+            {
+                "id": "EV_1738_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1738,
+                "time_norm": {
+                    "event_day": 1738,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 表达 对表弟的不满",
+                "event_summary_cn": "用户不满表弟的言论和行为"
+            },
+            {
+                "id": "EV_1763_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1763,
+                "time_norm": {
+                    "event_day": 1763,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要偿还 CERB 基于 2019 税收",
+                "event_summary_cn": "用户因税收问题需偿还 CERB"
+            },
+            {
+                "id": "EV_1768_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1768,
+                "time_norm": {
+                    "event_day": 1768,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 可能欠款 CRB",
+                "event_summary_cn": "用户可能因误读而欠款"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1711_0",
+                "target": "EV_1723_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1723_1",
+                "target": "EV_1727_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1727_2",
+                "target": "EV_1738_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1738_3",
+                "target": "EV_1763_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1763_4",
+                "target": "EV_1768_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1711": [
+                    "EV_1711_0"
+                ],
+                "1723": [
+                    "EV_1723_1"
+                ],
+                "1727": [
+                    "EV_1727_2"
+                ],
+                "1738": [
+                    "EV_1738_3"
+                ],
+                "1763": [
+                    "EV_1763_4"
+                ],
+                "1768": [
+                    "EV_1768_5"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1763_4",
+                "EV_1768_5"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_1738_3"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1727_2"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1723_1"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1711_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 可能欠款 CRB；我 需要偿还 CERB 基于 2019 税收。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 表达 对表弟的不满。代表时间点：1个月前（30天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 接到消息 家庭宠物去世。代表时间点：1个月前（41天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 达成销售目标 548。代表时间点：1个月前（45天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 忽视 我的家人。代表时间点：1个月前（57天前）。"
+        }
+    ]
+}

@@ -1,0 +1,498 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 107,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_29_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 29,
+                "time_norm": {
+                    "event_day": 29,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 接受历史作业 用类比解释文艺复兴",
+                "event_summary_cn": "用户分享高中历史作业经历"
+            },
+            {
+                "id": "EV_37_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 37,
+                "time_norm": {
+                    "event_day": 37,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 通过知识 获得历史 quiz 成绩",
+                "event_summary_cn": "用户凭动漫知识通过历史考试"
+            },
+            {
+                "id": "EV_41_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 41,
+                "time_norm": {
+                    "event_day": 41,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 学习 世界历史课程",
+                "event_summary_cn": "用户分享世界历史课程体验"
+            },
+            {
+                "id": "EV_41_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 41,
+                "time_norm": {
+                    "event_day": 41,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 上大学课程",
+                "event_summary_cn": "用户上大学课程获得A-成绩"
+            },
+            {
+                "id": "EV_67_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 67,
+                "time_norm": {
+                    "event_day": 67,
+                    "days_ago": 40,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得体重 15磅",
+                "event_summary_cn": "用户体重增加15磅"
+            },
+            {
+                "id": "EV_69_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 69,
+                "time_norm": {
+                    "event_day": 69,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 同意 人们做这种事是毒性的",
+                "event_summary_cn": "用户表达对某些行为的负面看法"
+            },
+            {
+                "id": "EV_73_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 73,
+                "time_norm": {
+                    "event_day": 73,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 病倒 第一个昂贵的大学学期",
+                "event_summary_cn": "用户因病错过贷款学期"
+            },
+            {
+                "id": "EV_83_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 83,
+                "time_norm": {
+                    "event_day": 83,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 无法实现艺术梦想",
+                "event_summary_cn": "用户无法实现艺术梦想"
+            },
+            {
+                "id": "EV_86_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 86,
+                "time_norm": {
+                    "event_day": 86,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被收取 $1000 牙科费用",
+                "event_summary_cn": "用户因收入超标被收取高额牙科费用"
+            },
+            {
+                "id": "EV_92_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 92,
+                "time_norm": {
+                    "event_day": 92,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 忘记支付信用卡",
+                "event_summary_cn": "用户忘记支付信用卡导致被停用"
+            },
+            {
+                "id": "EV_95_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 95,
+                "time_norm": {
+                    "event_day": 95,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去医疗补助 须自付处方药费用",
+                "event_summary_cn": "用户因失去医疗补助需自付处方药费用"
+            },
+            {
+                "id": "EV_98_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 98,
+                "time_norm": {
+                    "event_day": 98,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去医疗补助资格 由于收入增加",
+                "event_summary_cn": "用户因收入增加失去医疗补助资格"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_29_0",
+                "target": "EV_37_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_37_1",
+                "target": "EV_41_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_41_2",
+                "target": "EV_41_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_41_3",
+                "target": "EV_67_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_67_4",
+                "target": "EV_69_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_69_5",
+                "target": "EV_73_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_73_6",
+                "target": "EV_83_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_83_7",
+                "target": "EV_86_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_86_8",
+                "target": "EV_92_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_92_9",
+                "target": "EV_95_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_95_10",
+                "target": "EV_98_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "29": [
+                    "EV_29_0"
+                ],
+                "37": [
+                    "EV_37_1"
+                ],
+                "41": [
+                    "EV_41_2",
+                    "EV_41_3"
+                ],
+                "67": [
+                    "EV_67_4"
+                ],
+                "69": [
+                    "EV_69_5"
+                ],
+                "73": [
+                    "EV_73_6"
+                ],
+                "83": [
+                    "EV_83_7"
+                ],
+                "86": [
+                    "EV_86_8"
+                ],
+                "92": [
+                    "EV_92_9"
+                ],
+                "95": [
+                    "EV_95_10"
+                ],
+                "98": [
+                    "EV_98_11"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_95_10",
+                "EV_98_11"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_92_9"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_83_7",
+                "EV_86_8"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_73_6"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_67_4",
+                "EV_69_5"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_41_2",
+                "EV_41_3"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_37_1"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_29_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 失去医疗补助资格 由于收入增加；我 失去医疗补助 须自付处方药费用。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 忘记支付信用卡。代表时间点：2周前（15天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 被收取 $1000 牙科费用；我 无法实现艺术梦想。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 病倒 第一个昂贵的大学学期。代表时间点：1个月前（34天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 同意 人们做这种事是毒性的；我 获得体重 15磅。代表时间点：1个月前（38天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 学习 世界历史课程；我 上大学课程。代表时间点：2个月前（66天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 通过知识 获得历史 quiz 成绩。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 接受历史作业 用类比解释文艺复兴。代表时间点：2个月前（78天前）。"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 969,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_895_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 895,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 出现 心跳加快",
+                "evidence": [
+                    "WOWOWOWOW. My heart is beating fast just looking at this. Very amazing work. ❤️"
+                ],
+                "time_norm": {
+                    "event_day": 895,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_966_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 966,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 Depressed_Mood",
+                "evidence": [
+                    "Depression"
+                ],
+                "time_norm": {
+                    "event_day": 966,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_895_Cardiovascular_symptoms",
+                "target": "SYM_966_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "895": [
+                    "SYM_895_Cardiovascular_symptoms"
+                ],
+                "966": [
+                    "SYM_966_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Cardiovascular_symptoms": [
+                    "SYM_895_Cardiovascular_symptoms"
+                ],
+                "Depressed_Mood": [
+                    "SYM_966_Depressed_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_966_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_895_Cardiovascular_symptoms"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 Depressed_Mood。代表时间点：3天前（3天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 心跳加快。代表时间点：2个月前（74天前）。"
+        }
+    ]
+}

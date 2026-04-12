@@ -1,0 +1,332 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1146,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1062_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1062,
+                "time_norm": {
+                    "event_day": 1062,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付 £500 购买旅行系统",
+                "event_summary_cn": "用户花费500英镑购买旅行系统"
+            },
+            {
+                "id": "EV_1073_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1073,
+                "time_norm": {
+                    "event_day": 1073,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 1 岁婴儿",
+                "event_summary_cn": "用户即将迎来一岁婴儿"
+            },
+            {
+                "id": "EV_1088_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1088,
+                "time_norm": {
+                    "event_day": 1088,
+                    "days_ago": 58,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 等待 1 岁宝宝出生",
+                "event_summary_cn": "用户即将迎来1岁宝宝出生"
+            },
+            {
+                "id": "EV_1090_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1090,
+                "time_norm": {
+                    "event_day": 1090,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 等待 皮肤接触宝宝",
+                "event_summary_cn": "用户等待与宝宝进行皮肤接触"
+            },
+            {
+                "id": "EV_1105_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1105,
+                "time_norm": {
+                    "event_day": 1105,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 回忆 孩子出生",
+                "event_summary_cn": "用户回忆孩子出生"
+            },
+            {
+                "id": "EV_1108_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1108,
+                "time_norm": {
+                    "event_day": 1108,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 一个宝宝",
+                "event_summary_cn": "用户迎来了新生命"
+            },
+            {
+                "id": "EV_1109_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1109,
+                "time_norm": {
+                    "event_day": 1109,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 观察 Colby 学会行走",
+                "event_summary_cn": "用户分享宠物学会行走的趣事"
+            },
+            {
+                "id": "EV_1146_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1146,
+                "time_norm": {
+                    "event_day": 1146,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "用户本人 体重减轻 食物反应增加",
+                "event_summary_cn": "用户体重减轻但出现食物反应"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1062_0",
+                "target": "EV_1073_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1073_1",
+                "target": "EV_1088_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1088_2",
+                "target": "EV_1090_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1090_3",
+                "target": "EV_1105_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1105_4",
+                "target": "EV_1108_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1108_5",
+                "target": "EV_1109_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1109_6",
+                "target": "EV_1146_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1062": [
+                    "EV_1062_0"
+                ],
+                "1073": [
+                    "EV_1073_1"
+                ],
+                "1088": [
+                    "EV_1088_2"
+                ],
+                "1090": [
+                    "EV_1090_3"
+                ],
+                "1105": [
+                    "EV_1105_4"
+                ],
+                "1108": [
+                    "EV_1108_5"
+                ],
+                "1109": [
+                    "EV_1109_6"
+                ],
+                "1146": [
+                    "EV_1146_7"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1146_7"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1105_4",
+                "EV_1108_5",
+                "EV_1109_6"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1088_2",
+                "EV_1090_3"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1073_1"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1062_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：用户本人 体重减轻 食物反应增加。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 观察 Colby 学会行走；我 有 一个宝宝。代表时间点：1个月前（37天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 等待 皮肤接触宝宝；我 等待 1 岁宝宝出生。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 有 1 岁婴儿。代表时间点：2个月前（73天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 支付 £500 购买旅行系统。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

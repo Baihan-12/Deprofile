@@ -1,0 +1,110 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 853,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_790_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 790,
+                "time_norm": {
+                    "event_day": 790,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 指责 母亲和姐妹受到种族主义影响",
+                "event_summary_cn": "用户指责家人受种族主义影响"
+            },
+            {
+                "id": "EV_810_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 810,
+                "time_norm": {
+                    "event_day": 810,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 对他人审讯合法性表示疑问",
+                "event_summary_cn": "用户质疑他人审讯合法性"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_790_0",
+                "target": "EV_810_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "790": [
+                    "EV_790_0"
+                ],
+                "810": [
+                    "EV_810_1"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_810_1"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_790_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 对他人审讯合法性表示疑问。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 指责 母亲和姐妹受到种族主义影响。代表时间点：2个月前（63天前）。"
+        }
+    ]
+}

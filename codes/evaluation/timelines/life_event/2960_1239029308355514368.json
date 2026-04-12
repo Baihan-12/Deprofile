@@ -1,0 +1,635 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 215,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_144_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 144,
+                "time_norm": {
+                    "event_day": 144,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被称为 同性恋",
+                "event_summary_cn": "用户被他人称为同性恋"
+            },
+            {
+                "id": "EV_155_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 155,
+                "time_norm": {
+                    "event_day": 155,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 学习了 世界大战相关内容",
+                "event_summary_cn": "用户学习了二战相关课程"
+            },
+            {
+                "id": "EV_161_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 161,
+                "time_norm": {
+                    "event_day": 161,
+                    "days_ago": 54,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 准备 亵渎宗教考试",
+                "event_summary_cn": "用户准备亵渎宗教考试"
+            },
+            {
+                "id": "EV_163_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 163,
+                "time_norm": {
+                    "event_day": 163,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想起 Nina 死亡",
+                "event_summary_cn": "用户想起Nina死亡经历"
+            },
+            {
+                "id": "EV_163_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 163,
+                "time_norm": {
+                    "event_day": 163,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 应对 分心",
+                "event_summary_cn": "用户因分心而影响备考"
+            },
+            {
+                "id": "EV_164_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 164,
+                "time_norm": {
+                    "event_day": 164,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 正在准备 试考",
+                "event_summary_cn": "用户即将参加试考"
+            },
+            {
+                "id": "EV_165_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 165,
+                "time_norm": {
+                    "event_day": 165,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被考试偷走脑细胞",
+                "event_summary_cn": "用户刚结束三小时考试"
+            },
+            {
+                "id": "EV_169_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 169,
+                "time_norm": {
+                    "event_day": 169,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得 男朋友",
+                "event_summary_cn": "用户获得男朋友"
+            },
+            {
+                "id": "EV_169_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 169,
+                "time_norm": {
+                    "event_day": 169,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 得到男朋友 激动",
+                "event_summary_cn": "用户本人获得男朋友感到激动"
+            },
+            {
+                "id": "EV_169_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 169,
+                "time_norm": {
+                    "event_day": 169,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要重看 他",
+                "event_summary_cn": "用户想重看喜欢的人"
+            },
+            {
+                "id": "EV_169_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 169,
+                "time_norm": {
+                    "event_day": 169,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 父母改变 观点",
+                "event_summary_cn": "父母逐渐接受我的选择"
+            },
+            {
+                "id": "EV_169_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 169,
+                "time_norm": {
+                    "event_day": 169,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 认为 白人同性恋在谈论压迫",
+                "event_summary_cn": "用户认为白人同性恋在谈论压迫"
+            },
+            {
+                "id": "EV_169_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 169,
+                "time_norm": {
+                    "event_day": 169,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被对方攻击并封锁",
+                "event_summary_cn": "用户被对方攻击并封锁"
+            },
+            {
+                "id": "EV_170_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 170,
+                "time_norm": {
+                    "event_day": 170,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要 成为 快乐的同性恋或不介意性取向",
+                "event_summary_cn": "用户表达对性取向的自我认同困惑"
+            },
+            {
+                "id": "EV_202_14",
+                "node_type": "LifeEvent",
+                "timestamp_day": 202,
+                "time_norm": {
+                    "event_day": 202,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感谢 主的怜悯",
+                "event_summary_cn": "用户感谢主的怜悯"
+            },
+            {
+                "id": "EV_207_15",
+                "node_type": "LifeEvent",
+                "timestamp_day": 207,
+                "time_norm": {
+                    "event_day": 207,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 回应 他人关于我的负面猜测",
+                "event_summary_cn": "用户回应他人对其的负面猜测"
+            },
+            {
+                "id": "EV_207_16",
+                "node_type": "LifeEvent",
+                "timestamp_day": 207,
+                "time_norm": {
+                    "event_day": 207,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 由抗抑郁药和精神疾病导致的无性欲状态",
+                "event_summary_cn": "用户因药物和疾病经历无性欲状态"
+            },
+            {
+                "id": "EV_210_17",
+                "node_type": "LifeEvent",
+                "timestamp_day": 210,
+                "time_norm": {
+                    "event_day": 210,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 停止倾听 因为愤怒",
+                "event_summary_cn": "因愤怒而停止倾听他人"
+            },
+            {
+                "id": "EV_215_18",
+                "node_type": "LifeEvent",
+                "timestamp_day": 215,
+                "time_norm": {
+                    "event_day": 215,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 使用 D 词 表达同性恋倾向",
+                "event_summary_cn": "用户使用D词表达同性恋倾向"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_144_0",
+                "target": "EV_155_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_155_1",
+                "target": "EV_161_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_161_2",
+                "target": "EV_163_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_163_3",
+                "target": "EV_163_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_163_4",
+                "target": "EV_164_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_164_5",
+                "target": "EV_165_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_165_6",
+                "target": "EV_169_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_169_7",
+                "target": "EV_169_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_169_8",
+                "target": "EV_169_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_169_9",
+                "target": "EV_169_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_169_10",
+                "target": "EV_169_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_169_11",
+                "target": "EV_169_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_169_12",
+                "target": "EV_170_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_170_13",
+                "target": "EV_202_14",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_202_14",
+                "target": "EV_207_15",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_207_15",
+                "target": "EV_207_16",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_207_16",
+                "target": "EV_210_17",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_210_17",
+                "target": "EV_215_18",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "144": [
+                    "EV_144_0"
+                ],
+                "155": [
+                    "EV_155_1"
+                ],
+                "161": [
+                    "EV_161_2"
+                ],
+                "163": [
+                    "EV_163_3",
+                    "EV_163_4"
+                ],
+                "164": [
+                    "EV_164_5"
+                ],
+                "165": [
+                    "EV_165_6"
+                ],
+                "169": [
+                    "EV_169_7",
+                    "EV_169_8",
+                    "EV_169_9",
+                    "EV_169_10",
+                    "EV_169_11",
+                    "EV_169_12"
+                ],
+                "170": [
+                    "EV_170_13"
+                ],
+                "202": [
+                    "EV_202_14"
+                ],
+                "207": [
+                    "EV_207_15",
+                    "EV_207_16"
+                ],
+                "210": [
+                    "EV_210_17"
+                ],
+                "215": [
+                    "EV_215_18"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_210_17",
+                "EV_215_18"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_202_14",
+                "EV_207_15",
+                "EV_207_16"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_169_7",
+                "EV_169_8",
+                "EV_169_9",
+                "EV_169_10",
+                "EV_169_11",
+                "EV_169_12",
+                "EV_170_13"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_161_2",
+                "EV_163_3",
+                "EV_163_4",
+                "EV_164_5",
+                "EV_165_6"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_155_1"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_144_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 使用 D 词 表达同性恋倾向；我 停止倾听 因为愤怒。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 回应 他人关于我的负面猜测；我 经历 由抗抑郁药和精神疾病导致的无性欲状态。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 想要 成为 快乐的同性恋或不介意性取向；我 获得 男朋友。代表时间点：1个月前（45天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 被考试偷走脑细胞；我 正在准备 试考。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 学习了 世界大战相关内容。代表时间点：2个月前（60天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 被称为 同性恋。代表时间点：2个月前（71天前）。"
+        }
+    ]
+}

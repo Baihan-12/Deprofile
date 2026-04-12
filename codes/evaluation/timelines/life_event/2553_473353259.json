@@ -1,0 +1,330 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 940,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_885_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 885,
+                "time_norm": {
+                    "event_day": 885,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 离开 他",
+                "event_summary_cn": "用户经历他人离开事件"
+            },
+            {
+                "id": "EV_890_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 890,
+                "time_norm": {
+                    "event_day": 890,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得额外补偿 工作时间",
+                "event_summary_cn": "用户因加班获得额外补偿"
+            },
+            {
+                "id": "EV_897_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 897,
+                "time_norm": {
+                    "event_day": 897,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成工作 休息",
+                "event_summary_cn": "用户完成工作后获得休息"
+            },
+            {
+                "id": "EV_909_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 909,
+                "time_norm": {
+                    "event_day": 909,
+                    "days_ago": 31,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 工作环境变化",
+                "event_summary_cn": "用户经历工作环境改善"
+            },
+            {
+                "id": "EV_917_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 917,
+                "time_norm": {
+                    "event_day": 917,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得好评 5星评价",
+                "event_summary_cn": "用户获得五星级好评"
+            },
+            {
+                "id": "EV_929_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 929,
+                "time_norm": {
+                    "event_day": 929,
+                    "days_ago": 11,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付 进口关税",
+                "event_summary_cn": "用户因关税支付额外费用"
+            },
+            {
+                "id": "EV_929_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 929,
+                "time_norm": {
+                    "event_day": 929,
+                    "days_ago": 11,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 没有被邀请 婚礼",
+                "event_summary_cn": "用户未被邀请参加婚礼"
+            },
+            {
+                "id": "EV_931_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 931,
+                "time_norm": {
+                    "event_day": 931,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 发现 有些人的周从周日开始",
+                "event_summary_cn": "用户发现周起始日差异"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_885_0",
+                "target": "EV_890_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_890_1",
+                "target": "EV_897_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_897_2",
+                "target": "EV_909_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_909_3",
+                "target": "EV_917_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_917_4",
+                "target": "EV_929_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_929_5",
+                "target": "EV_929_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_929_6",
+                "target": "EV_931_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "885": [
+                    "EV_885_0"
+                ],
+                "890": [
+                    "EV_890_1"
+                ],
+                "897": [
+                    "EV_897_2"
+                ],
+                "909": [
+                    "EV_909_3"
+                ],
+                "917": [
+                    "EV_917_4"
+                ],
+                "929": [
+                    "EV_929_5",
+                    "EV_929_6"
+                ],
+                "931": [
+                    "EV_931_7"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_929_5",
+                "EV_929_6",
+                "EV_931_7"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_917_4"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_909_3"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_897_2"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_885_0",
+                "EV_890_1"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 发现 有些人的周从周日开始；我 支付 进口关税。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 获得好评 5星评价。代表时间点：3周前（23天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 经历 工作环境变化。代表时间点：1个月前（31天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 完成工作 休息。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 获得额外补偿 工作时间；我 离开 他。代表时间点：1个月前（50天前）。"
+        }
+    ]
+}

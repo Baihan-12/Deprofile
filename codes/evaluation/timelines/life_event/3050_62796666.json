@@ -1,0 +1,328 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 967,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_898_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 898,
+                "time_norm": {
+                    "event_day": 898,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 婚姻承诺 你",
+                "event_summary_cn": "用户向他人表达婚姻承诺"
+            },
+            {
+                "id": "EV_933_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 933,
+                "time_norm": {
+                    "event_day": 933,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 死亡 无",
+                "event_summary_cn": "用户声称自己已去世"
+            },
+            {
+                "id": "EV_940_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 940,
+                "time_norm": {
+                    "event_day": 940,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 死亡 无",
+                "event_summary_cn": "用户表达自身死亡信息"
+            },
+            {
+                "id": "EV_960_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 960,
+                "time_norm": {
+                    "event_day": 960,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 邀请 来加拿大",
+                "event_summary_cn": "用户邀请他人来加拿大"
+            },
+            {
+                "id": "EV_960_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 960,
+                "time_norm": {
+                    "event_day": 960,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付学生贷款 我 购买书籍",
+                "event_summary_cn": "用户还清贷款并购买书籍"
+            },
+            {
+                "id": "EV_960_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 960,
+                "time_norm": {
+                    "event_day": 960,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成两个学位 我自己",
+                "event_summary_cn": "用户完成两个学位并获得成功"
+            },
+            {
+                "id": "EV_961_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 961,
+                "time_norm": {
+                    "event_day": 961,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 移动到 合租伴侣处",
+                "event_summary_cn": "用户即将与伴侣合租"
+            },
+            {
+                "id": "EV_967_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 967,
+                "time_norm": {
+                    "event_day": 967,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到不安 他们不再在一起",
+                "event_summary_cn": "用户表达对关系变化的不安"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_898_0",
+                "target": "EV_933_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_933_1",
+                "target": "EV_940_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_940_2",
+                "target": "EV_960_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_960_3",
+                "target": "EV_960_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_960_4",
+                "target": "EV_960_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_960_5",
+                "target": "EV_961_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_961_6",
+                "target": "EV_967_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "898": [
+                    "EV_898_0"
+                ],
+                "933": [
+                    "EV_933_1"
+                ],
+                "940": [
+                    "EV_940_2"
+                ],
+                "960": [
+                    "EV_960_3",
+                    "EV_960_4",
+                    "EV_960_5"
+                ],
+                "961": [
+                    "EV_961_6"
+                ],
+                "967": [
+                    "EV_967_7"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_961_6",
+                "EV_967_7"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_960_3",
+                "EV_960_4",
+                "EV_960_5"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_940_2"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_933_1"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_898_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到不安 他们不再在一起；我 移动到 合租伴侣处。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 邀请 来加拿大；我 支付学生贷款 我 购买书籍。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 死亡 无。代表时间点：3周前（27天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 死亡 无。代表时间点：1个月前（34天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 婚姻承诺 你。代表时间点：2个月前（69天前）。"
+        }
+    ]
+}

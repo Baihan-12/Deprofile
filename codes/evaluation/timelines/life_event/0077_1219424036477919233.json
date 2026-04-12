@@ -1,0 +1,88 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 100,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_100_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 100,
+                "time_norm": {
+                    "event_day": 100,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被父母驱逐 出家",
+                "event_summary_cn": "用户被父母赶出家门"
+            },
+            {
+                "id": "EV_100_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 100,
+                "time_norm": {
+                    "event_day": 100,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 获取 警告令",
+                "event_summary_cn": "用户表示需要申请保护令"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_100_0",
+                "target": "EV_100_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "100": [
+                    "EV_100_0",
+                    "EV_100_1"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_100_0",
+                "EV_100_1"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 被父母驱逐 出家；我 需要 获取 警告令。代表时间点：今天（0天前）。"
+        }
+    ]
+}

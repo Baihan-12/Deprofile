@@ -1,0 +1,1163 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1077,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_988_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 988,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 感到 胃部变小",
+                "evidence": [
+                    "My stomach is the smallest it’s been in a long time"
+                ],
+                "time_norm": {
+                    "event_day": 988,
+                    "days_ago": 89,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_999_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 999,
+                "symptom": "Depressed_Mood",
+                "triple": "我 受影响 很坏",
+                "evidence": [
+                    "It’s been fucking with me bad lately."
+                ],
+                "time_norm": {
+                    "event_day": 999,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_999_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 999,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "Believe me I know, and I cook good. I just for some odd reason have been struggling to eat lately"
+                ],
+                "time_norm": {
+                    "event_day": 999,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1009_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1009,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑和抑郁",
+                "evidence": [
+                    "When people have something wrong with them, and it’s clear as day... they really should get help instead of masking them, coming from someone who suffers from anxiety and depression.. just a word of advice."
+                ],
+                "time_norm": {
+                    "event_day": 1009,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1009_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1009,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "When people have something wrong with them, and it’s clear as day... they really should get help instead of masking them, coming from someone who suffers from anxiety and depression.. just a word of advice."
+                ],
+                "time_norm": {
+                    "event_day": 1009,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1010_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 1010,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 出现 体重明显下降",
+                "evidence": [
+                    "I have lost so much weight it’s stupid..."
+                ],
+                "time_norm": {
+                    "event_day": 1010,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1012_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 1012,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "I’ll try. I’ll most likely eat 2 bites"
+                ],
+                "time_norm": {
+                    "event_day": 1012,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1016_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 1016,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "I hate the fact I can never eat, I never sleep... it drives me insane."
+                ],
+                "time_norm": {
+                    "event_day": 1016,
+                    "days_ago": 61,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1018_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 1018,
+                "symptom": "sleep_disturbance",
+                "triple": "我 感到 难以入睡",
+                "evidence": [
+                    "I want sleep so bad..:"
+                ],
+                "time_norm": {
+                    "event_day": 1018,
+                    "days_ago": 59,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1020_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1020,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "I’m so sick of not being able to eat food, and sick of puking everyday of my life because of my anxiety. Anxiety don't fuck around man, damn."
+                ],
+                "time_norm": {
+                    "event_day": 1020,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1020_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1020,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "I’m so sick of not being able to eat food, and sick of puking everyday of my life because of my anxiety. Anxiety don't fuck around man, damn."
+                ],
+                "time_norm": {
+                    "event_day": 1020,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1020_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 1020,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "I’m so sick of not being able to eat food, and sick of puking everyday of my life because of my anxiety. Anxiety don't fuck around man, damn."
+                ],
+                "time_norm": {
+                    "event_day": 1020,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1021_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 1021,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 热感导致出汗",
+                "evidence": [
+                    "My bath is so hot I’m sweating balls lol!"
+                ],
+                "time_norm": {
+                    "event_day": 1021,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1023_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1023,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 受抑郁情绪影响",
+                "evidence": [
+                    "My depression is so bad, I don’t know much more I can take 😭"
+                ],
+                "time_norm": {
+                    "event_day": 1023,
+                    "days_ago": 54,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1023_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 1023,
+                "symptom": "sleep_disturbance",
+                "triple": "我 睡眠不足",
+                "evidence": [
+                    "I’m so sick and tired of going days without eating, my body aching and me sleep deprived... this shit sucks."
+                ],
+                "time_norm": {
+                    "event_day": 1023,
+                    "days_ago": 54,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1023_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 1023,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "I’m so sick and tired of going days without eating, my body aching and me sleep deprived... this shit sucks."
+                ],
+                "time_norm": {
+                    "event_day": 1023,
+                    "days_ago": 54,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1024_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1024,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 怒气和烦躁",
+                "evidence": [
+                    "The journey god has me in right now is “the transition stage” where I feel, angry, broken, unheard, exhausted, lost and confused. But, one thing I do know is that this is only happening so that I can welcome the good things coming to me, and I can only thank god for that."
+                ],
+                "time_norm": {
+                    "event_day": 1024,
+                    "days_ago": 53,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1028_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1028,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 愤怒和烦躁情绪",
+                "evidence": [
+                    "No matter how much you miss that toxic person who destroyed you, DO NOT contact them, you’ll only ruin you’re progress. You’ll end up sad all over again and back at square one. Just Morn the loss, cry a bit, get angry, then leave it in the past where it fucking belongs. 💯"
+                ],
+                "time_norm": {
+                    "event_day": 1028,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1030_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 1030,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "I wake up sick as fuck everyday of my life and only get 3 hours of sleep, I fucking hate this😭"
+                ],
+                "time_norm": {
+                    "event_day": 1030,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1039_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 1039,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "I seriously never fucking eat.. this is a issue"
+                ],
+                "time_norm": {
+                    "event_day": 1039,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1041_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1041,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 正常进食",
+                "evidence": [
+                    "Depression/anxiety means either 12 hours of sleep or 0 sleep at all. Forgetting how to live properly. Forgetting who you are and questioning why people have abandoned you. You tend to forget what I real meal is because you are to caught up not eating or getting sick. Its killer."
+                ],
+                "time_norm": {
+                    "event_day": 1041,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1041_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1041,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 出现 反复呕吐胃酸",
+                "evidence": [
+                    "I really hate getting sick everyday of my life. So over puking nothing but stomach acid 😭😭"
+                ],
+                "time_norm": {
+                    "event_day": 1041,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1050_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1050,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "If I’m not able to eat on thanksgiving I’m gonna fucking off myself, so sick and tired of not being able to keep food down. Most frustrating feeling In The world when you fucking love food."
+                ],
+                "time_norm": {
+                    "event_day": 1050,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1050_Worthlessness_and_guilty",
+                "node_type": "Symptom",
+                "timestamp_day": 1050,
+                "symptom": "Worthlessness_and_guilty",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "If I’m not able to eat on thanksgiving I’m gonna fucking off myself, so sick and tired of not being able to keep food down. Most frustrating feeling In The world when you fucking love food."
+                ],
+                "time_norm": {
+                    "event_day": 1050,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1050_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 1050,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "If I’m not able to eat on thanksgiving I’m gonna fucking off myself, so sick and tired of not being able to keep food down. Most frustrating feeling In The world when you fucking love food."
+                ],
+                "time_norm": {
+                    "event_day": 1050,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1071_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 1071,
+                "symptom": "poor_memory",
+                "triple": "我 出现 无法摆脱的回忆",
+                "evidence": [
+                    "A memory I keep having is killing me, takes me to the same one every time I think of you... I hate when my body makes me think of this person..."
+                ],
+                "time_norm": {
+                    "event_day": 1071,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1076_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 1076,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 感到 死亡的念头",
+                "evidence": [
+                    "I feel like death and just want sleep and my body refuses so! Lol"
+                ],
+                "time_norm": {
+                    "event_day": 1076,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1076_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 1076,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 入睡",
+                "evidence": [
+                    "I feel like death and just want sleep and my body refuses so! Lol"
+                ],
+                "time_norm": {
+                    "event_day": 1076,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_988_Gastrointestinal_symptoms",
+                "target": "SYM_999_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_999_Depressed_Mood",
+                "target": "SYM_999_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_999_weight_and_appetite_change",
+                "target": "SYM_1009_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1009_Anxious_Mood",
+                "target": "SYM_1009_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1009_Depressed_Mood",
+                "target": "SYM_1010_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1010_weight_and_appetite_change",
+                "target": "SYM_1012_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1012_weight_and_appetite_change",
+                "target": "SYM_1016_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1016_sleep_disturbance",
+                "target": "SYM_1018_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1018_sleep_disturbance",
+                "target": "SYM_1020_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1020_Anxious_Mood",
+                "target": "SYM_1020_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1020_Gastrointestinal_symptoms",
+                "target": "SYM_1020_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1020_weight_and_appetite_change",
+                "target": "SYM_1021_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1021_somatic_symptoms_sensory",
+                "target": "SYM_1023_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1023_Depressed_Mood",
+                "target": "SYM_1023_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1023_sleep_disturbance",
+                "target": "SYM_1023_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1023_weight_and_appetite_change",
+                "target": "SYM_1024_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1024_Anger_Irritability",
+                "target": "SYM_1028_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1028_Anger_Irritability",
+                "target": "SYM_1030_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1030_sleep_disturbance",
+                "target": "SYM_1039_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1039_weight_and_appetite_change",
+                "target": "SYM_1041_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1041_Anxious_Mood",
+                "target": "SYM_1041_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1041_Gastrointestinal_symptoms",
+                "target": "SYM_1050_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1050_Depressed_Mood",
+                "target": "SYM_1050_Worthlessness_and_guilty",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1050_Worthlessness_and_guilty",
+                "target": "SYM_1050_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1050_weight_and_appetite_change",
+                "target": "SYM_1071_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1071_poor_memory",
+                "target": "SYM_1076_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1076_Suicidal_ideas",
+                "target": "SYM_1076_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_988_Gastrointestinal_symptoms",
+                "target": "SYM_1020_Gastrointestinal_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1020_Gastrointestinal_symptoms",
+                "target": "SYM_1041_Gastrointestinal_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_999_Depressed_Mood",
+                "target": "SYM_1009_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1009_Depressed_Mood",
+                "target": "SYM_1023_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1023_Depressed_Mood",
+                "target": "SYM_1050_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_999_weight_and_appetite_change",
+                "target": "SYM_1010_weight_and_appetite_change",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1010_weight_and_appetite_change",
+                "target": "SYM_1012_weight_and_appetite_change",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1012_weight_and_appetite_change",
+                "target": "SYM_1020_weight_and_appetite_change",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1020_weight_and_appetite_change",
+                "target": "SYM_1023_weight_and_appetite_change",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1023_weight_and_appetite_change",
+                "target": "SYM_1039_weight_and_appetite_change",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1039_weight_and_appetite_change",
+                "target": "SYM_1050_weight_and_appetite_change",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1009_Anxious_Mood",
+                "target": "SYM_1020_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1020_Anxious_Mood",
+                "target": "SYM_1041_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1016_sleep_disturbance",
+                "target": "SYM_1018_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1018_sleep_disturbance",
+                "target": "SYM_1023_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1023_sleep_disturbance",
+                "target": "SYM_1030_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1030_sleep_disturbance",
+                "target": "SYM_1076_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1024_Anger_Irritability",
+                "target": "SYM_1028_Anger_Irritability",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "988": [
+                    "SYM_988_Gastrointestinal_symptoms"
+                ],
+                "999": [
+                    "SYM_999_Depressed_Mood",
+                    "SYM_999_weight_and_appetite_change"
+                ],
+                "1009": [
+                    "SYM_1009_Anxious_Mood",
+                    "SYM_1009_Depressed_Mood"
+                ],
+                "1010": [
+                    "SYM_1010_weight_and_appetite_change"
+                ],
+                "1012": [
+                    "SYM_1012_weight_and_appetite_change"
+                ],
+                "1016": [
+                    "SYM_1016_sleep_disturbance"
+                ],
+                "1018": [
+                    "SYM_1018_sleep_disturbance"
+                ],
+                "1020": [
+                    "SYM_1020_Anxious_Mood",
+                    "SYM_1020_Gastrointestinal_symptoms",
+                    "SYM_1020_weight_and_appetite_change"
+                ],
+                "1021": [
+                    "SYM_1021_somatic_symptoms_sensory"
+                ],
+                "1023": [
+                    "SYM_1023_Depressed_Mood",
+                    "SYM_1023_sleep_disturbance",
+                    "SYM_1023_weight_and_appetite_change"
+                ],
+                "1024": [
+                    "SYM_1024_Anger_Irritability"
+                ],
+                "1028": [
+                    "SYM_1028_Anger_Irritability"
+                ],
+                "1030": [
+                    "SYM_1030_sleep_disturbance"
+                ],
+                "1039": [
+                    "SYM_1039_weight_and_appetite_change"
+                ],
+                "1041": [
+                    "SYM_1041_Anxious_Mood",
+                    "SYM_1041_Gastrointestinal_symptoms"
+                ],
+                "1050": [
+                    "SYM_1050_Depressed_Mood",
+                    "SYM_1050_Worthlessness_and_guilty",
+                    "SYM_1050_weight_and_appetite_change"
+                ],
+                "1071": [
+                    "SYM_1071_poor_memory"
+                ],
+                "1076": [
+                    "SYM_1076_Suicidal_ideas",
+                    "SYM_1076_sleep_disturbance"
+                ]
+            },
+            "by_symptom": {
+                "Gastrointestinal_symptoms": [
+                    "SYM_988_Gastrointestinal_symptoms",
+                    "SYM_1020_Gastrointestinal_symptoms",
+                    "SYM_1041_Gastrointestinal_symptoms"
+                ],
+                "Depressed_Mood": [
+                    "SYM_999_Depressed_Mood",
+                    "SYM_1009_Depressed_Mood",
+                    "SYM_1023_Depressed_Mood",
+                    "SYM_1050_Depressed_Mood"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_999_weight_and_appetite_change",
+                    "SYM_1010_weight_and_appetite_change",
+                    "SYM_1012_weight_and_appetite_change",
+                    "SYM_1020_weight_and_appetite_change",
+                    "SYM_1023_weight_and_appetite_change",
+                    "SYM_1039_weight_and_appetite_change",
+                    "SYM_1050_weight_and_appetite_change"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1009_Anxious_Mood",
+                    "SYM_1020_Anxious_Mood",
+                    "SYM_1041_Anxious_Mood"
+                ],
+                "sleep_disturbance": [
+                    "SYM_1016_sleep_disturbance",
+                    "SYM_1018_sleep_disturbance",
+                    "SYM_1023_sleep_disturbance",
+                    "SYM_1030_sleep_disturbance",
+                    "SYM_1076_sleep_disturbance"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_1021_somatic_symptoms_sensory"
+                ],
+                "Anger_Irritability": [
+                    "SYM_1024_Anger_Irritability",
+                    "SYM_1028_Anger_Irritability"
+                ],
+                "Worthlessness_and_guilty": [
+                    "SYM_1050_Worthlessness_and_guilty"
+                ],
+                "poor_memory": [
+                    "SYM_1071_poor_memory"
+                ],
+                "Suicidal_ideas": [
+                    "SYM_1076_Suicidal_ideas"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1071_poor_memory",
+                "SYM_1076_Suicidal_ideas",
+                "SYM_1076_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_1050_Depressed_Mood",
+                "SYM_1050_Worthlessness_and_guilty",
+                "SYM_1050_weight_and_appetite_change"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1039_weight_and_appetite_change",
+                "SYM_1041_Anxious_Mood",
+                "SYM_1041_Gastrointestinal_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1030_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1023_Depressed_Mood",
+                "SYM_1023_sleep_disturbance",
+                "SYM_1023_weight_and_appetite_change",
+                "SYM_1024_Anger_Irritability",
+                "SYM_1028_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1016_sleep_disturbance",
+                "SYM_1018_sleep_disturbance",
+                "SYM_1020_Anxious_Mood",
+                "SYM_1020_Gastrointestinal_symptoms",
+                "SYM_1020_weight_and_appetite_change",
+                "SYM_1021_somatic_symptoms_sensory"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1009_Anxious_Mood",
+                "SYM_1009_Depressed_Mood",
+                "SYM_1010_weight_and_appetite_change",
+                "SYM_1012_weight_and_appetite_change"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_999_Depressed_Mood",
+                "SYM_999_weight_and_appetite_change"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_988_Gastrointestinal_symptoms"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 死亡的念头；我 难以进行 入睡；我 出现 无法摆脱的回忆。代表时间点：昨天（1天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 难以进行 吃饭。代表时间点：3周前（27天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 正常进食；我 出现 反复呕吐胃酸；我 难以进行 吃饭。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 睡眠。代表时间点：1个月前（47天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 愤怒和烦躁情绪；我 感到 怒气和烦躁；我 难以进行 受抑郁情绪影响。代表时间点：1个月前（49天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 热感导致出汗；我 难以进行 吃饭。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 吃饭；我 出现 体重明显下降；我 出现 焦虑和抑郁。代表时间点：2个月前（65天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 受影响 很坏；我 难以进行 吃饭。代表时间点：2个月前（78天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 感到 胃部变小。代表时间点：2个月前（89天前）。"
+        }
+    ]
+}

@@ -1,0 +1,292 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 236,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_186_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 186,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣冲动",
+                "evidence": [
+                    "lemme start crying then😭"
+                ],
+                "time_norm": {
+                    "event_day": 186,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_192_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 192,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Omg noo crying😭"
+                ],
+                "time_norm": {
+                    "event_day": 192,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_192_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 192,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Omg noo crying😭"
+                ],
+                "time_norm": {
+                    "event_day": 192,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_205_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 205,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "tw// phobias did I mention that I have a phobia to boys😭 go easy on me yall I get anxious sometimes"
+                ],
+                "time_norm": {
+                    "event_day": 205,
+                    "days_ago": 31,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_233_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 233,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 吃得过多",
+                "evidence": [
+                    "awwww ate jels😭"
+                ],
+                "time_norm": {
+                    "event_day": 233,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_236_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 236,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 眼睛视力模糊",
+                "evidence": [
+                    "sisnsgisbs I thought my eyesight was blurred for a minute"
+                ],
+                "time_norm": {
+                    "event_day": 236,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_186_Depressed_Mood",
+                "target": "SYM_192_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_192_Depressed_Mood",
+                "target": "SYM_192_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_192_somatic_symptoms_others",
+                "target": "SYM_205_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_205_Anxious_Mood",
+                "target": "SYM_233_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_233_weight_and_appetite_change",
+                "target": "SYM_236_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_186_Depressed_Mood",
+                "target": "SYM_192_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "186": [
+                    "SYM_186_Depressed_Mood"
+                ],
+                "192": [
+                    "SYM_192_Depressed_Mood",
+                    "SYM_192_somatic_symptoms_others"
+                ],
+                "205": [
+                    "SYM_205_Anxious_Mood"
+                ],
+                "233": [
+                    "SYM_233_weight_and_appetite_change"
+                ],
+                "236": [
+                    "SYM_236_somatic_symptoms_sensory"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_186_Depressed_Mood",
+                    "SYM_192_Depressed_Mood"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_192_somatic_symptoms_others"
+                ],
+                "Anxious_Mood": [
+                    "SYM_205_Anxious_Mood"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_233_weight_and_appetite_change"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_236_somatic_symptoms_sensory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_233_weight_and_appetite_change",
+                "SYM_236_somatic_symptoms_sensory"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_205_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_192_Depressed_Mood",
+                "SYM_192_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_186_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 眼睛视力模糊；我 吃得过多。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 感到 焦虑。代表时间点：1个月前（31天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 哭泣。代表时间点：1个月前（44天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 哭泣冲动。代表时间点：1个月前（50天前）。"
+        }
+    ]
+}

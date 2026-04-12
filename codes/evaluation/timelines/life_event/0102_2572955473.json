@@ -1,0 +1,885 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1015,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_929_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 929,
+                "time_norm": {
+                    "event_day": 929,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去 最好的朋友",
+                "event_summary_cn": "用户失去最好的朋友"
+            },
+            {
+                "id": "EV_941_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 941,
+                "time_norm": {
+                    "event_day": 941,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 体重增加 体重减少",
+                "event_summary_cn": "用户表示体重增加后开始减肥"
+            },
+            {
+                "id": "EV_942_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 942,
+                "time_norm": {
+                    "event_day": 942,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得加薪 邮件通知",
+                "event_summary_cn": "用户获得加薪通知"
+            },
+            {
+                "id": "EV_944_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 944,
+                "time_norm": {
+                    "event_day": 944,
+                    "days_ago": 71,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 庆祝 生日",
+                "event_summary_cn": "用户庆祝宝宝满两个月"
+            },
+            {
+                "id": "EV_952_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 952,
+                "time_norm": {
+                    "event_day": 952,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 做运动计划 吃得更好",
+                "event_summary_cn": "用户通过运动和饮食改变生活方式"
+            },
+            {
+                "id": "EV_955_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 955,
+                "time_norm": {
+                    "event_day": 955,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始 健身",
+                "event_summary_cn": "用户决定开始健身"
+            },
+            {
+                "id": "EV_956_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 956,
+                "time_norm": {
+                    "event_day": 956,
+                    "days_ago": 59,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 减重 6 磅",
+                "event_summary_cn": "用户减重6磅并感到开心"
+            },
+            {
+                "id": "EV_958_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 958,
+                "time_norm": {
+                    "event_day": 958,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 减重 8 pounds",
+                "event_summary_cn": "用户本周减重8磅"
+            },
+            {
+                "id": "EV_967_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 967,
+                "time_norm": {
+                    "event_day": 967,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 无法负担 另一个",
+                "event_summary_cn": "用户因育儿无法负担额外开支"
+            },
+            {
+                "id": "EV_971_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 971,
+                "time_norm": {
+                    "event_day": 971,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 庆祝 孩子满三个月",
+                "event_summary_cn": "用户庆祝孩子满三个月"
+            },
+            {
+                "id": "EV_978_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 978,
+                "time_norm": {
+                    "event_day": 978,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 提出结婚",
+                "event_summary_cn": "用户提出结婚"
+            },
+            {
+                "id": "EV_979_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 979,
+                "time_norm": {
+                    "event_day": 979,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结束工作",
+                "event_summary_cn": "用户结束工作"
+            },
+            {
+                "id": "EV_983_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 983,
+                "time_norm": {
+                    "event_day": 983,
+                    "days_ago": 32,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要 获取 5 更多 学分",
+                "event_summary_cn": "用户需获取更多学分完成考试"
+            },
+            {
+                "id": "EV_983_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 983,
+                "time_norm": {
+                    "event_day": 983,
+                    "days_ago": 32,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成 学分要求",
+                "event_summary_cn": "用户完成学分要求准备考试"
+            },
+            {
+                "id": "EV_983_14",
+                "node_type": "LifeEvent",
+                "timestamp_day": 983,
+                "time_norm": {
+                    "event_day": 983,
+                    "days_ago": 32,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付 认证续费费用",
+                "event_summary_cn": "用户支付高额认证续费费用"
+            },
+            {
+                "id": "EV_986_15",
+                "node_type": "LifeEvent",
+                "timestamp_day": 986,
+                "time_norm": {
+                    "event_day": 986,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得收入 三次",
+                "event_summary_cn": "用户本月获得三次收入"
+            },
+            {
+                "id": "EV_986_16",
+                "node_type": "LifeEvent",
+                "timestamp_day": 986,
+                "time_norm": {
+                    "event_day": 986,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 支付租金 获得支票",
+                "event_summary_cn": "用户完成租金支付并收到支票"
+            },
+            {
+                "id": "EV_987_17",
+                "node_type": "LifeEvent",
+                "timestamp_day": 987,
+                "time_norm": {
+                    "event_day": 987,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 购买 99美元的翻新商品",
+                "event_summary_cn": "用户以低价购买翻新商品"
+            },
+            {
+                "id": "EV_997_18",
+                "node_type": "LifeEvent",
+                "timestamp_day": 997,
+                "time_norm": {
+                    "event_day": 997,
+                    "days_ago": 18,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 计划 移动出州",
+                "event_summary_cn": "用户计划移动出州"
+            },
+            {
+                "id": "EV_999_19",
+                "node_type": "LifeEvent",
+                "timestamp_day": 999,
+                "time_norm": {
+                    "event_day": 999,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 停止玩耍 开始锻炼",
+                "event_summary_cn": "用户决定停止玩耍开始锻炼"
+            },
+            {
+                "id": "EV_1005_20",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1005,
+                "time_norm": {
+                    "event_day": 1005,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始减肥 我感到轻盈",
+                "event_summary_cn": "用户开始减肥感到轻盈"
+            },
+            {
+                "id": "EV_1006_21",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1006,
+                "time_norm": {
+                    "event_day": 1006,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 庆祝 生日",
+                "event_summary_cn": "用户庆祝宠物四个月生日"
+            },
+            {
+                "id": "EV_1007_22",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1007,
+                "time_norm": {
+                    "event_day": 1007,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 4 个月大的婴儿",
+                "event_summary_cn": "用户有4个月大的婴儿"
+            },
+            {
+                "id": "EV_1011_23",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1011,
+                "time_norm": {
+                    "event_day": 1011,
+                    "days_ago": 4,
+                    "relative_cn": "4天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 准备减肥 我 买衣服",
+                "event_summary_cn": "用户准备减肥并购买新衣服"
+            },
+            {
+                "id": "EV_1015_24",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1015,
+                "time_norm": {
+                    "event_day": 1015,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 欢呼 有1个婴儿",
+                "event_summary_cn": "用户因有婴儿而欢呼"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_929_0",
+                "target": "EV_941_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_941_1",
+                "target": "EV_942_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_942_2",
+                "target": "EV_944_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_944_3",
+                "target": "EV_952_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_952_4",
+                "target": "EV_955_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_955_5",
+                "target": "EV_956_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_956_6",
+                "target": "EV_958_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_958_7",
+                "target": "EV_967_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_967_8",
+                "target": "EV_971_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_971_9",
+                "target": "EV_978_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_978_10",
+                "target": "EV_979_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_979_11",
+                "target": "EV_983_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_983_12",
+                "target": "EV_983_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_983_13",
+                "target": "EV_983_14",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_983_14",
+                "target": "EV_986_15",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_986_15",
+                "target": "EV_986_16",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_986_16",
+                "target": "EV_987_17",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_987_17",
+                "target": "EV_997_18",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_997_18",
+                "target": "EV_999_19",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_999_19",
+                "target": "EV_1005_20",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1005_20",
+                "target": "EV_1006_21",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1006_21",
+                "target": "EV_1007_22",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1007_22",
+                "target": "EV_1011_23",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1011_23",
+                "target": "EV_1015_24",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "929": [
+                    "EV_929_0"
+                ],
+                "941": [
+                    "EV_941_1"
+                ],
+                "942": [
+                    "EV_942_2"
+                ],
+                "944": [
+                    "EV_944_3"
+                ],
+                "952": [
+                    "EV_952_4"
+                ],
+                "955": [
+                    "EV_955_5"
+                ],
+                "956": [
+                    "EV_956_6"
+                ],
+                "958": [
+                    "EV_958_7"
+                ],
+                "967": [
+                    "EV_967_8"
+                ],
+                "971": [
+                    "EV_971_9"
+                ],
+                "978": [
+                    "EV_978_10"
+                ],
+                "979": [
+                    "EV_979_11"
+                ],
+                "983": [
+                    "EV_983_12",
+                    "EV_983_13",
+                    "EV_983_14"
+                ],
+                "986": [
+                    "EV_986_15",
+                    "EV_986_16"
+                ],
+                "987": [
+                    "EV_987_17"
+                ],
+                "997": [
+                    "EV_997_18"
+                ],
+                "999": [
+                    "EV_999_19"
+                ],
+                "1005": [
+                    "EV_1005_20"
+                ],
+                "1006": [
+                    "EV_1006_21"
+                ],
+                "1007": [
+                    "EV_1007_22"
+                ],
+                "1011": [
+                    "EV_1011_23"
+                ],
+                "1015": [
+                    "EV_1015_24"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1011_23",
+                "EV_1015_24"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_1005_20",
+                "EV_1006_21",
+                "EV_1007_22"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_997_18",
+                "EV_999_19"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_983_12",
+                "EV_983_13",
+                "EV_983_14",
+                "EV_986_15",
+                "EV_986_16",
+                "EV_987_17"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_978_10",
+                "EV_979_11"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_967_8",
+                "EV_971_9"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_955_5",
+                "EV_956_6",
+                "EV_958_7"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_952_4"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_941_1",
+                "EV_942_2",
+                "EV_944_3"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_929_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 欢呼 有1个婴儿；我 准备减肥 我 买衣服。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 有 4 个月大的婴儿；我 庆祝 生日。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 停止玩耍 开始锻炼；我 计划 移动出州。代表时间点：2周前（16天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 购买 99美元的翻新商品；我 获得收入 三次。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 结束工作；我 提出结婚。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 庆祝 孩子满三个月；我 无法负担 另一个。代表时间点：1个月前（44天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 减重 8 pounds；我 减重 6 磅。代表时间点：1个月前（57天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 做运动计划 吃得更好。代表时间点：2个月前（63天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 庆祝 生日；我 获得加薪 邮件通知。代表时间点：2个月前（71天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 失去 最好的朋友。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

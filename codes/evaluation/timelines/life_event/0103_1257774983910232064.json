@@ -1,0 +1,419 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 237,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_148_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 148,
+                "time_norm": {
+                    "event_day": 148,
+                    "days_ago": 89,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 忽略 我的homecoming date",
+                "event_summary_cn": "用户被约会对象全程忽视"
+            },
+            {
+                "id": "EV_169_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 169,
+                "time_norm": {
+                    "event_day": 169,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 移动到 不同宿舍",
+                "event_summary_cn": "用户本人搬到不同宿舍"
+            },
+            {
+                "id": "EV_181_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 181,
+                "time_norm": {
+                    "event_day": 181,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 债务 负担",
+                "event_summary_cn": "用户陷入债务困境"
+            },
+            {
+                "id": "EV_194_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 194,
+                "time_norm": {
+                    "event_day": 194,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 工作out 24/7",
+                "event_summary_cn": "用户全天候锻炼身体"
+            },
+            {
+                "id": "EV_209_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 209,
+                "time_norm": {
+                    "event_day": 209,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 喜欢 女孩",
+                "event_summary_cn": "用户曾喜欢过一位女孩"
+            },
+            {
+                "id": "EV_211_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 211,
+                "time_norm": {
+                    "event_day": 211,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始重新经历 愚蠢的事情",
+                "event_summary_cn": "用户表示要重新经历愚蠢的事情"
+            },
+            {
+                "id": "EV_217_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 217,
+                "time_norm": {
+                    "event_day": 217,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 离职 旧工作",
+                "event_summary_cn": "用户离职旧工作获得自由"
+            },
+            {
+                "id": "EV_219_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 219,
+                "time_norm": {
+                    "event_day": 219,
+                    "days_ago": 18,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 寻找 好的大学",
+                "event_summary_cn": "用户被第一志愿拒绝，正在寻找其他大学"
+            },
+            {
+                "id": "EV_237_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 237,
+                "time_norm": {
+                    "event_day": 237,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 喜欢 新虚构的暗恋对象",
+                "event_summary_cn": "用户新喜欢上虚构暗恋对象"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_148_0",
+                "target": "EV_169_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_169_1",
+                "target": "EV_181_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_181_2",
+                "target": "EV_194_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_194_3",
+                "target": "EV_209_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_209_4",
+                "target": "EV_211_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_211_5",
+                "target": "EV_217_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_217_6",
+                "target": "EV_219_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_219_7",
+                "target": "EV_237_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "148": [
+                    "EV_148_0"
+                ],
+                "169": [
+                    "EV_169_1"
+                ],
+                "181": [
+                    "EV_181_2"
+                ],
+                "194": [
+                    "EV_194_3"
+                ],
+                "209": [
+                    "EV_209_4"
+                ],
+                "211": [
+                    "EV_211_5"
+                ],
+                "217": [
+                    "EV_217_6"
+                ],
+                "219": [
+                    "EV_219_7"
+                ],
+                "237": [
+                    "EV_237_8"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_237_8"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_217_6",
+                "EV_219_7"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_211_5"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_209_4"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_194_3"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_181_2"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_169_1"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_148_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 喜欢 新虚构的暗恋对象。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 寻找 好的大学；我 离职 旧工作。代表时间点：2周前（18天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 开始重新经历 愚蠢的事情。代表时间点：3周前（26天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 喜欢 女孩。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 工作out 24/7。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 债务 负担。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 移动到 不同宿舍。代表时间点：2个月前（68天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 忽略 我的homecoming date。代表时间点：2个月前（89天前）。"
+        }
+    ]
+}

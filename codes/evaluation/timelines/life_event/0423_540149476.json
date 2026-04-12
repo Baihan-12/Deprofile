@@ -1,0 +1,157 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 2131,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_2097_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2097,
+                "time_norm": {
+                    "event_day": 2097,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被辱骂 被认为不应有身体控制权",
+                "event_summary_cn": "用户被辱骂其身体权利"
+            },
+            {
+                "id": "EV_2114_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2114,
+                "time_norm": {
+                    "event_day": 2114,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 接受 同性恋辱骂和死亡威胁",
+                "event_summary_cn": "用户本人遭受同性恋辱骂和威胁"
+            },
+            {
+                "id": "EV_2131_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2131,
+                "time_norm": {
+                    "event_day": 2131,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 总认为 Leonard 是泛性恋",
+                "event_summary_cn": "用户表达对Leonard性取向的看法"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_2097_0",
+                "target": "EV_2114_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_2114_1",
+                "target": "EV_2131_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "2097": [
+                    "EV_2097_0"
+                ],
+                "2114": [
+                    "EV_2114_1"
+                ],
+                "2131": [
+                    "EV_2131_2"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_2131_2"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_2114_1"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_2097_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 总认为 Leonard 是泛性恋。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 接受 同性恋辱骂和死亡威胁。代表时间点：2周前（17天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 被辱骂 被认为不应有身体控制权。代表时间点：1个月前（34天前）。"
+        }
+    ]
+}

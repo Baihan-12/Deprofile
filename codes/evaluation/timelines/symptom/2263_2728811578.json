@@ -1,0 +1,525 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 868,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_780_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 780,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 耻辱感",
+                "evidence": [
+                    "I am so ashamed"
+                ],
+                "time_norm": {
+                    "event_day": 780,
+                    "days_ago": 88,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_780_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 780,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 愧疚感",
+                "evidence": [
+                    "😭😭😭I am ashamed"
+                ],
+                "time_norm": {
+                    "event_day": 780,
+                    "days_ago": 88,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_788_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 788,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现  panic",
+                "evidence": [
+                    "So i don't change mine I had started to panic"
+                ],
+                "time_norm": {
+                    "event_day": 788,
+                    "days_ago": 80,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_788_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 788,
+                "symptom": "panic_fear",
+                "triple": "我 出现  panic_fear",
+                "evidence": [
+                    "So i don't change mine I had started to panic"
+                ],
+                "time_norm": {
+                    "event_day": 788,
+                    "days_ago": 80,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_796_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 796,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 心跳",
+                "evidence": [
+                    "My heartbeat"
+                ],
+                "time_norm": {
+                    "event_day": 796,
+                    "days_ago": 72,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_805_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 805,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 吃10个 samosas",
+                "evidence": [
+                    "I made 30 samosas in the morning and I have a feeling I ate 10 😭 ni mimi tu nilimaliza ata"
+                ],
+                "time_norm": {
+                    "event_day": 805,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_839_compensatory_behaviors_to_prevent_weight_gain",
+                "node_type": "Symptom",
+                "timestamp_day": 839,
+                "symptom": "compensatory_behaviors_to_prevent_weight_gain",
+                "triple": "我 难以进行 享受进食",
+                "evidence": [
+                    "Started by intermittent fasting then I just found myself not enjoying them anymore"
+                ],
+                "time_norm": {
+                    "event_day": 839,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_844_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 844,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 谈论抑郁相关话题",
+                "evidence": [
+                    "It's ok ,I will reach out when I feel I'm ready, now I feel if I talk about it it will trigger me cause I was diagnosed with depression and I am working through it hoping I will get to a point where I can talk about it without being scared"
+                ],
+                "time_norm": {
+                    "event_day": 844,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_845_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 845,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 悲伤情绪",
+                "evidence": [
+                    "It is really sad"
+                ],
+                "time_norm": {
+                    "event_day": 845,
+                    "days_ago": 23,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_847_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 847,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 无法移动的恐惧感",
+                "evidence": [
+                    "I bumped into someone from my past today and I froze,I was shit scared, I couldn't even move, as he stared at me I felt like I was being suffocated and all I could think of was to run but I couldn't bring myself to. I hate that there is someone who has that power over me 💔"
+                ],
+                "time_norm": {
+                    "event_day": 847,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_855_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 855,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 冷感",
+                "evidence": [
+                    "Cold"
+                ],
+                "time_norm": {
+                    "event_day": 855,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_780_Depressed_Mood",
+                "target": "SYM_780_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_780_Depressed_Mood",
+                "target": "SYM_788_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_788_Anxious_Mood",
+                "target": "SYM_788_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_788_panic_fear",
+                "target": "SYM_796_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_796_Autonomic_symptoms",
+                "target": "SYM_805_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_805_weight_and_appetite_change",
+                "target": "SYM_839_compensatory_behaviors_to_prevent_weight_gain",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_839_compensatory_behaviors_to_prevent_weight_gain",
+                "target": "SYM_844_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_844_Depressed_Mood",
+                "target": "SYM_845_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_845_Depressed_Mood",
+                "target": "SYM_847_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_847_Anxious_Mood",
+                "target": "SYM_855_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_780_Depressed_Mood",
+                "target": "SYM_780_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_780_Depressed_Mood",
+                "target": "SYM_844_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_844_Depressed_Mood",
+                "target": "SYM_845_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_788_Anxious_Mood",
+                "target": "SYM_847_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "780": [
+                    "SYM_780_Depressed_Mood",
+                    "SYM_780_Depressed_Mood"
+                ],
+                "788": [
+                    "SYM_788_Anxious_Mood",
+                    "SYM_788_panic_fear"
+                ],
+                "796": [
+                    "SYM_796_Autonomic_symptoms"
+                ],
+                "805": [
+                    "SYM_805_weight_and_appetite_change"
+                ],
+                "839": [
+                    "SYM_839_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "844": [
+                    "SYM_844_Depressed_Mood"
+                ],
+                "845": [
+                    "SYM_845_Depressed_Mood"
+                ],
+                "847": [
+                    "SYM_847_Anxious_Mood"
+                ],
+                "855": [
+                    "SYM_855_somatic_symptoms_sensory"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_780_Depressed_Mood",
+                    "SYM_780_Depressed_Mood",
+                    "SYM_844_Depressed_Mood",
+                    "SYM_845_Depressed_Mood"
+                ],
+                "Anxious_Mood": [
+                    "SYM_788_Anxious_Mood",
+                    "SYM_847_Anxious_Mood"
+                ],
+                "panic_fear": [
+                    "SYM_788_panic_fear"
+                ],
+                "Autonomic_symptoms": [
+                    "SYM_796_Autonomic_symptoms"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_805_weight_and_appetite_change"
+                ],
+                "compensatory_behaviors_to_prevent_weight_gain": [
+                    "SYM_839_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_855_somatic_symptoms_sensory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_855_somatic_symptoms_sensory"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_844_Depressed_Mood",
+                "SYM_845_Depressed_Mood",
+                "SYM_847_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_839_compensatory_behaviors_to_prevent_weight_gain"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_805_weight_and_appetite_change"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_796_Autonomic_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_788_Anxious_Mood",
+                "SYM_788_panic_fear"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_780_Depressed_Mood",
+                "SYM_780_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 冷感。代表时间点：1周前（13天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 无法移动的恐惧感；我 出现 悲伤情绪；我 难以进行 谈论抑郁相关话题。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 难以进行 享受进食。代表时间点：4周前（29天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 吃10个 samosas。代表时间点：2个月前（63天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 心跳。代表时间点：2个月前（72天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现  panic；我 出现  panic_fear。代表时间点：2个月前（80天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现 愧疚感。代表时间点：2个月前（88天前）。"
+        }
+    ]
+}

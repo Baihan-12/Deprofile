@@ -1,0 +1,493 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 961,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_879_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 879,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 干燥的嘴唇",
+                "evidence": [
+                    "I understand, I do the same and my lips are always dry so it's a mess... don't do it!!"
+                ],
+                "time_norm": {
+                    "event_day": 879,
+                    "days_ago": 82,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_894_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 894,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 怕",
+                "evidence": [
+                    "Non deadly one of course since I don't live in a tropical area, but I'm terrified of any of them"
+                ],
+                "time_norm": {
+                    "event_day": 894,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_919_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 919,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑不安",
+                "evidence": [
+                    "I'm excited and nervous 😭"
+                ],
+                "time_norm": {
+                    "event_day": 919,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_933_Worthlessness_and_guilty",
+                "node_type": "Symptom",
+                "timestamp_day": 933,
+                "symptom": "Worthlessness_and_guilty",
+                "triple": "我 感到 超级内疚",
+                "evidence": [
+                    "Couldn't, so I felt worse and super guilty. Just let people have their own rhythm, if they're not doing something there's a reason for sure"
+                ],
+                "time_norm": {
+                    "event_day": 933,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_933_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 933,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 专注",
+                "evidence": [
+                    "I hate it because people assume you're lazy. Could be that you're busy, sick, had an emergency... you know, when I had depression I just couldn't focus on things and everything was a burden. Being told I wasn't doing anything just made me feel worse bc I wanted to but I just"
+                ],
+                "time_norm": {
+                    "event_day": 933,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_936_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 936,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 感到 头晕",
+                "evidence": [
+                    "*can... Well tbh I can move, it's just it hurts and makes me feel dizzy"
+                ],
+                "time_norm": {
+                    "event_day": 936,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_945_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 945,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 入睡",
+                "evidence": [
+                    "Can't sleep and I've got a stressing weekend ahead 😔"
+                ],
+                "time_norm": {
+                    "event_day": 945,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_945_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 945,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 入睡",
+                "evidence": [
+                    "Can't sleep and I've got a stressing weekend ahead 😔"
+                ],
+                "time_norm": {
+                    "event_day": 945,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_958_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 958,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 高温感",
+                "evidence": [
+                    "FUCKING HOT"
+                ],
+                "time_norm": {
+                    "event_day": 958,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_961_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 961,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 头痛",
+                "evidence": [
+                    "I've got such a massive headache 😣"
+                ],
+                "time_norm": {
+                    "event_day": 961,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_879_Autonomic_symptoms",
+                "target": "SYM_894_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_894_Anxious_Mood",
+                "target": "SYM_919_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_919_Anxious_Mood",
+                "target": "SYM_933_Worthlessness_and_guilty",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_933_Worthlessness_and_guilty",
+                "target": "SYM_933_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_933_Depressed_Mood",
+                "target": "SYM_936_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_936_Autonomic_symptoms",
+                "target": "SYM_945_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_945_Anxious_Mood",
+                "target": "SYM_945_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_945_sleep_disturbance",
+                "target": "SYM_958_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_958_somatic_symptoms_sensory",
+                "target": "SYM_961_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_879_Autonomic_symptoms",
+                "target": "SYM_936_Autonomic_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_936_Autonomic_symptoms",
+                "target": "SYM_961_Autonomic_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_894_Anxious_Mood",
+                "target": "SYM_919_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_919_Anxious_Mood",
+                "target": "SYM_945_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "879": [
+                    "SYM_879_Autonomic_symptoms"
+                ],
+                "894": [
+                    "SYM_894_Anxious_Mood"
+                ],
+                "919": [
+                    "SYM_919_Anxious_Mood"
+                ],
+                "933": [
+                    "SYM_933_Worthlessness_and_guilty",
+                    "SYM_933_Depressed_Mood"
+                ],
+                "936": [
+                    "SYM_936_Autonomic_symptoms"
+                ],
+                "945": [
+                    "SYM_945_Anxious_Mood",
+                    "SYM_945_sleep_disturbance"
+                ],
+                "958": [
+                    "SYM_958_somatic_symptoms_sensory"
+                ],
+                "961": [
+                    "SYM_961_Autonomic_symptoms"
+                ]
+            },
+            "by_symptom": {
+                "Autonomic_symptoms": [
+                    "SYM_879_Autonomic_symptoms",
+                    "SYM_936_Autonomic_symptoms",
+                    "SYM_961_Autonomic_symptoms"
+                ],
+                "Anxious_Mood": [
+                    "SYM_894_Anxious_Mood",
+                    "SYM_919_Anxious_Mood",
+                    "SYM_945_Anxious_Mood"
+                ],
+                "Worthlessness_and_guilty": [
+                    "SYM_933_Worthlessness_and_guilty"
+                ],
+                "Depressed_Mood": [
+                    "SYM_933_Depressed_Mood"
+                ],
+                "sleep_disturbance": [
+                    "SYM_945_sleep_disturbance"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_958_somatic_symptoms_sensory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_958_somatic_symptoms_sensory",
+                "SYM_961_Autonomic_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_945_Anxious_Mood",
+                "SYM_945_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_936_Autonomic_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_933_Worthlessness_and_guilty",
+                "SYM_933_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_919_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_894_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_879_Autonomic_symptoms"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 头痛；我 出现 高温感。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 难以进行 入睡。代表时间点：2周前（16天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 感到 头晕。代表时间点：3周前（25天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 感到 超级内疚；我 难以进行 专注。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 焦虑不安。代表时间点：1个月前（42天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 怕。代表时间点：2个月前（67天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 干燥的嘴唇。代表时间点：2个月前（82天前）。"
+        }
+    ]
+}

@@ -1,0 +1,393 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 2167,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_2138_compensatory_behaviors_to_prevent_weight_gain",
+                "node_type": "Symptom",
+                "timestamp_day": 2138,
+                "symptom": "compensatory_behaviors_to_prevent_weight_gain",
+                "triple": "我 出现 呕吐",
+                "evidence": [
+                    "Threw up on my floors i JUST mopped 😪😪😪"
+                ],
+                "time_norm": {
+                    "event_day": 2138,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2140_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 2140,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "I haven’t eaten nor have I gone back to sleep"
+                ],
+                "time_norm": {
+                    "event_day": 2140,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2141_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 2141,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "I was here stressing yesterday morning about needing one"
+                ],
+                "time_norm": {
+                    "event_day": 2141,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2142_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 2142,
+                "symptom": "sleep_disturbance",
+                "triple": "我 睡眠时间过长",
+                "evidence": [
+                    "I sleep for like 16 hours a day"
+                ],
+                "time_norm": {
+                    "event_day": 2142,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2154_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 2154,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 疲惫",
+                "evidence": [
+                    "So tired of being sick, it really is more exhausting than actually being preggo"
+                ],
+                "time_norm": {
+                    "event_day": 2154,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2154_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 2154,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 精力明显下降",
+                "evidence": [
+                    "I am exhausted!!"
+                ],
+                "time_norm": {
+                    "event_day": 2154,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2162_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 2162,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 感到 非常冷",
+                "evidence": [
+                    "Soooooo cold"
+                ],
+                "time_norm": {
+                    "event_day": 2162,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2166_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 2166,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 感到 心痛",
+                "evidence": [
+                    "Man my heart hurts..."
+                ],
+                "time_norm": {
+                    "event_day": 2166,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_2167_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 2167,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 感到 心痛",
+                "evidence": [
+                    "My heart hurts.. 💔😪😪😪😪"
+                ],
+                "time_norm": {
+                    "event_day": 2167,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_2138_compensatory_behaviors_to_prevent_weight_gain",
+                "target": "SYM_2140_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2140_weight_and_appetite_change",
+                "target": "SYM_2141_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2141_Anxious_Mood",
+                "target": "SYM_2142_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2142_sleep_disturbance",
+                "target": "SYM_2154_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2154_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_2154_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2154_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_2162_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2162_somatic_symptoms_sensory",
+                "target": "SYM_2166_Cardiovascular_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2166_Cardiovascular_symptoms",
+                "target": "SYM_2167_Cardiovascular_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_2154_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_2154_Decreased_energy_tiredness_fatigue",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_2166_Cardiovascular_symptoms",
+                "target": "SYM_2167_Cardiovascular_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "2138": [
+                    "SYM_2138_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "2140": [
+                    "SYM_2140_weight_and_appetite_change"
+                ],
+                "2141": [
+                    "SYM_2141_Anxious_Mood"
+                ],
+                "2142": [
+                    "SYM_2142_sleep_disturbance"
+                ],
+                "2154": [
+                    "SYM_2154_Decreased_energy_tiredness_fatigue",
+                    "SYM_2154_Decreased_energy_tiredness_fatigue"
+                ],
+                "2162": [
+                    "SYM_2162_somatic_symptoms_sensory"
+                ],
+                "2166": [
+                    "SYM_2166_Cardiovascular_symptoms"
+                ],
+                "2167": [
+                    "SYM_2167_Cardiovascular_symptoms"
+                ]
+            },
+            "by_symptom": {
+                "compensatory_behaviors_to_prevent_weight_gain": [
+                    "SYM_2138_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_2140_weight_and_appetite_change"
+                ],
+                "Anxious_Mood": [
+                    "SYM_2141_Anxious_Mood"
+                ],
+                "sleep_disturbance": [
+                    "SYM_2142_sleep_disturbance"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_2154_Decreased_energy_tiredness_fatigue",
+                    "SYM_2154_Decreased_energy_tiredness_fatigue"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_2162_somatic_symptoms_sensory"
+                ],
+                "Cardiovascular_symptoms": [
+                    "SYM_2166_Cardiovascular_symptoms",
+                    "SYM_2167_Cardiovascular_symptoms"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_2162_somatic_symptoms_sensory",
+                "SYM_2166_Cardiovascular_symptoms",
+                "SYM_2167_Cardiovascular_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_2154_Decreased_energy_tiredness_fatigue",
+                "SYM_2154_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_2140_weight_and_appetite_change",
+                "SYM_2141_Anxious_Mood",
+                "SYM_2142_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_2138_compensatory_behaviors_to_prevent_weight_gain"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 心痛；我 感到 非常冷。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 感到 精力明显下降。代表时间点：1周前（13天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 睡眠时间过长；我 出现 焦虑情绪；我 难以进行 吃饭。代表时间点：3周前（25天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 呕吐。代表时间点：4周前（29天前）。"
+        }
+    ]
+}

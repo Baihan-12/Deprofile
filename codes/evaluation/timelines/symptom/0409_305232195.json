@@ -1,0 +1,564 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 450,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_369_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 369,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 出现 持续性恶心",
+                "evidence": [
+                    "6 weeks of having consistent nausea 😭 I’m not here for it ..."
+                ],
+                "time_norm": {
+                    "event_day": 369,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_373_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 373,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 声嘶力竭",
+                "evidence": [
+                    "I’m screaming"
+                ],
+                "time_norm": {
+                    "event_day": 373,
+                    "days_ago": 77,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_376_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 376,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 无法控制的情绪崩溃",
+                "evidence": [
+                    "I thought I was ready to talk 😞 I’m not .. I started Crying thinking about it 🥺"
+                ],
+                "time_norm": {
+                    "event_day": 376,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_376_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 376,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 难以进行 哭泣",
+                "evidence": [
+                    "I thought I was ready to talk 😞 I’m not .. I started Crying thinking about it 🥺"
+                ],
+                "time_norm": {
+                    "event_day": 376,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_387_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 387,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 无法逃脱的低落情绪",
+                "evidence": [
+                    "I hate when I’m feeling down ... it’s like I have no escape ... no one to talk to ... nobody really cares... I’m so glad I have therapy tomorrow ... 🥺"
+                ],
+                "time_norm": {
+                    "event_day": 387,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_405_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 405,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 集中注意力",
+                "evidence": [
+                    "I need to something for this ADD of mine... i can’t stay focus for shit"
+                ],
+                "time_norm": {
+                    "event_day": 405,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_418_Respiratory_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 418,
+                "symptom": "Respiratory_symptoms",
+                "triple": "我 难以进行 呼吸",
+                "evidence": [
+                    "I can’t breathe..."
+                ],
+                "time_norm": {
+                    "event_day": 418,
+                    "days_ago": 32,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_439_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 439,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 出现 弱",
+                "evidence": [
+                    "Weak"
+                ],
+                "time_norm": {
+                    "event_day": 439,
+                    "days_ago": 11,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_440_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 440,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 受到影响 April screaming and crying in my ear",
+                "evidence": [
+                    "April screaming and crying in my ear hurt my heart"
+                ],
+                "time_norm": {
+                    "event_day": 440,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_442_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 442,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 情绪低落",
+                "evidence": [
+                    "I hate being up I be in my feelings for no reason over thinking and crying for nothing"
+                ],
+                "time_norm": {
+                    "event_day": 442,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_445_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 445,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 出现 胃部疼痛和恶心",
+                "evidence": [
+                    "Nausea on top these stomach pains . If I ain’t have to be at work super early I’d pop a perc .."
+                ],
+                "time_norm": {
+                    "event_day": 445,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_450_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 450,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 感到 身体不适",
+                "evidence": [
+                    "This clean breakfast eating has been the worst . I feel trash too. My body gotta adjust"
+                ],
+                "time_norm": {
+                    "event_day": 450,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_369_Gastrointestinal_symptoms",
+                "target": "SYM_373_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_373_somatic_symptoms_others",
+                "target": "SYM_376_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_376_Depressed_Mood",
+                "target": "SYM_376_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_376_somatic_symptoms_others",
+                "target": "SYM_387_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_387_Depressed_Mood",
+                "target": "SYM_405_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_405_Inattention",
+                "target": "SYM_418_Respiratory_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_418_Respiratory_symptoms",
+                "target": "SYM_439_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_439_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_440_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_440_somatic_symptoms_others",
+                "target": "SYM_442_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_442_Depressed_Mood",
+                "target": "SYM_445_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_445_Gastrointestinal_symptoms",
+                "target": "SYM_450_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_369_Gastrointestinal_symptoms",
+                "target": "SYM_445_Gastrointestinal_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_373_somatic_symptoms_others",
+                "target": "SYM_376_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_376_somatic_symptoms_others",
+                "target": "SYM_440_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_376_Depressed_Mood",
+                "target": "SYM_387_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_387_Depressed_Mood",
+                "target": "SYM_442_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "369": [
+                    "SYM_369_Gastrointestinal_symptoms"
+                ],
+                "373": [
+                    "SYM_373_somatic_symptoms_others"
+                ],
+                "376": [
+                    "SYM_376_Depressed_Mood",
+                    "SYM_376_somatic_symptoms_others"
+                ],
+                "387": [
+                    "SYM_387_Depressed_Mood"
+                ],
+                "405": [
+                    "SYM_405_Inattention"
+                ],
+                "418": [
+                    "SYM_418_Respiratory_symptoms"
+                ],
+                "439": [
+                    "SYM_439_Decreased_energy_tiredness_fatigue"
+                ],
+                "440": [
+                    "SYM_440_somatic_symptoms_others"
+                ],
+                "442": [
+                    "SYM_442_Depressed_Mood"
+                ],
+                "445": [
+                    "SYM_445_Gastrointestinal_symptoms"
+                ],
+                "450": [
+                    "SYM_450_weight_and_appetite_change"
+                ]
+            },
+            "by_symptom": {
+                "Gastrointestinal_symptoms": [
+                    "SYM_369_Gastrointestinal_symptoms",
+                    "SYM_445_Gastrointestinal_symptoms"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_373_somatic_symptoms_others",
+                    "SYM_376_somatic_symptoms_others",
+                    "SYM_440_somatic_symptoms_others"
+                ],
+                "Depressed_Mood": [
+                    "SYM_376_Depressed_Mood",
+                    "SYM_387_Depressed_Mood",
+                    "SYM_442_Depressed_Mood"
+                ],
+                "Inattention": [
+                    "SYM_405_Inattention"
+                ],
+                "Respiratory_symptoms": [
+                    "SYM_418_Respiratory_symptoms"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_439_Decreased_energy_tiredness_fatigue"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_450_weight_and_appetite_change"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_445_Gastrointestinal_symptoms",
+                "SYM_450_weight_and_appetite_change"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_439_Decreased_energy_tiredness_fatigue",
+                "SYM_440_somatic_symptoms_others",
+                "SYM_442_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_418_Respiratory_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_405_Inattention"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_387_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_376_Depressed_Mood",
+                "SYM_376_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_369_Gastrointestinal_symptoms",
+                "SYM_373_somatic_symptoms_others"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 身体不适；我 出现 胃部疼痛和恶心。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 情绪低落；我 受到影响 April screaming and crying in my ear；我 出现 弱。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 难以进行 呼吸。代表时间点：1个月前（32天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 集中注意力。代表时间点：1个月前（45天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 无法逃脱的低落情绪。代表时间点：2个月前（63天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 无法控制的情绪崩溃；我 难以进行 哭泣。代表时间点：2个月前（74天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 声嘶力竭；我 出现 持续性恶心。代表时间点：2个月前（77天前）。"
+        }
+    ]
+}

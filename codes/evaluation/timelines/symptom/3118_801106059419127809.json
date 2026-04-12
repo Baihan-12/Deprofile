@@ -1,0 +1,68 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1308,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1308_obsession",
+                "node_type": "Symptom",
+                "timestamp_day": 1308,
+                "symptom": "obsession",
+                "triple": "我 出现 侵入性想法",
+                "evidence": [
+                    "definitely! there are times when my ocd is really bad, like i have to do so many \"rituals\" and get really bad intrusive thoughts but other times it’s a bit better. i literally always have to do these rituals but not always intrusive thoughts, sometimes they are gone completely!"
+                ],
+                "time_norm": {
+                    "event_day": 1308,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [],
+        "index": {
+            "by_day": {
+                "1308": [
+                    "SYM_1308_obsession"
+                ]
+            },
+            "by_symptom": {
+                "obsession": [
+                    "SYM_1308_obsession"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1308_obsession"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 侵入性想法。代表时间点：今天（0天前）。"
+        }
+    ]
+}

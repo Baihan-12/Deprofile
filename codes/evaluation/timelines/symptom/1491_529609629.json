@@ -1,0 +1,448 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1048,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_973_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 973,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 下沉情绪",
+                "evidence": [
+                    "but I’m really down 👉🏼👈🏼🥺"
+                ],
+                "time_norm": {
+                    "event_day": 973,
+                    "days_ago": 75,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_992_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 992,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 失落和困惑",
+                "evidence": [
+                    "So I found out a few days ago that I have BPD and it sucks ya know because I feel lost and confused and I just don’t really know where to go from here and I feel like I have to make apologies to everyone I know for why I act the way I do and ya it’s a shitty time"
+                ],
+                "time_norm": {
+                    "event_day": 992,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1014_somatic_muscle",
+                "node_type": "Symptom",
+                "timestamp_day": 1014,
+                "symptom": "somatic_muscle",
+                "triple": "我 出现 手或腿颤抖",
+                "evidence": [
+                    "My hands or legs shaking 🥴"
+                ],
+                "time_norm": {
+                    "event_day": 1014,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1027_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1027,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 非常痛苦",
+                "evidence": [
+                    "Depression is such a bitch and I want to fight her"
+                ],
+                "time_norm": {
+                    "event_day": 1027,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1038_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1038,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 清洁和完成任务",
+                "evidence": [
+                    "I have been SO productive today on my day off 😋 like I’m actually a bad bitch and I’m claiming it because it’s hard sometimes to clean and get shit done when you deal with demons in ur head all the time"
+                ],
+                "time_norm": {
+                    "event_day": 1038,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1044_do_things_easily_get_painful_consequences",
+                "node_type": "Symptom",
+                "timestamp_day": 1044,
+                "symptom": "do_things_easily_get_painful_consequences",
+                "triple": "我 难以进行 做事很容易产生痛苦后果",
+                "evidence": [
+                    "pls don’t tempt me I’m working on impulsiveness"
+                ],
+                "time_norm": {
+                    "event_day": 1044,
+                    "days_ago": 4,
+                    "relative_cn": "4天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1047_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1047,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 工作",
+                "evidence": [
+                    "How do you tell your boss that you can’t work today because your anxiety feels like it’s crippling ur body"
+                ],
+                "time_norm": {
+                    "event_day": 1047,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1048_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1048,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 反胃和情绪低落",
+                "evidence": [
+                    "I still needed to work a 7 hour shift, I teared up a little bit and thought I was going to throw up the entire time but I made it through ✌🏼😩"
+                ],
+                "time_norm": {
+                    "event_day": 1048,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1048_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1048,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 悲伤",
+                "evidence": [
+                    "and now I’m sad"
+                ],
+                "time_norm": {
+                    "event_day": 1048,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_973_Depressed_Mood",
+                "target": "SYM_992_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_992_Depressed_Mood",
+                "target": "SYM_1014_somatic_muscle",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1014_somatic_muscle",
+                "target": "SYM_1027_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1027_Depressed_Mood",
+                "target": "SYM_1038_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1038_Depressed_Mood",
+                "target": "SYM_1044_do_things_easily_get_painful_consequences",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1044_do_things_easily_get_painful_consequences",
+                "target": "SYM_1047_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1047_Anxious_Mood",
+                "target": "SYM_1048_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1048_Depressed_Mood",
+                "target": "SYM_1048_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_973_Depressed_Mood",
+                "target": "SYM_992_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_992_Depressed_Mood",
+                "target": "SYM_1027_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1027_Depressed_Mood",
+                "target": "SYM_1038_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1038_Depressed_Mood",
+                "target": "SYM_1048_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1048_Depressed_Mood",
+                "target": "SYM_1048_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "973": [
+                    "SYM_973_Depressed_Mood"
+                ],
+                "992": [
+                    "SYM_992_Depressed_Mood"
+                ],
+                "1014": [
+                    "SYM_1014_somatic_muscle"
+                ],
+                "1027": [
+                    "SYM_1027_Depressed_Mood"
+                ],
+                "1038": [
+                    "SYM_1038_Depressed_Mood"
+                ],
+                "1044": [
+                    "SYM_1044_do_things_easily_get_painful_consequences"
+                ],
+                "1047": [
+                    "SYM_1047_Anxious_Mood"
+                ],
+                "1048": [
+                    "SYM_1048_Depressed_Mood",
+                    "SYM_1048_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_973_Depressed_Mood",
+                    "SYM_992_Depressed_Mood",
+                    "SYM_1027_Depressed_Mood",
+                    "SYM_1038_Depressed_Mood",
+                    "SYM_1048_Depressed_Mood",
+                    "SYM_1048_Depressed_Mood"
+                ],
+                "somatic_muscle": [
+                    "SYM_1014_somatic_muscle"
+                ],
+                "do_things_easily_get_painful_consequences": [
+                    "SYM_1044_do_things_easily_get_painful_consequences"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1047_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1044_do_things_easily_get_painful_consequences",
+                "SYM_1047_Anxious_Mood",
+                "SYM_1048_Depressed_Mood",
+                "SYM_1048_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_1038_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_1027_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_1014_somatic_muscle"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_992_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_973_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 悲伤；我 难以进行 工作。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 难以进行 清洁和完成任务。代表时间点：1周前（10天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 感到 非常痛苦。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 手或腿颤抖。代表时间点：1个月前（34天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 感到 失落和困惑。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 下沉情绪。代表时间点：2个月前（75天前）。"
+        }
+    ]
+}

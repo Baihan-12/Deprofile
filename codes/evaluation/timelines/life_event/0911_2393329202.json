@@ -1,0 +1,137 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1071,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_996_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 996,
+                "time_norm": {
+                    "event_day": 996,
+                    "days_ago": 75,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 无法负担 书籍费用",
+                "event_summary_cn": "因经济困难考虑退学"
+            },
+            {
+                "id": "EV_1066_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1066,
+                "time_norm": {
+                    "event_day": 1066,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去角色 我丈夫的角色",
+                "event_summary_cn": "用户丈夫角色在游戏中死亡"
+            },
+            {
+                "id": "EV_1071_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1071,
+                "time_norm": {
+                    "event_day": 1071,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 产程中麻醉失效",
+                "event_summary_cn": "产程中麻醉效果不佳"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_996_0",
+                "target": "EV_1066_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1066_1",
+                "target": "EV_1071_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "996": [
+                    "EV_996_0"
+                ],
+                "1066": [
+                    "EV_1066_1"
+                ],
+                "1071": [
+                    "EV_1071_2"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1066_1",
+                "EV_1071_2"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_996_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 经历 产程中麻醉失效；我 失去角色 我丈夫的角色。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 无法负担 书籍费用。代表时间点：2个月前（75天前）。"
+        }
+    ]
+}

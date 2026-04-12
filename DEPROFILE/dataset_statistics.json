@@ -1,0 +1,38 @@
+{
+  "num_pairs": 3258,
+  "age_min": 10,
+  "age_max": 72,
+  "age_mean": 26.803867403314918,
+  "gender": {
+    "F": 2531,
+    "M": 727
+  },
+  "work_status": {
+    "student": 1234,
+    "Unknown": 794,
+    "employed": 946,
+    "unemployed": 275,
+    "retired": 9
+  },
+  "marital_status": {
+    "single": 2241,
+    "married": 902,
+    "Unknown": 87,
+    "divorced": 17,
+    "widowed": 11
+  },
+  "depression_risk": {
+    "0": 1245,
+    "1": 869,
+    "2": 753,
+    "3": 391
+  },
+  "suiside_risk": {
+    "0": 2097,
+    "1": 657,
+    "2": 334,
+    "3": 170
+  },
+  "positive_symptoms_per_profile_mean": 12.469613259668508,
+  "negative_symptoms_per_profile_mean": 7.3759975445058314
+}

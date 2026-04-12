@@ -1,0 +1,277 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1449,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1366_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 1366,
+                "symptom": "poor_memory",
+                "triple": "我/用户本人 难以进行 记忆相关活动",
+                "evidence": [
+                    "\"have they been working with you?\" But on the plus side, he's not remembering so he's not getting agitated or irritated for being at the hospital, so he's being at least decent with the nurses. My aunt is also feeling discouraged bc my uncle has dementia so they don't know +"
+                ],
+                "time_norm": {
+                    "event_day": 1366,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1379_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1379,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 高度压力",
+                "evidence": [
+                    "I AM SO STRESSED"
+                ],
+                "time_norm": {
+                    "event_day": 1379,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1381_obsession",
+                "node_type": "Symptom",
+                "timestamp_day": 1381,
+                "symptom": "obsession",
+                "triple": "我 出现 对特定食物的强烈痴迷",
+                "evidence": [
+                    "i always get weird obsessions w certain types of food like I’ll want to only eat a certain food for months on end and now I’m obsessed w white chicken burritos 😍🤤"
+                ],
+                "time_norm": {
+                    "event_day": 1381,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1432_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1432,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 烦躁",
+                "evidence": [
+                    "i’m really very irritable this week i hate being female"
+                ],
+                "time_norm": {
+                    "event_day": 1432,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1449_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 1449,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 编辑视频",
+                "evidence": [
+                    "i’m trying to edit this video but i keep getting sooo freaking distracted"
+                ],
+                "time_norm": {
+                    "event_day": 1449,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1366_poor_memory",
+                "target": "SYM_1379_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1379_Anxious_Mood",
+                "target": "SYM_1381_obsession",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1381_obsession",
+                "target": "SYM_1432_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1432_Anger_Irritability",
+                "target": "SYM_1449_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1366": [
+                    "SYM_1366_poor_memory"
+                ],
+                "1379": [
+                    "SYM_1379_Anxious_Mood"
+                ],
+                "1381": [
+                    "SYM_1381_obsession"
+                ],
+                "1432": [
+                    "SYM_1432_Anger_Irritability"
+                ],
+                "1449": [
+                    "SYM_1449_Inattention"
+                ]
+            },
+            "by_symptom": {
+                "poor_memory": [
+                    "SYM_1366_poor_memory"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1379_Anxious_Mood"
+                ],
+                "obsession": [
+                    "SYM_1381_obsession"
+                ],
+                "Anger_Irritability": [
+                    "SYM_1432_Anger_Irritability"
+                ],
+                "Inattention": [
+                    "SYM_1449_Inattention"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1449_Inattention"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1432_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1381_obsession"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1379_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1366_poor_memory"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 编辑视频。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 烦躁。代表时间点：2周前（17天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 对特定食物的强烈痴迷。代表时间点：2个月前（68天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 高度压力。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我/用户本人 难以进行 记忆相关活动。代表时间点：2个月前（83天前）。"
+        }
+    ]
+}

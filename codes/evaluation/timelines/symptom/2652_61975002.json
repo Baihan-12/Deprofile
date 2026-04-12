@@ -1,0 +1,210 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1821,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1775_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1775,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "I will cry"
+                ],
+                "time_norm": {
+                    "event_day": 1775,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1804_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1804,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 情绪低落",
+                "evidence": [
+                    "Sad."
+                ],
+                "time_norm": {
+                    "event_day": 1804,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1817_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 1817,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 出现 体重增加",
+                "evidence": [
+                    "Struggling with how much weight I’ve gained in the past few years.. but at least I’m eating, right? 😅"
+                ],
+                "time_norm": {
+                    "event_day": 1817,
+                    "days_ago": 4,
+                    "relative_cn": "4天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1821_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 1821,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 精力明显下降",
+                "evidence": [
+                    "~70 hours at work this week. I’m exhausted"
+                ],
+                "time_norm": {
+                    "event_day": 1821,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1775_Depressed_Mood",
+                "target": "SYM_1804_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1804_Depressed_Mood",
+                "target": "SYM_1817_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1817_weight_and_appetite_change",
+                "target": "SYM_1821_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1775_Depressed_Mood",
+                "target": "SYM_1804_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1775": [
+                    "SYM_1775_Depressed_Mood"
+                ],
+                "1804": [
+                    "SYM_1804_Depressed_Mood"
+                ],
+                "1817": [
+                    "SYM_1817_weight_and_appetite_change"
+                ],
+                "1821": [
+                    "SYM_1821_Decreased_energy_tiredness_fatigue"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_1775_Depressed_Mood",
+                    "SYM_1804_Depressed_Mood"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_1817_weight_and_appetite_change"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_1821_Decreased_energy_tiredness_fatigue"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1817_weight_and_appetite_change",
+                "SYM_1821_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1804_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1775_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 精力明显下降；我 出现 体重增加。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 情绪低落。代表时间点：2周前（17天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 哭泣。代表时间点：1个月前（46天前）。"
+        }
+    ]
+}

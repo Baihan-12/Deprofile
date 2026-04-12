@@ -1,0 +1,523 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 336,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_251_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 251,
+                "time_norm": {
+                    "event_day": 251,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受到 与已故音乐人之间深刻连接",
+                "event_summary_cn": "用户对已故音乐人有深刻情感连接"
+            },
+            {
+                "id": "EV_260_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 260,
+                "time_norm": {
+                    "event_day": 260,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 应该学习 不应该睡觉",
+                "event_summary_cn": "用户发现备考应学习而非睡觉"
+            },
+            {
+                "id": "EV_260_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 260,
+                "time_norm": {
+                    "event_day": 260,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 爱 某人",
+                "event_summary_cn": "用户表达对某人的强烈爱意"
+            },
+            {
+                "id": "EV_271_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 271,
+                "time_norm": {
+                    "event_day": 271,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结婚了",
+                "event_summary_cn": "用户宣布自己已结婚"
+            },
+            {
+                "id": "EV_281_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 281,
+                "time_norm": {
+                    "event_day": 281,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被逮捕 药物和谋杀指控",
+                "event_summary_cn": "用户被逮捕涉及药物和谋杀指控"
+            },
+            {
+                "id": "EV_311_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 311,
+                "time_norm": {
+                    "event_day": 311,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 发现 Kris Grikaite 和 Nathan Westling 不再在一起",
+                "event_summary_cn": "用户发现两人分手"
+            },
+            {
+                "id": "EV_315_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 315,
+                "time_norm": {
+                    "event_day": 315,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 计划 移居金星",
+                "event_summary_cn": "用户计划移居金星"
+            },
+            {
+                "id": "EV_316_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 316,
+                "time_norm": {
+                    "event_day": 316,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 爱 某人",
+                "event_summary_cn": "用户表达对某人的爱"
+            },
+            {
+                "id": "EV_322_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 322,
+                "time_norm": {
+                    "event_day": 322,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 几乎死亡 因为它",
+                "event_summary_cn": "用户曾因某事几乎死亡"
+            },
+            {
+                "id": "EV_328_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 328,
+                "time_norm": {
+                    "event_day": 328,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 死亡 他",
+                "event_summary_cn": "用户表示他已去世"
+            },
+            {
+                "id": "EV_328_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 328,
+                "time_norm": {
+                    "event_day": 328,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 报告 Anna 的臀部 统计强奸",
+                "event_summary_cn": "用户举报他人涉嫌性犯罪"
+            },
+            {
+                "id": "EV_333_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 333,
+                "time_norm": {
+                    "event_day": 333,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 回到大学 穿oversize衣服",
+                "event_summary_cn": "用户回到大学穿oversize衣服"
+            },
+            {
+                "id": "EV_336_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 336,
+                "time_norm": {
+                    "event_day": 336,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 取消使用 社交媒体",
+                "event_summary_cn": "用户暂停使用社交媒体"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_251_0",
+                "target": "EV_260_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_260_1",
+                "target": "EV_260_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_260_2",
+                "target": "EV_271_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_271_3",
+                "target": "EV_281_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_281_4",
+                "target": "EV_311_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_311_5",
+                "target": "EV_315_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_315_6",
+                "target": "EV_316_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_316_7",
+                "target": "EV_322_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_322_8",
+                "target": "EV_328_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_328_9",
+                "target": "EV_328_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_328_10",
+                "target": "EV_333_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_333_11",
+                "target": "EV_336_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "251": [
+                    "EV_251_0"
+                ],
+                "260": [
+                    "EV_260_1",
+                    "EV_260_2"
+                ],
+                "271": [
+                    "EV_271_3"
+                ],
+                "281": [
+                    "EV_281_4"
+                ],
+                "311": [
+                    "EV_311_5"
+                ],
+                "315": [
+                    "EV_315_6"
+                ],
+                "316": [
+                    "EV_316_7"
+                ],
+                "322": [
+                    "EV_322_8"
+                ],
+                "328": [
+                    "EV_328_9",
+                    "EV_328_10"
+                ],
+                "333": [
+                    "EV_333_11"
+                ],
+                "336": [
+                    "EV_336_12"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_333_11",
+                "EV_336_12"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_328_9",
+                "EV_328_10"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_316_7",
+                "EV_322_8"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_311_5",
+                "EV_315_6"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_281_4"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_271_3"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_260_1",
+                "EV_260_2"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_251_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 取消使用 社交媒体；我 回到大学 穿oversize衣服。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 死亡 他；我 报告 Anna 的臀部 统计强奸。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 几乎死亡 因为它；我 爱 某人。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 计划 移居金星；我 发现 Kris Grikaite 和 Nathan Westling 不再在一起。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 被逮捕 药物和谋杀指控。代表时间点：1个月前（55天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 结婚了。代表时间点：2个月前（65天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 应该学习 不应该睡觉；我 爱 某人。代表时间点：2个月前（76天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 感受到 与已故音乐人之间深刻连接。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

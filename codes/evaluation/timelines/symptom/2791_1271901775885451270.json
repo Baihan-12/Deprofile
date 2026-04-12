@@ -1,0 +1,401 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 185,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_100_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 100,
+                "symptom": "Anger_Irritability",
+                "triple": "我 缺乏 情绪表达",
+                "evidence": [
+                    "I miss the arguing"
+                ],
+                "time_norm": {
+                    "event_day": 100,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_118_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 118,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现  panic attack",
+                "evidence": [
+                    "I was having a panic attack and my brother and sister started singing 'I Want It That Way' to help 🥺"
+                ],
+                "time_norm": {
+                    "event_day": 118,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_118_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 118,
+                "symptom": "panic_fear",
+                "triple": "我 出现  panic attack",
+                "evidence": [
+                    "I was having a panic attack and my brother and sister started singing 'I Want It That Way' to help 🥺"
+                ],
+                "time_norm": {
+                    "event_day": 118,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_134_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 134,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 自杀念头",
+                "evidence": [
+                    "Saskia I'm dying 😭💀"
+                ],
+                "time_norm": {
+                    "event_day": 134,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_136_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 136,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 眩晕",
+                "evidence": [
+                    "Dizzy"
+                ],
+                "time_norm": {
+                    "event_day": 136,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_168_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 168,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 随机悲伤情绪",
+                "evidence": [
+                    "Sometimes I get random waves of sadness and wish I've never spoken to certain people 💀"
+                ],
+                "time_norm": {
+                    "event_day": 168,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_173_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 173,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑",
+                "evidence": [
+                    "Bitch i got anxiety"
+                ],
+                "time_norm": {
+                    "event_day": 173,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_185_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 185,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 自卑感",
+                "evidence": [
+                    "I'm sorry that I'm ugly"
+                ],
+                "time_norm": {
+                    "event_day": 185,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_100_Anger_Irritability",
+                "target": "SYM_118_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_118_Anxious_Mood",
+                "target": "SYM_118_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_118_panic_fear",
+                "target": "SYM_134_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_134_Suicidal_ideas",
+                "target": "SYM_136_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_136_Autonomic_symptoms",
+                "target": "SYM_168_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_168_Depressed_Mood",
+                "target": "SYM_173_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_173_Anxious_Mood",
+                "target": "SYM_185_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_118_Anxious_Mood",
+                "target": "SYM_173_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_168_Depressed_Mood",
+                "target": "SYM_185_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "100": [
+                    "SYM_100_Anger_Irritability"
+                ],
+                "118": [
+                    "SYM_118_Anxious_Mood",
+                    "SYM_118_panic_fear"
+                ],
+                "134": [
+                    "SYM_134_Suicidal_ideas"
+                ],
+                "136": [
+                    "SYM_136_Autonomic_symptoms"
+                ],
+                "168": [
+                    "SYM_168_Depressed_Mood"
+                ],
+                "173": [
+                    "SYM_173_Anxious_Mood"
+                ],
+                "185": [
+                    "SYM_185_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anger_Irritability": [
+                    "SYM_100_Anger_Irritability"
+                ],
+                "Anxious_Mood": [
+                    "SYM_118_Anxious_Mood",
+                    "SYM_173_Anxious_Mood"
+                ],
+                "panic_fear": [
+                    "SYM_118_panic_fear"
+                ],
+                "Suicidal_ideas": [
+                    "SYM_134_Suicidal_ideas"
+                ],
+                "Autonomic_symptoms": [
+                    "SYM_136_Autonomic_symptoms"
+                ],
+                "Depressed_Mood": [
+                    "SYM_168_Depressed_Mood",
+                    "SYM_185_Depressed_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_185_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_173_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_168_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_134_Suicidal_ideas",
+                "SYM_136_Autonomic_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_118_Anxious_Mood",
+                "SYM_118_panic_fear"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_100_Anger_Irritability"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 自卑感。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 焦虑。代表时间点：1周前（12天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 随机悲伤情绪。代表时间点：2周前（17天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 眩晕；我 出现 自杀念头。代表时间点：1个月前（49天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现  panic attack。代表时间点：2个月前（67天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 缺乏 情绪表达。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

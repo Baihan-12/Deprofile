@@ -1,0 +1,359 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 37,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_0_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 0,
+                "time_norm": {
+                    "event_day": 0,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被封禁 由于dox了pro h1z1玩家",
+                "event_summary_cn": "用户因dox玩家被封禁"
+            },
+            {
+                "id": "EV_1_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1,
+                "time_norm": {
+                    "event_day": 1,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 失去 一百万美元",
+                "event_summary_cn": "用户失去一百万美元"
+            },
+            {
+                "id": "EV_8_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 8,
+                "time_norm": {
+                    "event_day": 8,
+                    "days_ago": 29,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 年龄歧视",
+                "event_summary_cn": "用户遭遇年龄歧视问题"
+            },
+            {
+                "id": "EV_11_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 11,
+                "time_norm": {
+                    "event_day": 11,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 打架 使用衣架",
+                "event_summary_cn": "用户曾用衣架殴打他人"
+            },
+            {
+                "id": "EV_12_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 12,
+                "time_norm": {
+                    "event_day": 12,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 给予 600,000 gold",
+                "event_summary_cn": "用户花费大量金币进行交易"
+            },
+            {
+                "id": "EV_15_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 15,
+                "time_norm": {
+                    "event_day": 15,
+                    "days_ago": 22,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 看到 某人从车窗喷射整弹匣",
+                "event_summary_cn": "用户目睹他人车窗喷射行为"
+            },
+            {
+                "id": "EV_17_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 17,
+                "time_norm": {
+                    "event_day": 17,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 讨论 教室里的性别议题",
+                "event_summary_cn": "用户谈论课堂中的性别问题"
+            },
+            {
+                "id": "EV_23_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 23,
+                "time_norm": {
+                    "event_day": 23,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 赚得 $120 bucks",
+                "event_summary_cn": "用户赚取120美元"
+            },
+            {
+                "id": "EV_30_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 30,
+                "time_norm": {
+                    "event_day": 30,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 听说 射击事件",
+                "event_summary_cn": "用户听说附近校园发生射击事件"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_0_0",
+                "target": "EV_1_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1_1",
+                "target": "EV_8_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_8_2",
+                "target": "EV_11_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_11_3",
+                "target": "EV_12_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_12_4",
+                "target": "EV_15_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_15_5",
+                "target": "EV_17_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_17_6",
+                "target": "EV_23_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_23_7",
+                "target": "EV_30_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "0": [
+                    "EV_0_0"
+                ],
+                "1": [
+                    "EV_1_1"
+                ],
+                "8": [
+                    "EV_8_2"
+                ],
+                "11": [
+                    "EV_11_3"
+                ],
+                "12": [
+                    "EV_12_4"
+                ],
+                "15": [
+                    "EV_15_5"
+                ],
+                "17": [
+                    "EV_17_6"
+                ],
+                "23": [
+                    "EV_23_7"
+                ],
+                "30": [
+                    "EV_30_8"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_30_8"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_17_6",
+                "EV_23_7"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_11_3",
+                "EV_12_4",
+                "EV_15_5"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_8_2"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_0_0",
+                "EV_1_1"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 听说 射击事件。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 赚得 $120 bucks；我 讨论 教室里的性别议题。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 看到 某人从车窗喷射整弹匣；我 给予 600,000 gold。代表时间点：3周前（22天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 经历 年龄歧视。代表时间点：4周前（29天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 失去 一百万美元；我 被封禁 由于dox了pro h1z1玩家。代表时间点：1个月前（36天前）。"
+        }
+    ]
+}

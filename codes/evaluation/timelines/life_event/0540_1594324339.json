@@ -1,0 +1,466 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 389,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_304_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 304,
+                "time_norm": {
+                    "event_day": 304,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 收到博士进展反馈",
+                "event_summary_cn": "用户收到博士进展反馈感到低落"
+            },
+            {
+                "id": "EV_312_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 312,
+                "time_norm": {
+                    "event_day": 312,
+                    "days_ago": 77,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 卷入 法律纠纷",
+                "event_summary_cn": "用户卷入法律纠纷感到压力"
+            },
+            {
+                "id": "EV_342_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 342,
+                "time_norm": {
+                    "event_day": 342,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 表达观点 不尊重国歌行为",
+                "event_summary_cn": "用户表达对不尊重国歌行为的看法"
+            },
+            {
+                "id": "EV_348_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 348,
+                "time_norm": {
+                    "event_day": 348,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 无法进入办公室",
+                "event_summary_cn": "用户因钥匙牌故障无法上班"
+            },
+            {
+                "id": "EV_361_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 361,
+                "time_norm": {
+                    "event_day": 361,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 房东 用学生贷款买房子",
+                "event_summary_cn": "房东用学生贷款买房"
+            },
+            {
+                "id": "EV_362_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 362,
+                "time_norm": {
+                    "event_day": 362,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 考虑 放弃 博士学位",
+                "event_summary_cn": "用户考虑放弃博士学位"
+            },
+            {
+                "id": "EV_374_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 374,
+                "time_norm": {
+                    "event_day": 374,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有vivas 如果成绩在两个等级之间",
+                "event_summary_cn": "用户本人可能需要参加vivas"
+            },
+            {
+                "id": "EV_380_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 380,
+                "time_norm": {
+                    "event_day": 380,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 正在进行博士研究 我的阅读能力被严重削弱",
+                "event_summary_cn": "用户因博士研究导致阅读能力下降"
+            },
+            {
+                "id": "EV_387_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 387,
+                "time_norm": {
+                    "event_day": 387,
+                    "days_ago": 2,
+                    "relative_cn": "2天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得 新工作",
+                "event_summary_cn": "用户获得新工作"
+            },
+            {
+                "id": "EV_389_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 389,
+                "time_norm": {
+                    "event_day": 389,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得新工作 新工作",
+                "event_summary_cn": "用户在疫情期间获得新工作"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_304_0",
+                "target": "EV_312_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_312_1",
+                "target": "EV_342_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_342_2",
+                "target": "EV_348_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_348_3",
+                "target": "EV_361_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_361_4",
+                "target": "EV_362_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_362_5",
+                "target": "EV_374_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_374_6",
+                "target": "EV_380_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_380_7",
+                "target": "EV_387_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_387_8",
+                "target": "EV_389_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "304": [
+                    "EV_304_0"
+                ],
+                "312": [
+                    "EV_312_1"
+                ],
+                "342": [
+                    "EV_342_2"
+                ],
+                "348": [
+                    "EV_348_3"
+                ],
+                "361": [
+                    "EV_361_4"
+                ],
+                "362": [
+                    "EV_362_5"
+                ],
+                "374": [
+                    "EV_374_6"
+                ],
+                "380": [
+                    "EV_380_7"
+                ],
+                "387": [
+                    "EV_387_8"
+                ],
+                "389": [
+                    "EV_389_9"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_387_8",
+                "EV_389_9"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_380_7"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_374_6"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_362_5"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_361_4"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_348_3"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_342_2"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_312_1"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_304_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 获得新工作 新工作；我 获得 新工作。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 正在进行博士研究 我的阅读能力被严重削弱。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 有vivas 如果成绩在两个等级之间。代表时间点：2周前（15天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 考虑 放弃 博士学位。代表时间点：3周前（27天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 房东 用学生贷款买房子。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 无法进入办公室。代表时间点：1个月前（41天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 表达观点 不尊重国歌行为。代表时间点：1个月前（47天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 卷入 法律纠纷。代表时间点：2个月前（77天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 收到博士进展反馈。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

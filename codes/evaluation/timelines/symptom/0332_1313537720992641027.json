@@ -1,0 +1,441 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 80,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_21_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 21,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 恐惧感",
+                "evidence": [
+                    "Good god nice got me chills."
+                ],
+                "time_norm": {
+                    "event_day": 21,
+                    "days_ago": 59,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_35_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 35,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 愤怒与失望",
+                "evidence": [
+                    "Rage?dissapointment in humanity?i'hv already did."
+                ],
+                "time_norm": {
+                    "event_day": 35,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_38_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 38,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "Mornin I woke up too,sleep schedule fucked😂😂😭"
+                ],
+                "time_norm": {
+                    "event_day": 38,
+                    "days_ago": 42,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_53_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 53,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 整体发冷",
+                "evidence": [
+                    "And give goosebumps ofc"
+                ],
+                "time_norm": {
+                    "event_day": 53,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_53_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 53,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 整体发冷战栗",
+                "evidence": [
+                    "And give goosebumps ofc"
+                ],
+                "time_norm": {
+                    "event_day": 53,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_53_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 53,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 出现 精力明显下降",
+                "evidence": [
+                    "Sleep is for the weak, this is my state rn"
+                ],
+                "time_norm": {
+                    "event_day": 53,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_58_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 58,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 更严重的抑郁",
+                "evidence": [
+                    "This was soo me with future diary, and i got more than depression."
+                ],
+                "time_norm": {
+                    "event_day": 58,
+                    "days_ago": 22,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_58_pessimism",
+                "node_type": "Symptom",
+                "timestamp_day": 58,
+                "symptom": "pessimism",
+                "triple": "我 感到 更严重的抑郁",
+                "evidence": [
+                    "This was soo me with future diary, and i got more than depression."
+                ],
+                "time_norm": {
+                    "event_day": 58,
+                    "days_ago": 22,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_68_pessimism",
+                "node_type": "Symptom",
+                "timestamp_day": 68,
+                "symptom": "pessimism",
+                "triple": "我 出现 无法实现的希望",
+                "evidence": [
+                    "Those are just my hopes..."
+                ],
+                "time_norm": {
+                    "event_day": 68,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_78_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 78,
+                "symptom": "poor_memory",
+                "triple": "我 出现 无法回忆起后续剧情的模糊记忆",
+                "evidence": [
+                    "Actually thank you my memory is hazy since I didn't watch op after ep 400"
+                ],
+                "time_norm": {
+                    "event_day": 78,
+                    "days_ago": 2,
+                    "relative_cn": "2天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_21_somatic_symptoms_sensory",
+                "target": "SYM_35_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_35_Anger_Irritability",
+                "target": "SYM_38_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_38_sleep_disturbance",
+                "target": "SYM_53_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_53_Autonomic_symptoms",
+                "target": "SYM_53_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_53_somatic_symptoms_sensory",
+                "target": "SYM_53_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_53_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_58_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_58_Depressed_Mood",
+                "target": "SYM_58_pessimism",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_58_pessimism",
+                "target": "SYM_68_pessimism",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_68_pessimism",
+                "target": "SYM_78_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_21_somatic_symptoms_sensory",
+                "target": "SYM_53_somatic_symptoms_sensory",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_58_pessimism",
+                "target": "SYM_68_pessimism",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "21": [
+                    "SYM_21_somatic_symptoms_sensory"
+                ],
+                "35": [
+                    "SYM_35_Anger_Irritability"
+                ],
+                "38": [
+                    "SYM_38_sleep_disturbance"
+                ],
+                "53": [
+                    "SYM_53_Autonomic_symptoms",
+                    "SYM_53_somatic_symptoms_sensory",
+                    "SYM_53_Decreased_energy_tiredness_fatigue"
+                ],
+                "58": [
+                    "SYM_58_Depressed_Mood",
+                    "SYM_58_pessimism"
+                ],
+                "68": [
+                    "SYM_68_pessimism"
+                ],
+                "78": [
+                    "SYM_78_poor_memory"
+                ]
+            },
+            "by_symptom": {
+                "somatic_symptoms_sensory": [
+                    "SYM_21_somatic_symptoms_sensory",
+                    "SYM_53_somatic_symptoms_sensory"
+                ],
+                "Anger_Irritability": [
+                    "SYM_35_Anger_Irritability"
+                ],
+                "sleep_disturbance": [
+                    "SYM_38_sleep_disturbance"
+                ],
+                "Autonomic_symptoms": [
+                    "SYM_53_Autonomic_symptoms"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_53_Decreased_energy_tiredness_fatigue"
+                ],
+                "Depressed_Mood": [
+                    "SYM_58_Depressed_Mood"
+                ],
+                "pessimism": [
+                    "SYM_58_pessimism",
+                    "SYM_68_pessimism"
+                ],
+                "poor_memory": [
+                    "SYM_78_poor_memory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_78_poor_memory"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_68_pessimism"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_53_Autonomic_symptoms",
+                "SYM_53_somatic_symptoms_sensory",
+                "SYM_53_Decreased_energy_tiredness_fatigue",
+                "SYM_58_Depressed_Mood",
+                "SYM_58_pessimism"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_35_Anger_Irritability",
+                "SYM_38_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_21_somatic_symptoms_sensory"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 无法回忆起后续剧情的模糊记忆。代表时间点：2天前（2天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 无法实现的希望。代表时间点：1周前（12天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 感到 更严重的抑郁；我 出现 整体发冷。代表时间点：3周前（22天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 睡眠；我 出现 愤怒与失望。代表时间点：1个月前（42天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 恐惧感。代表时间点：1个月前（59天前）。"
+        }
+    ]
+}

@@ -1,0 +1,458 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1095,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1019_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1019,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 新的理由去哭泣",
+                "evidence": [
+                    "everyday i find new reasons to cry"
+                ],
+                "time_norm": {
+                    "event_day": 1019,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1027_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1027,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 社交",
+                "evidence": [
+                    "are you fucking kidding me? i have never once said we don’t need emergency services. but since you asked, the police have never helped me after being robbed or raped. and don’t you dare fucking start talking about my suicidal depression because you have no fucking clue, dude."
+                ],
+                "time_norm": {
+                    "event_day": 1027,
+                    "days_ago": 68,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1031_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1031,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 夜间噩梦",
+                "evidence": [
+                    "apparently i only have nightmares when i sleep alone now 🥺"
+                ],
+                "time_norm": {
+                    "event_day": 1031,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1031_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 1031,
+                "symptom": "sleep_disturbance",
+                "triple": "我 出现 夜间噩梦",
+                "evidence": [
+                    "apparently i only have nightmares when i sleep alone now 🥺"
+                ],
+                "time_norm": {
+                    "event_day": 1031,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1032_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1032,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 落泪和乞求死亡的行为",
+                "evidence": [
+                    "it’s honestly crazy that earlier this year i was taking handfuls of pills and falling down crying in empty parking lots in the middle of the night begging to die and now i am happier than i have ever been, full of love, and excited about the future. i am alive and i am happy. 🤍"
+                ],
+                "time_norm": {
+                    "event_day": 1032,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1040_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1040,
+                "symptom": "Anxious_Mood",
+                "triple": "我 遭受 夜惊障碍",
+                "evidence": [
+                    "remember when i was diagnosed with depression, anxiety, cptsd, and a nightmare disorder and my therapist was just like “you should try lavender essential oils”"
+                ],
+                "time_norm": {
+                    "event_day": 1040,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1040_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1040,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 夜惊症",
+                "evidence": [
+                    "remember when i was diagnosed with depression, anxiety, cptsd, and a nightmare disorder and my therapist was just like “you should try lavender essential oils”"
+                ],
+                "time_norm": {
+                    "event_day": 1040,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1063_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 1063,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 情绪极度耗竭",
+                "evidence": [
+                    "feeling really really emotionally drained. pls send good vibes or money."
+                ],
+                "time_norm": {
+                    "event_day": 1063,
+                    "days_ago": 32,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1067_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1067,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 悲伤情绪",
+                "evidence": [
+                    "i am so sad"
+                ],
+                "time_norm": {
+                    "event_day": 1067,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1095_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1095,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "also i have depression!"
+                ],
+                "time_norm": {
+                    "event_day": 1095,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1019_Depressed_Mood",
+                "target": "SYM_1027_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1027_Depressed_Mood",
+                "target": "SYM_1031_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1031_intrusion_symptoms",
+                "target": "SYM_1031_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1031_sleep_disturbance",
+                "target": "SYM_1032_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1032_Depressed_Mood",
+                "target": "SYM_1040_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1040_Anxious_Mood",
+                "target": "SYM_1040_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1040_Depressed_Mood",
+                "target": "SYM_1063_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1063_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_1067_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1067_Depressed_Mood",
+                "target": "SYM_1095_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1019_Depressed_Mood",
+                "target": "SYM_1027_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1027_Depressed_Mood",
+                "target": "SYM_1032_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1032_Depressed_Mood",
+                "target": "SYM_1040_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1040_Depressed_Mood",
+                "target": "SYM_1067_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1067_Depressed_Mood",
+                "target": "SYM_1095_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1019": [
+                    "SYM_1019_Depressed_Mood"
+                ],
+                "1027": [
+                    "SYM_1027_Depressed_Mood"
+                ],
+                "1031": [
+                    "SYM_1031_intrusion_symptoms",
+                    "SYM_1031_sleep_disturbance"
+                ],
+                "1032": [
+                    "SYM_1032_Depressed_Mood"
+                ],
+                "1040": [
+                    "SYM_1040_Anxious_Mood",
+                    "SYM_1040_Depressed_Mood"
+                ],
+                "1063": [
+                    "SYM_1063_Decreased_energy_tiredness_fatigue"
+                ],
+                "1067": [
+                    "SYM_1067_Depressed_Mood"
+                ],
+                "1095": [
+                    "SYM_1095_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_1019_Depressed_Mood",
+                    "SYM_1027_Depressed_Mood",
+                    "SYM_1032_Depressed_Mood",
+                    "SYM_1040_Depressed_Mood",
+                    "SYM_1067_Depressed_Mood",
+                    "SYM_1095_Depressed_Mood"
+                ],
+                "intrusion_symptoms": [
+                    "SYM_1031_intrusion_symptoms"
+                ],
+                "sleep_disturbance": [
+                    "SYM_1031_sleep_disturbance"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1040_Anxious_Mood"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_1063_Decreased_energy_tiredness_fatigue"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1095_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_1063_Decreased_energy_tiredness_fatigue",
+                "SYM_1067_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1040_Anxious_Mood",
+                "SYM_1040_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1027_Depressed_Mood",
+                "SYM_1031_intrusion_symptoms",
+                "SYM_1031_sleep_disturbance",
+                "SYM_1032_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1019_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 抑郁情绪。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 悲伤情绪；我 感到 情绪极度耗竭。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 遭受 夜惊障碍；我 出现 夜惊症。代表时间点：1个月前（55天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 落泪和乞求死亡的行为；我 出现 夜间噩梦。代表时间点：2个月前（63天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 新的理由去哭泣。代表时间点：2个月前（76天前）。"
+        }
+    ]
+}

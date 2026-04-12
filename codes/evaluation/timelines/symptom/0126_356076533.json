@@ -1,0 +1,693 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 844,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_758_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 758,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 抑郁与羞耻的情绪压抑",
+                "evidence": [
+                    "#ifirstknewIwasLGBTQ when I was 13, but I suppressed how I felt &quot;hormones&quot;/&quot;typical teen confusion&quot; burying the shame &amp; fear in alcohol &amp; food. Wasnt until a few years later that, with the help of a few pals, I embraced my truth."
+                ],
+                "time_norm": {
+                    "event_day": 758,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_763_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 763,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 抑郁",
+                "evidence": [
+                    "I'm so painfully aware of how lucky I am to be expecting a (so far) healthy, happy baby boy &amp; I'm beyond thankful for him, but that doesn't immediately prevent me from feeling down, lonely, depressed or scared 🥺💔"
+                ],
+                "time_norm": {
+                    "event_day": 763,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_768_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 768,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 非常焦虑和害怕",
+                "evidence": [
+                    "Going to the maternity ward triage because of a drastic change in baby's movements is not fun 🥺💔 never felt more anxious or scared in my life but thankfully all is well &amp; my little man is still thriving, just getting himself into all kinds of trouble already!"
+                ],
+                "time_norm": {
+                    "event_day": 768,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_775_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 775,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 隔离、抑郁、心碎与怀孕带来的影响",
+                "evidence": [
+                    "Lol I haven't stopped 😂😭💔 All thanks to isolation, depression, heartbreak &amp; pregnancy..."
+                ],
+                "time_norm": {
+                    "event_day": 775,
+                    "days_ago": 69,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_777_do_things_easily_get_painful_consequences",
+                "node_type": "Symptom",
+                "timestamp_day": 777,
+                "symptom": "do_things_easily_get_painful_consequences",
+                "triple": "我 难以进行 饮酒",
+                "evidence": [
+                    "THIS! I mean, I had to stop drinking because obviously, little one 🤰 but tbh I dont miss it, especially as I started to develop a very unhealthy relationship with alcohol that resulted in me burying my feelings in a bottle, &amp; the 'mixed' drinks becoming less mixed..."
+                ],
+                "time_norm": {
+                    "event_day": 777,
+                    "days_ago": 67,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_787_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 787,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 想要倾诉却无法开口",
+                "evidence": [
+                    "stuck between really struggling and wanting to talk to someone about it and realising I havent talked to my friends in ages and I want to be alone so I don't have to voice my fears out loud 🙃👏"
+                ],
+                "time_norm": {
+                    "event_day": 787,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_807_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 807,
+                "symptom": "Anxious_Mood",
+                "triple": "我 受影响 无法摆脱焦虑情绪",
+                "evidence": [
+                    "I mean I have anxiety &amp; I absolutely hate them because even though I know in that moment that its literally just a video or a tweet, my brain kinda tricks me into believing I have to &amp; if I dont I'm on edge that whole day because I'm worried something will go wrong."
+                ],
+                "time_norm": {
+                    "event_day": 807,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_810_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 810,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 面临巨大恐惧",
+                "evidence": [
+                    "This week has not been my week 🥺 4 weeks left of the pregnancy &amp; suddenly dealing with a ton of unexpected complications, and it's so terrifying."
+                ],
+                "time_norm": {
+                    "event_day": 810,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_811_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 811,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 恐惧",
+                "evidence": [
+                    "I'm absolutely terrified by the prospect of a #SecondLockdown, especially as I'm due to give birth in less than a month &amp; with the way things are going, I'll probably have to do it alone 😰💔 #butnotmaternity"
+                ],
+                "time_norm": {
+                    "event_day": 811,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_834_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 834,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑",
+                "evidence": [
+                    "anxiety has entered the chat 🥴"
+                ],
+                "time_norm": {
+                    "event_day": 834,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_837_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 837,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 无法控制的恐慌发作",
+                "evidence": [
+                    "I'll never forget having a panic attack during the end of my lunch break, so one of my friends went into the lesson ahead to explain that I'd be late. 5 minutes later my teacher burst in screaming at me &amp; calling me 'pathetic' for missing 5 minutes of his lesson."
+                ],
+                "time_norm": {
+                    "event_day": 837,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_837_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 837,
+                "symptom": "panic_fear",
+                "triple": "我 出现 无法控制的恐慌发作",
+                "evidence": [
+                    "I'll never forget having a panic attack during the end of my lunch break, so one of my friends went into the lesson ahead to explain that I'd be late. 5 minutes later my teacher burst in screaming at me &amp; calling me 'pathetic' for missing 5 minutes of his lesson."
+                ],
+                "time_norm": {
+                    "event_day": 837,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_843_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 843,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "I feel like everyone is having a positive pregnancy and birth experience and I'm just here being ✨traumatised✨ and ending up wanting to never have any more kids after this 💔 Also I'm incredibly anxious about my baby and can't seem to shake it."
+                ],
+                "time_norm": {
+                    "event_day": 843,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_844_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 844,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 焦虑和崩溃",
+                "evidence": [
+                    "today's mood 🙃💔 im frustrated and broken, get me home because clearly this baby isnt gonna come ever"
+                ],
+                "time_norm": {
+                    "event_day": 844,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_758_Anxious_Mood",
+                "target": "SYM_763_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_763_Depressed_Mood",
+                "target": "SYM_768_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_768_Anxious_Mood",
+                "target": "SYM_775_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_775_Depressed_Mood",
+                "target": "SYM_777_do_things_easily_get_painful_consequences",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_777_do_things_easily_get_painful_consequences",
+                "target": "SYM_787_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_787_Anxious_Mood",
+                "target": "SYM_807_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_807_Anxious_Mood",
+                "target": "SYM_810_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_810_Anxious_Mood",
+                "target": "SYM_811_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_811_Anxious_Mood",
+                "target": "SYM_834_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_834_Anxious_Mood",
+                "target": "SYM_837_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_837_Anxious_Mood",
+                "target": "SYM_837_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_837_panic_fear",
+                "target": "SYM_843_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_843_Anxious_Mood",
+                "target": "SYM_844_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_758_Anxious_Mood",
+                "target": "SYM_768_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_768_Anxious_Mood",
+                "target": "SYM_787_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_787_Anxious_Mood",
+                "target": "SYM_807_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_807_Anxious_Mood",
+                "target": "SYM_810_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_810_Anxious_Mood",
+                "target": "SYM_811_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_811_Anxious_Mood",
+                "target": "SYM_834_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_834_Anxious_Mood",
+                "target": "SYM_837_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_837_Anxious_Mood",
+                "target": "SYM_843_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_763_Depressed_Mood",
+                "target": "SYM_775_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_775_Depressed_Mood",
+                "target": "SYM_844_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "758": [
+                    "SYM_758_Anxious_Mood"
+                ],
+                "763": [
+                    "SYM_763_Depressed_Mood"
+                ],
+                "768": [
+                    "SYM_768_Anxious_Mood"
+                ],
+                "775": [
+                    "SYM_775_Depressed_Mood"
+                ],
+                "777": [
+                    "SYM_777_do_things_easily_get_painful_consequences"
+                ],
+                "787": [
+                    "SYM_787_Anxious_Mood"
+                ],
+                "807": [
+                    "SYM_807_Anxious_Mood"
+                ],
+                "810": [
+                    "SYM_810_Anxious_Mood"
+                ],
+                "811": [
+                    "SYM_811_Anxious_Mood"
+                ],
+                "834": [
+                    "SYM_834_Anxious_Mood"
+                ],
+                "837": [
+                    "SYM_837_Anxious_Mood",
+                    "SYM_837_panic_fear"
+                ],
+                "843": [
+                    "SYM_843_Anxious_Mood"
+                ],
+                "844": [
+                    "SYM_844_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_758_Anxious_Mood",
+                    "SYM_768_Anxious_Mood",
+                    "SYM_787_Anxious_Mood",
+                    "SYM_807_Anxious_Mood",
+                    "SYM_810_Anxious_Mood",
+                    "SYM_811_Anxious_Mood",
+                    "SYM_834_Anxious_Mood",
+                    "SYM_837_Anxious_Mood",
+                    "SYM_843_Anxious_Mood"
+                ],
+                "Depressed_Mood": [
+                    "SYM_763_Depressed_Mood",
+                    "SYM_775_Depressed_Mood",
+                    "SYM_844_Depressed_Mood"
+                ],
+                "do_things_easily_get_painful_consequences": [
+                    "SYM_777_do_things_easily_get_painful_consequences"
+                ],
+                "panic_fear": [
+                    "SYM_837_panic_fear"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_843_Anxious_Mood",
+                "SYM_844_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_834_Anxious_Mood",
+                "SYM_837_Anxious_Mood",
+                "SYM_837_panic_fear"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_810_Anxious_Mood",
+                "SYM_811_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_807_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_787_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_775_Depressed_Mood",
+                "SYM_777_do_things_easily_get_painful_consequences"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_768_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_763_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_758_Anxious_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 焦虑和崩溃；我 感到 焦虑。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 无法控制的恐慌发作；我 出现 焦虑。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 感到 恐惧；我 感到 面临巨大恐惧。代表时间点：1个月前（33天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 受影响 无法摆脱焦虑情绪。代表时间点：1个月前（37天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 难以进行 想要倾诉却无法开口。代表时间点：1个月前（57天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 饮酒；我 感到 隔离、抑郁、心碎与怀孕带来的影响。代表时间点：2个月前（67天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 非常焦虑和害怕。代表时间点：2个月前（76天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 抑郁。代表时间点：2个月前（81天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 难以进行 抑郁与羞耻的情绪压抑。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

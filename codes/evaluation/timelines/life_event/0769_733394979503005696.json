@@ -1,0 +1,357 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 721,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_651_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 651,
+                "time_norm": {
+                    "event_day": 651,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 背叛 你",
+                "event_summary_cn": "用户承认与他人出轨"
+            },
+            {
+                "id": "EV_655_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 655,
+                "time_norm": {
+                    "event_day": 655,
+                    "days_ago": 66,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 看着 我的银行账户",
+                "event_summary_cn": "用户查看自己的银行账户"
+            },
+            {
+                "id": "EV_670_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 670,
+                "time_norm": {
+                    "event_day": 670,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 滥用关系",
+                "event_summary_cn": "用户经历虐待关系"
+            },
+            {
+                "id": "EV_670_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 670,
+                "time_norm": {
+                    "event_day": 670,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受到 开始约会现在丈夫",
+                "event_summary_cn": "用户回忆与丈夫初识的温馨经历"
+            },
+            {
+                "id": "EV_672_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 672,
+                "time_norm": {
+                    "event_day": 672,
+                    "days_ago": 49,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 移居 到洛杉矶",
+                "event_summary_cn": "用户从宾州移居洛杉矶"
+            },
+            {
+                "id": "EV_691_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 691,
+                "time_norm": {
+                    "event_day": 691,
+                    "days_ago": 30,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 爱 上 她",
+                "event_summary_cn": "用户表达对某人的爱"
+            },
+            {
+                "id": "EV_708_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 708,
+                "time_norm": {
+                    "event_day": 708,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 移居 避免问题",
+                "event_summary_cn": "用户因问题选择移居"
+            },
+            {
+                "id": "EV_711_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 711,
+                "time_norm": {
+                    "event_day": 711,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 描述 自己",
+                "event_summary_cn": "用户描述自身身份认同"
+            },
+            {
+                "id": "EV_714_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 714,
+                "time_norm": {
+                    "event_day": 714,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 离婚 无答案",
+                "event_summary_cn": "用户表示离婚是唯一答案"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_651_0",
+                "target": "EV_655_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_655_1",
+                "target": "EV_670_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_670_2",
+                "target": "EV_670_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_670_3",
+                "target": "EV_672_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_672_4",
+                "target": "EV_691_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_691_5",
+                "target": "EV_708_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_708_6",
+                "target": "EV_711_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_711_7",
+                "target": "EV_714_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "651": [
+                    "EV_651_0"
+                ],
+                "655": [
+                    "EV_655_1"
+                ],
+                "670": [
+                    "EV_670_2",
+                    "EV_670_3"
+                ],
+                "672": [
+                    "EV_672_4"
+                ],
+                "691": [
+                    "EV_691_5"
+                ],
+                "708": [
+                    "EV_708_6"
+                ],
+                "711": [
+                    "EV_711_7"
+                ],
+                "714": [
+                    "EV_714_8"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_708_6",
+                "EV_711_7",
+                "EV_714_8"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_691_5"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_670_2",
+                "EV_670_3",
+                "EV_672_4"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_655_1"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_651_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 离婚 无答案；我 描述 自己。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 爱 上 她。代表时间点：1个月前（30天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 移居 到洛杉矶；我 经历 滥用关系。代表时间点：1个月前（49天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 看着 我的银行账户。代表时间点：2个月前（66天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 背叛 你。代表时间点：2个月前（70天前）。"
+        }
+    ]
+}

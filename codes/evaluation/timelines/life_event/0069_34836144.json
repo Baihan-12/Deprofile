@@ -1,0 +1,137 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 2001,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1969_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1969,
+                "time_norm": {
+                    "event_day": 1969,
+                    "days_ago": 32,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "用户本人 � interiorize 恭喜他人获得新职位",
+                "event_summary_cn": "用户祝贺他人获得新职位"
+            },
+            {
+                "id": "EV_1996_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1996,
+                "time_norm": {
+                    "event_day": 1996,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得 Johns Hopkins 证书",
+                "event_summary_cn": "用户获得约翰霍普金斯证书"
+            },
+            {
+                "id": "EV_2001_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 2001,
+                "time_norm": {
+                    "event_day": 2001,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 尝试改变 生活",
+                "event_summary_cn": "用户决心改变自身生活"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1969_0",
+                "target": "EV_1996_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1996_1",
+                "target": "EV_2001_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1969": [
+                    "EV_1969_0"
+                ],
+                "1996": [
+                    "EV_1996_1"
+                ],
+                "2001": [
+                    "EV_2001_2"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1996_1",
+                "EV_2001_2"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_1969_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 尝试改变 生活；我 获得 Johns Hopkins 证书。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：用户本人 � interiorize 恭喜他人获得新职位。代表时间点：1个月前（32天前）。"
+        }
+    ]
+}

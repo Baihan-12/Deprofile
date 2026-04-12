@@ -1,0 +1,281 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 354,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_290_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 290,
+                "time_norm": {
+                    "event_day": 290,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 通过课程 作业",
+                "event_summary_cn": "用户通过课程获得成功"
+            },
+            {
+                "id": "EV_290_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 290,
+                "time_norm": {
+                    "event_day": 290,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 通过课程 获得好工作",
+                "event_summary_cn": "用户通过课程获得好工作"
+            },
+            {
+                "id": "EV_291_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 291,
+                "time_norm": {
+                    "event_day": 291,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 缺少 我的男友",
+                "event_summary_cn": "用户表达对男友的思念"
+            },
+            {
+                "id": "EV_302_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 302,
+                "time_norm": {
+                    "event_day": 302,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 通过 统计学期中考试",
+                "event_summary_cn": "用户通过统计学期中考试"
+            },
+            {
+                "id": "EV_336_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 336,
+                "time_norm": {
+                    "event_day": 336,
+                    "days_ago": 18,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要 移居",
+                "event_summary_cn": "用户希望移居并购买房屋"
+            },
+            {
+                "id": "EV_336_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 336,
+                "time_norm": {
+                    "event_day": 336,
+                    "days_ago": 18,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 想要 租房",
+                "event_summary_cn": "用户希望直接购房而非租房"
+            },
+            {
+                "id": "EV_354_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 354,
+                "time_norm": {
+                    "event_day": 354,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 去坐牢 基于圣诞夜",
+                "event_summary_cn": "用户表示将在圣诞夜入狱"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_290_0",
+                "target": "EV_290_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_290_1",
+                "target": "EV_291_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_291_2",
+                "target": "EV_302_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_302_3",
+                "target": "EV_336_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_336_4",
+                "target": "EV_336_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_336_5",
+                "target": "EV_354_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "290": [
+                    "EV_290_0",
+                    "EV_290_1"
+                ],
+                "291": [
+                    "EV_291_2"
+                ],
+                "302": [
+                    "EV_302_3"
+                ],
+                "336": [
+                    "EV_336_4",
+                    "EV_336_5"
+                ],
+                "354": [
+                    "EV_354_6"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_354_6"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_336_4",
+                "EV_336_5"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_302_3"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_290_0",
+                "EV_290_1",
+                "EV_291_2"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 去坐牢 基于圣诞夜。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 想要 移居；我 想要 租房。代表时间点：2周前（18天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 通过 统计学期中考试。代表时间点：1个月前（52天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 缺少 我的男友；我 通过课程 作业。代表时间点：2个月前（63天前）。"
+        }
+    ]
+}

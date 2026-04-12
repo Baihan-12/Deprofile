@@ -1,0 +1,305 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 928,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_864_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 864,
+                "time_norm": {
+                    "event_day": 864,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 威胁 我的宝宝",
+                "event_summary_cn": "用户称有人威胁其宝宝"
+            },
+            {
+                "id": "EV_872_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 872,
+                "time_norm": {
+                    "event_day": 872,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 命名 孩子",
+                "event_summary_cn": "用户为孩子取名Flan"
+            },
+            {
+                "id": "EV_887_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 887,
+                "time_norm": {
+                    "event_day": 887,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 抱怨 疫情死亡人数与二战相当",
+                "event_summary_cn": "用户抱怨疫情死亡人数与二战相当"
+            },
+            {
+                "id": "EV_908_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 908,
+                "time_norm": {
+                    "event_day": 908,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 缺少 一天周末时间",
+                "event_summary_cn": "用户表示周末时间不足"
+            },
+            {
+                "id": "EV_922_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 922,
+                "time_norm": {
+                    "event_day": 922,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成 工作",
+                "event_summary_cn": "用户即将结束工作休假"
+            },
+            {
+                "id": "EV_924_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 924,
+                "time_norm": {
+                    "event_day": 924,
+                    "days_ago": 4,
+                    "relative_cn": "4天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 一个非常懒散的假期第一天",
+                "event_summary_cn": "用户度过一个懒散的假期第一天"
+            },
+            {
+                "id": "EV_928_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 928,
+                "time_norm": {
+                    "event_day": 928,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 切断与某人的联系",
+                "event_summary_cn": "用户因与亲人断绝关系而感到解脱"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_864_0",
+                "target": "EV_872_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_872_1",
+                "target": "EV_887_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_887_2",
+                "target": "EV_908_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_908_3",
+                "target": "EV_922_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_922_4",
+                "target": "EV_924_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_924_5",
+                "target": "EV_928_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "864": [
+                    "EV_864_0"
+                ],
+                "872": [
+                    "EV_872_1"
+                ],
+                "887": [
+                    "EV_887_2"
+                ],
+                "908": [
+                    "EV_908_3"
+                ],
+                "922": [
+                    "EV_922_4"
+                ],
+                "924": [
+                    "EV_924_5"
+                ],
+                "928": [
+                    "EV_928_6"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_922_4",
+                "EV_924_5",
+                "EV_928_6"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_908_3"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_887_2"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_872_1"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_864_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 切断与某人的联系；我 有 一个非常懒散的假期第一天。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 缺少 一天周末时间。代表时间点：2周前（20天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 抱怨 疫情死亡人数与二战相当。代表时间点：1个月前（41天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 命名 孩子。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 威胁 我的宝宝。代表时间点：2个月前（64天前）。"
+        }
+    ]
+}

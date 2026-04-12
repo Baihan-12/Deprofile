@@ -1,0 +1,347 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1070,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_990_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 990,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 出现 体重下降",
+                "evidence": [
+                    "Lost more weight without trying😬🙈"
+                ],
+                "time_norm": {
+                    "event_day": 990,
+                    "days_ago": 80,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1018_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1018,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 更焦虑",
+                "evidence": [
+                    "14th surgery today but more nervous of being away from Colby for most of the day😩😩"
+                ],
+                "time_norm": {
+                    "event_day": 1018,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1024_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1024,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑发作",
+                "evidence": [
+                    "Had a stupid panic attack all because a stupid surgeon didn’t explain things to me and physically hurt me🤬🤬"
+                ],
+                "time_norm": {
+                    "event_day": 1024,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1024_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1024,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 胰腺痛",
+                "evidence": [
+                    "Had a stupid panic attack all because a stupid surgeon didn’t explain things to me and physically hurt me🤬🤬"
+                ],
+                "time_norm": {
+                    "event_day": 1024,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1024_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 1024,
+                "symptom": "panic_fear",
+                "triple": "我 出现  panic attack",
+                "evidence": [
+                    "Had a stupid panic attack all because a stupid surgeon didn’t explain things to me and physically hurt me🤬🤬"
+                ],
+                "time_norm": {
+                    "event_day": 1024,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1055_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1055,
+                "symptom": "Anger_Irritability",
+                "triple": "我 感到 烦躁",
+                "evidence": [
+                    "Why does everyone expect stuff for free?? Really irritates me🥴 People that earn money but expect stuff for free🙄 Geez I don’t even work but I still don’t expect stuff for free for my little boy🤣"
+                ],
+                "time_norm": {
+                    "event_day": 1055,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1070_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1070,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 驾车时被车辆险些撞击的恐惧",
+                "evidence": [
+                    "👆Should add. The amount of times I’ve nearly been hit by car when out with Colby, is honestly scary 😫😫"
+                ],
+                "time_norm": {
+                    "event_day": 1070,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_990_weight_and_appetite_change",
+                "target": "SYM_1018_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1018_Anxious_Mood",
+                "target": "SYM_1024_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1024_Anxious_Mood",
+                "target": "SYM_1024_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1024_Autonomic_symptoms",
+                "target": "SYM_1024_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1024_panic_fear",
+                "target": "SYM_1055_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1055_Anger_Irritability",
+                "target": "SYM_1070_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1018_Anxious_Mood",
+                "target": "SYM_1024_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1024_Anxious_Mood",
+                "target": "SYM_1070_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "990": [
+                    "SYM_990_weight_and_appetite_change"
+                ],
+                "1018": [
+                    "SYM_1018_Anxious_Mood"
+                ],
+                "1024": [
+                    "SYM_1024_Anxious_Mood",
+                    "SYM_1024_Autonomic_symptoms",
+                    "SYM_1024_panic_fear"
+                ],
+                "1055": [
+                    "SYM_1055_Anger_Irritability"
+                ],
+                "1070": [
+                    "SYM_1070_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "weight_and_appetite_change": [
+                    "SYM_990_weight_and_appetite_change"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1018_Anxious_Mood",
+                    "SYM_1024_Anxious_Mood",
+                    "SYM_1070_Anxious_Mood"
+                ],
+                "Autonomic_symptoms": [
+                    "SYM_1024_Autonomic_symptoms"
+                ],
+                "panic_fear": [
+                    "SYM_1024_panic_fear"
+                ],
+                "Anger_Irritability": [
+                    "SYM_1055_Anger_Irritability"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1070_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1055_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1024_Anxious_Mood",
+                "SYM_1024_Autonomic_symptoms",
+                "SYM_1024_panic_fear"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1018_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_990_weight_and_appetite_change"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 驾车时被车辆险些撞击的恐惧。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 感到 烦躁。代表时间点：2周前（15天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 焦虑发作；我 出现 胰腺痛；我 出现  panic attack。代表时间点：1个月前（46天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 更焦虑。代表时间点：1个月前（52天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 体重下降。代表时间点：2个月前（80天前）。"
+        }
+    ]
+}

@@ -1,0 +1,803 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1157,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                "node_type": "Symptom",
+                "timestamp_day": 1073,
+                "symptom": "compensatory_behaviors_to_prevent_weight_gain",
+                "triple": "我 实践 间歇性禁食",
+                "evidence": [
+                    "Had to add on to this. But I'm only eating once a day. Have a big meal at noon-ish and not eating until 24 hours later. Intermittent fasting."
+                ],
+                "time_norm": {
+                    "event_day": 1073,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                "node_type": "Symptom",
+                "timestamp_day": 1073,
+                "symptom": "compensatory_behaviors_to_prevent_weight_gain",
+                "triple": "我 难以进行 控制饮食",
+                "evidence": [
+                    "Fasting right now. Just need a better relationship with my body.Hopefully I don't eat when I get home. I'm an emotional eater. I even eat when I'm bored."
+                ],
+                "time_norm": {
+                    "event_day": 1073,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1073_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 1073,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 控制饮食",
+                "evidence": [
+                    "Fasting right now. Just need a better relationship with my body.Hopefully I don't eat when I get home. I'm an emotional eater. I even eat when I'm bored."
+                ],
+                "time_norm": {
+                    "event_day": 1073,
+                    "days_ago": 84,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1076_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 1076,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 身体疲惫",
+                "evidence": [
+                    "I planned on doing things today, but I just ...didn't. 😕 I mean I could of, but my body is tired as fuck. Warehouse job life drains my energy so fucking much."
+                ],
+                "time_norm": {
+                    "event_day": 1076,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1084_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1084,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 获取驾照许可",
+                "evidence": [
+                    "Getting my life together is hard man. Even little things like this is like a reminder to not get distracted. I finally got my permit back in August. In the state of Missouri you have to have a permit first no matter the age. kinda stupid but my ass needs it bc of anxiety issues"
+                ],
+                "time_norm": {
+                    "event_day": 1084,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1093_do_things_easily_get_painful_consequences",
+                "node_type": "Symptom",
+                "timestamp_day": 1093,
+                "symptom": "do_things_easily_get_painful_consequences",
+                "triple": "我 难以进行 生活决策",
+                "evidence": [
+                    "When I made the decision impulsively even had a voice pop up saying \"no\" but I said yes. So now all of this is happening.... WELL WHAT AM I SUPPOSED TO DO WITH MY LIFE!? WHY TF DID I SIGN A CONTRACT TO COME BACK TO EARTH?"
+                ],
+                "time_norm": {
+                    "event_day": 1093,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1093_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1093,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 做事",
+                "evidence": [
+                    "When you're so frustrated, you're calm. I'll probably cry tomorrow if I don't have whatever is wrong fixed tomorrow. I don't even even know why I try sometimes. I don't know anyone that could help. What if this is a sign that this path isn't right for me."
+                ],
+                "time_norm": {
+                    "event_day": 1093,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1100_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1100,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 哭泣",
+                "evidence": [
+                    "... from now on I'm keeping everything in. I'll just cry alone like I usually do. No more cries for help."
+                ],
+                "time_norm": {
+                    "event_day": 1100,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1120_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1120,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣增多",
+                "evidence": [
+                    "I've been crying a lot lately. I'll be okay i guess. We all go through shit."
+                ],
+                "time_norm": {
+                    "event_day": 1120,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1120_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 1120,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "I've been crying a lot lately. I'll be okay i guess. We all go through shit."
+                ],
+                "time_norm": {
+                    "event_day": 1120,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1129_drastical_shift_in_mood_and_energy",
+                "node_type": "Symptom",
+                "timestamp_day": 1129,
+                "symptom": "drastical_shift_in_mood_and_energy",
+                "triple": "我 出现 更低落的情绪",
+                "evidence": [
+                    "Same! Traveling is therapeutic for me. I don't get to do it as much as I wish I could. Sometimes my mood goes very low when having to come back home and going back to regular life. Reality hits very quickly."
+                ],
+                "time_norm": {
+                    "event_day": 1129,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1131_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 1131,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 能量被耗尽",
+                "evidence": [
+                    "I'm just stuck here at work. I look at it in a negative way but I really hate this place. So energy draining and toxic. That's the main reason I don't be doing shit on the weekends I do have off."
+                ],
+                "time_norm": {
+                    "event_day": 1131,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1142_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1142,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 难以控制的情绪反应",
+                "evidence": [
+                    "I told myself 'you're doing too much and reacting childishly. You can't be afraid if letting new people into your life. Use discernment, but just let things flow with people instead of psycho-analyzing everything. Calm down.'"
+                ],
+                "time_norm": {
+                    "event_day": 1142,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1145_diminished_emotional_expression",
+                "node_type": "Symptom",
+                "timestamp_day": 1145,
+                "symptom": "diminished_emotional_expression",
+                "triple": "我 出现 无法真实表达情感",
+                "evidence": [
+                    "All the emotions just went down like a gas stove flame. It was really just infatuation. In love with the idea of being in love. I'm not in love with them lol"
+                ],
+                "time_norm": {
+                    "event_day": 1145,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1149_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1149,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 判断是否真正喜欢他人",
+                "evidence": [
+                    "Being into someone is scary for me personally because I don't know if I'm really into/falling for them, or if it's just infatuation."
+                ],
+                "time_norm": {
+                    "event_day": 1149,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1153_flight_of_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 1153,
+                "symptom": "flight_of_ideas",
+                "triple": "我 出现 飞速涌现的思绪",
+                "evidence": [
+                    "How do people NOT have a million thoughts in their heads DAILY? Mythoughtsbelikethisohwaitlastweekiwenttotheparkandyoufellonyourfatasslmaodumbassbitchineedtosavemymoneyandnotsplurgeineedtohealandbreakgenerationalcursesihatecoldfries 🎶and it goes on and on and on🎵"
+                ],
+                "time_norm": {
+                    "event_day": 1153,
+                    "days_ago": 4,
+                    "relative_cn": "4天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1157_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 1157,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 专注在目标上",
+                "evidence": [
+                    "I'm tired of being interested in people. I put way too much time and energy into it. I just really need to focus on my goals for a bit. I don't think people realize how much of a distraction dating/being in a relationship can be. Got soany other stuff I want to do..."
+                ],
+                "time_norm": {
+                    "event_day": 1157,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                "target": "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                "target": "SYM_1073_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1073_weight_and_appetite_change",
+                "target": "SYM_1076_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1076_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_1084_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1084_Anxious_Mood",
+                "target": "SYM_1093_do_things_easily_get_painful_consequences",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1093_do_things_easily_get_painful_consequences",
+                "target": "SYM_1093_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1093_Depressed_Mood",
+                "target": "SYM_1100_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1100_Depressed_Mood",
+                "target": "SYM_1120_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1120_Depressed_Mood",
+                "target": "SYM_1120_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1120_somatic_symptoms_others",
+                "target": "SYM_1129_drastical_shift_in_mood_and_energy",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1129_drastical_shift_in_mood_and_energy",
+                "target": "SYM_1131_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1131_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_1142_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1142_Anxious_Mood",
+                "target": "SYM_1145_diminished_emotional_expression",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1145_diminished_emotional_expression",
+                "target": "SYM_1149_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1149_Anxious_Mood",
+                "target": "SYM_1153_flight_of_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1153_flight_of_ideas",
+                "target": "SYM_1157_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                "target": "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1076_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_1131_Decreased_energy_tiredness_fatigue",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1084_Anxious_Mood",
+                "target": "SYM_1142_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1142_Anxious_Mood",
+                "target": "SYM_1149_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1093_Depressed_Mood",
+                "target": "SYM_1100_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1100_Depressed_Mood",
+                "target": "SYM_1120_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1073": [
+                    "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                    "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                    "SYM_1073_weight_and_appetite_change"
+                ],
+                "1076": [
+                    "SYM_1076_Decreased_energy_tiredness_fatigue"
+                ],
+                "1084": [
+                    "SYM_1084_Anxious_Mood"
+                ],
+                "1093": [
+                    "SYM_1093_do_things_easily_get_painful_consequences",
+                    "SYM_1093_Depressed_Mood"
+                ],
+                "1100": [
+                    "SYM_1100_Depressed_Mood"
+                ],
+                "1120": [
+                    "SYM_1120_Depressed_Mood",
+                    "SYM_1120_somatic_symptoms_others"
+                ],
+                "1129": [
+                    "SYM_1129_drastical_shift_in_mood_and_energy"
+                ],
+                "1131": [
+                    "SYM_1131_Decreased_energy_tiredness_fatigue"
+                ],
+                "1142": [
+                    "SYM_1142_Anxious_Mood"
+                ],
+                "1145": [
+                    "SYM_1145_diminished_emotional_expression"
+                ],
+                "1149": [
+                    "SYM_1149_Anxious_Mood"
+                ],
+                "1153": [
+                    "SYM_1153_flight_of_ideas"
+                ],
+                "1157": [
+                    "SYM_1157_Inattention"
+                ]
+            },
+            "by_symptom": {
+                "compensatory_behaviors_to_prevent_weight_gain": [
+                    "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                    "SYM_1073_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_1073_weight_and_appetite_change"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_1076_Decreased_energy_tiredness_fatigue",
+                    "SYM_1131_Decreased_energy_tiredness_fatigue"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1084_Anxious_Mood",
+                    "SYM_1142_Anxious_Mood",
+                    "SYM_1149_Anxious_Mood"
+                ],
+                "do_things_easily_get_painful_consequences": [
+                    "SYM_1093_do_things_easily_get_painful_consequences"
+                ],
+                "Depressed_Mood": [
+                    "SYM_1093_Depressed_Mood",
+                    "SYM_1100_Depressed_Mood",
+                    "SYM_1120_Depressed_Mood"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_1120_somatic_symptoms_others"
+                ],
+                "drastical_shift_in_mood_and_energy": [
+                    "SYM_1129_drastical_shift_in_mood_and_energy"
+                ],
+                "diminished_emotional_expression": [
+                    "SYM_1145_diminished_emotional_expression"
+                ],
+                "flight_of_ideas": [
+                    "SYM_1153_flight_of_ideas"
+                ],
+                "Inattention": [
+                    "SYM_1157_Inattention"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1153_flight_of_ideas",
+                "SYM_1157_Inattention"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_1145_diminished_emotional_expression",
+                "SYM_1149_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1142_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_1131_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_1129_drastical_shift_in_mood_and_energy"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1120_Depressed_Mood",
+                "SYM_1120_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1100_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1093_do_things_easily_get_painful_consequences",
+                "SYM_1093_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1084_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1076_Decreased_energy_tiredness_fatigue"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                "SYM_1073_compensatory_behaviors_to_prevent_weight_gain",
+                "SYM_1073_weight_and_appetite_change"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 专注在目标上；我 出现 飞速涌现的思绪。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 难以进行 判断是否真正喜欢他人；我 出现 无法真实表达情感。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 难以控制的情绪反应。代表时间点：2周前（15天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 感到 能量被耗尽。代表时间点：3周前（26天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 更低落的情绪。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 哭泣增多；我 出现 哭泣。代表时间点：1个月前（37天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 难以进行 哭泣。代表时间点：1个月前（57天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 生活决策；我 难以进行 做事。代表时间点：2个月前（64天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 获取驾照许可。代表时间点：2个月前（73天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 身体疲惫。代表时间点：2个月前（81天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 难以进行 控制饮食。代表时间点：2个月前（84天前）。"
+        }
+    ]
+}

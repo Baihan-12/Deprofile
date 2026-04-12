@@ -1,0 +1,184 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1482,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1418_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1418,
+                "time_norm": {
+                    "event_day": 1418,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 思考 我被逮捕",
+                "event_summary_cn": "用户以为自己会被逮捕"
+            },
+            {
+                "id": "EV_1430_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1430,
+                "time_norm": {
+                    "event_day": 1430,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 未出生的宝宝",
+                "event_summary_cn": "用户即将迎来新生命"
+            },
+            {
+                "id": "EV_1432_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1432,
+                "time_norm": {
+                    "event_day": 1432,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到烦躁 感到被性别歧视",
+                "event_summary_cn": "用户表达对性别带来的烦躁情绪"
+            },
+            {
+                "id": "EV_1482_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1482,
+                "time_norm": {
+                    "event_day": 1482,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 退出 公立学校",
+                "event_summary_cn": "用户分享退出公立学校经历"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1418_0",
+                "target": "EV_1430_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1430_1",
+                "target": "EV_1432_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1432_2",
+                "target": "EV_1482_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1418": [
+                    "EV_1418_0"
+                ],
+                "1430": [
+                    "EV_1430_1"
+                ],
+                "1432": [
+                    "EV_1432_2"
+                ],
+                "1482": [
+                    "EV_1482_3"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1482_3"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1430_1",
+                "EV_1432_2"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1418_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 退出 公立学校。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到烦躁 感到被性别歧视；我 有 未出生的宝宝。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 思考 我被逮捕。代表时间点：2个月前（64天前）。"
+        }
+    ]
+}

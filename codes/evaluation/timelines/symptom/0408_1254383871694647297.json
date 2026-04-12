@@ -1,0 +1,773 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 221,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_140_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 140,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 生活质量明显下降",
+                "evidence": [
+                    "Yes! Living with depression and autism and generally being touch starved is bad usually but now it’s THE 👏 WORST 👏"
+                ],
+                "time_norm": {
+                    "event_day": 140,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_148_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 148,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 精力明显下降",
+                "evidence": [
+                    "I’m just in the weirdest mood tonight At the verge of tears but not actually crying Just feeling exhausted and I don’t even know why"
+                ],
+                "time_norm": {
+                    "event_day": 148,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_148_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 148,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 疲惫感",
+                "evidence": [
+                    "I’m just in the weirdest mood tonight At the verge of tears but not actually crying Just feeling exhausted and I don’t even know why"
+                ],
+                "time_norm": {
+                    "event_day": 148,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_148_drastical_shift_in_mood_and_energy",
+                "node_type": "Symptom",
+                "timestamp_day": 148,
+                "symptom": "drastical_shift_in_mood_and_energy",
+                "triple": "我 感到 精力明显下降",
+                "evidence": [
+                    "I’m just in the weirdest mood tonight At the verge of tears but not actually crying Just feeling exhausted and I don’t even know why"
+                ],
+                "time_norm": {
+                    "event_day": 148,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_156_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 156,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 抑郁情绪",
+                "evidence": [
+                    "I’m turning 30 in a month and got diagnosed in June. Three and a half years ago I was diagnosed with depression. It’s... sure been an experience"
+                ],
+                "time_norm": {
+                    "event_day": 156,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_158_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 158,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Thanks I’m crying"
+                ],
+                "time_norm": {
+                    "event_day": 158,
+                    "days_ago": 63,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_161_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 161,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 频繁打盹",
+                "evidence": [
+                    "This week’s just been a mental shit show and every day I’ve just been trying my best to occupy my time, and especially my brain, until I can go back to sleep. Don't think I've ever taken this many naps during a week before"
+                ],
+                "time_norm": {
+                    "event_day": 161,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_170_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 170,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 写作",
+                "evidence": [
+                    "I’m FINALLY writing something for this shitty assignment and ofc my brain is just getting constantly distracted bc that’s what it’s like to be autistic I guess"
+                ],
+                "time_norm": {
+                    "event_day": 170,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_173_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 173,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 夜间做噩梦",
+                "evidence": [
+                    "Probably gonna have nightmares again tonight :))))"
+                ],
+                "time_norm": {
+                    "event_day": 173,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_173_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 173,
+                "symptom": "sleep_disturbance",
+                "triple": "我 出现 夜间做噩梦",
+                "evidence": [
+                    "Probably gonna have nightmares again tonight :))))"
+                ],
+                "time_norm": {
+                    "event_day": 173,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_175_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 175,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 害怕",
+                "evidence": [
+                    "Can you tell I’m going to the dentist? And being scared of doing so? 😬"
+                ],
+                "time_norm": {
+                    "event_day": 175,
+                    "days_ago": 46,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_178_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 178,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 焦虑地思考周末行程",
+                "evidence": [
+                    "But my brain is just everywhere today. Focusing on this is not easy, bc I’m going away for the weekend and so my brain is focused on remembering to pack everything and figuring out when I have to get up so I’ll have enough but not too much time"
+                ],
+                "time_norm": {
+                    "event_day": 178,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_184_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 184,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 焦点集中",
+                "evidence": [
+                    "Today is not a good focus day"
+                ],
+                "time_norm": {
+                    "event_day": 184,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_195_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 195,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 无兴趣感",
+                "evidence": [
+                    "I do either that or feel no interest in anything at all. Currently no interest, and I’m desperately hoping to hyper focus on AC: Valhalla when it’s out on Tuesday bc I’m so sick of not feeling anything but hopelessness"
+                ],
+                "time_norm": {
+                    "event_day": 195,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_200_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 200,
+                "symptom": "poor_memory",
+                "triple": "我 难以进行 记忆",
+                "evidence": [
+                    "Tbh, I’m fine most of the time. Used to, though it sounds wrong to say. But bc I don’t go around thinking about it, it’s all the worse when it comes crashing down. Like now, remembering, and how sudden it all was."
+                ],
+                "time_norm": {
+                    "event_day": 200,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_221_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 221,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "CRYING"
+                ],
+                "time_norm": {
+                    "event_day": 221,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_221_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 221,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "CRYING"
+                ],
+                "time_norm": {
+                    "event_day": 221,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_140_Depressed_Mood",
+                "target": "SYM_148_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_148_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_148_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_148_Depressed_Mood",
+                "target": "SYM_148_drastical_shift_in_mood_and_energy",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_148_drastical_shift_in_mood_and_energy",
+                "target": "SYM_156_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_156_Depressed_Mood",
+                "target": "SYM_158_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_158_Depressed_Mood",
+                "target": "SYM_161_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_161_sleep_disturbance",
+                "target": "SYM_170_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_170_Inattention",
+                "target": "SYM_173_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_173_intrusion_symptoms",
+                "target": "SYM_173_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_173_sleep_disturbance",
+                "target": "SYM_175_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_175_Anxious_Mood",
+                "target": "SYM_178_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_178_Inattention",
+                "target": "SYM_184_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_184_Inattention",
+                "target": "SYM_195_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_195_Depressed_Mood",
+                "target": "SYM_200_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_200_poor_memory",
+                "target": "SYM_221_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_221_Depressed_Mood",
+                "target": "SYM_221_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_140_Depressed_Mood",
+                "target": "SYM_148_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_148_Depressed_Mood",
+                "target": "SYM_156_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_156_Depressed_Mood",
+                "target": "SYM_158_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_158_Depressed_Mood",
+                "target": "SYM_195_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_195_Depressed_Mood",
+                "target": "SYM_221_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_161_sleep_disturbance",
+                "target": "SYM_173_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_170_Inattention",
+                "target": "SYM_178_Inattention",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_178_Inattention",
+                "target": "SYM_184_Inattention",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "140": [
+                    "SYM_140_Depressed_Mood"
+                ],
+                "148": [
+                    "SYM_148_Decreased_energy_tiredness_fatigue",
+                    "SYM_148_Depressed_Mood",
+                    "SYM_148_drastical_shift_in_mood_and_energy"
+                ],
+                "156": [
+                    "SYM_156_Depressed_Mood"
+                ],
+                "158": [
+                    "SYM_158_Depressed_Mood"
+                ],
+                "161": [
+                    "SYM_161_sleep_disturbance"
+                ],
+                "170": [
+                    "SYM_170_Inattention"
+                ],
+                "173": [
+                    "SYM_173_intrusion_symptoms",
+                    "SYM_173_sleep_disturbance"
+                ],
+                "175": [
+                    "SYM_175_Anxious_Mood"
+                ],
+                "178": [
+                    "SYM_178_Inattention"
+                ],
+                "184": [
+                    "SYM_184_Inattention"
+                ],
+                "195": [
+                    "SYM_195_Depressed_Mood"
+                ],
+                "200": [
+                    "SYM_200_poor_memory"
+                ],
+                "221": [
+                    "SYM_221_Depressed_Mood",
+                    "SYM_221_somatic_symptoms_others"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_140_Depressed_Mood",
+                    "SYM_148_Depressed_Mood",
+                    "SYM_156_Depressed_Mood",
+                    "SYM_158_Depressed_Mood",
+                    "SYM_195_Depressed_Mood",
+                    "SYM_221_Depressed_Mood"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_148_Decreased_energy_tiredness_fatigue"
+                ],
+                "drastical_shift_in_mood_and_energy": [
+                    "SYM_148_drastical_shift_in_mood_and_energy"
+                ],
+                "sleep_disturbance": [
+                    "SYM_161_sleep_disturbance",
+                    "SYM_173_sleep_disturbance"
+                ],
+                "Inattention": [
+                    "SYM_170_Inattention",
+                    "SYM_178_Inattention",
+                    "SYM_184_Inattention"
+                ],
+                "intrusion_symptoms": [
+                    "SYM_173_intrusion_symptoms"
+                ],
+                "Anxious_Mood": [
+                    "SYM_175_Anxious_Mood"
+                ],
+                "poor_memory": [
+                    "SYM_200_poor_memory"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_221_somatic_symptoms_others"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_221_Depressed_Mood",
+                "SYM_221_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_195_Depressed_Mood",
+                "SYM_200_poor_memory"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_184_Inattention"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_173_intrusion_symptoms",
+                "SYM_173_sleep_disturbance",
+                "SYM_175_Anxious_Mood",
+                "SYM_178_Inattention"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_170_Inattention"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_161_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_156_Depressed_Mood",
+                "SYM_158_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_148_Decreased_energy_tiredness_fatigue",
+                "SYM_148_Depressed_Mood",
+                "SYM_148_drastical_shift_in_mood_and_energy"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_140_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 哭泣。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 难以进行 记忆；我 出现 无兴趣感。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 焦点集中。代表时间点：1个月前（37天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 焦虑地思考周末行程；我 感到 害怕；我 出现 夜间做噩梦。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 写作。代表时间点：1个月前（51天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 难以进行 频繁打盹。代表时间点：2个月前（60天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 哭泣；我 出现 抑郁情绪。代表时间点：2个月前（63天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 精力明显下降；我 出现 疲惫感。代表时间点：2个月前（73天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 生活质量明显下降。代表时间点：2个月前（81天前）。"
+        }
+    ]
+}

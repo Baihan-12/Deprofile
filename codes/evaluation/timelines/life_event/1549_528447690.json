@@ -1,0 +1,211 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1441,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1356_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1356,
+                "time_norm": {
+                    "event_day": 1356,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "用户本人 后悔 取消 #VersaillesFamilyBushfireAuction 和抽奖",
+                "event_summary_cn": "用户取消拍卖活动并推迟"
+            },
+            {
+                "id": "EV_1361_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1361,
+                "time_norm": {
+                    "event_day": 1361,
+                    "days_ago": 80,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 报告 两个停车场已满",
+                "event_summary_cn": "用户报告停车场已满需限流"
+            },
+            {
+                "id": "EV_1362_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1362,
+                "time_norm": {
+                    "event_day": 1362,
+                    "days_ago": 79,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 观察到 人群聚集导致疾病传播",
+                "event_summary_cn": "用户观察到人群聚集导致疾病传播"
+            },
+            {
+                "id": "EV_1389_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1389,
+                "time_norm": {
+                    "event_day": 1389,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参加 ANZAC Day 纪念仪式",
+                "event_summary_cn": "用户参加ANZAC日纪念仪式"
+            },
+            {
+                "id": "EV_1390_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1390,
+                "time_norm": {
+                    "event_day": 1390,
+                    "days_ago": 51,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结束 一场表演",
+                "event_summary_cn": "用户结束一场表演"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1356_0",
+                "target": "EV_1361_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1361_1",
+                "target": "EV_1362_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1362_2",
+                "target": "EV_1389_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1389_3",
+                "target": "EV_1390_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1356": [
+                    "EV_1356_0"
+                ],
+                "1361": [
+                    "EV_1361_1"
+                ],
+                "1362": [
+                    "EV_1362_2"
+                ],
+                "1389": [
+                    "EV_1389_3"
+                ],
+                "1390": [
+                    "EV_1390_4"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1389_3",
+                "EV_1390_4"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1361_1",
+                "EV_1362_2"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1356_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 结束 一场表演；我 参加 ANZAC Day 纪念仪式。代表时间点：1个月前（51天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 观察到 人群聚集导致疾病传播；我 报告 两个停车场已满。代表时间点：2个月前（79天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：用户本人 后悔 取消 #VersaillesFamilyBushfireAuction 和抽奖。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

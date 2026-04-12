@@ -1,0 +1,260 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1508,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1422_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1422,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 悲伤情绪",
+                "evidence": [
+                    "This is wild. And sad."
+                ],
+                "time_norm": {
+                    "event_day": 1422,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1482_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1482,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 感到 心痛",
+                "evidence": [
+                    "This makes my heart hurt 🥺❤️"
+                ],
+                "time_norm": {
+                    "event_day": 1482,
+                    "days_ago": 26,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1501_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1501,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Why am I crying?! ❤️"
+                ],
+                "time_norm": {
+                    "event_day": 1501,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1501_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 1501,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Why am I crying?! ❤️"
+                ],
+                "time_norm": {
+                    "event_day": 1501,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1508_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1508,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "Omg I think I’m just as anxious about this as I am the presidency."
+                ],
+                "time_norm": {
+                    "event_day": 1508,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1422_Depressed_Mood",
+                "target": "SYM_1482_Cardiovascular_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1482_Cardiovascular_symptoms",
+                "target": "SYM_1501_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1501_Depressed_Mood",
+                "target": "SYM_1501_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1501_somatic_symptoms_others",
+                "target": "SYM_1508_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1422_Depressed_Mood",
+                "target": "SYM_1501_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1422": [
+                    "SYM_1422_Depressed_Mood"
+                ],
+                "1482": [
+                    "SYM_1482_Cardiovascular_symptoms"
+                ],
+                "1501": [
+                    "SYM_1501_Depressed_Mood",
+                    "SYM_1501_somatic_symptoms_others"
+                ],
+                "1508": [
+                    "SYM_1508_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_1422_Depressed_Mood",
+                    "SYM_1501_Depressed_Mood"
+                ],
+                "Cardiovascular_symptoms": [
+                    "SYM_1482_Cardiovascular_symptoms"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_1501_somatic_symptoms_others"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1508_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1508_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_1501_Depressed_Mood",
+                "SYM_1501_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_1482_Cardiovascular_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1422_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 感到 焦虑。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 哭泣。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 感到 心痛。代表时间点：3周前（26天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现 悲伤情绪。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

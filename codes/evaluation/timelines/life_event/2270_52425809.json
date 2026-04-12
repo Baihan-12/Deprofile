@@ -1,0 +1,419 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1282,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1199_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1199,
+                "time_norm": {
+                    "event_day": 1199,
+                    "days_ago": 83,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 断绝友谊 Ambrose",
+                "event_summary_cn": "用户与Ambrose断绝友谊"
+            },
+            {
+                "id": "EV_1218_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1218,
+                "time_norm": {
+                    "event_day": 1218,
+                    "days_ago": 64,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 需要支付 智齿手术费用",
+                "event_summary_cn": "用户因经济困难无法支付手术费用"
+            },
+            {
+                "id": "EV_1235_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1235,
+                "time_norm": {
+                    "event_day": 1235,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 恢复 使用口腔功能 我回到工作岗位",
+                "event_summary_cn": "用户完成口腔恢复重返职场"
+            },
+            {
+                "id": "EV_1241_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1241,
+                "time_norm": {
+                    "event_day": 1241,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 知道 我的家人死亡",
+                "event_summary_cn": "用户家人因他人自私而死亡"
+            },
+            {
+                "id": "EV_1246_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1246,
+                "time_norm": {
+                    "event_day": 1246,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被仇恨 我的性取向",
+                "event_summary_cn": "用户因性取向被仇恨"
+            },
+            {
+                "id": "EV_1250_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1250,
+                "time_norm": {
+                    "event_day": 1250,
+                    "days_ago": 32,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 停止 cosplay 和写作",
+                "event_summary_cn": "用户重新找回创作动力"
+            },
+            {
+                "id": "EV_1257_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1257,
+                "time_norm": {
+                    "event_day": 1257,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 观察 直人与酷儿对爱的不同看法",
+                "event_summary_cn": "用户观察不同群体对爱的理解差异"
+            },
+            {
+                "id": "EV_1263_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1263,
+                "time_norm": {
+                    "event_day": 1263,
+                    "days_ago": 19,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 调整咬合方式 我的牙齿",
+                "event_summary_cn": "用户调整咬合方式恢复进食"
+            },
+            {
+                "id": "EV_1282_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1282,
+                "time_norm": {
+                    "event_day": 1282,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 正在剃头 我的头发",
+                "event_summary_cn": "用户决定剃光头改变形象"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1199_0",
+                "target": "EV_1218_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1218_1",
+                "target": "EV_1235_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1235_2",
+                "target": "EV_1241_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1241_3",
+                "target": "EV_1246_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1246_4",
+                "target": "EV_1250_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1250_5",
+                "target": "EV_1257_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1257_6",
+                "target": "EV_1263_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1263_7",
+                "target": "EV_1282_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1199": [
+                    "EV_1199_0"
+                ],
+                "1218": [
+                    "EV_1218_1"
+                ],
+                "1235": [
+                    "EV_1235_2"
+                ],
+                "1241": [
+                    "EV_1241_3"
+                ],
+                "1246": [
+                    "EV_1246_4"
+                ],
+                "1250": [
+                    "EV_1250_5"
+                ],
+                "1257": [
+                    "EV_1257_6"
+                ],
+                "1263": [
+                    "EV_1263_7"
+                ],
+                "1282": [
+                    "EV_1282_8"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1282_8"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_1263_7"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_1257_6"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_1250_5"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1241_3",
+                "EV_1246_4"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1235_2"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1218_1"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1199_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 正在剃头 我的头发。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 调整咬合方式 我的牙齿。代表时间点：2周前（19天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 观察 直人与酷儿对爱的不同看法。代表时间点：3周前（25天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 停止 cosplay 和写作。代表时间点：1个月前（32天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 被仇恨 我的性取向；我 知道 我的家人死亡。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 恢复 使用口腔功能 我回到工作岗位。代表时间点：1个月前（47天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 需要支付 智齿手术费用。代表时间点：2个月前（64天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 断绝友谊 Ambrose。代表时间点：2个月前（83天前）。"
+        }
+    ]
+}

@@ -1,0 +1,485 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 814,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_725_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 725,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 难以进行正常社交",
+                "evidence": [
+                    "Like do you even fucking know how depression works, dumbass?"
+                ],
+                "time_norm": {
+                    "event_day": 725,
+                    "days_ago": 89,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_738_somatic_symptoms_sensory",
+                "node_type": "Symptom",
+                "timestamp_day": 738,
+                "symptom": "somatic_symptoms_sensory",
+                "triple": "我 出现 热感",
+                "evidence": [
+                    "*hot"
+                ],
+                "time_norm": {
+                    "event_day": 738,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_744_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 744,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 悲伤",
+                "evidence": [
+                    "Sad, sad, sad, a disappointment :,^)"
+                ],
+                "time_norm": {
+                    "event_day": 744,
+                    "days_ago": 70,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_762_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 762,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 注意力集中",
+                "evidence": [
+                    "distract me :^)"
+                ],
+                "time_norm": {
+                    "event_day": 762,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_764_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 764,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 喜欢 corpse husband 的内容",
+                "evidence": [
+                    "I wanna like corpse husband and get into his content so bad but cryaotic has instilled such a pure irreversible anxiety of faceless youtubers that i cant bring myself to do it."
+                ],
+                "time_norm": {
+                    "event_day": 764,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_769_compensatory_behaviors_to_prevent_weight_gain",
+                "node_type": "Symptom",
+                "timestamp_day": 769,
+                "symptom": "compensatory_behaviors_to_prevent_weight_gain",
+                "triple": "我 出现 反胃",
+                "evidence": [
+                    "Today sucked cause i ate an orange and then threw up and now i cant stand lookin at my own art LOL im doin gr8"
+                ],
+                "time_norm": {
+                    "event_day": 769,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_790_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 790,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 总是愤怒",
+                "evidence": [
+                    "Top 3% of listeners for dance gavin dance. Yes i am angry all the time"
+                ],
+                "time_norm": {
+                    "event_day": 790,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_794_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 794,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 难以控制自己的身体状况",
+                "evidence": [
+                    "Im scared of getting sick. Like shit i cant control"
+                ],
+                "time_norm": {
+                    "event_day": 794,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_794_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 794,
+                "symptom": "panic_fear",
+                "triple": "我 感到 难以控制",
+                "evidence": [
+                    "Im scared of getting sick. Like shit i cant control"
+                ],
+                "time_norm": {
+                    "event_day": 794,
+                    "days_ago": 20,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_814_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 814,
+                "symptom": "poor_memory",
+                "triple": "我 出现 记忆短暂消失",
+                "evidence": [
+                    "Sometimes my brain twitches and I remember how to draw bodies and then it forgets immediately after. Anyway here’s this rlly pretty sketch i did at 3 in the morning"
+                ],
+                "time_norm": {
+                    "event_day": 814,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_725_Depressed_Mood",
+                "target": "SYM_738_somatic_symptoms_sensory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_738_somatic_symptoms_sensory",
+                "target": "SYM_744_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_744_Depressed_Mood",
+                "target": "SYM_762_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_762_Inattention",
+                "target": "SYM_764_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_764_Anxious_Mood",
+                "target": "SYM_769_compensatory_behaviors_to_prevent_weight_gain",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_769_compensatory_behaviors_to_prevent_weight_gain",
+                "target": "SYM_790_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_790_Anger_Irritability",
+                "target": "SYM_794_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_794_Anxious_Mood",
+                "target": "SYM_794_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_794_panic_fear",
+                "target": "SYM_814_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_725_Depressed_Mood",
+                "target": "SYM_744_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_764_Anxious_Mood",
+                "target": "SYM_794_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "725": [
+                    "SYM_725_Depressed_Mood"
+                ],
+                "738": [
+                    "SYM_738_somatic_symptoms_sensory"
+                ],
+                "744": [
+                    "SYM_744_Depressed_Mood"
+                ],
+                "762": [
+                    "SYM_762_Inattention"
+                ],
+                "764": [
+                    "SYM_764_Anxious_Mood"
+                ],
+                "769": [
+                    "SYM_769_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "790": [
+                    "SYM_790_Anger_Irritability"
+                ],
+                "794": [
+                    "SYM_794_Anxious_Mood",
+                    "SYM_794_panic_fear"
+                ],
+                "814": [
+                    "SYM_814_poor_memory"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_725_Depressed_Mood",
+                    "SYM_744_Depressed_Mood"
+                ],
+                "somatic_symptoms_sensory": [
+                    "SYM_738_somatic_symptoms_sensory"
+                ],
+                "Inattention": [
+                    "SYM_762_Inattention"
+                ],
+                "Anxious_Mood": [
+                    "SYM_764_Anxious_Mood",
+                    "SYM_794_Anxious_Mood"
+                ],
+                "compensatory_behaviors_to_prevent_weight_gain": [
+                    "SYM_769_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "Anger_Irritability": [
+                    "SYM_790_Anger_Irritability"
+                ],
+                "panic_fear": [
+                    "SYM_794_panic_fear"
+                ],
+                "poor_memory": [
+                    "SYM_814_poor_memory"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_814_poor_memory"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_794_Anxious_Mood",
+                "SYM_794_panic_fear"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_790_Anger_Irritability"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_769_compensatory_behaviors_to_prevent_weight_gain"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_762_Inattention",
+                "SYM_764_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_738_somatic_symptoms_sensory",
+                "SYM_744_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_725_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 记忆短暂消失。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 感到 难以控制自己的身体状况；我 感到 难以控制。代表时间点：2周前（20天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 总是愤怒。代表时间点：3周前（24天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 反胃。代表时间点：1个月前（45天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 喜欢 corpse husband 的内容；我 难以进行 注意力集中。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 悲伤；我 出现 热感。代表时间点：2个月前（70天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现 难以进行正常社交。代表时间点：2个月前（89天前）。"
+        }
+    ]
+}

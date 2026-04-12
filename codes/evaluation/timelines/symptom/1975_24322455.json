@@ -1,0 +1,698 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 927,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_849_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 849,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 害怕",
+                "evidence": [
+                    "I have to detox from caffeine. I’m so scared. My migraines are awful when I don’t have caffeine."
+                ],
+                "time_norm": {
+                    "event_day": 849,
+                    "days_ago": 78,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_870_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 870,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "I’m anxious af"
+                ],
+                "time_norm": {
+                    "event_day": 870,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_871_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 871,
+                "symptom": "Anxious_Mood",
+                "triple": "我 可能受到焦虑的影响",
+                "evidence": [
+                    "My anxiety might actually kill me."
+                ],
+                "time_norm": {
+                    "event_day": 871,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_871_panic_fear",
+                "node_type": "Symptom",
+                "timestamp_day": 871,
+                "symptom": "panic_fear",
+                "triple": "我 感到 焦虑可能致命",
+                "evidence": [
+                    "My anxiety might actually kill me."
+                ],
+                "time_norm": {
+                    "event_day": 871,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_879_obsession",
+                "node_type": "Symptom",
+                "timestamp_day": 879,
+                "symptom": "obsession",
+                "triple": "我 出现 对 Noah Cyrus 的痴迷",
+                "evidence": [
+                    "I now have an obsession with Noah Cyrus. Wow"
+                ],
+                "time_norm": {
+                    "event_day": 879,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_883_pessimism",
+                "node_type": "Symptom",
+                "timestamp_day": 883,
+                "symptom": "pessimism",
+                "triple": "我 出现 无意义的希望",
+                "evidence": [
+                    "Getting my hopes up for nothin"
+                ],
+                "time_norm": {
+                    "event_day": 883,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_884_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 884,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 应激",
+                "evidence": [
+                    "Today’s so fucking stressful. Fuck COVID"
+                ],
+                "time_norm": {
+                    "event_day": 884,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_903_compensatory_behaviors_to_prevent_weight_gain",
+                "node_type": "Symptom",
+                "timestamp_day": 903,
+                "symptom": "compensatory_behaviors_to_prevent_weight_gain",
+                "triple": "我 出现 反胃/呕吐",
+                "evidence": [
+                    "Note to self: know your limits. Just because you’re mad at yourself for gaining 5 pounds doesn’t mean you over exert yourself and almost pass out/throw up after your work out."
+                ],
+                "time_norm": {
+                    "event_day": 903,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_905_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 905,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑发作",
+                "evidence": [
+                    "I’m starting to freak out a bit. Just flashes of anxiety. I’m gonna have a full blown anxiety attack next Tuesday. But it’ll be internal. Because Capricorn."
+                ],
+                "time_norm": {
+                    "event_day": 905,
+                    "days_ago": 22,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_909_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 909,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 需要进食以获取能量",
+                "evidence": [
+                    "I’m not even hungry right now but I know I need some for energy"
+                ],
+                "time_norm": {
+                    "event_day": 909,
+                    "days_ago": 18,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_910_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 910,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 安静放松",
+                "evidence": [
+                    "Settling my nerves at the beach. 1 day to surgery"
+                ],
+                "time_norm": {
+                    "event_day": 910,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_919_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 919,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 吃饭",
+                "evidence": [
+                    "Can’t eat em..."
+                ],
+                "time_norm": {
+                    "event_day": 919,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_920_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 920,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 害怕",
+                "evidence": [
+                    "I get to start full liquids today! I’m scared."
+                ],
+                "time_norm": {
+                    "event_day": 920,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_927_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 927,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 跳跃惊吓或灵异内容",
+                "evidence": [
+                    "Hmm I think I can handle that. I can’t do jump scares or like paranormal stuff."
+                ],
+                "time_norm": {
+                    "event_day": 927,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_927_intrusion_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 927,
+                "symptom": "intrusion_symptoms",
+                "triple": "我 出现 夜间噩梦",
+                "evidence": [
+                    "So what your saying is, I’ll probably have nightmares but I won’t be too traumatized 😂"
+                ],
+                "time_norm": {
+                    "event_day": 927,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_927_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 927,
+                "symptom": "sleep_disturbance",
+                "triple": "我 出现 夜间做噩梦",
+                "evidence": [
+                    "So what your saying is, I’ll probably have nightmares but I won’t be too traumatized 😂"
+                ],
+                "time_norm": {
+                    "event_day": 927,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_849_Anxious_Mood",
+                "target": "SYM_870_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_870_Anxious_Mood",
+                "target": "SYM_871_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_871_Anxious_Mood",
+                "target": "SYM_871_panic_fear",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_871_panic_fear",
+                "target": "SYM_879_obsession",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_879_obsession",
+                "target": "SYM_883_pessimism",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_883_pessimism",
+                "target": "SYM_884_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_884_Anxious_Mood",
+                "target": "SYM_903_compensatory_behaviors_to_prevent_weight_gain",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_903_compensatory_behaviors_to_prevent_weight_gain",
+                "target": "SYM_905_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_905_Anxious_Mood",
+                "target": "SYM_909_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_909_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_910_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_910_Anxious_Mood",
+                "target": "SYM_919_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_919_weight_and_appetite_change",
+                "target": "SYM_920_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_920_Anxious_Mood",
+                "target": "SYM_927_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_927_Anxious_Mood",
+                "target": "SYM_927_intrusion_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_927_intrusion_symptoms",
+                "target": "SYM_927_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_849_Anxious_Mood",
+                "target": "SYM_870_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_870_Anxious_Mood",
+                "target": "SYM_871_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_871_Anxious_Mood",
+                "target": "SYM_884_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_884_Anxious_Mood",
+                "target": "SYM_905_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_905_Anxious_Mood",
+                "target": "SYM_910_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_910_Anxious_Mood",
+                "target": "SYM_920_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_920_Anxious_Mood",
+                "target": "SYM_927_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "849": [
+                    "SYM_849_Anxious_Mood"
+                ],
+                "870": [
+                    "SYM_870_Anxious_Mood"
+                ],
+                "871": [
+                    "SYM_871_Anxious_Mood",
+                    "SYM_871_panic_fear"
+                ],
+                "879": [
+                    "SYM_879_obsession"
+                ],
+                "883": [
+                    "SYM_883_pessimism"
+                ],
+                "884": [
+                    "SYM_884_Anxious_Mood"
+                ],
+                "903": [
+                    "SYM_903_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "905": [
+                    "SYM_905_Anxious_Mood"
+                ],
+                "909": [
+                    "SYM_909_Decreased_energy_tiredness_fatigue"
+                ],
+                "910": [
+                    "SYM_910_Anxious_Mood"
+                ],
+                "919": [
+                    "SYM_919_weight_and_appetite_change"
+                ],
+                "920": [
+                    "SYM_920_Anxious_Mood"
+                ],
+                "927": [
+                    "SYM_927_Anxious_Mood",
+                    "SYM_927_intrusion_symptoms",
+                    "SYM_927_sleep_disturbance"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_849_Anxious_Mood",
+                    "SYM_870_Anxious_Mood",
+                    "SYM_871_Anxious_Mood",
+                    "SYM_884_Anxious_Mood",
+                    "SYM_905_Anxious_Mood",
+                    "SYM_910_Anxious_Mood",
+                    "SYM_920_Anxious_Mood",
+                    "SYM_927_Anxious_Mood"
+                ],
+                "panic_fear": [
+                    "SYM_871_panic_fear"
+                ],
+                "obsession": [
+                    "SYM_879_obsession"
+                ],
+                "pessimism": [
+                    "SYM_883_pessimism"
+                ],
+                "compensatory_behaviors_to_prevent_weight_gain": [
+                    "SYM_903_compensatory_behaviors_to_prevent_weight_gain"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_909_Decreased_energy_tiredness_fatigue"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_919_weight_and_appetite_change"
+                ],
+                "intrusion_symptoms": [
+                    "SYM_927_intrusion_symptoms"
+                ],
+                "sleep_disturbance": [
+                    "SYM_927_sleep_disturbance"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_927_Anxious_Mood",
+                "SYM_927_intrusion_symptoms",
+                "SYM_927_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_919_weight_and_appetite_change",
+                "SYM_920_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_909_Decreased_energy_tiredness_fatigue",
+                "SYM_910_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_903_compensatory_behaviors_to_prevent_weight_gain",
+                "SYM_905_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_879_obsession",
+                "SYM_883_pessimism",
+                "SYM_884_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_870_Anxious_Mood",
+                "SYM_871_Anxious_Mood",
+                "SYM_871_panic_fear"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_849_Anxious_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 跳跃惊吓或灵异内容；我 出现 夜间噩梦；我 出现 夜间做噩梦。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 感到 害怕；我 难以进行 吃饭。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 难以进行 安静放松；我 感到 需要进食以获取能量。代表时间点：2周前（17天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 焦虑发作；我 出现 反胃/呕吐。代表时间点：3周前（22天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 应激；我 出现 无意义的希望；我 出现 对 Noah Cyrus 的痴迷。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 可能受到焦虑的影响；我 感到 焦虑可能致命；我 感到 焦虑。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 感到 害怕。代表时间点：2个月前（78天前）。"
+        }
+    ]
+}

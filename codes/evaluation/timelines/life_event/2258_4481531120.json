@@ -1,0 +1,372 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 738,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_665_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 665,
+                "time_norm": {
+                    "event_day": 665,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 使用 photoshop, illustrator, 和 indesign",
+                "event_summary_cn": "用户使用设计软件完成课程任务"
+            },
+            {
+                "id": "EV_678_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 678,
+                "time_norm": {
+                    "event_day": 678,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 表达 对设计工作的厌恶",
+                "event_summary_cn": "用户表达对设计工作的厌恶"
+            },
+            {
+                "id": "EV_686_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 686,
+                "time_norm": {
+                    "event_day": 686,
+                    "days_ago": 52,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "用户本人 获得学士学位资格 23.15学分",
+                "event_summary_cn": "用户满足学士学位要求"
+            },
+            {
+                "id": "EV_716_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 716,
+                "time_norm": {
+                    "event_day": 716,
+                    "days_ago": 22,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 听音乐 情绪波动",
+                "event_summary_cn": "听音乐引发强烈情绪反应"
+            },
+            {
+                "id": "EV_721_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 721,
+                "time_norm": {
+                    "event_day": 721,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感受到 疫情与总统大选的混乱",
+                "event_summary_cn": "用户感受到疫情与选举带来的混乱"
+            },
+            {
+                "id": "EV_724_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 724,
+                "time_norm": {
+                    "event_day": 724,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 决定 Cyril 是 agender",
+                "event_summary_cn": "用户决定将角色设为无性别"
+            },
+            {
+                "id": "EV_726_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 726,
+                "time_norm": {
+                    "event_day": 726,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被诊断为抑郁 我在高中时期",
+                "event_summary_cn": "用户高中时期被诊断为抑郁"
+            },
+            {
+                "id": "EV_738_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 738,
+                "time_norm": {
+                    "event_day": 738,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 上传 Illustrator 文件到 Google Drive",
+                "event_summary_cn": "用户上传文件以便后续编辑"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_665_0",
+                "target": "EV_678_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_678_1",
+                "target": "EV_686_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_686_2",
+                "target": "EV_716_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_716_3",
+                "target": "EV_721_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_721_4",
+                "target": "EV_724_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_724_5",
+                "target": "EV_726_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_726_6",
+                "target": "EV_738_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "665": [
+                    "EV_665_0"
+                ],
+                "678": [
+                    "EV_678_1"
+                ],
+                "686": [
+                    "EV_686_2"
+                ],
+                "716": [
+                    "EV_716_3"
+                ],
+                "721": [
+                    "EV_721_4"
+                ],
+                "724": [
+                    "EV_724_5"
+                ],
+                "726": [
+                    "EV_726_6"
+                ],
+                "738": [
+                    "EV_738_7"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_738_7"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_726_6"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_721_4",
+                "EV_724_5"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_716_3"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_686_2"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_678_1"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_665_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 上传 Illustrator 文件到 Google Drive。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 被诊断为抑郁 我在高中时期。代表时间点：1周前（12天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 决定 Cyril 是 agender；我 感受到 疫情与总统大选的混乱。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 听音乐 情绪波动。代表时间点：3周前（22天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：用户本人 获得学士学位资格 23.15学分。代表时间点：1个月前（52天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 表达 对设计工作的厌恶。代表时间点：2个月前（60天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 使用 photoshop, illustrator, 和 indesign。代表时间点：2个月前（73天前）。"
+        }
+    ]
+}

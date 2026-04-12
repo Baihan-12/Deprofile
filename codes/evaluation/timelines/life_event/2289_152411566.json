@@ -1,0 +1,263 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1050,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_964_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 964,
+                "time_norm": {
+                    "event_day": 964,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 结束 工作试用期",
+                "event_summary_cn": "用户工作试用期结束"
+            },
+            {
+                "id": "EV_993_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 993,
+                "time_norm": {
+                    "event_day": 993,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 睡眠不足 睡了3小时",
+                "event_summary_cn": "用户睡眠不足且难以入睡"
+            },
+            {
+                "id": "EV_994_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 994,
+                "time_norm": {
+                    "event_day": 994,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 未收到工资",
+                "event_summary_cn": "用户未收到工资"
+            },
+            {
+                "id": "EV_994_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 994,
+                "time_norm": {
+                    "event_day": 994,
+                    "days_ago": 56,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 收到 补偿",
+                "event_summary_cn": "用户收到补偿"
+            },
+            {
+                "id": "EV_1044_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1044,
+                "time_norm": {
+                    "event_day": 1044,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 获得双倍工资 无实际工作",
+                "event_summary_cn": "用户获得双倍工资但无实际工作"
+            },
+            {
+                "id": "EV_1049_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1049,
+                "time_norm": {
+                    "event_day": 1049,
+                    "days_ago": 1,
+                    "relative_cn": "昨天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 去经销商处 花费2000美元",
+                "event_summary_cn": "用户计划用2000美元购车"
+            },
+            {
+                "id": "EV_1050_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1050,
+                "time_norm": {
+                    "event_day": 1050,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 花费更多 money",
+                "event_summary_cn": "用户因收入增加而过度消费"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_964_0",
+                "target": "EV_993_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_993_1",
+                "target": "EV_994_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_994_2",
+                "target": "EV_994_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_994_3",
+                "target": "EV_1044_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1044_4",
+                "target": "EV_1049_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1049_5",
+                "target": "EV_1050_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "964": [
+                    "EV_964_0"
+                ],
+                "993": [
+                    "EV_993_1"
+                ],
+                "994": [
+                    "EV_994_2",
+                    "EV_994_3"
+                ],
+                "1044": [
+                    "EV_1044_4"
+                ],
+                "1049": [
+                    "EV_1049_5"
+                ],
+                "1050": [
+                    "EV_1050_6"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1044_4",
+                "EV_1049_5",
+                "EV_1050_6"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_993_1",
+                "EV_994_2",
+                "EV_994_3"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_964_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 花费更多 money；我 去经销商处 花费2000美元。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 未收到工资；我 收到 补偿。代表时间点：1个月前（56天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 结束 工作试用期。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

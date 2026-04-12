@@ -1,0 +1,550 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1213,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1124_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1124,
+                "time_norm": {
+                    "event_day": 1124,
+                    "days_ago": 89,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 开始 新的 太阳能建设工作",
+                "event_summary_cn": "用户开始新的太阳能建设工作"
+            },
+            {
+                "id": "EV_1152_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1152,
+                "time_norm": {
+                    "event_day": 1152,
+                    "days_ago": 61,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 离婚并成为单亲妈妈",
+                "event_summary_cn": "用户经历离婚成为单亲妈妈"
+            },
+            {
+                "id": "EV_1160_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1160,
+                "time_norm": {
+                    "event_day": 1160,
+                    "days_ago": 53,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 被爱的人背叛并入狱",
+                "event_summary_cn": "用户被爱的人背叛并入狱"
+            },
+            {
+                "id": "EV_1163_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1163,
+                "time_norm": {
+                    "event_day": 1163,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 卖掉一切 为女儿争取抚养权",
+                "event_summary_cn": "用户为女儿争取抚养权卖掉一切"
+            },
+            {
+                "id": "EV_1170_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1170,
+                "time_norm": {
+                    "event_day": 1170,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 停止吸烟 吸烟",
+                "event_summary_cn": "用户决定暂时停止吸烟"
+            },
+            {
+                "id": "EV_1177_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1177,
+                "time_norm": {
+                    "event_day": 1177,
+                    "days_ago": 36,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 离婚听证会",
+                "event_summary_cn": "用户面临离婚听证会并情绪崩溃"
+            },
+            {
+                "id": "EV_1189_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1189,
+                "time_norm": {
+                    "event_day": 1189,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 实现了 用剩余金钱购买毒品的自我控制",
+                "event_summary_cn": "用户成功抵制了购毒冲动"
+            },
+            {
+                "id": "EV_1200_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1200,
+                "time_norm": {
+                    "event_day": 1200,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 成为母亲 获得与婴儿连接的体验",
+                "event_summary_cn": "用户成为母亲后体验到与婴儿的连接"
+            },
+            {
+                "id": "EV_1201_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1201,
+                "time_norm": {
+                    "event_day": 1201,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有两场面试 且都是确定的工作",
+                "event_summary_cn": "用户获得两份确定工作需择一"
+            },
+            {
+                "id": "EV_1203_9",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1203,
+                "time_norm": {
+                    "event_day": 1203,
+                    "days_ago": 10,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被雇佣 无",
+                "event_summary_cn": "用户被雇佣感到意外"
+            },
+            {
+                "id": "EV_1207_10",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1207,
+                "time_norm": {
+                    "event_day": 1207,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 未离婚 丈夫",
+                "event_summary_cn": "用户未离婚并努力改善婚姻关系"
+            },
+            {
+                "id": "EV_1207_11",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1207,
+                "time_norm": {
+                    "event_day": 1207,
+                    "days_ago": 6,
+                    "relative_cn": "6天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 选择 与他在一起",
+                "event_summary_cn": "用户选择与某人在一起"
+            },
+            {
+                "id": "EV_1213_12",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1213,
+                "time_norm": {
+                    "event_day": 1213,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 欺骗 我的药物和子女抚养费",
+                "event_summary_cn": "用户被前任骗走药物和抚养费"
+            },
+            {
+                "id": "EV_1213_13",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1213,
+                "time_norm": {
+                    "event_day": 1213,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 偷窃 药物和儿童抚养费",
+                "event_summary_cn": "用户被前任偷窃药物和抚养费"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1124_0",
+                "target": "EV_1152_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1152_1",
+                "target": "EV_1160_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1160_2",
+                "target": "EV_1163_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1163_3",
+                "target": "EV_1170_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1170_4",
+                "target": "EV_1177_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1177_5",
+                "target": "EV_1189_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1189_6",
+                "target": "EV_1200_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1200_7",
+                "target": "EV_1201_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1201_8",
+                "target": "EV_1203_9",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1203_9",
+                "target": "EV_1207_10",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1207_10",
+                "target": "EV_1207_11",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1207_11",
+                "target": "EV_1213_12",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1213_12",
+                "target": "EV_1213_13",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1124": [
+                    "EV_1124_0"
+                ],
+                "1152": [
+                    "EV_1152_1"
+                ],
+                "1160": [
+                    "EV_1160_2"
+                ],
+                "1163": [
+                    "EV_1163_3"
+                ],
+                "1170": [
+                    "EV_1170_4"
+                ],
+                "1177": [
+                    "EV_1177_5"
+                ],
+                "1189": [
+                    "EV_1189_6"
+                ],
+                "1200": [
+                    "EV_1200_7"
+                ],
+                "1201": [
+                    "EV_1201_8"
+                ],
+                "1203": [
+                    "EV_1203_9"
+                ],
+                "1207": [
+                    "EV_1207_10",
+                    "EV_1207_11"
+                ],
+                "1213": [
+                    "EV_1213_12",
+                    "EV_1213_13"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1207_10",
+                "EV_1207_11",
+                "EV_1213_12",
+                "EV_1213_13"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_1200_7",
+                "EV_1201_8",
+                "EV_1203_9"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_1189_6"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1177_5"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1170_4"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1160_2",
+                "EV_1163_3"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1152_1"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1124_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 欺骗 我的药物和子女抚养费；我 偷窃 药物和儿童抚养费。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 被雇佣 无；我 有两场面试 且都是确定的工作。代表时间点：1周前（10天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 实现了 用剩余金钱购买毒品的自我控制。代表时间点：3周前（24天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 经历 离婚听证会。代表时间点：1个月前（36天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 停止吸烟 吸烟。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 卖掉一切 为女儿争取抚养权；我 经历 被爱的人背叛并入狱。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 经历 离婚并成为单亲妈妈。代表时间点：2个月前（61天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 开始 新的 太阳能建设工作。代表时间点：2个月前（89天前）。"
+        }
+    ]
+}

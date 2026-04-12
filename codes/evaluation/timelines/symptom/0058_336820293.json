@@ -1,0 +1,317 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 688,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_614_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 614,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑感",
+                "evidence": [
+                    "I always knew in my head, logically, that there were a bunch of characters in the show, but this gives me a smol bit of anxiety lol"
+                ],
+                "time_norm": {
+                    "event_day": 614,
+                    "days_ago": 74,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_623_do_things_easily_get_painful_consequences",
+                "node_type": "Symptom",
+                "timestamp_day": 623,
+                "symptom": "do_things_easily_get_painful_consequences",
+                "triple": "我 出现 反胃",
+                "evidence": [
+                    "I mean I need water lol. I drank 4 after that came up, and I tend to be heavy-handed with the vodka"
+                ],
+                "time_norm": {
+                    "event_day": 623,
+                    "days_ago": 65,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_664_Impulsivity",
+                "node_type": "Symptom",
+                "timestamp_day": 664,
+                "symptom": "Impulsivity",
+                "triple": "我 出现 难以进行自我控制的冲动感",
+                "evidence": [
+                    "I don’t know why, but today a lot of things have been pointing to \"wait a minute, maybe you have undiagnosed ADHD\""
+                ],
+                "time_norm": {
+                    "event_day": 664,
+                    "days_ago": 24,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_673_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 673,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "As is my wont, I somehow slipped from celebration to sadness and anxiety somewhere in one of these Mules."
+                ],
+                "time_norm": {
+                    "event_day": 673,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_673_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 673,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 悲伤和焦虑",
+                "evidence": [
+                    "As is my wont, I somehow slipped from celebration to sadness and anxiety somewhere in one of these Mules."
+                ],
+                "time_norm": {
+                    "event_day": 673,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_688_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 688,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 驾驶",
+                "evidence": [
+                    "I’m generally anxious just being in cars since I wrecked the truck back in 2017, and one of the things that has helped me drive in rain like today was thinking of the X-Wings on Eadu in Rogue One"
+                ],
+                "time_norm": {
+                    "event_day": 688,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_614_Anxious_Mood",
+                "target": "SYM_623_do_things_easily_get_painful_consequences",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_623_do_things_easily_get_painful_consequences",
+                "target": "SYM_664_Impulsivity",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_664_Impulsivity",
+                "target": "SYM_673_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_673_Anxious_Mood",
+                "target": "SYM_673_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_673_Depressed_Mood",
+                "target": "SYM_688_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_614_Anxious_Mood",
+                "target": "SYM_673_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_673_Anxious_Mood",
+                "target": "SYM_688_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "614": [
+                    "SYM_614_Anxious_Mood"
+                ],
+                "623": [
+                    "SYM_623_do_things_easily_get_painful_consequences"
+                ],
+                "664": [
+                    "SYM_664_Impulsivity"
+                ],
+                "673": [
+                    "SYM_673_Anxious_Mood",
+                    "SYM_673_Depressed_Mood"
+                ],
+                "688": [
+                    "SYM_688_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_614_Anxious_Mood",
+                    "SYM_673_Anxious_Mood",
+                    "SYM_688_Anxious_Mood"
+                ],
+                "do_things_easily_get_painful_consequences": [
+                    "SYM_623_do_things_easily_get_painful_consequences"
+                ],
+                "Impulsivity": [
+                    "SYM_664_Impulsivity"
+                ],
+                "Depressed_Mood": [
+                    "SYM_673_Depressed_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_688_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_673_Anxious_Mood",
+                "SYM_673_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_664_Impulsivity"
+            ]
+        },
+        {
+            "episode_id": "E_9",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_623_do_things_easily_get_painful_consequences"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_614_Anxious_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 驾驶。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 出现 焦虑情绪；我 出现 悲伤和焦虑。代表时间点：2周前（15天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 难以进行自我控制的冲动感。代表时间点：3周前（24天前）。"
+        },
+        {
+            "episode_id": "E_9",
+            "time_range": {
+                "days_ago_start": 69,
+                "days_ago_end": 63,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 反胃。代表时间点：2个月前（65天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 焦虑感。代表时间点：2个月前（74天前）。"
+        }
+    ]
+}

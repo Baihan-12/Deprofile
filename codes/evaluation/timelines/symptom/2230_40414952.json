@@ -1,0 +1,317 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1166,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1090_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 1090,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 入睡",
+                "evidence": [
+                    "Yea, the best has been people telling me I better enjoy sleep now when I say I’m tired. I’ve had insomnia for years, pregnancy has made it worse. I’m hoping once she’s born it’ll help me be tired enough to finally fall asleep 😂"
+                ],
+                "time_norm": {
+                    "event_day": 1090,
+                    "days_ago": 76,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1122_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1122,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 教学工作",
+                "evidence": [
+                    "I’m so sorry. I can relate in some ways. I have anxiety and depression, and I’m 8 months pregnant still trying to figure out how to best teach online while also figuring out how maternity leave is going to work so I can show my sub. It’s exhausting."
+                ],
+                "time_norm": {
+                    "event_day": 1122,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1122_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1122,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 教学工作",
+                "evidence": [
+                    "I’m so sorry. I can relate in some ways. I have anxiety and depression, and I’m 8 months pregnant still trying to figure out how to best teach online while also figuring out how maternity leave is going to work so I can show my sub. It’s exhausting."
+                ],
+                "time_norm": {
+                    "event_day": 1122,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1133_Inattention",
+                "node_type": "Symptom",
+                "timestamp_day": 1133,
+                "symptom": "Inattention",
+                "triple": "我 难以进行 工作",
+                "evidence": [
+                    "Yep, even when I have dr appointments and am off I still end up working because there’s too much to do"
+                ],
+                "time_norm": {
+                    "event_day": 1133,
+                    "days_ago": 33,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1152_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1152,
+                "symptom": "Anxious_Mood",
+                "triple": "我 感到 焦虑",
+                "evidence": [
+                    "The car seat class. I didn’t know those were a thing. I’ve been stressing about car seat installation so this sounds like it’d help ease my anxiety. Thanks for bringing this to my attention, and congrats on being a foster parent!"
+                ],
+                "time_norm": {
+                    "event_day": 1152,
+                    "days_ago": 14,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1166_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1166,
+                "symptom": "Anxious_Mood",
+                "triple": "我 难以进行 教学工作",
+                "evidence": [
+                    "It’s rough. Growing up with anxiety &amp; then also developing depression has made me more aware of signs of both in others, but there’s little to no actual training in CCSD for teachers. Not to mention our huge class sizes can make it hard to spot as well. We need more counselors."
+                ],
+                "time_norm": {
+                    "event_day": 1166,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1090_sleep_disturbance",
+                "target": "SYM_1122_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1122_Anxious_Mood",
+                "target": "SYM_1122_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1122_Depressed_Mood",
+                "target": "SYM_1133_Inattention",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1133_Inattention",
+                "target": "SYM_1152_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1152_Anxious_Mood",
+                "target": "SYM_1166_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1122_Anxious_Mood",
+                "target": "SYM_1152_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1152_Anxious_Mood",
+                "target": "SYM_1166_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1090": [
+                    "SYM_1090_sleep_disturbance"
+                ],
+                "1122": [
+                    "SYM_1122_Anxious_Mood",
+                    "SYM_1122_Depressed_Mood"
+                ],
+                "1133": [
+                    "SYM_1133_Inattention"
+                ],
+                "1152": [
+                    "SYM_1152_Anxious_Mood"
+                ],
+                "1166": [
+                    "SYM_1166_Anxious_Mood"
+                ]
+            },
+            "by_symptom": {
+                "sleep_disturbance": [
+                    "SYM_1090_sleep_disturbance"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1122_Anxious_Mood",
+                    "SYM_1152_Anxious_Mood",
+                    "SYM_1166_Anxious_Mood"
+                ],
+                "Depressed_Mood": [
+                    "SYM_1122_Depressed_Mood"
+                ],
+                "Inattention": [
+                    "SYM_1133_Inattention"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1166_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_1152_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_1133_Inattention"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1122_Anxious_Mood",
+                "SYM_1122_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1090_sleep_disturbance"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 教学工作。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 感到 焦虑。代表时间点：2周前（14天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 难以进行 工作。代表时间点：1个月前（33天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 难以进行 教学工作。代表时间点：1个月前（44天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 难以进行 入睡。代表时间点：2个月前（76天前）。"
+        }
+    ]
+}

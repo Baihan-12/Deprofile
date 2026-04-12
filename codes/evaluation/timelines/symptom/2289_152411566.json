@@ -1,0 +1,613 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1044,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_955_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 955,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 紧张",
+                "evidence": [
+                    "NERVOUS"
+                ],
+                "time_norm": {
+                    "event_day": 955,
+                    "days_ago": 89,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_958_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 958,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 入睡",
+                "evidence": [
+                    "Cannot sleep"
+                ],
+                "time_norm": {
+                    "event_day": 958,
+                    "days_ago": 86,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_982_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 982,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 焦虑情绪",
+                "evidence": [
+                    "Listening to Glassjaw to calm my nerves"
+                ],
+                "time_norm": {
+                    "event_day": 982,
+                    "days_ago": 62,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_987_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 987,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "Somehow I have survived this night on like 4 hours of sleep"
+                ],
+                "time_norm": {
+                    "event_day": 987,
+                    "days_ago": 57,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_989_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 989,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 出现 反胃",
+                "evidence": [
+                    "Makes me sick to my fucking stomach"
+                ],
+                "time_norm": {
+                    "event_day": 989,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_994_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 994,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 感到 心肺功能亢进",
+                "evidence": [
+                    "Two Red Bulls down and I feel like my lungs and heart are on hyperdrive"
+                ],
+                "time_norm": {
+                    "event_day": 994,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_996_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 996,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 哭泣",
+                "evidence": [
+                    "Crying to phoebe bridgers"
+                ],
+                "time_norm": {
+                    "event_day": 996,
+                    "days_ago": 48,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_997_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 997,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现 无法平静的焦虑感",
+                "evidence": [
+                    "Panic chords"
+                ],
+                "time_norm": {
+                    "event_day": 997,
+                    "days_ago": 47,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1003_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1003,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 头痛",
+                "evidence": [
+                    "I remember trying it when I first got my x1 and it gave me a headache, too much going on for me"
+                ],
+                "time_norm": {
+                    "event_day": 1003,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1003_poor_memory",
+                "node_type": "Symptom",
+                "timestamp_day": 1003,
+                "symptom": "poor_memory",
+                "triple": "我 遭遇了记忆丧失",
+                "evidence": [
+                    "I solved the Zodiac Killer case at age 9 but due to a freak accident I lost all of my memory of it"
+                ],
+                "time_norm": {
+                    "event_day": 1003,
+                    "days_ago": 41,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1005_do_things_easily_get_painful_consequences",
+                "node_type": "Symptom",
+                "timestamp_day": 1005,
+                "symptom": "do_things_easily_get_painful_consequences",
+                "triple": "我 难以进行 出现硬性毒品成瘾的体验",
+                "evidence": [
+                    "I think I understand hard drug addiction. Because that’s what I am experiencing with dead by daylight"
+                ],
+                "time_norm": {
+                    "event_day": 1005,
+                    "days_ago": 39,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1006_Decreased_energy_tiredness_fatigue",
+                "node_type": "Symptom",
+                "timestamp_day": 1006,
+                "symptom": "Decreased_energy_tiredness_fatigue",
+                "triple": "我 感到 精力明显下降",
+                "evidence": [
+                    "My body is trying so hard to get on a normal sleep pattern, I’m fucking exhausted but I can’t keep my eyes closed"
+                ],
+                "time_norm": {
+                    "event_day": 1006,
+                    "days_ago": 38,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1007_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1007,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 持续出汗",
+                "evidence": [
+                    "I must be sweating at all time"
+                ],
+                "time_norm": {
+                    "event_day": 1007,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1010_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1010,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 出现 反胃",
+                "evidence": [
+                    "Kinda makes me sick to my stomach"
+                ],
+                "time_norm": {
+                    "event_day": 1010,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_955_Anxious_Mood",
+                "target": "SYM_958_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_958_sleep_disturbance",
+                "target": "SYM_982_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_982_Anxious_Mood",
+                "target": "SYM_987_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_987_sleep_disturbance",
+                "target": "SYM_989_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_989_Gastrointestinal_symptoms",
+                "target": "SYM_994_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_994_Autonomic_symptoms",
+                "target": "SYM_996_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_996_Depressed_Mood",
+                "target": "SYM_997_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_997_Anxious_Mood",
+                "target": "SYM_1003_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1003_Autonomic_symptoms",
+                "target": "SYM_1003_poor_memory",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1003_poor_memory",
+                "target": "SYM_1005_do_things_easily_get_painful_consequences",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1005_do_things_easily_get_painful_consequences",
+                "target": "SYM_1006_Decreased_energy_tiredness_fatigue",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1006_Decreased_energy_tiredness_fatigue",
+                "target": "SYM_1007_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1007_Autonomic_symptoms",
+                "target": "SYM_1010_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_955_Anxious_Mood",
+                "target": "SYM_982_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_982_Anxious_Mood",
+                "target": "SYM_997_Anxious_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_958_sleep_disturbance",
+                "target": "SYM_987_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_989_Gastrointestinal_symptoms",
+                "target": "SYM_1010_Gastrointestinal_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_994_Autonomic_symptoms",
+                "target": "SYM_1003_Autonomic_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_1003_Autonomic_symptoms",
+                "target": "SYM_1007_Autonomic_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "955": [
+                    "SYM_955_Anxious_Mood"
+                ],
+                "958": [
+                    "SYM_958_sleep_disturbance"
+                ],
+                "982": [
+                    "SYM_982_Anxious_Mood"
+                ],
+                "987": [
+                    "SYM_987_sleep_disturbance"
+                ],
+                "989": [
+                    "SYM_989_Gastrointestinal_symptoms"
+                ],
+                "994": [
+                    "SYM_994_Autonomic_symptoms"
+                ],
+                "996": [
+                    "SYM_996_Depressed_Mood"
+                ],
+                "997": [
+                    "SYM_997_Anxious_Mood"
+                ],
+                "1003": [
+                    "SYM_1003_Autonomic_symptoms",
+                    "SYM_1003_poor_memory"
+                ],
+                "1005": [
+                    "SYM_1005_do_things_easily_get_painful_consequences"
+                ],
+                "1006": [
+                    "SYM_1006_Decreased_energy_tiredness_fatigue"
+                ],
+                "1007": [
+                    "SYM_1007_Autonomic_symptoms"
+                ],
+                "1010": [
+                    "SYM_1010_Gastrointestinal_symptoms"
+                ]
+            },
+            "by_symptom": {
+                "Anxious_Mood": [
+                    "SYM_955_Anxious_Mood",
+                    "SYM_982_Anxious_Mood",
+                    "SYM_997_Anxious_Mood"
+                ],
+                "sleep_disturbance": [
+                    "SYM_958_sleep_disturbance",
+                    "SYM_987_sleep_disturbance"
+                ],
+                "Gastrointestinal_symptoms": [
+                    "SYM_989_Gastrointestinal_symptoms",
+                    "SYM_1010_Gastrointestinal_symptoms"
+                ],
+                "Autonomic_symptoms": [
+                    "SYM_994_Autonomic_symptoms",
+                    "SYM_1003_Autonomic_symptoms",
+                    "SYM_1007_Autonomic_symptoms"
+                ],
+                "Depressed_Mood": [
+                    "SYM_996_Depressed_Mood"
+                ],
+                "poor_memory": [
+                    "SYM_1003_poor_memory"
+                ],
+                "do_things_easily_get_painful_consequences": [
+                    "SYM_1005_do_things_easily_get_painful_consequences"
+                ],
+                "Decreased_energy_tiredness_fatigue": [
+                    "SYM_1006_Decreased_energy_tiredness_fatigue"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_1010_Gastrointestinal_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1003_Autonomic_symptoms",
+                "SYM_1003_poor_memory",
+                "SYM_1005_do_things_easily_get_painful_consequences",
+                "SYM_1006_Decreased_energy_tiredness_fatigue",
+                "SYM_1007_Autonomic_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_996_Depressed_Mood",
+                "SYM_997_Anxious_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_989_Gastrointestinal_symptoms",
+                "SYM_994_Autonomic_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_982_Anxious_Mood",
+                "SYM_987_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_955_Anxious_Mood",
+                "SYM_958_sleep_disturbance"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 反胃。代表时间点：1个月前（34天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 持续出汗；我 感到 精力明显下降；我 难以进行 出现硬性毒品成瘾的体验。代表时间点：1个月前（37天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 无法平静的焦虑感；我 出现 哭泣。代表时间点：1个月前（47天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 心肺功能亢进；我 出现 反胃。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 难以进行 睡眠；我 出现 焦虑情绪。代表时间点：1个月前（57天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 难以进行 入睡；我 出现 紧张。代表时间点：2个月前（86天前）。"
+        }
+    ]
+}

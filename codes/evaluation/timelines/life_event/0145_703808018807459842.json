@@ -1,0 +1,182 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 711,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_626_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 626,
+                "time_norm": {
+                    "event_day": 626,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 遭遇 社交媒体压力",
+                "event_summary_cn": "用户因言论被社交媒体压力影响"
+            },
+            {
+                "id": "EV_626_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 626,
+                "time_norm": {
+                    "event_day": 626,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 忽视 我的同政治群体",
+                "event_summary_cn": "用户因政治对立而忽视同党"
+            },
+            {
+                "id": "EV_699_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 699,
+                "time_norm": {
+                    "event_day": 699,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 改变 交流方式",
+                "event_summary_cn": "用户改变交流方式以减少政治讨论"
+            },
+            {
+                "id": "EV_711_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 711,
+                "time_norm": {
+                    "event_day": 711,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 去度假 离开互联网",
+                "event_summary_cn": "用户将离开互联网去度假"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_626_0",
+                "target": "EV_626_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_626_1",
+                "target": "EV_699_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_699_2",
+                "target": "EV_711_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "626": [
+                    "EV_626_0",
+                    "EV_626_1"
+                ],
+                "699": [
+                    "EV_699_2"
+                ],
+                "711": [
+                    "EV_711_3"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_711_3"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_699_2"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_626_0",
+                "EV_626_1"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 去度假 离开互联网。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 改变 交流方式。代表时间点：1周前（12天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 遭遇 社交媒体压力；我 忽视 我的同政治群体。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

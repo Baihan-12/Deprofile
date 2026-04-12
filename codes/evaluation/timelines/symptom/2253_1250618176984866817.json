@@ -1,0 +1,230 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 131,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_58_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 58,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 想哭的冲动",
+                "evidence": [
+                    "I wanna cry"
+                ],
+                "time_norm": {
+                    "event_day": 58,
+                    "days_ago": 73,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_81_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 81,
+                "symptom": "sleep_disturbance",
+                "triple": "我 感到 一切变得更糟",
+                "evidence": [
+                    "Yea I didn't sleep and everything feels worse."
+                ],
+                "time_norm": {
+                    "event_day": 81,
+                    "days_ago": 50,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_122_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 122,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 难以进行 正常进食",
+                "evidence": [
+                    "Sometimes I won't eat for 8 hours. I'll eat one small meal sometimes and not eat the rest of the day. Or I'll wait until I'm about to go to bed to finally eat my meal. I have to work so hard to get out of my bed every day and be a functioning human being."
+                ],
+                "time_norm": {
+                    "event_day": 122,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_131_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 131,
+                "symptom": "sleep_disturbance",
+                "triple": "我 难以进行 睡眠",
+                "evidence": [
+                    "Legalize weed. It was my sleep medicine. My insomnia is so fucking bad."
+                ],
+                "time_norm": {
+                    "event_day": 131,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_58_Depressed_Mood",
+                "target": "SYM_81_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_81_sleep_disturbance",
+                "target": "SYM_122_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_122_weight_and_appetite_change",
+                "target": "SYM_131_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_81_sleep_disturbance",
+                "target": "SYM_131_sleep_disturbance",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "58": [
+                    "SYM_58_Depressed_Mood"
+                ],
+                "81": [
+                    "SYM_81_sleep_disturbance"
+                ],
+                "122": [
+                    "SYM_122_weight_and_appetite_change"
+                ],
+                "131": [
+                    "SYM_131_sleep_disturbance"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_58_Depressed_Mood"
+                ],
+                "sleep_disturbance": [
+                    "SYM_81_sleep_disturbance",
+                    "SYM_131_sleep_disturbance"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_122_weight_and_appetite_change"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_131_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_122_weight_and_appetite_change"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_81_sleep_disturbance"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_58_Depressed_Mood"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 难以进行 睡眠。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 难以进行 正常进食。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 感到 一切变得更糟。代表时间点：1个月前（50天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 出现 想哭的冲动。代表时间点：2个月前（73天前）。"
+        }
+    ]
+}

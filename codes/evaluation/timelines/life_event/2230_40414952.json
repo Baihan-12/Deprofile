@@ -1,0 +1,251 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1198,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1117_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1117,
+                "time_norm": {
+                    "event_day": 1117,
+                    "days_ago": 81,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参与 MAP 测试",
+                "event_summary_cn": "用户正在经历多项标准化测试"
+            },
+            {
+                "id": "EV_1138_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1138,
+                "time_norm": {
+                    "event_day": 1138,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 教学第八周的疲惫",
+                "event_summary_cn": "用户经历教学第八周的疲惫"
+            },
+            {
+                "id": "EV_1155_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1155,
+                "time_norm": {
+                    "event_day": 1155,
+                    "days_ago": 43,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 缺乏阅读教学知识",
+                "event_summary_cn": "用户反映阅读教学知识不足"
+            },
+            {
+                "id": "EV_1186_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1186,
+                "time_norm": {
+                    "event_day": 1186,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有宝宝 这一年",
+                "event_summary_cn": "用户今年有了宝宝，经历不同预期"
+            },
+            {
+                "id": "EV_1198_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1198,
+                "time_norm": {
+                    "event_day": 1198,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成 硕士学位",
+                "event_summary_cn": "用户完成硕士学位并迎来第一胎"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_1117_0",
+                "target": "EV_1138_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1138_1",
+                "target": "EV_1155_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1155_2",
+                "target": "EV_1186_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_1186_3",
+                "target": "EV_1198_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1117": [
+                    "EV_1117_0"
+                ],
+                "1138": [
+                    "EV_1138_1"
+                ],
+                "1155": [
+                    "EV_1155_2"
+                ],
+                "1186": [
+                    "EV_1186_3"
+                ],
+                "1198": [
+                    "EV_1198_4"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1198_4"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_1186_3"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1155_2"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_1138_1"
+            ]
+        },
+        {
+            "episode_id": "E_11",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_1117_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 完成 硕士学位。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 有宝宝 这一年。代表时间点：1周前（12天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 缺乏阅读教学知识。代表时间点：1个月前（43天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 经历 教学第八周的疲惫。代表时间点：2个月前（60天前）。"
+        },
+        {
+            "episode_id": "E_11",
+            "time_range": {
+                "days_ago_start": 83,
+                "days_ago_end": 77,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 参与 MAP 测试。代表时间点：2个月前（81天前）。"
+        }
+    ]
+}

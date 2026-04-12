@@ -1,0 +1,182 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 739,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_686_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 686,
+                "time_norm": {
+                    "event_day": 686,
+                    "days_ago": 53,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 看到 同性恋代表",
+                "event_summary_cn": "用户因同性恋代表被贬低而失望"
+            },
+            {
+                "id": "EV_694_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 694,
+                "time_norm": {
+                    "event_day": 694,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 希望 他们明年结婚并开始考虑代孕",
+                "event_summary_cn": "用户希望对方明年结婚并考虑代孕"
+            },
+            {
+                "id": "EV_694_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 694,
+                "time_norm": {
+                    "event_day": 694,
+                    "days_ago": 45,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 提出求婚 Xmas",
+                "event_summary_cn": "用户在圣诞节提出求婚"
+            },
+            {
+                "id": "EV_718_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 718,
+                "time_norm": {
+                    "event_day": 718,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 记忆 Ethel 死亡",
+                "event_summary_cn": "用户回忆Ethel死亡事件"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_686_0",
+                "target": "EV_694_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_694_1",
+                "target": "EV_694_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_694_2",
+                "target": "EV_718_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "686": [
+                    "EV_686_0"
+                ],
+                "694": [
+                    "EV_694_1",
+                    "EV_694_2"
+                ],
+                "718": [
+                    "EV_718_3"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_718_3"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_694_1",
+                "EV_694_2"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_686_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 记忆 Ethel 死亡。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 希望 他们明年结婚并开始考虑代孕；我 提出求婚 Xmas。代表时间点：1个月前（45天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 看到 同性恋代表。代表时间点：1个月前（53天前）。"
+        }
+    ]
+}

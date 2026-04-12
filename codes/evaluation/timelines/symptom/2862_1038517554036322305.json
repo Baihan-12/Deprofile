@@ -1,0 +1,630 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 335,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_250_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 250,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 自残倾向",
+                "evidence": [
+                    "no one: me everytime when im being suicidal:"
+                ],
+                "time_norm": {
+                    "event_day": 250,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_250_pessimism",
+                "node_type": "Symptom",
+                "timestamp_day": 250,
+                "symptom": "pessimism",
+                "triple": "我 出现 难以进行正常生活",
+                "evidence": [
+                    "no one: me everytime when im being suicidal:"
+                ],
+                "time_norm": {
+                    "event_day": 250,
+                    "days_ago": 85,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_275_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 275,
+                "symptom": "Depressed_Mood",
+                "triple": "我 感到 生活空虚无意义",
+                "evidence": [
+                    "life is so empty and senseless without them"
+                ],
+                "time_norm": {
+                    "event_day": 275,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_275_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 275,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 出现 心脏问题",
+                "evidence": [
+                    "MY HEART"
+                ],
+                "time_norm": {
+                    "event_day": 275,
+                    "days_ago": 60,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_277_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 277,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 声音嘶哑",
+                "evidence": [
+                    "IM SCREAMING"
+                ],
+                "time_norm": {
+                    "event_day": 277,
+                    "days_ago": 58,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_280_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 280,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 无意愿结束生命",
+                "evidence": [
+                    "suddenly i don't wanna die anymore"
+                ],
+                "time_norm": {
+                    "event_day": 280,
+                    "days_ago": 55,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_314_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 314,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 出现 心脏病发作",
+                "evidence": [
+                    "me saying that i want to die everyday of my life / me when i really almost died of heart attack"
+                ],
+                "time_norm": {
+                    "event_day": 314,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_314_Suicidal_ideas",
+                "node_type": "Symptom",
+                "timestamp_day": 314,
+                "symptom": "Suicidal_ideas",
+                "triple": "我 出现 想要每天结束生命的念头",
+                "evidence": [
+                    "me saying that i want to die everyday of my life / me when i really almost died of heart attack"
+                ],
+                "time_norm": {
+                    "event_day": 314,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_319_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 319,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 思维活动",
+                "evidence": [
+                    "depression ate my last brain cells"
+                ],
+                "time_norm": {
+                    "event_day": 319,
+                    "days_ago": 16,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_322_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 322,
+                "symptom": "Anxious_Mood",
+                "triple": "我 受影响 未来就业",
+                "evidence": [
+                    "second thing is consequence of the first thing when i came to psychiatrist they said that if i have any problem they'll have to register me it means that doesn't matter what i have social anxiety or schizophrenia it'll affect my future like ill not be able to get a job etc."
+                ],
+                "time_norm": {
+                    "event_day": 322,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_322_fear_about_social_situations",
+                "node_type": "Symptom",
+                "timestamp_day": 322,
+                "symptom": "fear_about_social_situations",
+                "triple": "我 受影响 未来无法获得工作",
+                "evidence": [
+                    "second thing is consequence of the first thing when i came to psychiatrist they said that if i have any problem they'll have to register me it means that doesn't matter what i have social anxiety or schizophrenia it'll affect my future like ill not be able to get a job etc."
+                ],
+                "time_norm": {
+                    "event_day": 322,
+                    "days_ago": 13,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_323_Cardiovascular_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 323,
+                "symptom": "Cardiovascular_symptoms",
+                "triple": "我 出现 心脏问题",
+                "evidence": [
+                    "so i ended up in the hospital cause of turkish coffee bhahaah and had problems w my heart cause of it same"
+                ],
+                "time_norm": {
+                    "event_day": 323,
+                    "days_ago": 12,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_335_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 335,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现 无法控制的哭泣",
+                "evidence": [
+                    "IM CRYING I LOOK LIKE AN ALIEN AND THIS IS NOT A JOKE IM NOT EXAGGERATING"
+                ],
+                "time_norm": {
+                    "event_day": 335,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_335_somatic_symptoms_others",
+                "node_type": "Symptom",
+                "timestamp_day": 335,
+                "symptom": "somatic_symptoms_others",
+                "triple": "我 出现 看起来像外星人的体验",
+                "evidence": [
+                    "IM CRYING I LOOK LIKE AN ALIEN AND THIS IS NOT A JOKE IM NOT EXAGGERATING"
+                ],
+                "time_norm": {
+                    "event_day": 335,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_250_Depressed_Mood",
+                "target": "SYM_250_pessimism",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_250_pessimism",
+                "target": "SYM_275_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_275_Depressed_Mood",
+                "target": "SYM_275_Cardiovascular_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_275_Cardiovascular_symptoms",
+                "target": "SYM_277_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_277_somatic_symptoms_others",
+                "target": "SYM_280_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_280_Suicidal_ideas",
+                "target": "SYM_314_Cardiovascular_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_314_Cardiovascular_symptoms",
+                "target": "SYM_314_Suicidal_ideas",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_314_Suicidal_ideas",
+                "target": "SYM_319_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_319_Depressed_Mood",
+                "target": "SYM_322_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_322_Anxious_Mood",
+                "target": "SYM_322_fear_about_social_situations",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_322_fear_about_social_situations",
+                "target": "SYM_323_Cardiovascular_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_323_Cardiovascular_symptoms",
+                "target": "SYM_335_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_335_Depressed_Mood",
+                "target": "SYM_335_somatic_symptoms_others",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_250_Depressed_Mood",
+                "target": "SYM_275_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_275_Depressed_Mood",
+                "target": "SYM_319_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_319_Depressed_Mood",
+                "target": "SYM_335_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_275_Cardiovascular_symptoms",
+                "target": "SYM_314_Cardiovascular_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_314_Cardiovascular_symptoms",
+                "target": "SYM_323_Cardiovascular_symptoms",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_277_somatic_symptoms_others",
+                "target": "SYM_335_somatic_symptoms_others",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            },
+            {
+                "source": "SYM_280_Suicidal_ideas",
+                "target": "SYM_314_Suicidal_ideas",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "250": [
+                    "SYM_250_Depressed_Mood",
+                    "SYM_250_pessimism"
+                ],
+                "275": [
+                    "SYM_275_Depressed_Mood",
+                    "SYM_275_Cardiovascular_symptoms"
+                ],
+                "277": [
+                    "SYM_277_somatic_symptoms_others"
+                ],
+                "280": [
+                    "SYM_280_Suicidal_ideas"
+                ],
+                "314": [
+                    "SYM_314_Cardiovascular_symptoms",
+                    "SYM_314_Suicidal_ideas"
+                ],
+                "319": [
+                    "SYM_319_Depressed_Mood"
+                ],
+                "322": [
+                    "SYM_322_Anxious_Mood",
+                    "SYM_322_fear_about_social_situations"
+                ],
+                "323": [
+                    "SYM_323_Cardiovascular_symptoms"
+                ],
+                "335": [
+                    "SYM_335_Depressed_Mood",
+                    "SYM_335_somatic_symptoms_others"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_250_Depressed_Mood",
+                    "SYM_275_Depressed_Mood",
+                    "SYM_319_Depressed_Mood",
+                    "SYM_335_Depressed_Mood"
+                ],
+                "pessimism": [
+                    "SYM_250_pessimism"
+                ],
+                "Cardiovascular_symptoms": [
+                    "SYM_275_Cardiovascular_symptoms",
+                    "SYM_314_Cardiovascular_symptoms",
+                    "SYM_323_Cardiovascular_symptoms"
+                ],
+                "somatic_symptoms_others": [
+                    "SYM_277_somatic_symptoms_others",
+                    "SYM_335_somatic_symptoms_others"
+                ],
+                "Suicidal_ideas": [
+                    "SYM_280_Suicidal_ideas",
+                    "SYM_314_Suicidal_ideas"
+                ],
+                "Anxious_Mood": [
+                    "SYM_322_Anxious_Mood"
+                ],
+                "fear_about_social_situations": [
+                    "SYM_322_fear_about_social_situations"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_335_Depressed_Mood",
+                "SYM_335_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_322_Anxious_Mood",
+                "SYM_322_fear_about_social_situations",
+                "SYM_323_Cardiovascular_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "SYM_319_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "SYM_314_Cardiovascular_symptoms",
+                "SYM_314_Suicidal_ideas"
+            ]
+        },
+        {
+            "episode_id": "E_7",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_280_Suicidal_ideas"
+            ]
+        },
+        {
+            "episode_id": "E_8",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_275_Depressed_Mood",
+                "SYM_275_Cardiovascular_symptoms",
+                "SYM_277_somatic_symptoms_others"
+            ]
+        },
+        {
+            "episode_id": "E_12",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "SYM_250_Depressed_Mood",
+                "SYM_250_pessimism"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 无法控制的哭泣；我 出现 看起来像外星人的体验。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 心脏问题；我 受影响 未来就业；我 受影响 未来无法获得工作。代表时间点：1周前（12天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 难以进行 思维活动。代表时间点：2周前（16天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 出现 心脏病发作；我 出现 想要每天结束生命的念头。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_7",
+            "time_range": {
+                "days_ago_start": 55,
+                "days_ago_end": 49,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 无意愿结束生命。代表时间点：1个月前（55天前）。"
+        },
+        {
+            "episode_id": "E_8",
+            "time_range": {
+                "days_ago_start": 62,
+                "days_ago_end": 56,
+                "relative_cn": "2个月前~1个月前"
+            },
+            "card_cn": "2个月前~1个月前：我 出现 声音嘶哑；我 感到 生活空虚无意义；我 出现 心脏问题。代表时间点：1个月前（58天前）。"
+        },
+        {
+            "episode_id": "E_12",
+            "time_range": {
+                "days_ago_start": 90,
+                "days_ago_end": 84,
+                "relative_cn": "3个月前~2个月前"
+            },
+            "card_cn": "3个月前~2个月前：我 出现 自残倾向；我 出现 难以进行正常生活。代表时间点：2个月前（85天前）。"
+        }
+    ]
+}

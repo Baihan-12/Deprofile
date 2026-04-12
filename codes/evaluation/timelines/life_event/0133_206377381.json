@@ -1,0 +1,184 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 679,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_654_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 654,
+                "time_norm": {
+                    "event_day": 654,
+                    "days_ago": 25,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 学习到 两项重要技能",
+                "event_summary_cn": "用户分享创业经历中的两项收获"
+            },
+            {
+                "id": "EV_672_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 672,
+                "time_norm": {
+                    "event_day": 672,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 重新阅读 《北与南》",
+                "event_summary_cn": "用户重新阅读经典文学作品"
+            },
+            {
+                "id": "EV_676_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 676,
+                "time_norm": {
+                    "event_day": 676,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 引用 《远大前程》中的句子",
+                "event_summary_cn": "用户引用经典描述疫情感受"
+            },
+            {
+                "id": "EV_679_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 679,
+                "time_norm": {
+                    "event_day": 679,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 现行的种姓制度歧视",
+                "event_summary_cn": "用户亲身经历种姓制度歧视"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_654_0",
+                "target": "EV_672_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_672_1",
+                "target": "EV_676_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_676_2",
+                "target": "EV_679_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "654": [
+                    "EV_654_0"
+                ],
+                "672": [
+                    "EV_672_1"
+                ],
+                "676": [
+                    "EV_676_2"
+                ],
+                "679": [
+                    "EV_679_3"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_676_2",
+                "EV_679_3"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_672_1"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_654_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 经历 现行的种姓制度歧视；我 引用 《远大前程》中的句子。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 重新阅读 《北与南》。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 学习到 两项重要技能。代表时间点：3周前（25天前）。"
+        }
+    ]
+}

@@ -19,6 +19,10 @@ env/
 *.gguf
 
 # 评测与实验输出（体积大）
+codes/evaluation/api_res/
+codes/evaluation/results/
+codes/evaluation/cleaned_result/
+codes/evaluation/ablation/
 evaluation/api_res/
 evaluation/results/
 evaluation/cleaned_result/
@@ -69,3 +73,6 @@ data/3_basic_info.json
 data/raw/
 data/large/
 datasets/
+
+# CoC / 运行时生成的时间线记忆
+timeline_memory/

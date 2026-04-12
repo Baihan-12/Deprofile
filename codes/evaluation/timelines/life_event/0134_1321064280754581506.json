@@ -1,0 +1,315 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 57,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_40_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 40,
+                "time_norm": {
+                    "event_day": 40,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 感到无助 想要安慰",
+                "event_summary_cn": "用户表达对Mun病情的担忧"
+            },
+            {
+                "id": "EV_40_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 40,
+                "time_norm": {
+                    "event_day": 40,
+                    "days_ago": 17,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 参加在线课程 不需要花费大量时间通勤",
+                "event_summary_cn": "用户参加在线课程减少通勤时间"
+            },
+            {
+                "id": "EV_42_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 42,
+                "time_norm": {
+                    "event_day": 42,
+                    "days_ago": 15,
+                    "relative_cn": "2周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 有 重大考试",
+                "event_summary_cn": "用户面临重要考试感到焦虑"
+            },
+            {
+                "id": "EV_50_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 50,
+                "time_norm": {
+                    "event_day": 50,
+                    "days_ago": 7,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 离开 Mondstadt 三年",
+                "event_summary_cn": "用户离开蒙德三年后归来"
+            },
+            {
+                "id": "EV_52_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 52,
+                "time_norm": {
+                    "event_day": 52,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 说明 性别身份",
+                "event_summary_cn": "用户说明自己的性别身份"
+            },
+            {
+                "id": "EV_52_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 52,
+                "time_norm": {
+                    "event_day": 52,
+                    "days_ago": 5,
+                    "relative_cn": "5天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 在 class",
+                "event_summary_cn": "用户正在上课"
+            },
+            {
+                "id": "EV_53_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 53,
+                "time_norm": {
+                    "event_day": 53,
+                    "days_ago": 4,
+                    "relative_cn": "4天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 经历 心碎",
+                "event_summary_cn": "用户分享首次心碎感受"
+            },
+            {
+                "id": "EV_54_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 54,
+                "time_norm": {
+                    "event_day": 54,
+                    "days_ago": 3,
+                    "relative_cn": "3天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 到达 实习第一天",
+                "event_summary_cn": "用户提前到达实习第一天"
+            },
+            {
+                "id": "EV_57_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 57,
+                "time_norm": {
+                    "event_day": 57,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 离开 genshintwt",
+                "event_summary_cn": "用户宣布离开 genshintwt"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_40_0",
+                "target": "EV_40_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_40_1",
+                "target": "EV_42_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_42_2",
+                "target": "EV_50_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_50_3",
+                "target": "EV_52_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_52_4",
+                "target": "EV_52_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_52_5",
+                "target": "EV_53_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_53_6",
+                "target": "EV_54_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_54_7",
+                "target": "EV_57_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "40": [
+                    "EV_40_0",
+                    "EV_40_1"
+                ],
+                "42": [
+                    "EV_42_2"
+                ],
+                "50": [
+                    "EV_50_3"
+                ],
+                "52": [
+                    "EV_52_4",
+                    "EV_52_5"
+                ],
+                "53": [
+                    "EV_53_6"
+                ],
+                "54": [
+                    "EV_54_7"
+                ],
+                "57": [
+                    "EV_57_8"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_52_4",
+                "EV_52_5",
+                "EV_53_6",
+                "EV_54_7",
+                "EV_57_8"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_50_3"
+            ]
+        },
+        {
+            "episode_id": "E_2",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "salient_node_ids": [
+                "EV_40_0",
+                "EV_40_1",
+                "EV_42_2"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 离开 genshintwt；我 到达 实习第一天。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 离开 Mondstadt 三年。代表时间点：1周前（7天前）。"
+        },
+        {
+            "episode_id": "E_2",
+            "time_range": {
+                "days_ago_start": 20,
+                "days_ago_end": 14,
+                "relative_cn": "2周前~2周前"
+            },
+            "card_cn": "2周前~2周前：我 有 重大考试；我 感到无助 想要安慰。代表时间点：2周前（15天前）。"
+        }
+    ]
+}

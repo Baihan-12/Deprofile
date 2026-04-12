@@ -1,0 +1,62 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1285,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_1285_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 1285,
+                "time_norm": {
+                    "event_day": 1285,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 看到 SAT 分数 只上升了 10 分",
+                "event_summary_cn": "用户 SAT 分数仅上升 10 分"
+            }
+        ],
+        "edges": [],
+        "index": {
+            "by_day": {
+                "1285": [
+                    "EV_1285_0"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_1285_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 看到 SAT 分数 只上升了 10 分。代表时间点：今天（0天前）。"
+        }
+    ]
+}

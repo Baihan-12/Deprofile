@@ -1,0 +1,377 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 199,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "life_event",
+        "nodes": [
+            {
+                "id": "EV_124_0",
+                "node_type": "LifeEvent",
+                "timestamp_day": 124,
+                "time_norm": {
+                    "event_day": 124,
+                    "days_ago": 75,
+                    "relative_cn": "2个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 完成 学期学业",
+                "event_summary_cn": "用户完成本学期学业"
+            },
+            {
+                "id": "EV_155_1",
+                "node_type": "LifeEvent",
+                "timestamp_day": 155,
+                "time_norm": {
+                    "event_day": 155,
+                    "days_ago": 44,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 婚姻关系 surina",
+                "event_summary_cn": "用户宣布与surina结婚"
+            },
+            {
+                "id": "EV_165_2",
+                "node_type": "LifeEvent",
+                "timestamp_day": 165,
+                "time_norm": {
+                    "event_day": 165,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 不离开 他",
+                "event_summary_cn": "用户表示不愿离开对方"
+            },
+            {
+                "id": "EV_172_3",
+                "node_type": "LifeEvent",
+                "timestamp_day": 172,
+                "time_norm": {
+                    "event_day": 172,
+                    "days_ago": 27,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 破坏关系 他人",
+                "event_summary_cn": "用户表示他人破坏其关系"
+            },
+            {
+                "id": "EV_178_4",
+                "node_type": "LifeEvent",
+                "timestamp_day": 178,
+                "time_norm": {
+                    "event_day": 178,
+                    "days_ago": 21,
+                    "relative_cn": "3周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 计划结婚 与热爱艺术和绘画的人",
+                "event_summary_cn": "用户计划与热爱艺术的人结婚"
+            },
+            {
+                "id": "EV_191_5",
+                "node_type": "LifeEvent",
+                "timestamp_day": 191,
+                "time_norm": {
+                    "event_day": 191,
+                    "days_ago": 8,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 改变发色 获得视力",
+                "event_summary_cn": "改变发色恢复视力"
+            },
+            {
+                "id": "EV_197_6",
+                "node_type": "LifeEvent",
+                "timestamp_day": 197,
+                "time_norm": {
+                    "event_day": 197,
+                    "days_ago": 2,
+                    "relative_cn": "2天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 被 suspend",
+                "event_summary_cn": "用户被暂停账号"
+            },
+            {
+                "id": "EV_197_7",
+                "node_type": "LifeEvent",
+                "timestamp_day": 197,
+                "time_norm": {
+                    "event_day": 197,
+                    "days_ago": 2,
+                    "relative_cn": "2天前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 威胁 我",
+                "event_summary_cn": "用户被他人威胁"
+            },
+            {
+                "id": "EV_199_8",
+                "node_type": "LifeEvent",
+                "timestamp_day": 199,
+                "time_norm": {
+                    "event_day": 199,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                },
+                "is_meaningful": true,
+                "event_triple": "我 Break up with 女朋友",
+                "event_summary_cn": "用户与女友分手"
+            }
+        ],
+        "edges": [
+            {
+                "source": "EV_124_0",
+                "target": "EV_155_1",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_155_1",
+                "target": "EV_165_2",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_165_2",
+                "target": "EV_172_3",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_172_3",
+                "target": "EV_178_4",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_178_4",
+                "target": "EV_191_5",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_191_5",
+                "target": "EV_197_6",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_197_6",
+                "target": "EV_197_7",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "EV_197_7",
+                "target": "EV_199_8",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "124": [
+                    "EV_124_0"
+                ],
+                "155": [
+                    "EV_155_1"
+                ],
+                "165": [
+                    "EV_165_2"
+                ],
+                "172": [
+                    "EV_172_3"
+                ],
+                "178": [
+                    "EV_178_4"
+                ],
+                "191": [
+                    "EV_191_5"
+                ],
+                "197": [
+                    "EV_197_6",
+                    "EV_197_7"
+                ],
+                "199": [
+                    "EV_199_8"
+                ]
+            },
+            "by_symptom": null
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "EV_197_6",
+                "EV_197_7",
+                "EV_199_8"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "EV_191_5"
+            ]
+        },
+        {
+            "episode_id": "E_3",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "salient_node_ids": [
+                "EV_172_3",
+                "EV_178_4"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "EV_165_2"
+            ]
+        },
+        {
+            "episode_id": "E_6",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "EV_155_1"
+            ]
+        },
+        {
+            "episode_id": "E_10",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "salient_node_ids": [
+                "EV_124_0"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 Break up with 女朋友；我 被 suspend。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 改变发色 获得视力。代表时间点：1周前（8天前）。"
+        },
+        {
+            "episode_id": "E_3",
+            "time_range": {
+                "days_ago_start": 27,
+                "days_ago_end": 21,
+                "relative_cn": "3周前~3周前"
+            },
+            "card_cn": "3周前~3周前：我 计划结婚 与热爱艺术和绘画的人；我 破坏关系 他人。代表时间点：3周前（21天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 不离开 他。代表时间点：1个月前（34天前）。"
+        },
+        {
+            "episode_id": "E_6",
+            "time_range": {
+                "days_ago_start": 48,
+                "days_ago_end": 42,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 婚姻关系 surina。代表时间点：1个月前（44天前）。"
+        },
+        {
+            "episode_id": "E_10",
+            "time_range": {
+                "days_ago_start": 76,
+                "days_ago_end": 70,
+                "relative_cn": "2个月前~2个月前"
+            },
+            "card_cn": "2个月前~2个月前：我 完成 学期学业。代表时间点：2个月前（75天前）。"
+        }
+    ]
+}

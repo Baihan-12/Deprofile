@@ -1,0 +1,384 @@
+{
+    "graph": {
+        "time_axis": {
+            "anchor_day": 1799,
+            "unit": "day",
+            "timezone": "Europe/Paris"
+        },
+        "timeline_type": "symptom",
+        "nodes": [
+            {
+                "id": "SYM_1760_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1760,
+                "symptom": "Depressed_Mood",
+                "triple": "我 难以进行 观看节目",
+                "evidence": [
+                    "I had to stop watching that last ep of TGP cause I was crying too much and didn't want anyone to hear me"
+                ],
+                "time_norm": {
+                    "event_day": 1760,
+                    "days_ago": 39,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1762_weight_and_appetite_change",
+                "node_type": "Symptom",
+                "timestamp_day": 1762,
+                "symptom": "weight_and_appetite_change",
+                "triple": "我 出现 食欲显著下降",
+                "evidence": [
+                    "back to my normal self of eating absolutely nothing but dried cranberries and almonds"
+                ],
+                "time_norm": {
+                    "event_day": 1762,
+                    "days_ago": 37,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1765_Gastrointestinal_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1765,
+                "symptom": "Gastrointestinal_symptoms",
+                "triple": "我 出现 食欲极端波动",
+                "evidence": [
+                    "tw ed kinda also my eating disorder is through the fucking roof, I either don't eat for days or binge like crazy wtf is wrong with me lately"
+                ],
+                "time_norm": {
+                    "event_day": 1765,
+                    "days_ago": 34,
+                    "relative_cn": "1个月前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1771_drastical_shift_in_mood_and_energy",
+                "node_type": "Symptom",
+                "timestamp_day": 1771,
+                "symptom": "drastical_shift_in_mood_and_energy",
+                "triple": "我 出现 大 mood",
+                "evidence": [
+                    "big mood today"
+                ],
+                "time_norm": {
+                    "event_day": 1771,
+                    "days_ago": 28,
+                    "relative_cn": "4周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1790_Autonomic_symptoms",
+                "node_type": "Symptom",
+                "timestamp_day": 1790,
+                "symptom": "Autonomic_symptoms",
+                "triple": "我 出现 头痛",
+                "evidence": [
+                    "this massive headache just won't go away and I'm about to pass tf out"
+                ],
+                "time_norm": {
+                    "event_day": 1790,
+                    "days_ago": 9,
+                    "relative_cn": "1周前",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1799_sleep_disturbance",
+                "node_type": "Symptom",
+                "timestamp_day": 1799,
+                "symptom": "sleep_disturbance",
+                "triple": "我 出现 睡梦中尖叫",
+                "evidence": [
+                    "so I just woke up the entire house cause I screamed for a solid 5-10sec in my sleep no jokes when I’m having nightmares"
+                ],
+                "time_norm": {
+                    "event_day": 1799,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1799_Anger_Irritability",
+                "node_type": "Symptom",
+                "timestamp_day": 1799,
+                "symptom": "Anger_Irritability",
+                "triple": "我 出现 无法控制的愤怒状态",
+                "evidence": [
+                    "OH AND ALSO anger issues. B I G time. Managing it is not as bad as it's been but holy fuck. I've been in an uncontrollable state of pure anger before but this is some high level shit I tell you"
+                ],
+                "time_norm": {
+                    "event_day": 1799,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1799_Anxious_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1799,
+                "symptom": "Anxious_Mood",
+                "triple": "我 出现  crippling depression and anxiety",
+                "evidence": [
+                    "let's talk about how I NEVER would have thought that 6 months back in my home country would bring my crippling depression and anxiety back"
+                ],
+                "time_norm": {
+                    "event_day": 1799,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            },
+            {
+                "id": "SYM_1799_Depressed_Mood",
+                "node_type": "Symptom",
+                "timestamp_day": 1799,
+                "symptom": "Depressed_Mood",
+                "triple": "我 出现  crippling depression and anxiety",
+                "evidence": [
+                    "let's talk about how I NEVER would have thought that 6 months back in my home country would bring my crippling depression and anxiety back"
+                ],
+                "time_norm": {
+                    "event_day": 1799,
+                    "days_ago": 0,
+                    "relative_cn": "今天",
+                    "absolute_date": null,
+                    "granularity": "day",
+                    "confidence": 1.0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "SYM_1760_Depressed_Mood",
+                "target": "SYM_1762_weight_and_appetite_change",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1762_weight_and_appetite_change",
+                "target": "SYM_1765_Gastrointestinal_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1765_Gastrointestinal_symptoms",
+                "target": "SYM_1771_drastical_shift_in_mood_and_energy",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1771_drastical_shift_in_mood_and_energy",
+                "target": "SYM_1790_Autonomic_symptoms",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1790_Autonomic_symptoms",
+                "target": "SYM_1799_sleep_disturbance",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1799_sleep_disturbance",
+                "target": "SYM_1799_Anger_Irritability",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1799_Anger_Irritability",
+                "target": "SYM_1799_Anxious_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1799_Anxious_Mood",
+                "target": "SYM_1799_Depressed_Mood",
+                "relation": "temporal_precedes",
+                "confidence": 0.5,
+                "rationale": "按时间顺序"
+            },
+            {
+                "source": "SYM_1760_Depressed_Mood",
+                "target": "SYM_1799_Depressed_Mood",
+                "relation": "persists",
+                "confidence": 0.75,
+                "rationale": "同症状再次出现"
+            }
+        ],
+        "index": {
+            "by_day": {
+                "1760": [
+                    "SYM_1760_Depressed_Mood"
+                ],
+                "1762": [
+                    "SYM_1762_weight_and_appetite_change"
+                ],
+                "1765": [
+                    "SYM_1765_Gastrointestinal_symptoms"
+                ],
+                "1771": [
+                    "SYM_1771_drastical_shift_in_mood_and_energy"
+                ],
+                "1790": [
+                    "SYM_1790_Autonomic_symptoms"
+                ],
+                "1799": [
+                    "SYM_1799_sleep_disturbance",
+                    "SYM_1799_Anger_Irritability",
+                    "SYM_1799_Anxious_Mood",
+                    "SYM_1799_Depressed_Mood"
+                ]
+            },
+            "by_symptom": {
+                "Depressed_Mood": [
+                    "SYM_1760_Depressed_Mood",
+                    "SYM_1799_Depressed_Mood"
+                ],
+                "weight_and_appetite_change": [
+                    "SYM_1762_weight_and_appetite_change"
+                ],
+                "Gastrointestinal_symptoms": [
+                    "SYM_1765_Gastrointestinal_symptoms"
+                ],
+                "drastical_shift_in_mood_and_energy": [
+                    "SYM_1771_drastical_shift_in_mood_and_energy"
+                ],
+                "Autonomic_symptoms": [
+                    "SYM_1790_Autonomic_symptoms"
+                ],
+                "sleep_disturbance": [
+                    "SYM_1799_sleep_disturbance"
+                ],
+                "Anger_Irritability": [
+                    "SYM_1799_Anger_Irritability"
+                ],
+                "Anxious_Mood": [
+                    "SYM_1799_Anxious_Mood"
+                ]
+            }
+        }
+    },
+    "episodes": [
+        {
+            "episode_id": "E_0",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "salient_node_ids": [
+                "SYM_1799_sleep_disturbance",
+                "SYM_1799_Anger_Irritability",
+                "SYM_1799_Anxious_Mood",
+                "SYM_1799_Depressed_Mood"
+            ]
+        },
+        {
+            "episode_id": "E_1",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "salient_node_ids": [
+                "SYM_1790_Autonomic_symptoms"
+            ]
+        },
+        {
+            "episode_id": "E_4",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "salient_node_ids": [
+                "SYM_1765_Gastrointestinal_symptoms",
+                "SYM_1771_drastical_shift_in_mood_and_energy"
+            ]
+        },
+        {
+            "episode_id": "E_5",
+            "window_days": 7,
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "salient_node_ids": [
+                "SYM_1760_Depressed_Mood",
+                "SYM_1762_weight_and_appetite_change"
+            ]
+        }
+    ],
+    "cards": [
+        {
+            "episode_id": "E_0",
+            "time_range": {
+                "days_ago_start": 6,
+                "days_ago_end": 0,
+                "relative_cn": "6天前~今天"
+            },
+            "card_cn": "6天前~今天：我 出现 睡梦中尖叫；我 出现 无法控制的愤怒状态；我 出现  crippling depression and anxiety。代表时间点：今天（0天前）。"
+        },
+        {
+            "episode_id": "E_1",
+            "time_range": {
+                "days_ago_start": 13,
+                "days_ago_end": 7,
+                "relative_cn": "1周前~1周前"
+            },
+            "card_cn": "1周前~1周前：我 出现 头痛。代表时间点：1周前（9天前）。"
+        },
+        {
+            "episode_id": "E_4",
+            "time_range": {
+                "days_ago_start": 34,
+                "days_ago_end": 28,
+                "relative_cn": "1个月前~4周前"
+            },
+            "card_cn": "1个月前~4周前：我 出现 大 mood；我 出现 食欲极端波动。代表时间点：4周前（28天前）。"
+        },
+        {
+            "episode_id": "E_5",
+            "time_range": {
+                "days_ago_start": 41,
+                "days_ago_end": 35,
+                "relative_cn": "1个月前~1个月前"
+            },
+            "card_cn": "1个月前~1个月前：我 出现 食欲显著下降；我 难以进行 观看节目。代表时间点：1个月前（37天前）。"
+        }
+    ]
+}
